@@ -1,11 +1,11 @@
-I"u<h1 id="objective">Objective</h1>
+I"^<h1 id="objective">Objective</h1>
 
 <p>A function is a special relationship between an input and an output, where the value of the output depends on the value of the input, given that <strong>for every input there can only be one output</strong>. Imagine the function as a juicer, if you use it on an apple you cannot expect a different type of juice other than an apple juice (Figure 1).</p>
 
 <p>hellooooooo</p>
 
 <figure style="text-align: center;">
-  <img src="/lemniscateinstitute002//images/content/DC-01-01.png" alt="my alt text" width="60%" />
+  <img src="//images/content/DC-01-01.png" alt="my alt text" width="60%" />
   <figcaption><p>Figure 1: Relating a function as a fruit juicer</p></figcaption>
 </figure>
 
