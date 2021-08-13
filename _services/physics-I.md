@@ -4,9 +4,8 @@ date: 2020-05-01
 featured: true
 weight: 1
 layout: course
+summary: Hello
 ---
-
-hellooooooo
 
 
 # Contents
