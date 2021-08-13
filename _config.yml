@@ -1,8 +1,8 @@
 baseurl: '/'
 permalink: pretty
 title: 'Lemniscate Institute'
-url: https://nicoaspra.github.io
-baseurl: /lemniscateinstitute002/
+url: http://lemniscateinstitute.com
+# baseurl: /
 
 
 google_analytics_id: ""
