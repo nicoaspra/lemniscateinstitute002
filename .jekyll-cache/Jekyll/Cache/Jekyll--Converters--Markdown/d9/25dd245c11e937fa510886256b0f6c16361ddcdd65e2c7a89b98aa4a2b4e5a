@@ -1,11 +1,9 @@
-I"G<h1 id="objective">Objective</h1>
-
-<p>In every mathematical course, or any course in general especially the advanced ones, there is always some particular concept the we first need to cover before we can confidently start the course. In calculus, the basic notion that we first need to fully grasp are functions. Functions have been present from algebra to analytic geometry. Almost all basic mathematics have already incorporated functions even without knowing what functions really are. Hence, starting our lesson with functions and grasping its concept will not be that complicated.</p>
+I"H<p>In every mathematical course, or any course in general especially the advanced ones, there is always some particular concept the we first need to cover before we can confidently start the course. In calculus, the basic notion that we first need to fully grasp are functions. Functions have been present from algebra to analytic geometry. Almost all basic mathematics have already incorporated functions even without knowing what functions really are. Hence, starting our lesson with functions and grasping its concept will not be that complicated.</p>
 
 <p>A function is a special relationship between an input and an output, where the value of the output depends on the value of the input, given that <em>for every input there can only be one output</em>. Imagine the function as a juicer, if you use it on an apple you cannot expect a different type of juice other than an apple juice (Figure 1). With this in mind, replacing the fruit will result to a different juice.</p>
 
 <figure style="text-align: center;">
-  <img src="/images/content/DC/DC-01-01.png" alt="my alt text" width="60%" />
+  <img src="http://lemniscateinstitute.comimages/content/DC/DC-01-01.png" alt="my alt text" width="60%" />
   <figcaption><p>Figure 1: Relating a function as a fruit juicer</p></figcaption>
 </figure>
 
@@ -67,35 +65,50 @@ This case is almost the same as the second example, if we isolate $y$ from one s
 
 <p>Hence, $y^2=3x-5$ is also $\textal{not a function}$</p>
 
-<p align="center" style="background-color:rgba(64, 130, 110, 0.07);
+<!-- <p align=center style="background-color:rgba(64, 130, 110, 0.07);
 border: 3px solid rgba(64, 130, 110, 0.9);
 border-radius:7px;
 padding:10px;
 margin:5px;">
     $$\begin{align}
-            2x &amp;= asd \\
-            52 &amp;= asd \\
+            2x &= asd \\
+            52 &= asd \\
             3
         \end{align}$$
-</p>
+</p> 
 
-\[\begin{align*}
+
+$$
+\begin{align*}
     \int_1^5 2x^3 \,dx
-\end{align*}\]
+\end{align*}
+$$
+
+
+
+
+
 
 <details style="text-align:center;">
     <summary style="text-align:left;">Answer
     </summary>
-    <br />
+    <br>
     <p>$2x^2+5x-1$</p>
 
-</details>
+</details> 
 
-<p><br /></p>
+
+<br>
+
+
+
 
 <div class="youtube-wrapper">
-    <iframe src="https://www.youtube.com/embed/cRsqjy-qqag" allowfullscreen=""></iframe>
+    <iframe src="https://www.youtube.com/embed/cRsqjy-qqag" allowfullscreen></iframe>
   </div>
 
-<p><!-- https://www.chunkhang.com/blog/responsive-youtube-video-with-jekyll --></p>
+
+
+  <!-- https://www.chunkhang.com/blog/responsive-youtube-video-with-jekyll -->
+<p>–&gt;</p>
 :ET
