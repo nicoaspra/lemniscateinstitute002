@@ -48,7 +48,8 @@ bodyClass: page-team-list
 
     <br>
     <h1 id="meet-the-team" style="-webkit-user-select: auto;">Contributors</h1>
-    <div class="row pt-6 pb-6">
+    <div class="row">
+    <!-- <div class="row pt-6 pb-6"> -->
         {% assign teams = site.team | where: "promoted", false | sort: "weight" %}
         {% for team in teams %}
         <div class="col-12 col-md-4 mb-3">

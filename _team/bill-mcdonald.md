@@ -5,7 +5,7 @@ draft: false
 image: "images/team/nonsap-visuals-kMJp7620W6U-unsplash.jpg"
 jobtitle: "Graphic Designer"
 linkedinurl: ""
-promoted: false
+promoted: na
 weight: 7
 layout: team
 ---
