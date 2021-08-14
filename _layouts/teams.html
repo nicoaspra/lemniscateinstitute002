@@ -18,7 +18,11 @@ bodyClass: page-team-list
     </div>
 </div>
 
+
+
+
 <div class="container pt-6 pb-6">
+    <h1 id="meet-the-team" style="-webkit-user-select: auto;">Managing Team</h1>
     <div class="row">
         {% assign promoted_teams = site.team | where: "promoted", true | sort: "weight" %}
         {% for team in promoted_teams %}

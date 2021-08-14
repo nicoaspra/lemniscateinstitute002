@@ -28,7 +28,11 @@ bodyClass: page-services-list
           <h2 class="service-title">
             <a href="{{ service.url | relative_url }}">{{ service.title }}</a>
           </h2>
-          <p>{{ service.content | markdownify | strip_html | truncate: 100 }}</p>
+            <!-- {% if service.summary == blank %}
+            <p>{{ service.content | markdownify | strip_html | truncate: 100 }}</p>
+            {% elsif service.summary %} -->
+            <p>{{ service.summary | truncate: 200 }}</p>
+            <!-- {% endif %} -->
         </div>
       </div>
     </div>

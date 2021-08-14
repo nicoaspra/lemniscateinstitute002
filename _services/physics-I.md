@@ -4,7 +4,7 @@ date: 2020-05-01
 featured: true
 weight: 1
 layout: course
-summary: Hello
+summary: Have you ever wondered how a car can easily pass a bike, why a rainbow appears after a rainstorm, how electricity is made, or why oil floats when mixed with water? Humans, by nature, are inquisitive creatures. 
 ---
 
 
