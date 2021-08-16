@@ -69,3 +69,5 @@ defaults:
       title: Untitled
       author: Engr. Nico O. Aspra, ME, RMP
       authornum: 1
+      weight: 2
+      layout: content
