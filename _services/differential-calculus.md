@@ -11,7 +11,7 @@ summary: Calculus, has a reputation of being one of the most dreaded subjects in
 - [Introduction to Differential Calculus](0.1-introduction-to-differential-calculus)
 - Functions
   - [Introduction to Functions](1.1-introduction-to-functions)
-  - Function Notation
+  - [Function Notation](1.2-function-notation)
   - Combining Functions
   - Composite Functions
   <!-- - Piecewise Functions -->
