@@ -6,6 +6,7 @@ layout: default
   <div class="row justify-content-start">
     <div class="col-12 col-md-8">
       <div class="service service-single">
+        {% include texmacros.html %}
         <h1 class="title">{{page.title}}</h1>
           {% if page.authornum == 1 %}
             <p style="color:#d02f5d"></pstyle>Author | {{page.author}}</p>
@@ -17,7 +18,6 @@ layout: default
           <!-- <br> -->
         <div class="content">
           {{content}}
-          {% include texmacros.html %}
         </div>
       </div>
     </div>
