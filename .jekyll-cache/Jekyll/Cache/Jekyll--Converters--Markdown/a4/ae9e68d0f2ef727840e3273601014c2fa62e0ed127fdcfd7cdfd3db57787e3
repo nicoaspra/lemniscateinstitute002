@@ -1,4 +1,14 @@
-I"�<p>Function Notation is just another way of writing a function in an equation form. Instead of writing the independent variable $y$, in this notation $f(x)$ is used, and denoted as “$y = f(x)$” which is read as “$y$ is a function of $x$”. For instance $y = 3x^2-5$ can be written as $f(x) = 3x^2-5$. All we have to do to evaluate the function when $x = 2$ is replace all the “$x$” with $2$.</p>
+I"�<p>Function Notation is just another way of writing a function in an equation form. Instead of writing the independent variable $y$, in this notation $f(x)$ is used, and denoted as “$y = f(x)$” which is read as “$y$ is a function of $x$”.</p>
+<p align="center" style="background-color:rgba(64, 130, 110, 0.07);
+border: 3px solid rgba(64, 130, 110, 0.9);
+border-radius:7px;
+padding:10px;
+margin:5px;">
+    $$\begin{align}
+        y=f(x)
+        \end{align}$$
+</p>
+<p>For instance $y = 3x^2-5$ can be written as $f(x) = 3x^2-5$. All we have to do to evaluate the function when $x = 2$ is replace all the “$x$” with $2$.</p>
 
 \[\begin{align*}
 	f(x) &amp;= 3x^2-5 \\
@@ -127,6 +137,8 @@ Replace $x$ with $3x-y$
 	&amp;= 7-6x+2y	\tagans
 \end{align*}\)</p>
 
+<hr />
+
 <p>$\example{3}$ <br />
 Let $h(y)=7-4y-3y^2$, find $h(-4)$</p>
 
@@ -139,16 +151,23 @@ Replace $y$ with $-4$
 	&amp;= -25	\tagans
 \end{align*}\)</p>
 
+<hr />
+
 <p>$\example{4}$
 If $v(t)=3t+7$ and $v(t)=19$, find $t$</p>
 
 <p>$\solution$ <br />
-In this example the output of the function is given, and the input $t$ is required,
-\(\begin{align*}
-	v(t) &amp;= 3t+7 \\
-\intertext{Since $v(t)=19$, we can susbstitute $v(t)$ with 19,}
+In this example the output of the function is given, and the input $t$ is required,</p>
+
+\[\begin{align*}
+	v(t) &amp;= 3t+7
+\end{align*}\]
+
+<p>Since $v(t)=19$, we can susbstitute $v(t)$ with 19,</p>
+
+\[\begin{align*}
 	19 &amp;= 3t+7 \\
 	12 &amp;= 3t \\
 	t &amp;= 4	\tagans
-\end{align*}\)</p>
+\end{align*}\]
 :ET
