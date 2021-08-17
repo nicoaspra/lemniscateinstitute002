@@ -12,8 +12,8 @@ summary: Calculus, has a reputation of being one of the most dreaded subjects in
 - Functions
   - [Introduction to Functions](1.1-introduction-to-functions)
   - [Function Notation](1.2-function-notation)
-  - Combining Functions
-  - Composite Functions
+  - [Combining Functions](1.3-combining-functions)
+  - [Composite Functions](1.4-composite-functions)
   <!-- - Piecewise Functions -->
   - Graph of Functions
   - Vertical Line Test
