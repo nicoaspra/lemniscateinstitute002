@@ -1,13 +1,4 @@
----
-title: "Metric System and SI Prefixes"
-featured: true
-weight: 2
-layout: content
-prevcontenturl: ../1.1-introduction-to-physics
-nextcontenturl: ../1.3-conversion-of-units
----
-
-<!-- # Metric System
+I"�<!-- # Metric System
 In physics, the fundamental dimensions are mass, length, and time, which are measured in kilograms [kg], meters [m], and seconds [s], respectively. These units are known as the Système Internationale (SI) units, or International System, and they are what we will be utilizing for the most of this course. However, the Centimeter–Gram–Second (CGS) System and the British Engineering (BE) System are two alternative systems of measurement that are still in use (refer to the table below).
 
 
@@ -18,6 +9,9 @@ In physics, the fundamental dimensions are mass, length, and time, which are mea
 | Time      |  Second [s]   |   Second [s]    | Second [s] |
 
 
+| col1         | asd              | asd             | asd            |
+| ------------ | ---------------- | --------------- | :--------------: |
+| asdasasdasdd | asdasasdasdasdas | asdasdasdasdasd | asddasdasdasda |
 
 
 # SI Prefixes
@@ -111,3 +105,7 @@ Hence, $375,000,000,000\un{g} = 0.375\un{Tg}$
 }
 $$ -->
 
+<!-- ## Related Posts:
+-  -->
+<p>–&gt;</p>
+:ET

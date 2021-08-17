@@ -1,17 +1,4 @@
----
-title: "Conversion of Units"
-featured: true
-weight: 2
-layout: content
-prevcontenturl: ../1.2-metric-system-and-SI-prefixes
-nextcontenturl: ../1.4
----
-
-
-
-
-
-<!-- The relationship between two quantities that have the same dimensions are interchangeable through [conversion factors](#conversion-factors). For example, a rod that has a length of $5\un{m}$ can also be presented in feet [ft], since both meter and feet are units that represent the dimension of length, where $1 \,\text{m}=3.28\,\text{ft}$.
+I"–<!-- The relationship between two quantities that have the same dimensions are interchangeable through [conversion factors](#conversion-factors). For example, a rod that has a length of $5\un{m}$ can also be presented in feet [ft], since both meter and feet are units that represent the dimension of length, where $1 \,\text{m}=3.28\,\text{ft}$.
 
 $$
 \begin{align*}
@@ -152,3 +139,4 @@ asd
 
 
 # Conversion Factors -->
+:ET
