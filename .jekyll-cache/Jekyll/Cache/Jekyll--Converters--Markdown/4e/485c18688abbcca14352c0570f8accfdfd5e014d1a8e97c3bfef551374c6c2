@@ -1,0 +1,145 @@
+I"<p>Function Notation is just another way of writing a function in an equation form. Instead of writing the independent variable $y$, in this notation $f(x)$ is used, and denoted as “$y = f(x)$” which is read as “$y$ is a function of $x$”. For instance $y = 3x^2-5$ can be written as $f(x) = 3x^2-5$. All we have to do to evaluate the function when $x = 2$ is replace all the “$x$” with $2$.</p>
+
+\[\begin{align*}
+	f(x) &amp;= 3x^2-5 \\
+	f(\tcA{2}) &amp;= 3(\tcA{2})^2-5 \\
+	      &amp;= 3(4)-5 \\
+	f(\tcA{2}) &amp;= \tcB{7} \tagans
+\end{align*}\]
+
+<p>A significant advantage in utilizing this notation is that we can quickly identify the $\tcxA{input}$ and the $\tcxB{output}$ of the function by just looking at the final equation, where the input is the value inside the parenthesis and the output is the value at the other side of the equation.</p>
+
+<hr />
+<p>$\example{1}$ <br />
+Let $ f(x)=3x^2+2x+5 $, find <br />
+a. $f(0)$,
+b. $f(-5)$,
+c. $f(-4x)$,
+d. $f(y)$,
+e. $f(x-y)$</p>
+
+<p>$\solution$ <br />
+$\For{a}$ <br />
+Replace $x$ with $0$
+	\begin{flalign<em>}
+		f(x) &amp;= 3x^2+2x+5 <br />
+		f(0) &amp;= 3(0)^2+2(0)+5  <br />
+		      &amp;= 0+0+5 <br />
+		      &amp;= 5	\tagans
+	\end{flalign</em>}
+\For<br />
+Replace $x$ with $-5$
+	\begin{flalign<em>}
+		f(x) &amp;= 3x^2+2x+5 <br />
+		f(-5) &amp;= 3(-5)^2+2(-5)+5 <br />
+		      &amp;= 3(25)+(-10)+5 <br />
+		      &amp;= 75-10+5 <br />
+		      &amp;= 70	\tagans
+	\end{flalign</em>}
+\For<br />
+Replace $x$ with $4x$
+	\begin{flalign<em>}
+		f(x) &amp;= 3x^2+2x+5 <br />
+		f(4x) &amp;= 3(4x)^2+2(4x)+5 <br />
+		      &amp;= 48x^2+8x+5	\tagans
+	\end{flalign</em>}
+\For<br />
+Replace $x$ with $y$
+	\begin{flalign<em>}
+		f(x) &amp;= 3x^2+2x+5 <br />
+		f(y) &amp;= 3(y)^2+2(y)+5 <br />
+		      &amp;= 3y^2+2y+5	\tagans
+	\end{flalign</em>}
+\For<br />
+Replace $x$ with $x-y$
+	\begin{flalign<em>}
+		f(x) &amp;= 3x^2+2x+5 <br />
+		f(x-y) &amp;= 3(x-y)^2+2(x-y)+5 <br />
+		      &amp;= 3(x^2-2xy+y^2)+2x-2y+5 <br />
+		      &amp;= 3x^2-6xy+3y^2+2x-2y+5		\tagans
+	\end{flalign</em>}</p>
+
+<p>However, other letters or symbols can also be used before the variable to name the same function. Notations like $f(x)$, $g(x)$, $F(x)$, $\phi(x)$, etc. are just different representations of ``function of $x$,’’ since all of these notations have the same independent variable $x$. For instance $y = 3x2 + 2x − 7$ can be written as any of the following:
+%
+\begin{align<em>}
+	f(x) &amp;= 3x^2+2x-7	&amp;	v(x) &amp;= 3x^2+2x-7 	<br />
+	g(x) &amp;= 3x^2+2x-7	&amp;	R(x) &amp;= 3x^2+2x-7 	<br />
+	h(x) &amp;= 3x^2+2x-7 	&amp;	\theta(x) &amp;= 3x^2+2x-7 <br />
+\end{align</em>}</p>
+
+<p>Nonetheless, it is not confined to the variable $x$;  it can be applied to any dependent variable.</p>
+
+<p>Using distinct symbols is advantageous when dealing with two or more distinct functions that share common dependent and independent variables since it can act as the function’s name.</p>
+
+<p>\example
+Let $g(x)=x^2-3$ and $h(x)=7-2x$, find 
+\enuexample{
+	\item $g(3)$,
+	\item $g(-2x)$,
+	\item $h(-5)$,
+	\item $h(3x-y)$
+}</p>
+
+<p>\solution<br />
+\For<br />
+Since $g(3)$ is asked, we can already tell what function the question is 
+%asking for
+relating to, 
+%which is the first function,
+%
+\begin{align<em>}
+	g(x) &amp;= x^2-3 <br />
+	g(3) &amp;= (3)^2-3 <br />
+	&amp;= 6		\tagans
+\end{align</em>}</p>
+
+<p>\For<br />
+Replace $x$ with $-2x$
+\begin{align<em>}
+	g(x) &amp;= x^2-3 <br />
+	g(-2x) &amp;= (-2x)^2-3 <br />
+	&amp;= 4x^2-3		\tagans
+\end{align</em>}</p>
+
+<p>\For<br />
+Replace $x$ with $-5$
+\begin{align<em>}
+	h(x) &amp;= 7-2x <br />
+	h(-5) &amp;= 7-2(-5) <br />
+	&amp;= 17		\tagans
+\end{align</em>}</p>
+
+<p>\For<br />
+Replace $x$ with $3x-y$
+\begin{align<em>}
+	h(x) &amp;= 7-2x <br />
+	h(3x-y) &amp;= 7-2(3x-y) <br />
+	&amp;= 7-6x+2y	\tagans
+\end{align</em>}</p>
+
+<p>\example 
+Let $h(y)=7-4y-3y^2$, find $h(-4)$</p>
+
+<p>\solution<br />
+Replace $y$ with $-4$
+\begin{align<em>}
+	h(y) &amp;= 7-4y-3y^2 <br />
+	&amp;= 7-4(-4)-3(-4)^2 <br />
+	&amp;= 7+16-3(16) <br />
+	&amp;= -25	\tagans
+\end{align</em>}</p>
+
+<p>\example 
+If $v(t)=3t+7$ and $v(t)=19$, find $t$</p>
+
+<p>\solution<br />
+In this example the output of the function is given, and the input $t$ is required,
+\begin{align<em>}
+	v(t) &amp;= 3t+7 <br />
+\intertext{Since $v(t)=19$,}
+	19 &amp;= 3t+7 <br />
+	12 &amp;= 3t <br />
+	t &amp;= 4	\tagans
+\end{align</em>}</p>
+
+:ET
