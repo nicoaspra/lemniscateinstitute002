@@ -1,4 +1,4 @@
-I"�<p>Function Notation is just another way of writing a function in an equation form. Instead of writing the independent variable $y$, in this notation $f(x)$ is used, and denoted as “$y = f(x)$” which is read as “$y$ is a function of $x$”.</p>
+I"�<p>Function Notation is just another way of writing a function in an equation form. Instead of writing the independent variable $y$, in this notation $f(x)$ is used, and denoted as “$y = f(x)$” which is read as “$y$ is a function of $x$”.</p>
 <p align="center" style="background-color:rgba(64, 130, 110, 0.07);
 border: 3px solid rgba(64, 130, 110, 0.9);
 border-radius:7px;
@@ -157,7 +157,7 @@ Replace $y$ with $-4$
 If $v(t)=3t+7$ and $v(t)=19$, find $t$</p>
 
 <p>$\solution$ <br />
-In this example the output of the function is given, and the input $t$ is required,</p>
+In this example, the output of the function is given, and the input $t$ is required,</p>
 
 \[\begin{align*}
 	v(t) &amp;= 3t+7
