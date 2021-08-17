@@ -1,0 +1,10 @@
+I"Á<center>
+    <h1 style="color:#d02f5d">This Page is Under Construction</h1>
+</center>
+
+<div style="text-align: center;" class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;figure&gt;
+    &lt;img src="/images/illustrations/under-construction.jpg" alt="my alt text" width="50%"/&gt;
+    &lt;!-- &lt;figcaption&gt;&lt;p&gt;&lt;/p&gt;&lt;/figcaption&gt; --&gt;
+&lt;/figure&gt; 
+</code></pre></div></div>
+:ET

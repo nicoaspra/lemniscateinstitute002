@@ -1,0 +1,7 @@
+I"ù<p>&lt;h1 text-align: center&gt;Heading 1 (center)&lt;/h1&gt;</p>
+
+<figure style="text-align: center;">
+  <img src="/images/illustrations/under-construction.jpg" alt="my alt text" width="50%" />
+  <!-- <figcaption><p></p></figcaption> -->
+</figure>
+:ET

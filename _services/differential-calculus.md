@@ -15,7 +15,7 @@ summary: Calculus, has a reputation of being one of the most dreaded subjects in
   - [Combining Functions](1.3-combining-functions)
   - [Composite Functions](1.4-composite-functions)
   <!-- - Piecewise Functions -->
-  - Graph of Functions
+  - [Graph of Functions](1.6-graph-of-functions)
   - Vertical Line Test
   - Odd and Even Functions
 - Limits and Continuity
