@@ -1,4 +1,4 @@
-I"ë<p>In every mathematical course, or any course in general especially the advanced ones, there is always some particular concept the we first need to cover before we can confidently start the course. In calculus, the basic notion that we first need to fully grasp are functions. Functions have been present from algebra to analytic geometry. Almost all basic mathematics have already incorporated functions even without knowing what functions really are. Hence, starting our lesson with functions and grasping its concept will not be that complicated.</p>
+I"è<p>In every mathematical course, or any course in general especially the advanced ones, there is always some particular concept the we first need to cover before we can confidently start the course. In calculus, the basic notion that we first need to fully grasp are functions. Functions have been present from algebra to analytic geometry. Almost all basic mathematics have already incorporated functions even without knowing what functions really are. Hence, starting our lesson with functions and grasping its concept will not be that complicated.</p>
 
 <p>A function is a special relationship between an input and an output, where the value of the output depends on the value of the input, given that <em>for every input there can only be one output</em>. Imagine the function as a juicer, if you use it on an apple you cannot expect a different type of juice other than an apple juice (Figure 1). With this in mind, replacing the fruit will result to a different juice.</p>
 
@@ -108,7 +108,7 @@ For an equation to be considered a function, there must only be one output for e
 	&amp;= 3
 \end{align*}\]
 
-<p>The output is 3. And even if we replace $x$ with any value, there is only one possible output, therefore $y=2x^2+1$ is a $\textal{function}$.</p>
+<p>The output is 3. And even if we replace $x$ with any value, there is only one possible output, therefore $y=2x^2+1$ is a $\tcAal{function}$.</p>
 
 <p>$\For{b}$ <br />
 All positive real numbers has two square roots, so if we replace $x$ with 6,</p>
@@ -120,7 +120,7 @@ All positive real numbers has two square roots, so if we replace $x$ with 6,</p>
 	&amp;= \pm 3
 \end{align*}\]
 
-<p>The outputs are $3$ and $-3$. So since a single input has two possible outputs, $y=\sqrt{x+3}$ is $\textal{not a function}$</p>
+<p>The outputs are $3$ and $-3$. So since a single input has two possible outputs, $y=\sqrt{x+3}$ is $\tcAal{not a function}$</p>
 
 <p>$\For{c}$ <br />
 This case is almost the same as the second example, if we isolate $y$ from one side,</p>
@@ -130,6 +130,6 @@ This case is almost the same as the second example, if we isolate $y$ from one s
 	y &amp;= \sqrt{3x-5}
 \end{align*}\]
 
-<p>Hence, $y^2=3x-5$ is also $\textal{not a function}$</p>
+<p>Hence, $y^2=3x-5$ is also $\tcAal{not a function}$</p>
 
 :ET
