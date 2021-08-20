@@ -1,4 +1,4 @@
-I"�,<h2 id="metric-system-and-the-si-units">Metric System and the SI Units</h2>
+I"�,<h2 id="metric-system-and-the-si-units">Metric System and the SI Units</h2>
 <p>In physics, the fundamental dimensions are mass, length, and time, which are measured in kilograms (kg), meters (m), and seconds (s), respectively. These units are known as the Système Internationale (SI) units, or International System, it is the Metric System that we will be utilizing for most of this course. However, the Centimeter–Gram–Second (CGS) System and the British Engineering (BE) System are two alternative systems of measurement that are still in use (Table 1).</p>
 
 <center><p>Table 1: Units and Dimensions</p></center>
@@ -98,7 +98,7 @@
   </tbody>
 </table>
 
-<h3 id="si-prefixes">SI Prefixes</h3>
+<h2 id="si-prefixes">SI Prefixes</h2>
 <p>One of the advantage of using the SI Units is instead of giving other names to units of very large or very small quantities, prefixes can be used. For example, a 25,000 m road can also be presented as 25 km, using the (k) symbol for “<em>kilo</em>,” multiplying the value to 1,000 or $10^3$. Another example would be a single grain of rice with a mass of approximately 29 mg, which can also be interpreted as $29\times 10^{-3}$g or 0.029 g. Table 3 indicates some of the prefixes used to denote multiples of ten.</p>
 
 <center><p>Table 3: SI Prefixes</p></center>
@@ -252,27 +252,30 @@ Express the mass of 375,000,000,000 g in: <br />
 <p>$\solution$ <br />
 $\For{a}$
 \(\begin{align*}
-	\un{Mass}&amp;=375,000,000,000 \un{g} \\
-			&amp;= 375\x 10^9 \un{g}	&amp;&amp; \tcAal{move the decimal point 9 places to the left} \\
-			&amp;= 375\un{Gg}	&amp;&amp; \tcAal{replace $10^9$ with the symbol "G"}
+	\text{Mass}&amp;=375,000,000,000 \un{g} \\
+			&amp;= 375,000,000,000 \un{g} \br{\frac{1 \un{Gg}}{10^9 \un{g}}}\\
+			&amp;= 375 \times \cancel{10^9 \un{g}} \br{\frac{1 \un{Gg}}{\cancel{10^9 \un{g}}}}\\
+			&amp;= 375 \un{Gg}
 \end{align*}\)</p>
 
 <p>Hence, $375,000,000,000\un{g} = 375\un{Gg}$</p>
 
 <p>$\For{b}$
 \(\begin{align*}
-	\un{Mass}&amp;=375,000,000,000 \un{ g} \\
-			&amp;= 375,000 \times 10^6 \un{g}	&amp;&amp; \tcAal{move the decimal point 6 places to the left} \\
-			&amp;= 375,000 \un{ Mg}	&amp;&amp; \tcAal{replace $10^6$ with the symbol "M"}
+	\text{Mass}&amp;=375,000,000,000 \un{g} \\
+			&amp;= 375,000,000,000 \un{g} \br{\frac{1 \un{Mg}}{10^6 \un{g}}}\\
+			&amp;= 375,000 \times \cancel{10^6 \un{g}} \br{\frac{1 \un{Mg}}{\cancel{10^6 \un{g}}}}\\
+			&amp;= 375,000 \un{Mg}
 \end{align*}\)</p>
 
 <p>Hence, $375,000,000,000\un{g} = 375,000\un{Mg}$</p>
 
 <p>$\For{c}$
 \(\begin{align*}
-	\un{Mass}&amp;=375,000,000,000 \un{ g} \\
-			&amp;= 0.375 \times 10^{12} \un{g}	&amp;&amp; \tcAal{move the decimal point 12 places to the left} \\
-			&amp;= 0.375 \un{ Tg}	&amp;&amp; \tcAal{replace $10^{12}$ with the symbol "T"}
+	\text{Mass}&amp;=375,000,000,000 \un{g} \\
+			&amp;= 375,000,000,000 \un{g} \br{\frac{1 \un{Tg}}{10^{12} \un{g}}}\\
+			&amp;= 0.375 \times \cancel{10^{12} \un{g}} \br{\frac{1 \un{Tg}}{\cancel{10^{12} \un{g}}}}\\
+			&amp;= 0.375 \un{Tg}
 \end{align*}\)</p>
 
 <p>Hence, $375,000,000,000\un{g} = 0.375\un{Tg}$</p>
@@ -287,27 +290,30 @@ Express the length of 50 m in: <br />
 <p>$\solution$ <br />
 $\For{a}$ <br />
 \(\begin{align*}
-	\un{Length}&amp;=50 \un{ m} \\
-			&amp;= 0.05 \times 10^{3} \un{m}	&amp;&amp; \tcAal{move the decimal point 3 places to the left} \\
-			&amp;= 0.05 \un{ km}	&amp;&amp; \tcAal{replace $10^{3}$ with the symbol "k"}
+	\text{Length}&amp;=50 \un{m} \\
+			&amp;= 50 \un{m} \br{\frac{1 \un{km}}{10^3 \un{m}}}\\
+			&amp;= 0.05 \times \cancel{10^3 \un{m}} \br{\frac{1 \un{km}}{\cancel{10^3 \un{m}}}}\\
+			&amp;= 0.05 \un{km}
 \end{align*}\)</p>
 
 <p>Hence, 50 m = 0.05 km</p>
 
 <p>$\For{b}$ <br />
 \(\begin{align*}
-	\un{Length}&amp;=50 \un{ m} \\
-			&amp;= 5,000 \times 10^{-2} \un{m}	&amp;&amp; \tcAal{move the decimal point 2 places to the right} \\
-			&amp;= 5,000 \un{ cm}	&amp;&amp; \tcAal{replace $10^{-2}$ with the symbol "c"}
+	\text{Length}&amp;=50 \un{m} \\
+			&amp;= 50 \un{m} \br{\frac{1 \un{cm}}{10^{-2} \un{m}}}\\
+			&amp;= 5,000 \times \cancel{10^{-2} \un{m}} \br{\frac{1 \un{cm}}{\cancel{10^{-2} \un{m}}}}\\
+			&amp;= 5,000 \un{cm}
 \end{align*}\)</p>
 
 <p>Hence, 50 m = 5,000 cm</p>
 
 <p>$\For{c}$ <br />
 \(\begin{align*}
-	\un{Length}&amp;=50 \un{ m} \\
-			&amp;= 50,000 \times 10^{-3} \un{m}	&amp;&amp; \tcAal{move the decimal point 3 places to the right} \\
-			&amp;= 50,000 \un{ cm}	&amp;&amp; \tcAal{replace $10^{-3}$ with the symbol "m"}
+	\text{Length}&amp;=50 \un{m} \\
+			&amp;= 50 \un{m} \br{\frac{1 \un{mm}}{10^{-3} \un{m}}}\\
+			&amp;= 50,000 \times \cancel{10^{-3} \un{m}} \br{\frac{1 \un{mm}}{\cancel{10^{-3} \un{m}}}}\\
+			&amp;= 50,000 \un{mm}
 \end{align*}\)</p>
 
 <p>Hence, 50 m = 50,000 mm</p>
