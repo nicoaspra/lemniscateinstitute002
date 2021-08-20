@@ -1,6 +1,6 @@
 ---
 title: "Physics I"
-date: 2020-05-01
+date: 2021-01-03
 featured: true
 weight: 1
 layout: course

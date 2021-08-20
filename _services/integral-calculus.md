@@ -1,6 +1,6 @@
 ---
 title: "Integral Calculus"
-date: 2020-04-01
+date: 2021-01-02
 featured: true
 weight: 1
 layout: content-construction

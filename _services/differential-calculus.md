@@ -1,6 +1,6 @@
 ---
 title: "Differential Calculus"
-date: 2020-03-01
+date: 2021-01-01
 featured: true
 weight: 1
 layout: course
