@@ -40,5 +40,20 @@ summary: Calculus, has a reputation of being one of the most dreaded subjects in
   - Higher Order Derivatives
   - The Chain Rule
   - Implicit Differentiation
-
-
+- Polynomial Curves
+  - Tangents and Normals to Plane Curves
+  - Maxima, Minima, and the First Derivative Test
+  - Points of Inflection
+  - Concavity and the Second Derivative Test
+- Applications of the Derivative
+  - Applications of Maxima and Minima
+  - Time-Rates
+- The Differential
+  - Differentials
+  - Approximate Formula
+- Trigonometric Functions
+  - Angles
+  - Basic Trigonometric Functions
+  - Evaluating Trigonometric Functions
+  - Trigonometric Identities
+  - Derivatives of Trigonometric Function

@@ -3,7 +3,7 @@ title: "Integral Calculus"
 date: 2021-01-02
 featured: true
 weight: 1
-layout: content-construction
+layout: course
 
 # layout: course
 summary: The path to the development of the integral calculus is multi-branched, wherein different people had similar discoveries simultaneously. The beginning of the technique that is currently known as integration can be attributed to the attempts to find the area underneath a curve (Figure 1.1).
@@ -12,7 +12,7 @@ summary: The path to the development of the integral calculus is multi-branched,
 # Contents
 
 
-<!-- - Introduction to Integral Calculus Calculus
+- Introduction to Integral Calculus Calculus
 - Definite and Indefinite Integrals
 - Antiderivatives
 - Indefinite Integrals
@@ -23,4 +23,4 @@ summary: The path to the development of the integral calculus is multi-branched,
     - Tabular Integration by Parts
 - The Definite Integral
   - Introduction to Definite Integrals
-  - Properties of Definite Integrals -->
+  - Properties of Definite Integrals

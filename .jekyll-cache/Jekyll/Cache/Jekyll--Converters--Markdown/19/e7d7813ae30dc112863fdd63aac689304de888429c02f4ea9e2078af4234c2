@@ -1,4 +1,4 @@
-I"m<h1 id="contents">Contents</h1>
+I"t	<h1 id="contents">Contents</h1>
 <ul>
   <li><a href="0.1-introduction-to-differential-calculus">Introduction to Differential Calculus</a></li>
   <li>Functions
@@ -47,6 +47,34 @@
       <li>Implicit Differentiation</li>
     </ul>
   </li>
+  <li>Polynomial Curves
+    <ul>
+      <li>Tangents and Normals to Plane Curves</li>
+      <li>Maxima, Minima, and the First Derivative Test</li>
+      <li>Points of Inflection</li>
+      <li>Concavity and the Second Derivative Test</li>
+    </ul>
+  </li>
+  <li>Applications of the Derivative
+    <ul>
+      <li>Applications of Maxima and Minima</li>
+      <li>Time-Rates</li>
+    </ul>
+  </li>
+  <li>The Differential
+    <ul>
+      <li>Differentials</li>
+      <li>Approximate Formula</li>
+    </ul>
+  </li>
+  <li>Trigonometric Functions
+    <ul>
+      <li>Angles</li>
+      <li>Basic Trigonometric Functions</li>
+      <li>Evaluating Trigonometric Functions</li>
+      <li>Trigonometric Identities</li>
+      <li>Derivatives of Trigonometric Function</li>
+    </ul>
+  </li>
 </ul>
-
 :ET
