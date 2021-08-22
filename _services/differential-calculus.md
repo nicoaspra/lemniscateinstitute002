@@ -8,14 +8,14 @@ summary: Calculus, has a reputation of being one of the most dreaded subjects in
 ---
 
 # Contents
-- [Introduction to Differential Calculus](0.1-introduction-to-differential-calculus)
+- [Introduction to Differential Calculus](../calculus/DC-0.1-introduction-to-differential-calculus)
 - Functions
-  - [Introduction to Functions](1.1-introduction-to-functions)
-  - [Function Notation](1.2-function-notation)
-  - [Combining Functions](1.3-combining-functions)
-  - [Composite Functions](1.4-composite-functions)
+  - [Introduction to Functions](../calculus/DC-1.1-introduction-to-functions)
+  - [Function Notation](../calculus/DC-1.2-function-notation)
+  - [Combining Functions](../calculus/DC-1.3-combining-functions)
+  - [Composite Functions](../calculus/DC-1.4-composite-functions)
   <!-- - Piecewise Functions -->
-  - [Graph of Functions](1.6-graph-of-functions)
+  - [Graph of Functions](../calculus/DC-1.6-graph-of-functions)
   - Vertical Line Test
   - Odd and Even Functions
 - Limits and Continuity

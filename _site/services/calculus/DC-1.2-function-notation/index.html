@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>Differential Calculus</title>
+  <title>Function Notation</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link rel="icon" type="image/png" href="/images/favicon-32x32.svg">
   <link rel="apple-touch-icon" sizes="120x120" href="/images/favicon-32x32.svg">
@@ -87,92 +87,203 @@
   <div class="row justify-content-start">
     <div class="col-12 col-md-8">
       <div class="service service-single">
-        <h1 class="title">Differential Calculus</h1>
-        <div class="content"><h1 id="contents">Contents</h1>
-<ul>
-  <li><a href="../calculus/DC-0.1-introduction-to-differential-calculus">Introduction to Differential Calculus</a></li>
-  <li>Functions
-    <ul>
-      <li><a href="../calculus/DC-1.1-introduction-to-functions">Introduction to Functions</a></li>
-      <li><a href="../calculus/DC-1.2-function-notation">Function Notation</a></li>
-      <li><a href="../calculus/DC-1.3-combining-functions">Combining Functions</a></li>
-      <li><a href="../calculus/DC-1.4-composite-functions">Composite Functions</a>
-<!-- - Piecewise Functions --></li>
-      <li><a href="../calculus/DC-1.6-graph-of-functions">Graph of Functions</a></li>
-      <li>Vertical Line Test</li>
-      <li>Odd and Even Functions</li>
-    </ul>
-  </li>
-  <li>Limits and Continuity
-    <ul>
-      <li>Introduction to Limits</li>
-      <li>Theorem on Limits</li>
-      <li>Limits at Infinity
-        <ul>
-          <li>Limits at Infinity of a Fraction</li>
-          <li>Limits at Infinity of Polynomials</li>
-          <li>Limits at Infinity of Rational Functions</li>
-        </ul>
-      </li>
-      <li>One-Sided Limits</li>
-      <li>Infinite Limits</li>
-      <li>Limits of Functions with Absolute Value</li>
-      <li>Continuity</li>
-    </ul>
-  </li>
-  <li>The Derivative
-    <ul>
-      <li>Increments and the Derivative</li>
-      <li>Notation of Derivatives</li>
-      <li>Slope of a Curve</li>
-      <li>Rate of Change</li>
-      <li>Average and Instantaneous Velocity</li>
-    </ul>
-  </li>
-  <li>Algebraic Functions
-    <ul>
-      <li>Differentiation and its Rules for Algebraic Functions</li>
-      <li>Higher Order Derivatives</li>
-      <li>The Chain Rule</li>
-      <li>Implicit Differentiation</li>
-    </ul>
-  </li>
-  <li>Polynomial Curves
-    <ul>
-      <li>Tangents and Normals to Plane Curves</li>
-      <li>Maxima, Minima, and the First Derivative Test</li>
-      <li>Points of Inflection</li>
-      <li>Concavity and the Second Derivative Test</li>
-    </ul>
-  </li>
-  <li>Applications of the Derivative
-    <ul>
-      <li>Applications of Maxima and Minima</li>
-      <li>Time-Rates</li>
-    </ul>
-  </li>
-  <li>The Differential
-    <ul>
-      <li>Differentials</li>
-      <li>Approximate Formula</li>
-    </ul>
-  </li>
-  <li>Trigonometric Functions
-    <ul>
-      <li>Angles</li>
-      <li>Basic Trigonometric Functions</li>
-      <li>Evaluating Trigonometric Functions</li>
-      <li>Trigonometric Identities</li>
-      <li>Derivatives of Trigonometric Function</li>
-    </ul>
-  </li>
-</ul>
-</div>
+        $$
+  \definecolor{colorA}{rgb}{0.25, 0.51, 0.43}		%viridian
+  \definecolor{colorB}{rgb}{0.89, 0.04, 0.36}		%raspberry
+  \definecolor{energy}{RGB}{114,0,172}
+  \definecolor{freq}{RGB}{45,177,93}
+  \definecolor{spin}{RGB}{251,0,29}
+  \definecolor{signal}{RGB}{18,110,213}
+  \definecolor{circle}{RGB}{217,86,16}
+  \definecolor{average}{RGB}{203,23,206}
+  \require{cancel}
+$$
+        <h1 class="title">Function Notation</h1>
+          
+            <p style="color:#d02f5d"></pstyle>Author | Engr. Nico O. Aspra, ME, RMP</p>
+          
+          <!-- <p style="color:#d02f5d"></pstyle>Author | Engr. Nico O. Aspra, ME, RMP</p> -->
+          <!-- <a href="">Engr. Nico O. Aspra, ME, RMP</a> -->
+          <!-- <br> -->
+        <div class="content">
+          <p>Function Notation is just another way of writing a function in an equation form. Instead of writing the independent variable $y$, in this notation $f(x)$ is used, and denoted as “$y = f(x)$” which is read as “$y$ is a function of $x$”.</p>
+<p align="center" style="background-color:rgba(64, 130, 110, 0.07);
+border: 3px solid rgba(64, 130, 110, 0.9);
+border-radius:7px;
+padding:10px;
+margin:5px;">
+    $$\begin{align}
+        y=f(x)
+        \end{align}$$
+</p>
+<p>For instance $y = 3x^2-5$ can be written as $f(x) = 3x^2-5$. All we have to do to evaluate the function when $x = 2$ is replace all the “$x$” with $2$.</p>
+
+\[\begin{align*}
+	f(x) &amp;= 3x^2-5 \\
+	f(\tcA{2}) &amp;= 3(\tcA{2})^2-5 \\
+	      &amp;= 3(4)-5 \\
+	f(\tcA{2}) &amp;= \tcB{7} \tagans
+\end{align*}\]
+
+<p>A significant advantage in utilizing this notation is that we can quickly identify the $\tcxA{input}$ and the $\tcxB{output}$ of the function by just looking at the final equation, where the input is the value inside the parenthesis and the output is the value at the other side of the equation.</p>
+
+<hr />
+<p>$\example{1}$ <br />
+Let $ f(x)=3x^2+2x+5 $, find <br />
+a. $f(0)$,
+b. $f(-5)$,
+c. $f(-4x)$,
+d. $f(y)$,
+e. $f(x-y)$</p>
+
+<p>$\solution$ <br />
+$\For{a}$ <br />
+Replace $x$ with $0$</p>
+
+\[\begin{align*}
+		f(x) &amp;= 3x^2+2x+5 \\
+		f(0) &amp;= 3(0)^2+2(0)+5  \\
+		      &amp;= 0+0+5 \\
+		      &amp;= 5	\tagans
+	\end{align*}\]
+
+<p>$\For{b}$ <br />
+Replace $x$ with $-5$
+\(\begin{align*}
+		f(x) &amp;= 3x^2+2x+5 \\
+		f(-5) &amp;= 3(-5)^2+2(-5)+5 \\
+		      &amp;= 3(25)+(-10)+5 \\
+		      &amp;= 75-10+5 \\
+		      &amp;= 70	\tagans
+	\end{align*}\)</p>
+
+<p>$\For{c}$ <br />
+Replace $x$ with $4x$
+\(\begin{align*}
+		f(x) &amp;= 3x^2+2x+5 \\
+		f(4x) &amp;= 3(4x)^2+2(4x)+5 \\
+		      &amp;= 48x^2+8x+5	\tagans
+	\end{align*}\)</p>
+
+<p>$\For{d}$ <br />
+Replace $x$ with $y$
+\(\begin{align*}
+		f(x) &amp;= 3x^2+2x+5 \\
+		f(y) &amp;= 3(y)^2+2(y)+5 \\
+		      &amp;= 3y^2+2y+5	\tagans
+	\end{align*}\)</p>
+
+<p>$\For{e}$ <br />
+Replace $x$ with $x-y$
+\(\begin{align*}
+		f(x) &amp;= 3x^2+2x+5 \\
+		f(x-y) &amp;= 3(x-y)^2+2(x-y)+5 \\
+		      &amp;= 3(x^2-2xy+y^2)+2x-2y+5 \\
+		      &amp;= 3x^2-6xy+3y^2+2x-2y+5		\tagans
+	\end{align*}\)</p>
+
+<hr />
+
+<p>However, other letters or symbols can also be used before the variable to name the same function. Notations like $f(x)$, $g(x)$, $F(x)$, $\phi(x)$, etc. are just different representations of “function of $x$,’’ since all of these notations have the same independent variable $x$. For instance $y = 3x^2 + 2x − 7$ can be written as any of the following:</p>
+
+<p align="center" style="background-color:rgba(64, 130, 110, 0.07);
+border: 3px solid rgba(64, 130, 110, 0.9);
+border-radius:7px;
+padding:10px;
+margin:5px;">
+    $$
+        \begin{align*}
+            f(x) &amp;= 3x^2+2x-7	&amp;	v(x) &amp;= 3x^2+2x-7 	\\
+            g(x) &amp;= 3x^2+2x-7	&amp;	R(x) &amp;= 3x^2+2x-7 	\\
+            h(x) &amp;= 3x^2+2x-7 	&amp;	\theta(x) &amp;= 3x^2+2x-7 \\
+        \end{align*}
+        $$
+</p>
+
+<p>Nonetheless, it is not confined to the variable $x$;  it can be applied to any dependent variable.</p>
+
+<p>Using distinct symbols is advantageous when dealing with two or more distinct functions that share common dependent and independent variables since it can act as the function’s name.</p>
+
+<hr />
+<p>$\example{2}$
+Let $g(x)=x^2-3$ and $h(x)=7-2x$, find 
+a. $g(3)$,
+b. $g(-2x)$,
+c. $h(-5)$,
+d. $h(3x-y)$</p>
+
+<p>$\solution$ <br />
+$\For{a}$ <br />
+Since $g(3)$ is required, we can quickly identify what function is the question relating to, 
+\(\begin{align*}
+	g(x) &amp;= x^2-3 \\
+	g(3) &amp;= (3)^2-3 \\
+	&amp;= 6		\tagans
+\end{align*}\)</p>
+
+<p>$\For{b}$ <br />
+Replace $x$ with $-2x$
+\(\begin{align*}
+	g(x) &amp;= x^2-3 \\
+	g(-2x) &amp;= (-2x)^2-3 \\
+	&amp;= 4x^2-3		\tagans
+\end{align*}\)</p>
+
+<p>$\For{c}$ <br />
+Replace $x$ with $-5$
+\(\begin{align*}
+	h(x) &amp;= 7-2x \\
+	h(-5) &amp;= 7-2(-5) \\
+	&amp;= 17		\tagans
+\end{align*}\)</p>
+
+<p>$\For{d}$ <br />
+Replace $x$ with $3x-y$
+\(\begin{align*}
+	h(x) &amp;= 7-2x \\
+	h(3x-y) &amp;= 7-2(3x-y) \\
+	&amp;= 7-6x+2y	\tagans
+\end{align*}\)</p>
+
+<hr />
+
+<p>$\example{3}$ <br />
+Let $h(y)=7-4y-3y^2$, find $h(-4)$</p>
+
+<p>$\solution$ <br />
+Replace $y$ with $-4$
+\(\begin{align*}
+	h(y) &amp;= 7-4y-3y^2 \\
+	&amp;= 7-4(-4)-3(-4)^2 \\
+	&amp;= 7+16-3(16) \\
+	&amp;= -25	\tagans
+\end{align*}\)</p>
+
+<hr />
+
+<p>$\example{4}$
+If $v(t)=3t+7$ and $v(t)=19$, find $t$</p>
+
+<p>$\solution$ <br />
+In this example, the output of the function is given, and the input $t$ is required,</p>
+
+\[\begin{align*}
+	v(t) &amp;= 3t+7
+\end{align*}\]
+
+<p>Since $v(t)=19$, we can susbstitute $v(t)$ with 19,</p>
+
+\[\begin{align*}
+	19 &amp;= 3t+7 \\
+	12 &amp;= 3t \\
+	t &amp;= 4	\tagans
+\end{align*}\]
+
+        </div>
       </div>
     </div>
   </div>
 </div>
-
 
 
 
@@ -273,6 +384,31 @@
 </script>
 
 
+
+
+
+
+<!-- <div class="PageNavigation">
+  
+    <a class="prev" href="/services/calculus/DC-0.1-introduction-to-differential-calculus/">&laquo; Introduction to Differential Calculus</a>
+  
+  
+    <a class="next" href="/services/calculus/DC-1.3-combining-functions/">Combining Functions &raquo;</a>
+  
+</div> -->
+
+
+
+<!-- <div class="PageNavigation">
+    <a class="prev" href="../DC-1.1-introduction-to-functions">&laquo; </a> <a class="next" href="../DC-1.3-combining-functions"> &raquo;</a>
+</div> -->
+
+
+
+<div class="PageNavigation">
+  <a class="prev" href="../DC-1.1-introduction-to-functions">&laquo; Previous</a> 
+  <a class="next" href="../DC-1.3-combining-functions">Next &raquo;</a>
+</div>
 
 
   </div>
