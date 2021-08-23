@@ -1,0 +1,60 @@
+I"å	<p>The <strong>Antiderivative</strong> of a function is a result of <em>reversing the process of differentiation</em>. And <strong>Antidifferentiation</strong>, also known as <strong>Integration</strong>, is the process of solving for the antiderivative of a function. Consider the equation,</p>
+
+\[F'(x) = f(x)\]
+
+<p>In Differential Calculus, the tick symbol is the Lagrangeâ€™s notation which denotes differentiation. With this in mind, the derivative of the function $F(x)$ is $f(x)$. Hence, in reverse, the Antiderivative of the function $f(x)$ is $F(x)$.</p>
+
+<p>The relationship of the function represented with integration is denoted as,</p>
+<p align="center" style="background-color:rgba(64, 130, 110, 0.07);
+border: 3px solid rgba(64, 130, 110, 0.9);
+border-radius:7px;
+padding:10px;
+margin:5px;">
+    $$\begin{align}
+        \int f(x) \,dx = F(x)+C
+        \end{align}$$
+</p>
+
+<p>Where $\textstyle{\int}$ is called the <strong>integral symbol</strong>, $dx$ indicates that the function $f(x)$ is to be integrated with respect to the variable $x$, and the function $f(x)$ that is to be integrated is called the <strong>integrand</strong>.</p>
+
+<p>For example, solve for the derivative of the following functions, <br />
+<strong>a.</strong> $y = x^2+1$ <br />
+<strong>b.</strong> $y = x^2-3$ <br />
+<strong>c.</strong> $y = x^2+\pi$ <br />
+<strong>d.</strong> $y = x^2+c$, where $c$ is any constant</p>
+
+<p>$\solution$ <br />
+$\For{a}$ <br />
+Differentiate the function,</p>
+
+\[\begin{align*}
+	\ddx\br{y} &amp;= \ddx\br{x^2+1} \\
+	\dydx &amp;= 2x	\tagans
+\end{align*}\]
+
+<p>$\For{b}$ <br />
+Differentiate the function,</p>
+
+\[\begin{align*}
+	\ddx\br{y} &amp;= \ddx\br{x^2-3} \\
+	\dydx &amp;= 2x	\tagans
+\end{align*}\]
+
+<p>$\For{c}$ <br />
+Differentiate the function,</p>
+
+\[\begin{align*}
+	\ddx\br{y} &amp;= \ddx\br{x^2+\pi} \\
+	\dydx &amp;= 2x	\tagans
+\end{align*}\]
+
+<p>$\For{b}$ <br />
+Differentiate the function,
+\(\begin{align*}
+	\ddx\br{y} &amp;= \ddx\br{x^2+c} \\
+	\dydx &amp;= 2x	\tagans
+\end{align*}\)</p>
+
+<p>By differentiating any of the given functions, all of it would result to $2x$, since the derivative of any constant is just equal to zero and 1, $-3$, $\pi$, and $c$ are all constants. With this in mind, by reversing the method, we can no longer determine the exact value of the constant that was lost during differentiation, so in order to represent that constant, we will use an arbitrary constant $C$. Hence, the antiderivative of $2x$ is $x^2+C$, which can be denoted as, 
+\(\int 2x \,dx = x^2+C\)</p>
+:ET
