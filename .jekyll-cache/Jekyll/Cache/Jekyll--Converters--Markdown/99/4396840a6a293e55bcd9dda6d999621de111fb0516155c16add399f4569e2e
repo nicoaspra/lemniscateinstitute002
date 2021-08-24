@@ -1,11 +1,4 @@
----
-# example 404.md
-title: Oops!
-layout: course
-permalink: /404.html
----
-
-<!-- # Error 404: Page not found!
+I"<!-- # Error 404: Page not found!
 
 {:refdef: style="text-align: center;"}
 <figure>
@@ -13,12 +6,11 @@ permalink: /404.html
 </figure>
 {: refdef} -->
 
-
-
 <center>
-    <h1 style="color:#d02f5d">Error 404: Page not found!</h1>
+    <h1 style="color:#d02f5d">This Page is Under Construction</h1>
     <figure>
-        <img src="/images/illustrations/under-construction-dino.png" alt="my alt text" width="90%"/>
+        <img src="/images/illustrations/under-construction-dino.png" alt="my alt text" width="90%" />
         <!-- <img src="/images/illustrations/under-construction.jpg" alt="my alt text" width="50%"/> -->
     </figure>
 </center>
+:ET
