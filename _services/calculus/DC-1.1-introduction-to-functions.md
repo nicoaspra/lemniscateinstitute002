@@ -76,6 +76,10 @@ $$
 
 
 
+{% include youtube.html 
+    id="bCnNitHO7DQ" 
+%}
+
 ## Dependent and Independent Variables
 Variables are symbols or letters used to represent an unknown value. The dependent variable on a function represents a quantity that depends on the value given to the independent variable. The symbol "$x$" is usually used to describe the independent variable (input) and "$y$" for the dependent variable (output). 
 

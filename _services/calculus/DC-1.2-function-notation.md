@@ -5,7 +5,7 @@ nextcontenturl: ../DC-1.3-combining-functions
 ---
 
 
-Function Notation is just another way of writing a function in an equation form. Instead of writing the independent variable $y$, in this notation $f(x)$ is used, and denoted as “$y = f(x)$” which is read as “$y$ is a function of $x$”. 
+Function Notation is just another way of writing a function in an equation form. Instead of writing the dependent variable $y$, in this notation $f(x)$ is used, and denoted as “$y = f(x)$” which is read as “$y$ is a function of $x$”. 
 {% include tcolorbox.html 
     details= "
         y=f(x)

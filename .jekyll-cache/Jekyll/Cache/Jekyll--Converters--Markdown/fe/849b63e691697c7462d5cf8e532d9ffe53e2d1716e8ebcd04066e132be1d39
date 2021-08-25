@@ -1,4 +1,4 @@
-I":.<h2 id="metric-system-and-the-si-units">Metric System and the SI Units</h2>
+I">.<h2 id="metric-system-and-the-si-units">Metric System and the SI Units</h2>
 <p>In physics, the fundamental dimensions are mass, length, and time, which are measured in kilograms (kg), meters (m), and seconds (s), respectively. These units are known as the Système Internationale (SI) units, or International System, it is the Metric System that we will be utilizing for most of this course. However, the Centimeter–Gram–Second (CGS) System and the British Engineering (BE) System are two alternative systems of measurement that are still in use (Table 1).</p>
 
 <center><p>Table 1: Units and Dimensions</p></center>
@@ -341,14 +341,13 @@ In this example, the given already has a prefix. To solve this, the methos is no
 
 <p>Hence, $17\times 10^6$ kg = $1.7\times 10^{8}$ dag</p>
 
-<p>$\For{b}$ \</p>
-
-\[\begin{align*}
+<p>$\For{b}$ <br />
+\(\begin{align*}
 	\text{Mass}&amp;=17\times10^6 \un{kg} \\
 			&amp;= 17\times10^6 \cancel{\un{kg}} \br{\frac{10^3\cancel{\un{g}}}{1\cancel{\un{kg}}}} \br{\frac{1\un{Mg}}{10^6 \cancel{\un{g}}}} \\
 			&amp;= 17\un{Mg} \brk{\frac{\cancel{(10^6)}(10^3)}{\cancel{(10^6)}}} \\
 			&amp;= 17\times 10^{3} \un{Mg}
-\end{align*}\]
+\end{align*}\)</p>
 
 <p>Hence, $17\times 10^6$ kg = $17\times 10^3$ Mg</p>
 
