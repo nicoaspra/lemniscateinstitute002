@@ -97,6 +97,10 @@ In graphing a function, the independent variable is placed at the horizontal axi
 
 
 
+{% include youtube.html 
+    id="MXt7plKEezQ" 
+%}
+
 
 ## Determining if an Equation Represents a Function or Not
 We may use the definition of a function to determine whether or not an equation represents a function. Due to the fact that each input can only have one output, having two solutions to the same equation proves that the equation does not represent a function. 
