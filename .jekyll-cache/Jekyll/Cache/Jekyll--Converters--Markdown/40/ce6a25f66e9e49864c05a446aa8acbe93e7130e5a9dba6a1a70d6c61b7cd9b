@@ -1,0 +1,34 @@
+I"ƒ
+<h2 id="introduction">Introduction</h2>
+<p>In the previous lesson, we have established that integration (indefinite integral in particular) is simply the reverse of differentiation. Hence, this lesson will investigate the general power rule, which is one of the most common and valuable basic integration processes.</p>
+
+<p>The general power rule for integration can be associated as the inverse of the general power rule for differentiation.
+You can also have an in-depth review of the power rule for differentiation before starting this lesson for a deeper understanding of the topic.</p>
+
+<h2 id="properties-of-indefinite-integral">Properties of Indefinite Integral</h2>
+<p>Before we start our discussion with the general power rule, let us first introduce the properties of indefinite integrals. These properties are a prerequisite before introducing the different processes of applying integration techniques in a differential function.</p>
+
+<p>For the following formulas for evaluating indefinite integrals, let $u$, $v$ and $w$ be a function of $x$; $a$ and $n$ as constants; and $C$ as the constant of integration.</p>
+
+<p align="center" style="background-color:rgba(64, 130, 110, 0.07);
+border: 3px solid rgba(64, 130, 110, 0.9);
+border-radius:7px;
+padding:10px;
+margin:5px;">
+    $$\begin{align}
+        \int du &amp;= u+C \\
+        \int a\,du &amp;= a\int du \\
+        \int (du\pm dv\pm dw) &amp;= \int du \pm \int dv \pm \int dw
+    \end{align}$$
+</p>
+
+<h2 id="the-general-power-rule-for-integration">The General Power Rule for Integration</h2>
+<ul>
+  <li>
+    <p>If you could recall, the steps in differentiating using the power rule include <strong>multiplying the exponent $n$ of the variable to the term</strong> then <strong>reducing the value of the exponent by one</strong> ($n-1$). However, in integration, it is the reverse of that. The first step is <strong>adding one to the exponent</strong> ($n+1$), then dividing the whole term with the same value of the variableâ€™s new exponent ($n+1$).</p>
+  </li>
+  <li>
+    <p>Assuming that you have already reviewed the concepts of differentials, we can observe that the general power formula for differentials follows two basic steps: (1) multiplying the function with the original exponent $n$, and (2) subtracting one from the original exponent $n$. Interestingly, it can be observed that we can apply anti-differentiation (integration) through \textit{reversing the steps} mentioned. Thus, for the general power rule for integration, we add one from the exponent $n$ then divide the function with the new exponent $n+1$. Equation \ref{eq:integration - general power rule} shows the formula described.</p>
+  </li>
+</ul>
+:ET

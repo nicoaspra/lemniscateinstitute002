@@ -1,0 +1,135 @@
+I"�<h2 id="introduction">Introduction</h2>
+<p>In the previous lesson, we have established that integration (indefinite integral in particular) is simply the reverse of differentiation. Hence, this lesson will investigate the general power rule, which is one of the most common and valuable basic integration processes.</p>
+
+<p>The general power rule for integration can be associated as the inverse of the general power rule for differentiation.
+You can also have an in-depth review of the power rule for differentiation before starting this lesson for a deeper understanding of the topic.</p>
+
+<h2 id="properties-of-indefinite-integral">Properties of Indefinite Integral</h2>
+<p>Before we start our discussion with the general power rule, let us first introduce the properties of indefinite integrals. These properties are a prerequisite before introducing the different processes of applying integration techniques in a differential function.</p>
+
+<p>For the following formulas for evaluating indefinite integrals, let $u$, $v$ and $w$ be a function of $x$; $a$ and $n$ as constants; and $C$ as the constant of integration.</p>
+
+<p align="center" style="background-color:rgba(64, 130, 110, 0.07);
+border: 3px solid rgba(64, 130, 110, 0.9);
+border-radius:7px;
+padding:10px;
+margin:5px;">
+    $$\begin{align}
+        \int du &amp;= u+C \\
+        \int a\,du &amp;= a\int du \\
+        \int (du\pm dv\pm dw) &amp;= \int du \pm \int dv \pm \int dw
+    \end{align}$$
+</p>
+
+<h2 id="the-general-power-rule-for-integration">The General Power Rule for Integration</h2>
+<p>If you could recall, the steps in differentiating using the power rule include <strong>multiplying the exponent $n$ of the variable to the term</strong> then <strong>reducing the value of the exponent by one</strong> ($n-1$). However, in integration, it is the reverse of that. The first step is <strong>adding one to the exponent</strong> ($n+1$), then dividing the whole term with the same value of the variable’s new exponent ($n+1$). The equation below, shows the formula described.</p>
+
+<p align="center" style="background-color:rgba(64, 130, 110, 0.07);
+border: 3px solid rgba(64, 130, 110, 0.9);
+border-radius:7px;
+padding:10px;
+margin:5px;">
+    $$\begin{align}
+        \int u^n \,du = \frac{u^{n+1}}{n+1} + C 
+    \end{align}$$
+</p>
+
+<!-- - Assuming that you have already reviewed the concepts of differentials, we can observe that the general power formula for differentials follows two basic steps: (1) multiplying the function with the original exponent $n$, and (2) subtracting one from the original exponent $n$. Interestingly, it can be observed that we can apply anti-differentiation (integration) through \textit{reversing the steps} mentioned. Thus, for the general power rule for integration, we add one from the exponent $n$ then divide the function with the new exponent $n+1$. Equation \ref{eq:integration - general power rule} shows the formula described. -->
+
+<p>Let us now try some problems to illustrate the general power rule for integration.</p>
+
+<p>$\example{1}$
+Evaluate the integral: $\int x^3 \,dx$</p>
+
+<p>$\solution$ <br />
+\(\begin{align*}
+	\int x^3 \,dx &amp;= \frac{x^{3+1}}{3+1}+C \\
+	&amp;= \frac{x^4}{4}+C	\tagans
+\end{align*}\)</p>
+
+<p>$\example{2}$
+Evaluate the integral: $\int (2y^3-3y^2+1) \,dy$</p>
+
+<p>$\solution$ <br />
+\(\begin{align*}
+	\int (2y^3-3y^2+1) \,dy &amp;= \int 2y^3 \,dy - \int 3y^2 \,dy + \int 1 \,dy \\
+	&amp;= 2\int y^3 \,dy - 3\int y^2 \,dy + \int dy \\
+	&amp;= 2\cdot\frac{y^{3+1}}{3+1}-3\cdot\frac{y^{2+1}}{2+1}+\frac{y^{0+1}}{0+1}+C  \qquad\tcA{y^0=1}\\
+	&amp;= 2\cdot\frac{y^4}{4}-\cancel{3}\cdot\frac{y^3}{\cancel{3}}+\frac{y}{1}+C \\
+	&amp;= \frac{y^4}{2}-y^3+y+C	\tagans
+\end{align*}\)</p>
+
+<p>$\example{3}$
+Evaluate the integral: $\int \br{5x^{-2}+\frac{2}{x^3}-3\sqrt{x}} \,dx$</p>
+
+<p>$\solution$ <br />
+\(\begin{align*}
+	\int \br{5x^{-2}+\frac{2}{x^3}-3\sqrt{x}} \,dx &amp;= \int \br{5x^{-2}+2x^{-3}-3x^{1/2}} \,dx \\
+	&amp;= \frac{5x^{-2+1}}{-2+1}+\frac{2x^{-3+1}}{-3+1}-\frac{3x^{\frac12+1}}{\frac12+1}+C \\
+	&amp;= \frac{5x^{-1}}{-1}+\frac{\cancel{2}x^{-2}}{-\cancel{2}}+\frac{\cancel{3}x^{3/2}}{\cancel{3}/2}+C \\
+	&amp;= -\frac{5}{x}-\frac{1}{x^2}+2x^{3/2}+C 		\tagans
+\end{align*}\)</p>
+
+<p>$\example{4}$
+Evaluate the integral: $\int \frac{3\sqrt{x}+2x^3}{x} \,dx$</p>
+
+<p>$\solution$ <br />
+If the case where the integrand is a fraction, where the numerator can be divided by the denominator,</p>
+
+\[\begin{align*}
+	\int \frac{3\sqrt{x}+2x^3}{x} \,dx &amp;= \int \frac{3x^{1/2}+2x^3}{x} \,dx \\
+	&amp;= \int \br{\frac{3x^{1/2}}{x}+\frac{2x^3}{x}} \,dx \\
+	&amp;= \int \br{3x^{-1/2}+2x^2} \,dx \\
+	&amp;= \frac{3x^{1/2}}{1/2}+\frac{2x^3}{3}+C \\
+	&amp;= 6\sqrt{x}+\frac23x^3+C 		\tagans
+\end{align*}\]
+
+<p>$\example{5}$
+Evaluate the integral: $\int (5x-2)^3 \,dx$</p>
+
+<p>$\solution$ <br />
+If we have encountered this type of problem while differentiating, we would probably use the chain rule. But in integration, we must first make sure that the integrand follows the format of the formulas of integration, which in this case is the ``General Power Rule for Integration (equation \ref{eq:integration - general power rule})’’. To simplify the integral, let $5x-2$ be represented by a variable,</p>
+
+<p>Let: $u &amp;= 5x-2 $</p>
+
+<p>Then,
+	\(\int (5x-2)^3 \,dx = \int u^3 dx\)
+However, in performing integration, the integrand must contain a uniform variable. In this case, we need to express all the variables in terms of $u$. Thus, even $dx$ must be replaced, to do that, we can first solve for the differential of $u$.
+\begin{flalign<em>}
+	\text{Hence,}\quad d(u) &amp;= d(5x-2) &amp; <br />
+	du &amp;= 5\,dx <br />
+	dx &amp;= \frac15 du
+\end{flalign</em>}
+Thus,
+\begin{align<em>}
+	\int (5x-2)^3 \,dx &amp;= \int u^3 \br{\frac15 du} <br />
+	&amp;= \frac15 \int u^3\,du <br />
+	&amp;= \frac15\br{\frac{u^4}{4}}+C <br />
+	&amp;= \frac{u^4}{20}+C
+\intertext{But $u=5x-2$,}
+	&amp;= \frac{(5x-2)^4}{20}+C	\tagans
+\end{align</em>}</p>
+
+<p>\example
+Evaluate the integral: $\int x\sqrt{2x^2-7} \,dx$</p>
+
+<p>\solution <br />
+In this example, to simplify the integral, we can replace the function inside the square root by a variable $u$. Furthermore, to simplify the process, we can immediately solve for its differential before replacing the previous variable to the integrand.
+\begin{flalign<em>}
+	\text{Let:}\quad u &amp;= 2x^2-7 &amp; <br />
+	du &amp;= 4x \,dx  <br />
+	x\,dx &amp;= \frac14 du
+\end{flalign</em>}
+%
+\begin{align<em>}
+	\int x\sqrt{2x^2-7} \,dx &amp;= \int x(2x^2-7)^{1/2}\,dx <br />
+	&amp;= \int (2x^2-7)^{1/2} \br{x\,dx} <br />
+	&amp;= \int u^{1/2} \br{\frac14 du} <br />
+	&amp;= \frac14\br{\frac{u^{3/2}}{3/2}}+C <br />
+	&amp;= \frac{2u^{3/2}}{12}+C <br />
+	&amp;= \frac{u^{3/2}}{6}+C <br />
+\intertext{Since $u=2x^2-7$,}
+	&amp;= \frac{(2x^2-7)^{3/2}}{6}+C	\tagans
+\end{align</em>}</p>
+
+:ET
