@@ -1,4 +1,4 @@
-I"Þ<p>In every mathematical course, or any course in general especially the advanced ones, there is always some particular concept the we first need to cover before we can confidently start the course. In calculus, the basic notion that we first need to fully grasp are functions. Functions have been present from algebra to analytic geometry. Almost all basic mathematics have already incorporated functions even without knowing what functions really are. Hence, starting our lesson with functions and grasping its concept will not be that complicated.</p>
+I"´<p>In every mathematical course, or any course in general especially the advanced ones, there is always some particular concept the we first need to cover before we can confidently start the course. In calculus, the basic notion that we first need to fully grasp are functions. Functions have been present from algebra to analytic geometry. Almost all basic mathematics have already incorporated functions even without knowing what functions really are. Hence, starting our lesson with functions and grasping its concept will not be that complicated.</p>
 
 <p>A function is a special relationship between an input and an output, where the value of the output depends on the value of the input, given that <em>for every input there can only be one output</em>. Imagine the function as a juicer, if you use it on an apple you cannot expect a different type of juice other than an apple juice (Figure 1). With this in mind, replacing the fruit will result to a different juice.</p>
 
@@ -103,6 +103,12 @@ Replace $x$ with 5 to the equation,</p>
 <p>We may use the definition of a function to determine whether or not an equation represents a function. Due to the fact that each input can only have one output, having two solutions to the same equation proves that the equation does not represent a function.</p>
 
 <p>In our future lectures, determining if an equation represents a function will be crucial since it will be one of the indicators of how a graph will behave.</p>
+
+<div class="youtube-wrapper">
+    <iframe src="https://www.youtube.com/embed/6z_hPcwd8DQ" allowfullscreen=""></iframe>
+  </div>
+
+<p><!-- https://www.chunkhang.com/blog/responsive-youtube-video-with-jekyll --></p>
 
 <hr />
 <p>$\example{2}$

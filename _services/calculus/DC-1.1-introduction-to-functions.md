@@ -109,6 +109,14 @@ In our future lectures, determining if an equation represents a function will be
 
 
 
+
+{% include youtube.html 
+    id="6z_hPcwd8DQ" 
+%}
+
+
+
+
 ---
 $\example{2}$
 Determine if the following equations represent a function: \
