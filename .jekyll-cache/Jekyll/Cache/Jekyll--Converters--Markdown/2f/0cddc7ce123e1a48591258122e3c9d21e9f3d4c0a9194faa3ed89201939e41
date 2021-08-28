@@ -1,0 +1,186 @@
+I"�<p>Odd and Even functions can be easily determined graphically based on its symmetry. A function is considered <strong>“even”</strong> if its graph is <strong>symmetrical with respect to the $y$-axis</strong> or the graph is reflected at the other side of the $y$-axis, while a function is considered as an <strong>“odd”</strong> function if its graph is <strong>symmetrical with respect to the origin</strong>.</p>
+
+<figure style="text-align: center;">
+  <img src="/images/content/DC/DC-1.8.3.png" alt="my alt text" width="500px" />
+  <figcaption><p></p></figcaption>
+</figure>
+
+<p>%A great importance in having the knowledge if an equation illustrates an Odd or Even function is when graphing it</p>
+
+<p>Having the knowledge if a function is Odd or Even is a great help in graphing the function, since we’ll be able to know its symmetry. 
+%
+In order to identify algebraically if a function is odd, even or neither, we need to replace $x$ with $-x$ in the function. If the result is \textit{equal to the original function}, then the function is \textit{even}; if it is the \textit{negative of the original function}, then the function is \textit{odd}; and if it is \textit{not of the two}, then the function is \textit{neither odd nor even}.</p>
+
+<p>\begin{tcolorbox}[ams align]
+	\text{Even Function} 		&amp;&amp; 	f(-x)&amp;=f(x)
+		\label{eq:even function}<br />
+	\text{Odd Function} 	&amp;&amp; 	f(-x)&amp;=-f(x)
+		\label{eq:odd function}
+\end{tcolorbox}</p>
+
+<p>\example
+Determine whether the function $f(x)=x^4+2x^2-3$ is odd, even, or neither</p>
+
+<p>\solution<br />
+\begin{minipage}{0.64\textwidth}
+%
+Replace $x$ with $-x$,
+\begin{align<em>}
+	f(-x) &amp;= (-x)^4+2(-x)^2-3 <br />
+	       &amp;= x^4+2x^2-3 
+\intertext{Since $f(x)=x^4+2x^2-3$, }
+	f(-x) &amp;= f(x)
+\end{align</em>}
+Hence, the function is Even
+%
+\end{minipage}
+\begin{minipage}{0.36\textwidth}
+\begin{center}
+%
+\begin{tikzpicture}[scale=\scaleC]
+\begin{axis}[xlabel=$x$, ylabel=$y$,
+	x=1cm/4,			y=1 cm/4,
+	xmin=-2.75<em>4,		ymin=-2.75</em>4, 			
+	xmax=2.75<em>4,		ymax=2.75</em>4,
+	xtick=false,		ytick=false,
+	axis x line=center, 	axis y line=middle, 
+	samples=100,
+	]
+	\addplot [colorA,very thick,smooth,samples=100,domain=-5:5] 
+		{x^4+2*x^2-3};
+\end{axis}
+\end{tikzpicture}
+%
+\end{center}
+\end{minipage}</p>
+
+<p>\example
+Determine whether the function $g(x)=5x^3-3x$ is odd, even, or neither</p>
+
+<p>\solution \par
+\begin{minipage}{0.64\textwidth}
+%
+Replace $x$ with $-x$,
+\begin{align<em>}
+	g(-x) &amp;= 5(-x)^3-3(-x) <br />
+		&amp;= -5x^3+3x  <br />
+		&amp;= -(5x^3-3x) <br />
+\intertext{Since $g(x)=5x^3-3x$,}
+	g(-x) &amp;=-g(x)
+\end{align</em>}
+Hence, the function is Odd
+%
+\end{minipage}
+\begin{minipage}{0.36\textwidth}
+\begin{center}
+%
+\begin{tikzpicture}[scale=\scaleC]
+\begin{axis}[sxy, xlabel=$x$, ylabel=$y$,]
+	\addplot [colorA,very thick,smooth,samples=100,domain=-2:2] 
+		{5<em>x^3-3</em>x};
+\end{axis}
+\end{tikzpicture}
+%
+\end{center}
+\end{minipage}</p>
+
+<p>\example
+Determine whether the function $\phi(x)=-2x^5+2x^3$ is odd, even, or neither</p>
+
+<p>\solution \par
+\begin{minipage}{0.64\textwidth}
+%
+Replace $x$ with $-x$,
+\begin{align<em>}
+	\phi(-x) &amp;= -2(-x)^5+2(-x)^3 <br />
+		     &amp;= 2x^5-2x^3  <br />
+		     &amp;= -(-2x^5+2x^3) <br />
+\intertext{Since $\phi(x)=-2x^5+2x^3$,}
+	\phi(-x) &amp;= -\phi(x)
+\end{align</em>}
+Hence, the function is Odd
+%
+\end{minipage}
+\begin{minipage}{0.36\textwidth}
+\begin{center}
+%
+\begin{tikzpicture}[scale=\scaleC]
+\begin{axis}[sxy, xlabel=$x$, ylabel=$y$,]
+	\addplot [colorA,very thick,smooth,samples=100,domain=-2:2] 
+		{-2<em>x^5+2</em>x^3};
+\end{axis}
+\end{tikzpicture}
+%
+\end{center}
+\end{minipage}</p>
+
+<p>\example
+Determine whether the function $F(x)=\frac{8}{x^2+3}$ is odd, even, or neither</p>
+
+<p>\solution <br />
+\begin{minipage}{0.64\textwidth}
+%
+Replace $x$ with $-x$,
+\begin{align<em>}
+	F(-x) &amp;= \frac{8}{(-x)^2+3} <br />
+		&amp;= \frac{8}{x^2+3} <br />
+	F(-x) &amp;= F(x)
+\end{align</em>}
+Hence, the function is Even
+%
+\end{minipage}
+\begin{minipage}{0.36\textwidth}
+\begin{center}
+%
+\begin{tikzpicture}[scale=\scaleC]
+\begin{axis}[xlabel=$x$, ylabel=$y$,
+	x=1cm/2,			y=1 cm/2,
+	xmin=-2.75<em>2,		ymin=-2.75</em>2, 			
+	xmax=2.75<em>2,		ymax=2.75</em>2,
+	xtick=false,		ytick=false,
+	axis x line=center, 	axis y line=middle, 
+	samples=100,
+	]
+	\addplot [colorA,very thick,smooth,samples=100,domain=-10:10] 
+		{8/(x^2+3)};
+\end{axis}
+\end{tikzpicture}
+%
+\end{center}
+\end{minipage}</p>
+
+<p>\example
+Determine whether $h(x)=2x^3-x^2-5x+2$ is odd, even, or neither</p>
+
+<p>\solution <br />
+\begin{minipage}{0.64\textwidth}
+%
+Replace $x$ with $-x$,
+	\begin{align<em>}
+		h(-x) &amp;= 2x^3-x^2-5x+2 <br />
+			&amp;= 2(-x)^3-(-x)^2-5(-x)+2  <br />
+			&amp;= -2x^3-x^2+5x+2 
+	\end{align</em>}
+	$h(-x) \neq h(x)$   and  $h(-x) \neq -h(x)$  hence, the function is neither odd nor even 
+%
+\end{minipage}
+\begin{minipage}{0.36\textwidth}
+\begin{center}
+%
+\begin{tikzpicture}[scale=\scaleC]
+\begin{axis}[xlabel=$x$, ylabel=$y$,
+	x=1cm/2,			y=1 cm/2,
+	xmin=-2.75<em>2,		ymin=-2.75</em>2, 			
+	xmax=2.75<em>2,		ymax=2.75</em>2,
+	xtick=false,		ytick=false,
+	axis x line=center, 	axis y line=middle, 
+	samples=100,
+	]
+	\addplot [colorA,very thick,smooth,samples=100,domain=-3:3] 
+		{2<em>x^3-x^2-5</em>x+2};
+\end{axis}
+\end{tikzpicture}
+%
+\end{center}
+\end{minipage}</p>
+:ET
