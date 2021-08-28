@@ -16,8 +16,9 @@ summary: Calculus, has a reputation of being one of the most dreaded subjects in
   - [Composite Functions](../calculus/DC-1.4-composite-functions)
   <!-- - Piecewise Functions -->
   - [Graph of Functions](../calculus/DC-1.6-graph-of-functions)
-  - Vertical Line Test
-  - Odd and Even Functions
+  - [Vertical Line Test](../calculus/DC-1.7-vertical-line-test)
+  - [Evaluating Functions From a Graph](../calculus/DC-1.8-evaluating-functions-from-a-graph)
+  - [Odd and Even Functions](../calculus/DC-1.9-odd-and-even-functions)
 - Limits and Continuity
   - Introduction to Limits
   - Theorem on Limits

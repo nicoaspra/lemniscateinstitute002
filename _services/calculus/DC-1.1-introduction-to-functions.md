@@ -13,7 +13,7 @@ A function is a special relationship between an input and an output, where the v
 {% include images.html 
     url= "DC/DC-1.1.1.png" 
     caption= "Figure 1: Relating a function as a fruit juicer"
-    size= "70%"
+    size= "350px"
 %}
 
 
@@ -43,14 +43,28 @@ Hence, if the input is 5 then the output of the function is 11
 
 **Phrases** are another way of representing functions.  For instance, "there are two oranges for every apple," Another way to express this is to use a tabular representation of a function by assigning values to the input and solving for the values of the output (see table 1.1). 
 
-|apple ($x$) | orange ($y$) |
+<!-- |apple ($x$) | orange ($y$) |
 |:---:|:---:|
 | 1 | 2  |
 | 2 | 4  |
 | 3 | 6  |
 | 4 | 8  |
-| 5 | 10 |
+| 5 | 10 | -->
 
+
+$$
+\begin{array}{cc}
+	\hline
+	\text{apple }(x) & \text{orange }(y) \\
+	\hline
+	1 & 2 \\
+	2 & 4 \\
+	3 & 6 \\
+	4 & 8 \\
+	5 & 10 \\
+	\hline
+\end{array}
+$$
 
 
 
@@ -61,7 +75,7 @@ Furthermore, we can still extend this and visualize the function by plotting it 
     url= "DC/DC-1.1.2.png" 
     caption= "Figure 2: Graphical representation of Table 1
 "
-    size= "50%"
+    size= "250px"
 %}
 
 
@@ -92,7 +106,7 @@ In graphing a function, the independent variable is placed at the horizontal axi
 {% include images.html 
     url= "DC/DC-1.1.3.png" 
     caption= "Figure 3: Placement of the dependent and the independent variable in a graph"
-    size= "50%"
+    size= "250px"
 %}
 
 

@@ -1,0 +1,10 @@
+I"<!-- <iframe src="https://www.desmos.com/calculator/g7izucn6nn" width="100%" style="min-height:400px"></iframe> -->
+
+<p>From the past lessons, we have already established a clear understanding of what a function is. But aside from equations and tables, functions can also be represented in the form of graphs. For example, a function of $f(x)=x^2$, can be tabulated by assigning values to $x$.</p>
+
+\[\begin{array}{c|ccccc}
+    V &amp; 0 &amp; 1 &amp; 8 &amp; 27 &amp; 64\\
+	\hline
+	x    &amp; 0 &amp; 1 &amp; 2 &amp; 3 &amp; 4
+\end{array}\]
+:ET

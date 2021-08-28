@@ -11,7 +11,7 @@ Another method of combining functions is by **composition**, where a function co
 {% include images.html 
     url= "DC/DC-1.4.1.png" 
     caption= "Figure 1"
-    size= "90%"
+    size= "500px"
 %}
 
 

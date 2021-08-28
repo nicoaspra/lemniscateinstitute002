@@ -1,0 +1,10 @@
+I"#<p>From our past lesson, we have already learned how to determine if an equation represents a function or not. 
+In this section, let us discuss how to determine if a graph represents a function or not using the Vertical Line Test.</p>
+
+<p>The method is relatively straightforward. If we can draw a vertical line that <strong>intersects the graph more than once</strong>, the graph is considered <strong>NOT A FUNCTION</strong> since a function must only have a single output for every input. Furthermore, the number of intersections of the graph and the vertical line represents the number of outputs the graph has at a specific input.</p>
+
+<figure style="text-align: center;">
+  <img src="/images/content/DC/DC-1.7.1.png" alt="my alt text" width="550px" />
+  <figcaption><p></p></figcaption>
+</figure>
+:ET

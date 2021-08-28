@@ -1,4 +1,4 @@
-I"Î	<h1 id="contents">Contents</h1>
+I"û	<h1 id="contents">Contents</h1>
 <ul>
   <li><a href="../calculus/DC-0.1-introduction-to-differential-calculus">Introduction to Differential Calculus</a></li>
   <li>Functions
@@ -8,8 +8,9 @@
       <li><a href="../calculus/DC-1.3-combining-functions">Combining Functions</a></li>
       <li><a href="../calculus/DC-1.4-composite-functions">Composite Functions</a>
 <!-- - Piecewise Functions --></li>
-      <li><a href="../calculus/DC-1.6-graph-of-functions">Graph of Functions</a></li>
-      <li>Vertical Line Test</li>
+      <li><a href="../calculus/DC-1.6-graph-of-functions">Graph of Functions</a>
+<!-- - Vertical Line Test --></li>
+      <li>Evaluating Functions From a Graph</li>
       <li>Odd and Even Functions</li>
     </ul>
   </li>
