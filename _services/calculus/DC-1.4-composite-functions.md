@@ -16,7 +16,7 @@ Another method of combining functions is by **composition**, where a function co
 
 
 
-If $f$ and $g$ are both functions of $x$, where $f$ is the outer function and $g$ is the inner function ($f$ is composed with $g$), the composite function is denoted as $(f \circ g)(x)=f(g(x))$, which is read as ``$f$ of $g$ of $x$''.
+If $f$ and $g$ are both functions of $x$, where $f$ is the outer function and $g$ is the inner function ($f$ is composed with $g$), the composite function is denoted as $(f \circ g)(x)=f(g(x))$, which is read as "$f$ of $g$ of $x$".
 
 {% include tcolorbox.html 
     details= "

@@ -113,7 +113,7 @@ $$
   <figcaption><p>Figure 1</p></figcaption>
 </figure>
 
-<p>If $f$ and $g$ are both functions of $x$, where $f$ is the outer function and $g$ is the inner function ($f$ is composed with $g$), the composite function is denoted as $(f \circ g)(x)=f(g(x))$, which is read as ``$f$ of $g$ of $x$’’.</p>
+<p>If $f$ and $g$ are both functions of $x$, where $f$ is the outer function and $g$ is the inner function ($f$ is composed with $g$), the composite function is denoted as $(f \circ g)(x)=f(g(x))$, which is read as “$f$ of $g$ of $x$”.</p>
 
 <p align="center" style="background-color:rgba(64, 130, 110, 0.07);
 border: 3px solid rgba(64, 130, 110, 0.9);
@@ -354,6 +354,19 @@ In this case, the composed function is one of the given,<br />
 
 
 
+<!-- Displaystyle -->
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Register.StartupHook("TeX Jax Ready",function () {
+  var TEX = MathJax.InputJax.TeX;
+  var PREFILTER = TEX.prefilterMath;
+  TEX.Augment({
+  prefilterMath: function (math,displaymode,script) {
+  math = "\\displaystyle{"+math+"}";
+  return PREFILTER.call(TEX,math,displaymode,script);
+  }
+  });
+  });
+</script>
 
 
 <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
@@ -443,6 +456,7 @@ In this case, the composed function is one of the given,<br />
         example: ['\\tcA{\\text{Example #1:}}',1],
         For: ['\\tcB{\\text{For (#1):}}',1],
         solution:  '\\tcB{\\textit{Solution:}}',
+        thrm: ['\\tcB{\\text{#1}}',1],
       }
     }
   });

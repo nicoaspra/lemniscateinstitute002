@@ -173,6 +173,7 @@ assigning values to $x$ that approaches $3$ from either sides:</p>
 
 <p>As $x$ approaches 3 from either sides, the function approaches to 2, and when $x$ is equal to 3, the function is also equal to 2. But you might ask yourself “what is the use of limits if it just behaves the same as a function’’. Yes, in this example $f(3)=2$, but this is not always the case, to further understand what a limit is, let us solve for the next problem.</p>
 
+<hr />
 <p>$\example{2}$
 Evaluate, $\lim_{x \to 2} \frac{x^2-4}{x-2} $</p>
 
@@ -193,11 +194,11 @@ By substituting $x$ to the function with $2$, the result will be $\frac{4-4}{2-2
 
 <p>The figure shows that the function approaches 4 as $x$ approaches 2 from either sides (left or right), except when $x$ is exactly equal to 2 where the function is undefined. But since a limit mostly cares about what it approaches regardless of the destination, we can say that the limit of the function is 4.</p>
 
-<iframe src="https://www.desmos.com/calculator/a0mqtvkrsy" width="100%" style="min-height:400px"></iframe>
+<iframe src="https://www.desmos.com/calculator/ykj58grx17" width="100%" style="min-height:300px"></iframe>
 
-<p>You can also try interacting with the graph above. If you try hovering your mouse close to $x=2$, you will get a value for $y$. However, when you arrive at EXACTLY $x=2$, the value of your $y$-component is undefined. This shows that even if $f(2)$ is undefined, we are still approaching a specific value, which is 4.</p>
+<p>You can also try interacting with the graph above. If you try hovering your cursor close to $x=2$, you will get a value for $y$. However, when you arrive at <strong>EXACTLY</strong> $x=2$, the value of your $y$-component is <strong>undefined</strong>. This shows that even if $f(2)$ is undefined, we are still approaching a specific value, which is 4.</p>
 
-<p>Moreover, the limit of this type of function can also be solved by simplifying the function first before substituting the value to the equation,</p>
+<p>Furthermore, the limit of this type of function can also be solved by simplifying the function first before substituting the value to the equation,</p>
 
 \[\begin{align*}
 	\lim_{x \to 2} \frac{x^2-4}{x-2} &amp;= \lim_{x \to 2} \frac{(x+2) \cancel{(x-2)} }{ \cancel{x-2} } \\
@@ -216,6 +217,19 @@ By substituting $x$ to the function with $2$, the result will be $\frac{4-4}{2-2
 
 
 
+<!-- Displaystyle -->
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Register.StartupHook("TeX Jax Ready",function () {
+  var TEX = MathJax.InputJax.TeX;
+  var PREFILTER = TEX.prefilterMath;
+  TEX.Augment({
+  prefilterMath: function (math,displaymode,script) {
+  math = "\\displaystyle{"+math+"}";
+  return PREFILTER.call(TEX,math,displaymode,script);
+  }
+  });
+  });
+</script>
 
 
 <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
@@ -305,6 +319,7 @@ By substituting $x$ to the function with $2$, the result will be $\frac{4-4}{2-2
         example: ['\\tcA{\\text{Example #1:}}',1],
         For: ['\\tcB{\\text{For (#1):}}',1],
         solution:  '\\tcB{\\textit{Solution:}}',
+        thrm: ['\\tcB{\\text{#1}}',1],
       }
     }
   });
@@ -327,21 +342,21 @@ By substituting $x$ to the function with $2$, the result will be $\frac{4-4}{2-2
     <a class="prev" href="/services/calculus/DC-1.9-odd-and-even-functions/">&laquo; Odd and Even Functions</a>
   
   
-    <a class="next" href="/services/calculus/DC-2.2-theorems-on-limits/">Theorem on Limits &raquo;</a>
+    <a class="next" href="/services/calculus/DC-2.2-properties-of-limits/">Properties of Limits &raquo;</a>
   
 </div> -->
 
 
 
 <!-- <div class="PageNavigation">
-    <a class="prev" href="../DC-1.9-odd-and-even-functions">&laquo; </a> <a class="next" href="../DC-2.2-theorems-on-limits"> &raquo;</a>
+    <a class="prev" href="../DC-1.9-odd-and-even-functions">&laquo; </a> <a class="next" href="../DC-2.2-properties-of-limits"> &raquo;</a>
 </div> -->
 
 
 
 <div class="PageNavigation">
   <a class="prev" href="../DC-1.9-odd-and-even-functions">&laquo; Previous</a> 
-  <a class="next" href="../DC-2.2-theorems-on-limits">Next &raquo;</a>
+  <a class="next" href="../DC-2.2-properties-of-limits">Next &raquo;</a>
 </div>
 
 

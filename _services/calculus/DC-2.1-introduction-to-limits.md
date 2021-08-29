@@ -1,7 +1,7 @@
 ---
 title: "Introduction to Limits"
 prevcontenturl: ../DC-1.9-odd-and-even-functions
-nextcontenturl: ../DC-2.2-theorems-on-limits
+nextcontenturl: ../DC-2.2-properties-of-limits
 ---
 
 
@@ -83,7 +83,7 @@ As $x$ approaches 3 from either sides, the function approaches to 2, and when $x
 
 
 
-
+---
 $\example{2}$
 Evaluate, $\lim_{x \to 2} \frac{x^2-4}{x-2} $
 
@@ -107,14 +107,14 @@ We can now plot the graph, where the function is defined for all real numbers ex
 The figure shows that the function approaches 4 as $x$ approaches 2 from either sides (left or right), except when $x$ is exactly equal to 2 where the function is undefined. But since a limit mostly cares about what it approaches regardless of the destination, we can say that the limit of the function is 4.
 
 
-<iframe src="https://www.desmos.com/calculator/a0mqtvkrsy" width="100%" style="min-height:400px"></iframe>
+<iframe src="https://www.desmos.com/calculator/ykj58grx17" width="100%" style="min-height:300px"></iframe>
 
 
-You can also try interacting with the graph above. If you try hovering your mouse close to $x=2$, you will get a value for $y$. However, when you arrive at EXACTLY $x=2$, the value of your $y$-component is undefined. This shows that even if $f(2)$ is undefined, we are still approaching a specific value, which is 4.
+You can also try interacting with the graph above. If you try hovering your cursor close to $x=2$, you will get a value for $y$. However, when you arrive at **EXACTLY** $x=2$, the value of your $y$-component is **undefined**. This shows that even if $f(2)$ is undefined, we are still approaching a specific value, which is 4.
 
 
 
-Moreover, the limit of this type of function can also be solved by simplifying the function first before substituting the value to the equation, 
+Furthermore, the limit of this type of function can also be solved by simplifying the function first before substituting the value to the equation, 
 
 $$
 \begin{align*}

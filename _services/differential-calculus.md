@@ -14,18 +14,15 @@ summary: Calculus, has a reputation of being one of the most dreaded subjects in
   - [Function Notation](../calculus/DC-1.2-function-notation)
   - [Combining Functions](../calculus/DC-1.3-combining-functions)
   - [Composite Functions](../calculus/DC-1.4-composite-functions)
-  <!-- - Piecewise Functions -->
+  <!--Piecewise Functions-->
   - [Graph of Functions](../calculus/DC-1.6-graph-of-functions)
   - [Vertical Line Test](../calculus/DC-1.7-vertical-line-test)
   - [Evaluating Functions From a Graph](../calculus/DC-1.8-evaluating-functions-from-a-graph)
   - [Odd and Even Functions](../calculus/DC-1.9-odd-and-even-functions)
 - Limits and Continuity
   - [Introduction to Limits](../calculus/DC-2.1-introduction-to-limits)
-  - [Theorem on Limits](../calculus/DC-2.2-theorems-on-limits)
+  - [Properties of Limits](../calculus/DC-2.2-properties-of-limits)
   - [Limits at Infinity](../calculus/DC-2.3-limits-at-infinity)
-    - Limits at Infinity of a Fraction
-    - Limits at Infinity of Polynomials
-    - Limits at Infinity of Rational Functions
   - [One-Sided Limits](../calculus/DC-2.4-one-sided-limits)
   - [Infinite Limits](../calculus/DC-2.5-infinite-limits)
   - [Limits of Functions with Absolute Value](../calculus/DC-2.6-limits-of-functions-with-absolute-value)

@@ -1,0 +1,48 @@
+I"ò<p>$thrm{Theorem}$
+The limit of any constant is equal to the constant.
+	\begin{tcolorbox}[ams align]
+		\lim_{x \to a} {c} = c
+	\end{tcolorbox}</p>
+
+<p>\thrm{Theorem}{}
+The limit of the product of a constant and a function is equal to the product of the constant and the limit of the function.
+	\begin{tcolorbox}[ams align]
+		\lim_{x \to a} {c \,f(x)}= c \lim_{x \to a} f(x)
+	\end{tcolorbox}</p>
+
+<p>\thrm{Theorem}{}
+The limit of the sum or difference of two or more functions is equal to the sum or difference of their limits.
+	\begin{tcolorbox}[ams align]
+		\lim_{x \to a} \left[ f(x) + g(x) \right] = \lim_{x \to a} f(x) + \lim_{x \to a}g(x)
+	\end{tcolorbox}</p>
+
+<p>\thrm{Theorem}{}
+The limit of the product of two or more functions is equal to the product of their limits.
+	\begin{tcolorbox}[ams align]
+		\lim_{x \to a} \left[ f(x) \cdot g(x) \right] = \lim_{x \to a}{f(x)} \cdot \lim_{x \to a}{g(x)} 
+	\end{tcolorbox}</p>
+
+<p>\thrm{Theorem}{}
+The limit of the quotient of two or more functions is equal to the quotient of their limits, provided the limit of the devisor is not zero.
+	\begin{tcolorbox}[ams align]
+		\lim_{x \to a} \frac{f(x)}{g(x)} = \frac{\lim_{x \to a} f(x) }{ \lim_{x \to a} g(x) }  , \hspace{10pt} where: \,   \lim_{x \to a} g(x) \neq 0
+	\end{tcolorbox}</p>
+
+<p>\thrm{Theorem}{}
+The limit of a power of a function is equal to the power of the limit.
+	\begin{tcolorbox}[ams align]
+		\lim_{x \to a} \left[ f(x) \right] ^n =\left[ \lim_{x \to a} f(x) \right]^n
+	\end{tcolorbox}</p>
+
+<p>\thrm{Theorem}{}
+The limit of the root of a function is equal to the root of their limits.
+	\begin{tcolorbox}[ams align]
+		\lim_{x \to a}{ \sqrt[n]{f(x)} } = \sqrt[n]{ \lim_{x \to a} {f(x)} }
+	\end{tcolorbox}</p>
+
+<p>\thrm{Theorem}{}
+The limit of $\frac{ \sin \theta }{\theta}$ as $\theta$ approaches zero is equal to 1, given that the angle $\theta$ is in radians.
+	\begin{tcolorbox}[ams align]
+		\lim_{\theta \to 0}{\frac{ \sin \theta }{\theta}} =1 , \hspace{10pt} where: \theta \; \text{is in radians}
+	\end{tcolorbox}</p>
+:ET

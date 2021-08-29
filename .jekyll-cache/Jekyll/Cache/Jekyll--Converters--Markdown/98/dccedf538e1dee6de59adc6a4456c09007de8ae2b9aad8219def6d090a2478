@@ -1,0 +1,303 @@
+I"�0<p>Infinity is a mathematical concept that describes anything that has no bounds and is usually denoted by the symbol “$\infty$”. Infinity can specify an infinitely large or infinitely small quantity, and a positive “$+$” or negative “$-$” sign is written before the infinity symbol to indicate its direction on the number line.</p>
+
+<figure style="text-align: center;">
+  <img src="/images/content/DC/DC-2.3.1.png" alt="my alt text" width="400px" />
+  <figcaption><p>Figure 1: Number Line</p></figcaption>
+</figure>
+
+<h2 id="limits-at-infinity-of-a-fraction">Limits at Infinity of a Fraction</h2>
+
+<p>Consider a pizza sliced into 8 equal parts (Figure 2a), each one will get $\frac{1}{8}$ or 0.125 part of the pizza. If it is sliced to 50 parts, each will get $\frac{1}{50}$ or 0.02 part of the pizza (Figure 2b). 
+And as the number of slices $x$ increases, the size of each slice $n$ decreases.  Hence, $x$ and $n$ are inversely proportional to each other $\frac{1}{x}=n$.</p>
+
+<figure style="text-align: center;">
+  <img src="/images/content/DC/DC-2.3.2.png" alt="my alt text" width="550px" />
+  <figcaption><p>Figure 2: Pizza Slice</p></figcaption>
+</figure>
+
+<p>So, if the pizza is divided into infinite pieces, the size of each slice cannot be simply measured since $\frac{1}{\infty}$ is undefined. But if we use the concept of limits and <strong>approach</strong> the number of slices to infinity, the size of each piece will approach zero.</p>
+
+\[\lim\limits_{x \to \infty}\frac{1}{x}=0\]
+
+<p>This can also be shown by graphing the function $y =\frac{1}{x}$ (Figure 3), 
+which denotes not only as $x$ approaches infinity is equal to zero, but also as $x$ approaches negative infinity.</p>
+
+<figure style="text-align: center;">
+  <img src="/images/content/DC/DC-2.3.3.png" alt="my alt text" width="300px" />
+  <figcaption><p>Figure 3: Graphical representation of $f(x)=\frac1x$</p></figcaption>
+</figure>
+
+<p align="center" style="background-color:rgba(64, 130, 110, 0.07);
+border: 3px solid rgba(64, 130, 110, 0.9);
+border-radius:7px;
+padding:10px;
+margin:5px;">
+    $$\begin{align}
+		\lim_{x \to \infty}\frac{1}{x}=\lim_{x \to -\infty}\frac{1}{x}=\lim_{x \to \pm\infty}\frac{1}{x}=0
+		\label{eq:limits at infinity of a fraction}
+	\end{align}$$
+</p>
+
+<hr />
+<p>$\example{}$
+Evaluate the following limits:
+\enuexample{
+	\item $\lim_{x\to\infty}\frac{7}{x}$
+	\item $\lim_{x\to-\infty}\frac{7}{x}$
+	}</p>
+
+<p>$\solution$ <br />
+$\For{a}$<br />
+Factor the expression,
+\begin{align<em>}
+	\lim_{x\to\infty}\frac{7}{x} &amp;= \lim_{x\to\infty} \br{ 7 \cdot \frac{1}{x} } <br />
+	&amp;= 7 \cdot \lim_{x\to\infty}\frac{1}{x}  <br />
+\intertext{Since $\lim_{x \to\infty}\frac{1}{x}=0$,}
+	&amp;= 7(0) <br />
+	&amp;= 0	\tagans
+\end{align</em>}</p>
+
+<p>$\For{}$<br />
+Since, $\lim_{x \to\pm\infty}\frac{1}{x}=0$. Whether $x$ approaches to infinity or negative infinity, the answer would still be the same.
+\begin{align<em>}
+	\lim_{x\to-\infty}\frac{7}{x} &amp;= 0	\tagans
+\end{align</em>}</p>
+
+<hr />
+<p>$\example{}$
+Evaluate the following limits:
+\enuexample{
+	\item $\lim_{x\to\infty} \frac{25}{3x^3}$
+	\item $\lim_{x\to-\infty} \frac{25}{3x^3}$
+	}</p>
+
+<p>$\solution$ <br />
+$\For{}$<br />
+Factor the expression,
+\begin{align<em>}
+	\lim_{x\to\infty}\frac{25}{3x^3} &amp;= \lim_{x\to\infty} \br{ \frac{25}{3} \cdot \frac{1}{x} \cdot \frac{1}{x} \cdot \frac{1}{x} } <br />
+	&amp;= \frac{25}{3}(0)(0)(0) <br />
+	&amp;= 0	\tagans
+\end{align</em>}</p>
+
+<p>$\For{}$<br />
+As you have noticed, as long as $x$ or any multiple of $x$ is the denominator of the function, its limit as $x$ approaches to either positive or negative infinity is always zero.
+\begin{align<em>}
+	\lim_{x\to-\infty}\frac{25}{3x^3} &amp;= 0	\tagans
+\end{align</em>}</p>
+
+<hr />
+<p>$\example{}$
+Evaluate the limit, $\lim_{x\to\infty} \frac{20x-6}{x}$</p>
+
+<p>$\solution$ <br />
+Simplify the expression,
+\begin{align<em>}
+	\lim_{x\to\infty} \frac{20x-6}{x} &amp;= \lim_{x\to\infty} \br{ \frac{20x}{x}-\frac{6}{x} } <br />
+	&amp;= \lim_{x\to\infty} \br{ 20-\frac{6}{x} } <br />
+	&amp;= 20-0<br />
+	&amp;=20 \tagans
+\end{align</em>}</p>
+
+<p>\subsection{Limits at Infinity of Polynomials}</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>The limit of any polynomial as $x$ approaches $\pm\infty$ has a limit of positive or negative infinity $\pm\infty$, where the sign of the limit will depend on %the sign of  the \textit{leading term} $ax^n$.  Since it bears the largest exponent, $x^n$ increases (or decreases if its negative) much faster compared to the other terms.
+
+
+\begin{tcolorbox}[ams align]
+	\lim\limits_{x \to \pm\infty}(ax^n+bx^{n-1}+cx^{n-2}+\cdots)=\pm\infty
+	\label{eq:limits at infinity of a polynomial}
+\end{tcolorbox}
+</code></pre></div></div>
+
+<hr />
+<p>$\example{}$ 
+Evaluate the following limits:
+\enuexample{
+	\item $\lim_{x\to\infty} (7x^2)$
+	\item $\lim_{x\to-\infty} (7x^2)$
+	}</p>
+
+<p>$\solution$ <br />
+$\For{}$
+\begin{align<em>}
+	\lim_{x\to\infty} (7x^2) &amp;= 7(\infty)^2 <br />
+\intertext{Squaring infinity would result to a larger infinity, which is still infinity.}
+	&amp;= 7(\infty) <br />
+\intertext{And any number multiplied to infinity would become insignificant. Thus,}
+	&amp;= \infty	\tagans
+\end{align</em>}</p>
+
+<p>$\For{}$
+\begin{align<em>}
+	\lim_{x\to-\infty} (7x^2) &amp;= 7(-\infty)^2 <br />
+\intertext{Squaring any negative number would result to positive. Thus,}
+	&amp;= 7(\infty) <br />
+	&amp;= \infty	\tagans
+\end{align</em>}</p>
+
+<hr />
+<p>$\example{}$
+Evaluate the following limits:
+\enuexample{
+	\item $\lim_{x\to\infty} (7x+2-x^3)$
+	\item $\lim_{x\to-\infty} (7x+2-x^3)$
+	}</p>
+
+<p>$\solution$ <br />
+$\For{}$<br />
+In this example, the leading term is $-x^3$ since its exponent has the highest power. With this, all the other terms would become insignificant. Hence, we can focus our attention to this term.
+\begin{align<em>}
+	\lim_{x\to\infty} (7x+2-x^3) &amp;= \lim_{x\to\infty} (\cancel{7x}+\cancel{2}-x^3) <br />
+	&amp;= \lim_{x\to\infty} (-x^3)<br />
+	&amp;= -(\infty)^3 <br />
+	&amp;= -\infty	\tagans
+\end{align</em>}</p>
+
+<p>$\For{}$
+\begin{align<em>}
+	\lim_{x\to-\infty} (7x+2-x^3) &amp;= \lim_{x\to\infty} (\cancel{7x}+\cancel{2}-x^3) <br />
+	&amp;= \lim_{x\to-\infty} (-x^3)<br />
+	&amp;= -(-\infty)^3 <br />
+	&amp;= -(-\infty) <br />
+	&amp;= \infty	\tagans
+\end{align</em>}</p>
+
+<p>%—
+$\example{}$
+%$4x^3-x^2+1-x^5$</p>
+
+<hr />
+<p>$\example{}$
+Evaluate the following limits:
+\enuexample{
+	\item $\lim_{x\to\infty} (-20x^{-7}+3x^{-5})$
+	\item $\lim_{x\to-\infty} (-20x^{-7}+3x^{-5})$
+	}</p>
+
+<p>$\solution$ <br />
+$\For{}$<br />
+In this example, all the variables contains negative exponents. So,
+\begin{align<em>}
+	\lim_{x\to\infty} (-20x^{-7}+3x^{-5}) &amp;= \lim_{x\to\infty} \br{ -\frac{20}{x^7}+\frac{3}{x^5} } <br />
+	&amp;= \lim_{x\to\infty} \br{ -\frac{20}{x^7}}+\lim_{x\to\infty} \br{\frac{3}{x^5} } <br />
+	&amp;= 0+0 <br />
+	&amp;= 0	\tagans
+\end{align</em>}</p>
+
+<p>$\For{}$
+\begin{align<em>}
+	\lim_{x\to-\infty} (-20x^{-7}+3x^{-5}) &amp;= \lim_{x\to-\infty} \br{ -\frac{20}{x^7}+\frac{3}{x^5} } <br />
+	&amp;= \lim_{x\to-\infty} \br{ -\frac{20}{x^7}}+\lim_{x\to-\infty} \br{\frac{3}{x^5} } <br />
+	&amp;= 0+0 <br />
+	&amp;= 0	\tagans
+\end{align</em>}</p>
+
+<p>%—
+$\example{}$
+%Evaluate the limit, $\lim_{x\to\infty} \frac{4}{x^2+1}$
+%
+%
+%$\solution$ 
+%\begin{align<em>}
+%	\lim_{x\to\infty} \frac{4}{x^2+1} &amp;= \frac{\lim\limits_{x\to\infty} 4}{\lim\limits_{x\to\infty} (x^2+1)} <br />
+%\intertext{If we solve for the denominator, we would get positive infinity. Thus,}
+%	&amp;= \lim_{x\to\infty} \frac{4}{\infty} <br />
+%\intertext{Since, $\lim_{x\to\pm\infty}\frac{1}{x}=0$,}
+%	&amp;= 0		\tagans
+%\end{align</em>}</p>
+
+<p>\erule</p>
+
+<p>\subsection{Limits at Infinity of Rational Functions}
+	Evaluating limits of a rational function may require an extra step or two before we can determine its limit.
+But with a little help from algebra, we can transform the function in such a way that we can use equation 
+\ref{eq:limits at infinity of a fraction} or \ref{eq:limits at infinity of a polynomial} to determine its limit.
+%
+We can first divide both the numerator and the denominator by the variable with the highest exponent
+%
+%that can be found at the denominator
+%
+in order to use equation \ref{eq:limits at infinity of a fraction} to the terms that has a variable for its denominator. But the limit of the function will still differ depending on the degree of the numerator and the denominator.</p>
+
+<p>%In order to determine the limit of a rational function, both the numerator and the denominator can be divided by the variable with the highest exponent in order to use $\lim\limits_{x \to \pm\infty}\frac{1}{x}=0$ to the terms that has a variable for its denominator. The limit of the function will differ depending on the degree of the numerator and the denominator.</p>
+
+<p>%As we have observed, the limit of a rational function only differs depending on the degree of the numerator or the denominator. So we ca</p>
+
+<p>\case{I} The numerator and the denominator has the same degree</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>\begin{tcolorbox}[ams align]
+	\lim\limits_{x \to \pm\infty}\frac{ax^n+cx^{n-1}+ex^{n-2}+\cdots}
+	{bx^n+dx^{n-1}+fx^{n-2}+\cdots}=\frac{a}{b}
+\end{tcolorbox}
+</code></pre></div></div>
+
+<p>\case{II} The degree of the numerator is less than the degree of the denominator $n&lt;m$</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>\begin{tcolorbox}[ams align]
+	\lim\limits_{x \to \pm\infty}\frac{ax^n+cx^{n-1}+ex^{n-2}+\cdots}
+	{bx^m+dx^{m-1}+fx^{m-2}+\cdots}=0
+\end{tcolorbox}
+</code></pre></div></div>
+
+<p>\case{III} The degree of the numerator is greater than the degree of the denominator $n&gt;m$</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>\begin{tcolorbox}[ams align]
+	\lim\limits_{x \to \pm\infty}\frac{ax^n+cx^{n-1}+ex^{n-2}+\cdots}
+	{bx^m+dx^{m-1}+fx^{m-2}+\cdots}= \pm\infty
+\end{tcolorbox}
+</code></pre></div></div>
+
+<hr />
+<p>$\example{}$
+Evaluate the limit, $\lim_{x\to\infty} \frac{3x^4+4x-2}{7+2x^4}$.</p>
+
+<p>$\solution$ <br />
+Start by dividing both the numerator and the denominator by the variable with the highest power, which in this case is $x^4$
+\begin{align<em>}
+	\lim_{x\to\infty} \frac{3x^4+4x-2}{7+x^4} &amp;= \lim_{x\to\infty} \frac{(3x^4/x^4)+(4x/x^4)-(2/x^4)}{(7/x^4)+(2x^4/x^4)} <br />
+	&amp;= \lim_{x\to\infty} \frac{3+(4/x^3)-(2/x^4)}{(7/x^4)+2} <br />
+\intertext{Since, $\lim_{x\to\pm\infty} \frac{1}{x}=0$}
+	&amp;= \lim_{x\to\infty} \frac{3+\cancelto{0}{(4/x^3)}-\cancelto{0}{(2/x^4)}}{\cancelto{0}{(7/x^4)}+2} <br />
+	&amp;= \frac{3+0-0}{0+2} <br />
+	&amp;= \frac{3}{2}	\tagans
+\end{align</em>}</p>
+
+<hr />
+<p>$\example{}$
+Evaluate the limit, $\lim_{x\to-\infty} \frac{3x+4}{5x^2-7}$.</p>
+
+<p>$\solution$ <br />
+Divide the numerator and the denominator by $x^2$,
+\begin{align<em>}
+	\lim_{x\to-\infty} \frac{3x+4}{5x^2-7} &amp;= \lim_{x\to-\infty} \frac{(3x/x^2)+(4/x^2)}{(5x^2/x^2)-(7/x^2)} <br />
+	&amp;= \lim_{x\to-\infty} \frac{(3/x)+(4/x^2)}{5-(7/x^2)} <br />
+	&amp;= \frac{0+0}{5-0} <br />
+	&amp;= 0 	\tagans
+\end{align</em>}</p>
+
+<hr />
+<p>$\example{}$
+Evaluate the following limits of the function $f(x)=\frac{x^3-2x}{5x^2+1}$ as $x$ approaches (a) infinity, and (b) negative infinity.</p>
+
+<p>$\solution$ <br />
+$\For{}$<br />
+For cases that the degree of the denominator is greater than the numerator, divide the numerator and the denominator by the variable with the highest power found on the denominator, which in this case is $x^2$
+\begin{align<em>}
+	\lim_{x\to\infty} \frac{x^3-2x}{5x^2+1} &amp;= \lim_{x\to\infty} \frac{(x^3/x^2)-(2x/x^2)}{(5x^2/x^2)+(1/x^2)} <br />
+	&amp;= \lim_{x\to\infty} \frac{(x)-(2/x)}{(5)+(1/x^2)} <br />
+	&amp;= \lim_{x\to\infty} \frac{(x)-\cancelto{0}{(2/x)}}{(5)+\cancelto{0}{(1/x^2)}} <br />
+	&amp;= \lim_{x\to\infty} \frac{x}{5} <br />
+	&amp;= \frac{1}{5}(\infty) <br />
+	&amp;= \infty	\tagans
+\end{align</em>}</p>
+
+<p>$\For{}$
+\begin{align<em>}
+	\lim_{x\to-\infty} \frac{x^3-2x}{5x^2+1} &amp;= \lim_{x\to-\infty} \frac{(x^3/x^2)-(2x/x^2)}{(5x^2/x^2)+(1/x^2)} <br />
+	&amp;= \lim_{x\to-\infty} \frac{(x)-\cancelto{0}{(2/x)}}{(5)+\cancelto{0}{(1/x^2)}} <br />
+	&amp;= \frac{1}{5}(-\infty) <br />
+	&amp;= -\infty	\tagans
+\end{align</em>}</p>
+
+:ET
