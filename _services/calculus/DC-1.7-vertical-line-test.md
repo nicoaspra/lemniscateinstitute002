@@ -5,7 +5,7 @@ nextcontenturl: ../DC-1.8-evaluating-functions-from-a-graph
 ---
 
 
-From our [past lesson](https://youtu.be/6z_hPcwd8DQ), we have already learned how to determine if an equation represents a function or not. 
+From our past lesson, we have already learned how to [determine if an equation represents a function or not](https://youtu.be/6z_hPcwd8DQ). 
 In this section, let us discuss how to determine if a graph represents a function or not using the Vertical Line Test.
 
 The method is relatively straightforward. If we can draw a vertical line that **intersects the graph more than once**, the graph is considered **NOT A FUNCTION** since a function must only have a single output for every input. Furthermore, the number of intersections of the graph and the vertical line represents the number of outputs the graph has at a specific input.

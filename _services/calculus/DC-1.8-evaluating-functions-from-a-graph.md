@@ -5,7 +5,7 @@ nextcontenturl: ../DC-1.9-odd-and-even-functions
 ---
 
 
-We can evaluate functions by interpreting its graph. From our past lesson, we already have learned about [Function Notation](../DC-1.2-function-notation.md) as well as the placement of each variable on the Cartesian Plane. To review, the input can be located inside the parenthesis in Function Notation or the Horizontal Axis on the Cartesian Plane. On the other hand, the output is on the other side of the equation in Function Notation or on the Vertical Axis on the Cartesian Plane.
+We can evaluate functions by interpreting its graph. From our past lesson, we already have learned about [Function Notation](../DC-1.2-function-notation) as well as the placement of each variable on the Cartesian Plane. To review, the input can be located inside the parenthesis in Function Notation or the Horizontal Axis on the Cartesian Plane. On the other hand, the output is on the other side of the equation in Function Notation or on the Vertical Axis on the Cartesian Plane.
 
 ---
 $\example{1}$

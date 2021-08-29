@@ -1,0 +1,43 @@
+I"	<p>Before attempting to answer problems in Limits, it is necessary to familiarize ourselves with its notation. Consider $f(x)$ as a function of $x$ and $a$ as a constant. In order for the function $f(x)$ to get relatively close to the Limit $L$, $x$ must be sufficiently close to $a$. This is denoted as,</p>
+
+<p align="center" style="background-color:rgba(64, 130, 110, 0.07);
+border: 3px solid rgba(64, 130, 110, 0.9);
+border-radius:7px;
+padding:10px;
+margin:5px;">
+    $$\begin{align}
+        \lim_{x \to a}{f(x)}  = L
+    \end{align}$$
+</p>
+
+<p>which is read ``the limit of the function of $x$, as $x$ approaches $a$ is $L$’’. This can also be presented as,</p>
+
+<p align="center" style="background-color:rgba(64, 130, 110, 0.07);
+border: 3px solid rgba(64, 130, 110, 0.9);
+border-radius:7px;
+padding:10px;
+margin:5px;">
+    $$\begin{align}
+	    f(x) \to L , \, \text{as} \, x \to a  
+    \end{align}$$
+</p>
+
+<p>which is read “$f(x)$ approaches $L$, as $x$ approaches $a$”</p>
+
+<p>To illustrate this, let us attempt to solve a few problems.</p>
+
+<hr />
+<p>$\example{1}$
+Evaluate, $\lim\limits_{x \to 3}{(x-1)} $</p>
+
+<p>$\solution$ <br />
+In evaluating limits, it is best first to try to substitute the value of $a$ to the function. In this case, if we replace $x$ with 3, we end up with a value.</p>
+
+\[\begin{align*}
+	\lim_{x \to 3}{(x-1)} &amp;= 3-1\\
+	&amp;= 2		\tagans
+\end{align*}\]
+
+<p>But let’s try to solve this using the definition of what a limit is by
+assigning values to $x$ that approaches $3$ from either sides:</p>
+:ET
