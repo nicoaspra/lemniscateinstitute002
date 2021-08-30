@@ -37,7 +37,7 @@ Start with the outer function $f$,
 
 $$
 \begin{align*}
-	f(x) &= 2x+5 \\
+	f( {\tcB{x}} ) &= 2{\tcB{x}}+5 \\
 \end{align*}
 $$
 
@@ -45,7 +45,7 @@ Then replace $x$ with $g(x)$,
 
 $$
 \begin{align*}
-	f( \tcA{g(x)} ) &= 2(\tcA{g(x)}) + 5
+	f( {\tcB{g(x)}} ) &= 2({\tcB{g(x)}}) + 5
 \end{align*}
 $$
 
@@ -53,7 +53,7 @@ Since $g(x)=3x-4$,
 
 $$
 \begin{align*}
-	f(\tcA{g(x)}) &= 2(\tcA{3x-4}) + 5 \\
+	f({\tcB{g(x)}}) &= 2({\tcB{3x-4}}) + 5 \\
 	&= 6x-8+5 \\
 	&= 6x-3
 \end{align*}
