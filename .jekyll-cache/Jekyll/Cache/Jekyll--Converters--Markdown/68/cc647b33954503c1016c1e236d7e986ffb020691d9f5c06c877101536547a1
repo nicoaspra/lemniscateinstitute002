@@ -1,6 +1,6 @@
-I"�<p>From the previous section, we have tried to solve some problems involving vector addition and subtraction. However, we were restricted with either parallel or perpendicular vectors since we can easily apply the Pythagorean Theorem to such problems. More often than not, we will find ourselves solving problems that don’t fit such a situation. Hence, it is best that we must learn how to break down vectors into manageable components.</p>
+I":<p>From the <a href="../2.2-vector-addition-and-subtraction">previous section</a>, we have tried to solve some problems involving vector addition and subtraction. However, we were restricted with either parallel or perpendicular vectors since we can easily apply the Pythagorean Theorem to such problems. More often than not, we will find ourselves solving problems that don’t fit such a situation. Hence, it is best that we must learn how to <em>break down vectors into manageable components</em>.</p>
 
-<p>A vector that lies on a cartesian plane that’s neither horizontal nor vertical can be broken down into two vectors. Consider \fref{fig:component of vectors 1}, vectors $\vv{A_x}$ and $\vv{A_y}$ are the component vectors of vector $\vv{A}$. This can also be interpreted as the sum of the component vectors, which equals to $\vv{A}$.</p>
+<p>A vector that lies on a cartesian plane that’s neither horizontal nor vertical can be broken down into two vectors. Consider Figure 1, vectors $\vv{A_x}$ and $\vv{A_y}$ are the component vectors of vector $\vv{A}$. This can also be interpreted as the sum of the component vectors, which equals to $\vv{A}$.</p>
 
 <p>If we are to look at this from a different perspective, we have just reversed the process of adding perpendicular vectors. Thus, rather than obtaining the resultant, the resultant is given, and the components are the two vectors to be added.</p>
 
@@ -27,7 +27,7 @@ margin:5px;">
 	\tan\theta &amp;= \ufrac{opposite}{adjacent}=\frac{A_y}{A_x}
 \end{align*}\]
 
-<p>Given the magnitude and the direction $\theta$ of a vector, we can solve its $x$ and $y$ components by,</p>
+<p>Given the <strong>magnitude</strong> and the <strong>direction $\theta$</strong> of a vector, we can solve its $x$ and $y$ components by,</p>
 
 \[\begin{align*}
 	\cos\theta&amp; =\frac{A_x}{A} &amp;	\sin\theta &amp;= \frac{A_y}{A} \\
@@ -164,7 +164,7 @@ Vector $\vv{A}$ has an $x$-component of $-32.0$ m and makes an angle of $19\degg
 <p>$\solution$</p>
 
 <figure style="text-align: center;">
-  <img src="/images/content/phys1/phys1-2.3.7.png" alt="my alt text" width="250px" />
+  <img src="/images/content/phys1/phys1-2.3.7.png" alt="my alt text" width="300px" />
   <figcaption><p></p></figcaption>
 </figure>
 
