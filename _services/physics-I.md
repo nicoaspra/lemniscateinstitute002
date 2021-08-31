@@ -14,19 +14,9 @@ summary: Have you ever wondered how a car can easily pass a bike, why a rainbow 
 	- [Metric System and SI Prefixes](1.2-metric-system-and-SI-prefixes)
 	- [Conversion of Units](1.3-conversion-of-units)
 - Scalars and Vectors
-	- Introduction to Scalars and Vectors
-	- Vectors
-		- Magnitude of a Vector
-		- Types of Vectors
-			- Parallel
-			- Equal
-			- Negative
-	- Vector Addition and Subtraction
-		- Graphical Addition of Vectors
-			- Tip to Tail Method
-			- Parallelogram Method
-		- Addition of Perpendicular Vectors 
-		- Components of Vectors
+    - [Introduction to Scalars and Vectors](2.1-introduction-to-scalars-and-vectors)
+	- [Vector Addition and Subtraction](2.2-vector-addition-and-subtraction)
+	- [Components of Vectors](2.3-components-of-vectors)
 - One-Dimensional Kinematics
 	- Distance and Displacement
 	- Speed and Velocity
