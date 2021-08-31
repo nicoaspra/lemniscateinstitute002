@@ -1,0 +1,172 @@
+I"�"<p>Before we can learn how to add and subtract vectors, we must first familiarize ourselves with some of the common types of vectors. Therefore, in this section, we will explore only a few of its types that can help us better understand how vectors work.</p>
+
+<h3 id="equal-vectors">Equal Vectors</h3>
+<p>Vectors with the <strong>same magnitude and direction</strong> are considered equal regardless of their location. Thus, even if their start and end positions differ, they are still deemed equal as long as their attributes remain unchanged. With this in mind, we can reposition vectors without affecting their value.</p>
+
+<figure style="text-align: center;">
+  <img src="/images/content/phys1/phys1-2.2.1.png" alt="my alt text" width="200px" />
+  <figcaption><p>Figure 1: Equal vectors</p></figcaption>
+</figure>
+
+<h3 id="negative-of-a-vector">Negative of a Vector</h3>
+<p>If two vectors have the <strong>same magnitude but opposite in direction</strong>, one vector is the negative vector of the other. In Figure 2, vector $\vv{B}$ is equal to the negative of vector $\vv{A}$, $\vv{B}=-\vv{A}$, or vice versa $\vv{A}=-\vv{B}$.</p>
+
+<figure style="text-align: center;">
+  <img src="/images/content/phys1/phys1-2.2.2.png" alt="my alt text" width="200px" />
+  <figcaption><p>Figure 2: Negative of a vector</p></figcaption>
+</figure>
+
+<h1 id="vector-addition">Vector Addition</h1>
+
+<p>The <strong>addition of vectors</strong> is not as straightforward as adding scalar quantities.
+For us to fully grasp the concept, let us have an example. Say a man walks $7\un{m}$ to the right, then $5\un{m}$ to the opposite direction (see Figure 3), the total <strong>distance</strong> (scalar) traveled by the man is $5\un{m} + 7\un{m} = 12 \un{m}$, but its <strong>displacement</strong> (vector) is $2\un{m}$ to the right.
+Note that the direction of the resultant vector points the object’s initial position to its final position.</p>
+
+<figure style="text-align: center;">
+  <img src="/images/content/phys1/phys1-2.2.3.png" alt="my alt text" width="400px" />
+  <figcaption><p>Figure 3: Addition of parallel vectors</p></figcaption>
+</figure>
+
+<p>On the other hand, to add vectors that are <strong>not parallel to one another</strong>, we will need some trigonometry skills. However, in this lesson, we will concentrate on its graphical representation in order to visualize the vectors before attempting to solve such problems.</p>
+
+<p>Consider Figure 4a, if we are to find the sum of the two vectors, $\vv{A}+\vv{B}$. We can solve it by placing the tail of vector $\vv{B}$ at the tip of the vector $\vv{A}$ (Figure 4b), then connecting the tail of $\vv{A}$ to the tip of $\vv{B}$; thus, giving us a resulting vector $\vv{R}$, which we now call the <strong>vector sum</strong> or the <strong>resultant</strong>. We would also arrive at the same results even if we reverse the order (Figure 4c). Furthermore, we could also add the vectors by constructing a parallelogram (Figure 4d).</p>
+
+<figure style="text-align: center;">
+  <img src="/images/content/phys1/phys1-2.2.4.png" alt="my alt text" width="600px" />
+  <figcaption><p>Figure 4: Addition of two non-parallel vectors</p></figcaption>
+</figure>
+
+<p>This method can also be used when there are more than two vectors involved, and the order of the vectors would still not matter (Figure 5) $\vv{R}=\vv{A}+\vv{B}+\vv{C}$.</p>
+
+<figure style="text-align: center;">
+  <img src="/images/content/phys1/phys1-2.2.5.png" alt="my alt text" width="550px" />
+  <figcaption><p>Figure 5: Addition of three non-parallel vectors</p></figcaption>
+</figure>
+
+<h1 id="vector-subtraction">Vector Subtraction</h1>
+
+<p>In subtracting vectors, say if we are to find the resultant of $\vv{A}-\vv{B}$ (Figure 6). Bear in mind that getting the negative of a vector causes it to point in the opposite direction. Thus, by finding the negative of the subtrahend, we may now add the vectors rather than subtract them.</p>
+
+\[\begin{align*}
+	\vv{R} &amp;= \vv{A}-\vv{B} \\
+	&amp;= \vv{A}+(-\vv{B})
+\end{align*}\]
+
+<figure style="text-align: center;">
+  <img src="/images/content/phys1/phys1-2.2.6.png" alt="my alt text" width="550px" />
+  <figcaption><p>Figure 6: Addition of negative of a vector</p></figcaption>
+</figure>
+
+<hr />
+<p>$\example{1}$
+A man drove 3 km to the east then 5 km to the north. Determine how far and in what direction is he from the starting point.</p>
+
+<p>$\solution$</p>
+
+<figure style="text-align: center;">
+  <img src="/images/content/phys1/phys1-2.2.7.png" alt="my alt text" width="180px" />
+  <figcaption><p></p></figcaption>
+</figure>
+
+<p>Since the two vectors form a <strong>right angle</strong> with each other, the resultant can be easily determined by using the <strong>Pythagorean Theorem</strong>,</p>
+
+\[\begin{align*}
+	R &amp;= \sqrt{(3 \text{ km})^2+(5 \text{ km})^2}\\
+	&amp;= \sqrt{34 \text{ km}^2} \\
+	&amp;= 5.83 \text{ km}     \tagans
+\end{align*}\]
+
+<p>And for the direction,</p>
+
+\[\begin{align*}
+	\tan\theta &amp;= \frac{\text{opposite}}{\text{adjacent}}=\frac{5\text{ km}}{3\text{ km}}\\
+	\theta &amp;= \tan^{-1} \br{ \frac{5\text{ km}}{3\text{ km}} } \\
+	&amp;= 59.04 ^{\circ}       \tagans
+\end{align*}\]
+
+<p>Since the angle is measured from east towards north, $\theta=59.04 ^{\circ}$ north of east. Hence the magnitude and direction of the resultant is <strong>5.83 km at $59.04 ^{\circ}$ N of E</strong>.</p>
+
+<hr />
+<p>$\example{2}$
+Given two vectors $\vv{A}$ and $\vv{B}$, find $\vv{A}-\vv{B}$.</p>
+
+<figure style="text-align: center;">
+  <img src="/images/content/phys1/phys1-2.2.8.png" alt="my alt text" width="300px" />
+  <figcaption><p></p></figcaption>
+</figure>
+
+<p>\solution <br />
+In this example, since we will be subtracting vectors, the first step the we need to do is reverse the direction of the negative vector. In this case,</p>
+
+<p>\begin{align<em>}
+	R &amp;= \vv{A}-\vv{B} <br />
+	  &amp;= \vv{A}+(-\vv{B})
+\end{align</em>}</p>
+
+<p>\begin{center}
+	\begin{tikzpicture}
+	\begin{axis}[sxy, opacity=0.6,
+		]
+		\draw[colorA,ultra thick,-&gt;,opacity=1] (0,0)–++(90:2.6 cm) 
+			node[black,midway,right]{$\vv{B}$};
+		\draw[colorA,ultra thick,-&gt;,opacity=1,dashed] (0,0)–++(90+180:2.6 cm) 
+			node[black,midway,right]{$-\vv{B}$};
+		\draw[colorA,ultra thick,-&gt;,opacity=1] (0,0)–++(180:2 cm) 
+			node[black,midway,below]{$\vv{A}$};</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>	\draw[colorB,dashed] (4,0)--(4,3)--(0,3); 
+		
+	% \draw[-latex] ([shift=(0:1.2cm)]0,0) arc (0: 60 :1.2cm) 
+	% 	node[midway, right]{$60^{\circ}$};
+	% \draw[-latex] ([shift=(0:1cm)]0,0) arc (0: 150 :1cm) 
+	% 	node[pos=.6, above left]{$150^{\circ}$};	
+\end{axis}
+\end{tikzpicture} \end{center}
+</code></pre></div></div>
+
+<p>Then Solving for the magnitude of the resultant gives us,
+\begin{align<em>}
+	R &amp;= \sqrt{(-7 \un{m})^2+(-10 \un{m})^2}<br />
+	&amp;= \sqrt{149 \un{m}^2} <br />
+	&amp;= 12.21 \un{m}		\tagans
+\end{align</em>}</p>
+
+<p>And for the direction,
+\begin{align<em>}
+	\tan\theta &amp;= \frac{\text{opposite}}{\text{adjacent}}=\frac{-10\un{m}}{-7\un{m}}<br />
+	\theta &amp;= \tan^{-1} \br{ \frac{-10\un{m}}{-7\un{m}} } <br />
+	&amp;= 55.01 ^{\circ}
+\end{align</em>}</p>
+
+<p>However, keep in mind that in a Cartesian Plane, angles are often measured from the positive $x$-axis. Thus, we should add $180\degg$ to the solved angle.
+\begin{align<em>}
+	\theta &amp;= 180\degg + 55.01\degg <br />
+		   &amp;= 235.01 \degg		\tagans
+\end{align</em>}</p>
+
+<p>Suppose you’re still wondering why we adjusted the angle and whether it had an effect on the value of the final answer. The answer is, of course, no! Try solving for the values of $\tan{55.01\degg}$ and $\tan{235.01\degg}$. Just make sure that your calculator is set in degrees mode. As you may have seen, the output of the two functions is identical. Hence, adjusting our angle from 55.01 to 235.01 degrees will not affect the value of our final answer.</p>
+
+<p>\begin{center}
+	\begin{tikzpicture}
+	\begin{axis}[sxy,
+		]
+		\draw[colorA,ultra thick,-&gt;,opacity=1,dashed] (0,0)–++(90+180:2.6 cm) 
+		node[black,midway,right]{$-\vv{B}$};
+		\draw[colorA,ultra thick,-&gt;,opacity=1] (0,0)–++(180:2 cm) 
+		node[black,midway,below]{$\vv{A}$};
+		\draw[colorB,ultra thick,-&gt;,opacity=1] (0,0)–(-2,-2.6) 
+			node[black,pos=.95, left]{$\vv{R}$};</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>	\draw[colorB,dashed] (-2,0)--(-2,-2.6)--(0,-2.6); 
+
+	\draw[-latex] ([shift=(0:0.7cm)]0,0) arc (0:235.01:0.7cm) 
+	node[midway, fill=white]{$\theta$};
+		
+	% \draw[-latex] ([shift=(0:1.2cm)]0,0) arc (0: 60 :1.2cm) 
+	% 	node[midway, right]{$60^{\circ}$};
+	% \draw[-latex] ([shift=(0:1cm)]0,0) arc (0: 150 :1cm) 
+	% 	node[pos=.6, above left]{$150^{\circ}$};	
+\end{axis}
+\end{tikzpicture} \end{center}
+</code></pre></div></div>
+:ET

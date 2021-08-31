@@ -3,7 +3,8 @@ title: "Circuits I"
 date: 2021-01-04
 featured: true
 weight: 1
-layout: course
+# layout: course
+layout: content-construction
 summary: In the electrical industry with its complex machines and instruments, it is easy to be overwhelmed by electrical engineering field and think that everything is complicated and difficult. However, with a strong knowledge of the basic concepts of electricity, it is possible to breakdown complicated systems to a simple, manageable circuit. Thus, in this chapter we will investigate the fundamental concepts, principles, and terminologies involved in electrical circuits.
 ---
 

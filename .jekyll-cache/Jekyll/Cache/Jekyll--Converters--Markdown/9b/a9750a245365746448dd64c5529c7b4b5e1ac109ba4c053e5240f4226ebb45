@@ -1,0 +1,22 @@
+I"P<p>Before we can learn how to add and subtract vectors, we must first familiarize ourselves with some of the common types of vectors. Therefore, in this section, we will explore only a few of its types that can help us better understand how vectors work.</p>
+
+<h3 id="equal-vectors">Equal Vectors</h3>
+<p>Vectors with the <strong>same magnitude and direction</strong> are considered equal regardless of their location. Thus, even if their start and end positions differ, they are still deemed equal as long as their attributes remain unchanged. With this in mind, we can reposition vectors without affecting their value.</p>
+
+<figure style="text-align: center;">
+  <img src="/images/content/phys1/phys1-2.2.1.png" alt="my alt text" width="200px" />
+  <figcaption><p>Figure 1: Equal vectors</p></figcaption>
+</figure>
+
+<h3 id="negative-vectors">Negative Vectors</h3>
+<p>If two vectors have the <strong>same magnitude but opposite in direction</strong>, one vector is the negative vector of the other. In Figure 2, vector $\vv{B}$ is equal to the negative of vector $\vv{A}$, $\vv{B}=-\vv{A}$, or vice versa $\vv{A}=-\vv{B}$.</p>
+
+<figure style="text-align: center;">
+  <img src="/images/content/phys1/phys1-2.2.2.png" alt="my alt text" width="200px" />
+  <figcaption><p>Figure 1: Negative of a vector</p></figcaption>
+</figure>
+
+<p>The <strong>addition of vectors</strong> is not as straightforward as adding scalar quantities.
+For us to fully grasp the concept, let us have an example. Say a man walks $7\un{m}$ to the right, then $5\un{m}$ to the opposite direction (see Figure 3), the total <strong>distance</strong> (scalar) traveled by the man is $5\un{m} + 7\un{m} = 12 \un{m}$, but its <strong>displacement</strong> (vector) is $2\un{m}$ to the right.
+Note that the direction of the resultant vector points the object’s initial position to its final position.</p>
+:ET
