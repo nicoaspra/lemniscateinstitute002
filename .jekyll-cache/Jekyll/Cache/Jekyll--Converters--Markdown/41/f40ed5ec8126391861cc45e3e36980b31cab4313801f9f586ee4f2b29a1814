@@ -1,8 +1,0 @@
-I"›<p>Before we can learn how to add and subtract vectors, we must first familiarize ourselves with some of the common types of vectors. Therefore, in this section, we will explore only a few of its types that can help us better understand how vectors work.</p>
-
-<h3 id="equal-vectors">Equal Vectors</h3>
-<p>Vectors with the same magnitude and direction are considered equal regardless of their location. Thus, even if their start and finish positions differ, they are still deemed equal as long as their attributes remain unchanged. With this in mind, we can reposition vectors without affecting their value.</p>
-
-<h3 id="negative-vectors">Negative Vectors</h3>
-<p>If two vectors have the same magnitude but opposite in direction, one vector is the negative vector of the other. In \fref{fig:negative vector}, vector $\vv{B}$ is equal to the negative of vector $\vv{A}$, $\vv{B}=-\vv{A}$, or vice versa $\vv{A}=-\vv{B}$.</p>
-:ET

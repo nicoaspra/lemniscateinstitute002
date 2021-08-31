@@ -1,0 +1,111 @@
+I"�<p>From the previous section, we have tried to solve some problems involving vector addition and subtraction. However, we were restricted with either parallel or perpendicular vectors since we can easily apply the Pythagorean Theorem to such problems. More often than not, we will find ourselves solving problems that don’t fit such a situation. Hence, it is best that we must learn how to break down vectors into manageable components.</p>
+
+<p>A vector that lies on a cartesian plane that’s neither horizontal nor vertical can be broken down into two vectors. Consider \fref{fig:component of vectors 1}, vectors $\vv{A_x}$ and $\vv{A_y}$ are the component vectors of vector $\vv{A}$. This can also be interpreted as the sum of the component vectors, which equals to $\vv{A}$.</p>
+
+<p>If we are to look at this from a different perspective, we have just reversed the process of adding perpendicular vectors. Thus, rather than obtaining the resultant, the resultant is given, and the components are the two vectors to be added.</p>
+
+<p>\begin{tcolorbox}[ams align]
+	\vv{A}=\vv{A_x}+\vv{A_y}
+\end{tcolorbox}</p>
+
+<figure style="text-align: center;">
+  <img src="/images/content/phys1/phys1-2.3.1.png" alt="my alt text" width="300px" />
+  <figcaption><p>Component vectors of $\vv{A}$</p></figcaption>
+</figure>
+
+<p>Solving for the components of a vector is relatively simple. All we need is some basic Trigonometry. If you could recall the mnemonic \tcA{SOH-CAH-TOA}, which is denoted as,
+\begin{align<em>}
+	\sin\theta &amp;= \ufrac{opposite}{hypotenuse}=\frac{A_y}{A} <br />
+	\cos\theta &amp;= \ufrac{adjacent}{hypotenuse}=\frac{A_x}{A} <br />
+	\tan\theta &amp;= \ufrac{opposite}{adjacent}=\frac{A_y}{A_x}
+\end{align</em>}</p>
+
+<p>Given the magnitude and the direction $\theta$ of a vector, we can solve its $x$ and $y$ components by,
+%
+\begin{align<em>}
+	\cos\theta&amp; =\frac{A_x}{A} &amp;	\sin\theta &amp;= \frac{A_y}{A} <br />
+	A_x &amp;= A\cos\theta		&amp;	A_y &amp;= A\sin\theta
+\end{align</em>}
+%
+%
+given that $\theta$ is measured from the $+x$-axis in a counter-clockwise direction.</p>
+
+<p>\begin{figure}[H]
+\begin{center}
+\begin{subfigure}[b]{0.24\textwidth}
+\centering
+%
+\begin{tikzpicture}
+\begin{axis}[
+	x=1cm,			y=1cm,
+	xmin=-1.5,		ymin=-1.5,
+	xmax=1.5,			ymax=1.5,
+	xtick=false,		ytick=false,
+	xlabel=$x$,  		ylabel=$y$,
+	axis x line=center, 	axis y line=middle, 
+	xmajorgrids=true,	ymajorgrids=true,
+	samples=100,
+	]
+	\draw[colorA,very thick,-&gt;] (0,0)–++(45:2cm);</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>\draw[-latex] ([shift=(0:1.1cm)]0,0) arc (0:45:1.1cm) 
+	node[midway, fill=white]{$\theta$}; \end{axis} \end{tikzpicture} % \caption{First quadrant} \label{fig:component of vectors 2.1} \end{subfigure} \begin{subfigure}[b]{0.24\textwidth} \centering % \begin{tikzpicture} \begin{axis}[
+x=1cm,			y=1cm,
+xmin=-1.5,		ymin=-1.5,
+xmax=1.5,			ymax=1.5,
+xtick=false,		ytick=false,
+xlabel=$x$,  		ylabel=$y$,
+axis x line=center, 	axis y line=middle, 
+xmajorgrids=true,	ymajorgrids=true,
+samples=100,
+]
+\draw[colorA,very thick,-&gt;] (0,0)--++(45+90:2cm);
+
+\draw[-latex] ([shift=(0:0.9cm)]0,0) arc (0:45+90:0.9cm) 
+	node[midway, fill=white]{$\theta$}; \end{axis} \end{tikzpicture} % \caption{Second quadrant} \label{fig:component of vectors 2.2} \end{subfigure} \begin{subfigure}[b]{0.24\textwidth} \centering % \begin{tikzpicture} \begin{axis}[
+x=1cm,			y=1cm,
+xmin=-1.5,		ymin=-1.5,
+xmax=1.5,			ymax=1.5,
+xtick=false,		ytick=false,
+xlabel=$x$,  		ylabel=$y$,
+axis x line=center, 	axis y line=middle, 
+xmajorgrids=true,	ymajorgrids=true,
+samples=100,
+]
+\draw[colorA,very thick,-&gt;] (0,0)--++(45+180:2cm);
+
+\draw[-latex] ([shift=(0:0.9cm)]0,0) arc (0:45+180:0.9cm) 
+	node[midway, fill=white]{$\theta$}; \end{axis} \end{tikzpicture} % \caption{Third quadrant} \label{fig:component of vectors 2.3} \end{subfigure} \begin{subfigure}[b]{0.24\textwidth} \centering % \begin{tikzpicture} \begin{axis}[
+x=1cm,			y=1cm,
+xmin=-1.5,		ymin=-1.5,
+xmax=1.5,			ymax=1.5,
+xtick=false,		ytick=false,
+xlabel=$x$,  		ylabel=$y$,
+axis x line=center, 	axis y line=middle, 
+xmajorgrids=true,	ymajorgrids=true,
+samples=100,
+]
+\draw[colorA,very thick,-&gt;] (0,0)--++(45+270:2cm);
+
+\draw[-latex] ([shift=(0:0.9cm)]0,0) arc (0:45+270:0.9cm) 
+	node[midway, fill=white]{$\theta$}; \end{axis} \end{tikzpicture} % \caption{Fourth quadrant} \label{fig:component of vectors 2.4} \end{subfigure}
+</code></pre></div></div>
+
+<p>\caption{Angle $\theta$ measured from the $+x$-axis in a counter-clockwise direction}
+\label{fig:component of vectors 2}
+\end{center}
+\end{figure}</p>
+
+<p>\example
+Determine the $x$ and $y$ components of:
+\begin{center}
+\begin{tikzpicture}
+\begin{axis}[sxy
+	]
+	\draw[colorA,very thick,-&gt;] (0,0)–++(60:2.7 cm) 
+		node[black,above left]{10 N};</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>\draw[-latex] ([shift=(0:1.2cm)]0,0) arc (0: 60 :1.2cm) 
+	node[midway, fill=white]{$60^{\circ}$};	 \end{axis} \end{tikzpicture} \end{center}
+</code></pre></div></div>
+:ET
