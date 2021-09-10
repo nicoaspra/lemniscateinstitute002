@@ -2,6 +2,6 @@
 {:refdef: style="text-align: center;"}
 <figure>
   <img src="/images/content/{{ include.url }}" alt="my alt text" width="{{ include.size }}"/>
-  <figcaption><p>{{ include.caption }}</p></figcaption>
+  <figcaption><p>{{ include.caption | markdownify}}</p></figcaption>
 </figure>
 {: refdef}

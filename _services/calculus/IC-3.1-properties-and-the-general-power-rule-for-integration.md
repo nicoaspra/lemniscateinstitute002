@@ -35,7 +35,7 @@ If you could recall, the steps in differentiating using the power rule include *
 
 {% include tcolorbox.html
     details = "
-        \int u^n \,du = \frac{u^{n+1}}{n+1} + C 
+        \int u^n \,du = \frac{u^{n+1}}{n+1} + C \quad\text{where: $n\neq -1$}
     "
 %}
 

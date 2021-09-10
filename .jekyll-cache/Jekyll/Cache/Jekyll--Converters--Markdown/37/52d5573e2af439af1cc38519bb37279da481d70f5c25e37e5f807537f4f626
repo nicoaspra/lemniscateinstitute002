@@ -1,0 +1,57 @@
+I"�<!-- # Introduction
+
+asdasdasd
+asdasdsdfsdfsdf
+sdf
+
+dfsdfsfsdfsdfsdf
+
+
+$\example{1}$ 
+asdasdasdas
+
+$\solution$ 
+
+$$
+\begin{align*}
+    q   &= n \cdot e \\
+        &= 1,200\br{-1.602×10^{-19} } \\
+        &= -1.922 \x 10^{-16}\un{C}   \tagans
+\end{align*}
+$$
+
+
+
+
+
+
+{:refdef: style="text-align: center;"}
+<figure>
+  <img src="/images/content/circuits-I/1.1.1-atoms.png" alt="my alt text" width="50%"/>
+  <figcaption><p><p>Figure 1: Major parts of an atom</p>
+</p></figcaption>
+</figure>
+{: refdef}
+
+
+
+<details style="text-align:center;">
+    <summary style="text-align:left;">Answer
+    </summary>
+    <br>
+    <p>$2x^2+5x-1$</p>
+
+</details> 
+
+<br>
+
+<div class="youtube-wrapper">
+    <iframe src="https://www.youtube.com/embed/rhgwIhB58PA" allowfullscreen></iframe>
+  </div>
+
+
+
+  <!-- https://www.chunkhang.com/blog/responsive-youtube-video-with-jekyll -->
+
+<p>Since we defined current as the movement of charge/electron, then we expect it to have an associated direction of flow. The direction of current flow is conventionally (also called conventional flow) taken as the direction of positive charge movement, though the actual electron flow is the $\int_1^5 2x+5\,dx$ movement of negative charge. In this material, we will use the conventional flow. –&gt;</p>
+:ET
