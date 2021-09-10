@@ -1,0 +1,27 @@
+I"�<p>If you recall our lecture on Limits at Infinity, we used a pizza to depict its size after being sliced into an infinite number of pieces. Here, it is absolutely the opposite. The question that we are now attempting to answer is “how many slices can there be if each slice has a size approaching to nothing (zero).” 
+As you may anticipate, the answer would be “infinity.”</p>
+
+<p>Infinite limits are those with a limit that approaches infinity in either direction. The limit that approaches infinity “$\infty$” means that as $x$ approaches $a$, the function gets larger and larger where it increases without bound (Equation 1). On the other hand, the limit is approaching negative infinity “$-\infty$” as $x$ approaches $a$ if the function decreases without bound (Equation 2).</p>
+
+<p align="center" style="background-color:rgba(64, 130, 110, 0.07);
+border: 3px solid rgba(64, 130, 110, 0.9);
+border-radius:7px;
+padding:10px;
+margin:5px;">
+    $$\begin{align}
+        \lim_{x\to a}f(x)=\infty 
+		    \label{eq:infinite limits 1} \\
+	    \lim_{x\to a}f(x)=-\infty
+		    \label{eq:infinite limits 2}
+    \end{align}$$
+</p>
+
+<p>If we illustrate this concept graphically, the graph of a function with Infinite limits contains <strong>Vertical Asymptotes</strong>; for example, in Figure 1, the function has an asymptote at $x=a$. The curve approaches the line $x=a$ without touching it. Vertical asymptotes occur where the function becomes <strong>undefined</strong>, given that <strong>the limit approaches positive or negative infinity</strong>. 
+In relation to Limits at Infinity, the graph has Horizontal Asymptotes when <strong>the function approaches infinity</strong>.</p>
+
+<figure style="text-align: center;">
+  <img src="/images/content/DC/DC-2.5.1.png" alt="my alt text" width="600px" />
+  <figcaption><p><p>Figure 1: Vertical asymptotes at $x=a$ of infinite limits</p>
+</p></figcaption>
+</figure>
+:ET
