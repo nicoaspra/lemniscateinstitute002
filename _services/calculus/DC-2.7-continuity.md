@@ -33,6 +33,7 @@ Furthermore, since the limit must exist in order for a function to be continuous
 
 
 
+# Discontinuity
 
 Consider the graph in Figure 2a, the curve has a hole at $x=a$ and $f(a)=1$ hence, $\lim\limits_{x\to a}{f(x)} \neq f(a)$ and thus, the function is **discontinuous** at $x=a$. 
 In Figure 2b, the curve suddenly jumps at $x=a$ hence, 
