@@ -1053,4 +1053,6 @@ details summary { color: #d02f5d; }
 
 table { width: 100%; color: #5C5A5A; }
 
+.content hr { height: 30px; border-bottom: 3px solid #40826e; opacity: 0.8; }
+
 /*# sourceMappingURL=style.css.map */

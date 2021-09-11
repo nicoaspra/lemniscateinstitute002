@@ -41,7 +41,7 @@ In relation to [Limits at Infinity](../DC-2.3-limits-at-infinity), the graph has
 
 
 
----
+
 ---
 $\example{1}$
 Evaluate $\lim_{x\to 0} \frac{1}{x}$

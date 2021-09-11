@@ -149,3 +149,22 @@ table {
 
 
 // .highlight .gs { color: #d60e0e } /* Generic.Strong */
+
+
+
+.content hr {
+  // display: block;
+  // height: 10px;
+  // border: 20px;
+  // border-top: 1px solid rgb(202, 33, 33);
+  // border-bottom: 1px solid rgb(57, 2, 2);
+  // color: solid rgb(202, 33, 33);
+  // margin: 1em 0;
+  // padding: 0;
+  // opacity: 100;
+  // border: 1px solid $primary;
+  height: 30px;
+  // border-bottom: 2px solid $primary;
+  border-bottom: 3px solid rgb(64, 130, 110);
+  opacity: 0.8;
+}
