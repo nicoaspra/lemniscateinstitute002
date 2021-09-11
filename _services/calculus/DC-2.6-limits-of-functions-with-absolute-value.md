@@ -231,7 +231,7 @@ $$
 \end{cases}
 $$
 
-Since we are only required to determine the the **left-hand limit**,
+Since we are only required to determine the **left-hand limit**,
 
 $$
 \begin{align*}
