@@ -47,7 +47,7 @@ $\example{1}$
 Evaluate $\lim_{x\to 0} \frac{1}{x}$
 
 $\solution$ \\
-By substituting $x$ to the function with 0, we would get $\frac{1}{0}$ which is undefined. With this in mind, let us substitute values to $x$ approaching 0 from both sides,
+By substituting $x$ in the function with 0, we would get $\frac{1}{0}$ which is undefined. However, let us try to substitute a value for $x$ that approaches zero from either side and try to see what value the function is approaching.
 
 {% include images.html 
     url= "DC/DC-2.5.2.png" 
@@ -55,15 +55,16 @@ By substituting $x$ to the function with 0, we would get $\frac{1}{0}$ which is 
 %}
 
 
-Thus, the left-hand limit is approaching to negative infinity,
-
-$$\lim_{x\to 0^-} \frac{1}{x} = -\infty$$
-
-And the right hand-limit is approaching to positive infinity,
+As you can see, the value is getting larger and larger as $x$ approaches zero. Thus, the function is not approaching a certain value but to infinity. In this case, 
+the **right hand-limit** is approaching to positive infinity,
 
 $$\lim_{x\to 0^+} \frac{1}{x} = \infty$$
 
-Since the left and right hand limits do not approach to the same value, the limit as $x$ approaches $0$ **does not exist**.
+And the **left-hand limit** is approaching negative infinity.
+
+$$\lim_{x\to 0^-} \frac{1}{x} = -\infty$$
+
+Since the left and right hand limits do not approach the same value, the limit as $x$ approaches $0$ **does not exist**.
 
 $$
 \begin{align*}
@@ -87,7 +88,7 @@ Substitute values to $x$ approaching 0 from both sides.
     size= "400px"
 %}
 
-The left and right hand limits both approaches to infinity as $x$ approaches 0. Hence,
+The left and right hand limits **both approaches to infinity** as $x$ approaches 0. Hence,
 
 $$
 \begin{align*}

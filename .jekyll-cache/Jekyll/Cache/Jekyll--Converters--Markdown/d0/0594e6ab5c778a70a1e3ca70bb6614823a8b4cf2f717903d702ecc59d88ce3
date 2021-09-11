@@ -1,0 +1,12 @@
+I"s<p>Let us begin our lesson with reviewing the concept of absolute value. <strong>Absolute value</strong> or sometimes called the <strong>modulus</strong> is the distance from zero in the number line. 
+Since it only measures the <strong>distance</strong>, the resulting value will always be non-negative.</p>
+
+<p>Simply put, the absolute value <strong>removes the negative sign</strong> of a number. So, for instance, the absolute value of $-5$ is $5$, and the absolute value of $5$ is also $5$.</p>
+
+\[\begin{align*}
+	|-5| &amp;= 5 \\
+	|5| &amp;= 5
+\end{align*}\]
+
+<p>With this in mind, it is possible to breakdown the absolute value. Bear in mind that an absolute value can contain two possible values, as its primary purpose is to eliminate the negative sign. Given this, both positive and negative values of the function contained within the absolute sign are possible. Thus,</p>
+:ET
