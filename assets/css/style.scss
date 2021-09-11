@@ -150,6 +150,10 @@ table {
 
 // .highlight .gs { color: #d60e0e } /* Generic.Strong */
 
+.hr2 {
+  border: 0;
+  border-bottom: 1px dashed rgb(241, 15, 15);
+}
 
 
 .content hr {
@@ -168,3 +172,4 @@ table {
   border-bottom: 3px solid rgb(64, 130, 110);
   opacity: 0.7;
 }
+

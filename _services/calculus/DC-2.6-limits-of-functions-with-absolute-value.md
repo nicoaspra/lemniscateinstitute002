@@ -5,8 +5,8 @@ nextcontenturl: ../DC-2.7-continuity
 ---
 
 
-Let us begin our lesson with reviewing the concept of absolute value. **Absolute value** or sometimes called the **modulus** is the distance from zero in the number line. 
-Since it only measures the **distance**, the resulting value will always be non-negative.
+Let us begin our lesson with reviewing the concept of absolute value. **Absolute value** or sometimes called the **modulus** is the *distance from zero in the number line*. 
+Since it only measures the **distance**, the resulting value will always be **non-negative**.
 
 Simply put, the absolute value **removes the negative sign** of a number. So, for instance, the absolute value of $-5$ is $5$, and the absolute value of $5$ is also $5$.
 
@@ -17,7 +17,9 @@ $$
 \end{align*}
 $$
 
-With this in mind, it is possible to breakdown the absolute value. Bear in mind that an absolute value can contain two possible values, as its primary purpose is to eliminate the negative sign. Given this, both positive and negative values of the function contained within the absolute sign are possible. Thus, we can express the absolute value of $x$ as,
+
+
+With this in mind, it is possible to breakdown a function with an absolute value. Bear in mind that an absolute value can contain two possible input values, as its primary purpose is to eliminate the negative sign. Given this, both positive and negative values of the function contained within the absolute value symbol are possible. Thus, we can express the absolute value of $x$ as,
 
 $$
 |x|=
@@ -28,7 +30,7 @@ $$
 $$
 
 
-By examining each of these cases separately, we can establish how the function acts to the left and right of $x=a$. After that, we can now find the limit as $x$ approaches $a$ by combining the two independent limits.
+By examining each of these cases separately, we can establish how the function acts to the **left and right** of $x=a$ by using the concept of [One-Sided Limits](../DC-2.4-one-sided-limits). Furthermore, we can now find the limit as $x$ approaches $a$ by combining the two independent limits.
 To illustrate this, let us have some examples.
 
 
@@ -80,7 +82,7 @@ And the right hand-limit is,
 
 $$\lim_{x\to 0^+} \frac{|x|}{x} = 1$$
 
-Since the left and right hand limits do not approach to the same value, the limit as $x$ approaches $0$ **does not exist**.
+Since the left and right hand limits do not approach the same value, the limit as $x$ approaches $0$ **does not exist**.
 
 $$
 \begin{align*}
@@ -89,6 +91,12 @@ $$
 \end{align*}
 $$
 
+
+
+
+
+
+{% include dashed.html %}
 
 Another method, is by breaking down the absolute value,
 
