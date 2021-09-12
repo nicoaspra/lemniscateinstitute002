@@ -18,7 +18,7 @@ summary: Have you ever wondered how a car can easily pass a bike, why a rainbow 
 	- [Vector Addition and Subtraction](2.2-vector-addition-and-subtraction)
 	- [Components of Vectors](2.3-components-of-vectors)
 - One-Dimensional Kinematics
-	- Distance and Displacement
+	- [Distance and Displacement](3.1-distance-and-displacement)
 	- Speed and Velocity
 		- Instantaneous Velocity
 	- Motion with Constant Acceleration
