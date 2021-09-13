@@ -1,4 +1,4 @@
-I"`<h1 id="contents">Contents</h1>
+I"ù<h1 id="contents">Contents</h1>
 <ul>
   <li><a href="../calculus/DC-0.1-introduction-to-differential-calculus">Introduction to Differential Calculus</a></li>
   <li>Functions
@@ -60,6 +60,13 @@
     <ul>
       <li>Differentials</li>
       <li>Approximate Formula</li>
+    </ul>
+  </li>
+  <li>Exponential and Logarithmic Functions
+    <ul>
+      <li><a href="../calculus/DC-8.1-exponential-functions">Exponential Functions</a></li>
+      <li><a href="../calculus/DC-8.2-logarithmic-functions">Logarithmic Functions</a></li>
+      <li><a href="../calculus/DC-8.3-derivatives-of-exponential-and-logarithmic-functions">Derivatives of Exponential and Logarithmic Functions</a></li>
     </ul>
   </li>
   <li>Trigonometric Functions

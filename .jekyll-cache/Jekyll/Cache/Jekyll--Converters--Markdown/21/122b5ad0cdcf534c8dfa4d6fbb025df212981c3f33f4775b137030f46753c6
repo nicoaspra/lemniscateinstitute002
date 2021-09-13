@@ -1,4 +1,4 @@
-I"<<p>An intuitive way to determine if a function is <strong>continuous</strong>, is if the graph of such function <strong>can be drawn without lifting up the pen</strong>, which emphasizes that there is no break on the curve. However, there are also instances that a graph cannot be easily sketched especially if the function is complicated. In such cases, continuity can be determined mathematically.</p>
+I"C<p>An intuitive way to determine if a function is <strong>continuous</strong>, is if the graph of such function <strong>can be drawn without lifting up the pen</strong>, which emphasizes that there is no break on the curve. However, there are also instances that a graph cannot be easily sketched especially if the function is complicated. In such cases, continuity can be determined mathematically.</p>
 
 <p>We can determine if the function is continuous if $\lim\limits_{x\to a}{f(x)}$ <strong>exists</strong>, $f(a)$ is defined, and $\lim\limits_{x\to a}{f(x)}=f(a)$, which tells us that the value of the function where $x=a$ is equal to the limit $f(a)=L$.</p>
 
@@ -133,6 +133,7 @@ Discontinuities occur where the function is undefined. In this example, at $x=4$
 %\end{axis}
 %\end{tikzpicture} -->
 
+<hr />
 <p>$\example{4}$
 Find the point/s of discontinuity of the function $f(x)=\frac{2x}{x^2+x-6}$</p>
 

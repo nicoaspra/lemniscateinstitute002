@@ -194,7 +194,7 @@ Hence, the function is **discontinuous at $x=4$**.
 
 
 
-
+---
 $\example{4}$
 Find the point/s of discontinuity of the function $f(x)=\frac{2x}{x^2+x-6}$
 

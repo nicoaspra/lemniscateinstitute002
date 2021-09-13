@@ -20,7 +20,6 @@ summary: Have you ever wondered how a car can easily pass a bike, why a rainbow 
 - One-Dimensional Kinematics
 	- [Distance and Displacement](3.1-distance-and-displacement)
 	- [Speed and Velocity](3.2-speed-and-velocity)
-		- Instantaneous Velocity
 	- Motion with Constant Acceleration
 		- Uniform Accelerated Motion
 			- Kinematic Equations

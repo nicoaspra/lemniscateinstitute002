@@ -49,6 +49,10 @@ summary: Calculus, has a reputation of being one of the most dreaded subjects in
 - The Differential
   - Differentials
   - Approximate Formula
+- Exponential and Logarithmic Functions
+  - [Exponential Functions](../calculus/DC-8.1-exponential-functions)
+  - [Logarithmic Functions](../calculus/DC-8.2-logarithmic-functions)
+  - [Derivatives of Exponential and Logarithmic Functions](../calculus/DC-8.3-derivatives-of-exponential-and-logarithmic-functions)
 - Trigonometric Functions
   - Angles
   - Basic Trigonometric Functions
