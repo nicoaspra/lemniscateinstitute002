@@ -1,4 +1,4 @@
-I"j<p>Just as distance and displacement have different definitions despite their similarities, so do speed and velocity. <strong>Speed</strong> is a <em>scalar quantity</em> that indicates “how fast an object moves,” while <strong>velocity</strong> is a <em>vector quantity</em> that refers to “the rate at which an object changes its position.” This notion may seem perplexing, but remember that vectors are always related to their orientation. Furthermore, in Physics, we are more concerned with velocity rather than speed since we also want to quantify the direction. However, before we can master this concept, we must first learn how to solve some problems without worrying its direction.</p>
+I"r<p>Just as distance and displacement have different definitions despite their similarities, so do speed and velocity. <strong>Speed</strong> is a <em>scalar quantity</em> that indicates “how fast an object moves,” while <strong>velocity</strong> is a <em>vector quantity</em> that refers to “the rate at which an object changes its position.” This notion may seem perplexing, but remember that vectors are always related to their orientation. Furthermore, in Physics, we are more concerned with velocity rather than speed since we also want to quantify the direction. However, before we can master this concept, we must first learn how to solve some problems without worrying its direction.</p>
 
 <p>Velocity is usually represented by the symbol $\vv{v}$. Velocity, especially in real-world applications, may be more challenging to quantify than it seems, especially when referring to the <a href="#instantaneous-velocity">instantaneous velocity</a>.</p>
 
@@ -71,6 +71,8 @@ The average velocity is defined as the total total displacement divided by the t
 	&amp;= \frac{ 265\un{km} }{ 5\un{hrs} } \\
 	&amp;= 53\un{km/hr}	\tagans
 \end{align*}\]
+
+<hr />
 
 <h2 id="instantaneous-velocity">Instantaneous Velocity</h2>
 
