@@ -28,8 +28,8 @@ summary: Calculus, has a reputation of being one of the most dreaded subjects in
   - [Limits of Functions with Absolute Value](../calculus/DC-2.6-limits-of-functions-with-absolute-value)
   - [Continuity](../calculus/DC-2.7-continuity)
 - The Derivative
-  - Increments and the Derivative
-  - Notation of Derivatives
+  - [Introduction to Derivatives](../calculus/DC-3.1-introduction-to-derivatives)
+  - [Notation of Derivatives](../calculus/DC-3.2-notation-of-derivatives)
   - Slope of a Curve
   - Rate of Change
   - Average and Instantaneous Velocity

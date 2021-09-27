@@ -2,7 +2,6 @@
 title: "Exponential and Logarithmic Functions"
 authornum: 2
 author: Engr. Nico O. Aspra, ME, RMP  <br> Engr. Pee Jay N. Gealone
-# layout: content-construction
 prevcontenturl: ../IC-3.1-properties-and-the-general-power-rule-for-integration
 nextcontenturl: ../IC-3.1-trigonometric-functions
 ---
@@ -50,7 +49,7 @@ $\int \frac{x}{x^2+1}\,dx$
 $\solution$ \\
 Let: $\tcA{u = x^2+1}$
 
-Then differentiating the function gives us,
+Differentiating the function gives us,
 
 $$
 \begin{align*}
@@ -60,7 +59,7 @@ $$
 \end{align*}
 $$
 
-Rearrange the given integral,
+Then rearrange the given integral,
 
 $$
 \begin{align*}
@@ -232,3 +231,13 @@ $$
 	&= \frac{9^x}{2\ln 3}+C		\tagans
 \end{align*}
 $$
+
+
+
+
+
+---
+## Related Articles
+- [Exponential Functions](../DC-8.1-exponential-functions)  
+- [Logarithmic Functions](../DC-8.2-logarithmic-functions)
+- [Derivatives of Exponential and Logarithmic Functions](../DC-8.3-derivatives-of-exponential-and-logarithmic-functions)

@@ -1,7 +1,7 @@
 ---
 title: "Continuity"
 prevcontenturl: ../DC-2.6-limits-of-functions-with-absolute-value
-nextcontenturl: ../DC-2.7-continuity
+nextcontenturl: ../DC-3.1-introduction-to-derivatives
 ---
 
 
