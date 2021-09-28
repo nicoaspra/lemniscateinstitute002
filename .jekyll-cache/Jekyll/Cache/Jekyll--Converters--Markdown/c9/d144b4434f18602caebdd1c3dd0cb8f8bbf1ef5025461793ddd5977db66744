@@ -1,0 +1,83 @@
+I";<p>From the previous lesson, we have already introduced motions with quantifiable velocities, such as constant velocities and average velocities. Moving on, this section will introduce varying velocities as a result of acceleration. 
+But before we begin, let us define acceleration.</p>
+
+<p>If you are travelling at a rate of 50 m/s, then after a second your rate increases to 60 m/s, and 70 m/s after the next second  (Figure 1). This indicates that you are increasing your pace as time passes or that you are ``accelerating.’’ According to our example, you are accelerating at a rate of 10 m/s per second, which is expressed as 10 m/s/s or 10 $\mathrm{m/s^2}$. With this, we can now define acceleration mathematically. It is the change in velocity with respect to time. Thus, acceleration can be denoted as,</p>
+
+<p align="center" style="background-color:rgba(64, 130, 110, 0.07);
+border: 3px solid rgba(64, 130, 110, 0.9);
+border-radius:7px;
+padding:10px;
+margin:5px;">
+    $$\begin{align}
+	\vv{a}=\frac{\Delta\vv{v}}{t}=\frac{\vv{v_f}-\vv{v_i}}{t}
+	\label{eq:uniform accelerated motion 1}
+    \end{align}$$
+</p>
+
+<h2 id="kinematic-equations">Kinematic Equations</h2>
+<p>There are four well-known kinematic equations for uniformly accelerated motion. They are as follows:</p>
+
+<p align="center" style="background-color:rgba(64, 130, 110, 0.07);
+border: 3px solid rgba(64, 130, 110, 0.9);
+border-radius:7px;
+padding:10px;
+margin:5px;">
+    $$\begin{align}
+	v_f = v_i+at
+		\label{eq:kinematic eqn 1} \\
+	\Delta s = \br{ \frac{v_i+v_f}{2} }t 
+		\label{eq:kinematic eqn 2} \\
+	\Delta s = v_it+\frac{1}{2}at^2 
+		\label{eq:kinematic eqn 3} \\
+	{v_f}^2 = {v_i}^2+2a\Delta s
+		\label{eq:kinematic eqn 4}
+    \end{align}$$
+</p>
+
+<p>These equations are derived from equation \ref{eq:uniform accelerated motion 1} and other equations that we’ve already discussed from the previous lesson. And these four equations will be used in solving problems that have a \tcA{uniform acceleration}, may it be increasing or decreasing.</p>
+
+<p>Take note that if an object is \tcA{decelerating}, then its acceleration is negative ``$-a$,’’
+and if an object \tcA{starts from rest} then the initial velocity is zero. Similarly, if an object is \tcA{dropped}, the initial velocity is also zero.</p>
+
+<h2 id="derivation-of-the-kinematic-equations">Derivation of the kinematic equations</h2>
+
+<p>By now, we are already familiar that most formulas are just derived from simpler formulas that bear simpler notions. The kinematic equations are not excluded from that idea, these four equations are all derived formulas. To start, let us derive the first equation.</p>
+
+<p>$\typB{Proof of Equation \ref{eq:kinematic eqn 1}},$</p>
+
+<p>This first equation can be attained by just rearranging Equation \ref{eq:uniform accelerated motion 1},</p>
+
+\[\begin{align*}
+	a &amp;= \frac{v_f-v_i}{t} \\
+	at &amp;= v_f-v_i \\
+	v_f &amp;= v_i + at	\tagans
+\end{align*}\]
+
+<p>\typB{Proof of Equation \tcB{\ref{eq:kinematic eqn 2}},}
+%
+In this equation, we will need to start from an equation that we have learned from our previous lesson. If you could recall the formula for the magnitude of average velocity,
+%
+\begin{align<em>}
+	\bar{v} &amp;= \frac{\Delta s}{\Delta t} <br />
+\intertext{Then rearranging the equation to express the displacement explicitly,}
+	\Delta s &amp;= \bar{v} \Delta t
+\intertext{We can substitute the average velocity with $\frac{v_i + v_f}{2}$ since if you could recall that getting the average of two values only needs to add those values then divide it to the number of given values, which in this case, 2.}
+	\Delta s &amp;= \br{\frac{v_i + v_f}{2}} \Delta t
+\intertext{Given that $t$ is the time ellapsed, we can express the equation as,}
+	\Delta s &amp;= \br{\frac{v_i + v_f}{2}} t
+\end{align</em>}</p>
+
+<p>\typB{Proof of Equation \tcB{\ref{eq:kinematic eqn 3}},}
+%
+To derive the third kinematic equation, we need to use both Equation \ref{eq:kinematic eqn 1} and Equation \ref{eq:kinematic eqn 2}. Starting with our recently derived equation,
+%
+\begin{align<em>}
+	\Delta s &amp;= \br{\frac{v_i + v_f}{2}} t
+\intertext{Then using Equation \ref{eq:kinematic eqn 1}, we can substitute the final velocity wth $v_i + at$.}
+	\Delta s &amp;= \br{\frac{v_i + v_i + at}{2}} t <br />
+			 &amp;= \br{\frac{2v_i + at}{2}} t <br />
+			 &amp;= \br{v_i + \frac12at} t <br />
+			 &amp;= v_i t + \frac12at^2
+\end{align</em>}</p>
+
+:ET
