@@ -22,7 +22,7 @@ summary: Have you ever wondered how a car can easily pass a bike, why a rainbow 
 	- [Speed and Velocity](3.2-speed-and-velocity)
 	- Motion with Constant Acceleration
 		- [Uniform Accelerated Motion](3.3-uniform-accelerated-motion)
-		- Free Fall Motion
+		- [Free Fall Motion](3.4-free-fall-motion)
 - Two Dimensional Kinematics
 	- Introduction to Two-Dimensional Motion
 	- Kinematic Equations in Two-Dimensions

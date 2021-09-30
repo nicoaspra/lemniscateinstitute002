@@ -1,0 +1,196 @@
+I"D#<p>From the previous lesson, we have already introduced motions with quantifiable velocities, such as constant velocities and average velocities. Moving on, this section will introduce varying velocities as a result of acceleration. 
+But before we begin, let us define acceleration.</p>
+
+<p>If you are travelling at a rate of 50 m/s, then after a second your rate increases to 60 m/s, and 70 m/s after the next second  (Figure 1). This indicates that you are increasing your pace as time passes or that you are “accelerating.’’ According to our example, you are accelerating at a rate of 10 m/s per second, which is expressed as 10 m/s/s or 10 $\mathrm{m/s^2}$. With this, we can now define acceleration mathematically. It is the change in velocity with respect to time. Thus, acceleration can be denoted as,</p>
+
+<p align="center" style="background-color:rgba(64, 130, 110, 0.07);
+border: 3px solid rgba(64, 130, 110, 0.9);
+border-radius:7px;
+padding:10px;
+margin:5px;">
+    $$\begin{align}
+	\vv{a}=\frac{\Delta\vv{v}}{t}=\frac{\vv{v_f}-\vv{v_i}}{t}
+	\label{eq:uniform accelerated motion 1}
+    \end{align}$$
+</p>
+
+<figure style="text-align: center;">
+  <img src="/images/content/phys1/phys1-3.3.1.png" alt="my alt text" width="400px" />
+  <figcaption><em><p>Figure 1: Accelerating at $10\un{m/s^2}$</p>
+</em></figcaption>
+</figure>
+
+<h2 id="kinematic-equations">Kinematic Equations</h2>
+<p>There are four well-known kinematic equations for uniformly accelerated motion. They are as follows:</p>
+
+<p align="center" style="background-color:rgba(64, 130, 110, 0.07);
+border: 3px solid rgba(64, 130, 110, 0.9);
+border-radius:7px;
+padding:10px;
+margin:5px;">
+    $$\begin{align}
+	v_f = v_i+at
+		\label{eq:kinematic eqn 1} \\
+	\Delta s = \br{ \frac{v_i+v_f}{2} }t 
+		\label{eq:kinematic eqn 2} \\
+	\Delta s = v_it+\frac{1}{2}at^2 
+		\label{eq:kinematic eqn 3} \\
+	{v_f}^2 = {v_i}^2+2a\Delta s
+		\label{eq:kinematic eqn 4}
+    \end{align}$$
+</p>
+
+<p>These equations are derived from equation \ref{eq:uniform accelerated motion 1} and other equations that we’ve already discussed from the previous lesson. And these four equations will be used in solving problems that have a <strong>uniform acceleration</strong>, may it be increasing or decreasing.</p>
+
+<p>Take note that if an object is <strong>decelerating</strong>, then its acceleration is negative “$-a$,’’
+and if an object <strong>starts from rest</strong> then the initial velocity is zero. Similarly, if an object is <strong>dropped</strong>, the initial velocity is also zero.</p>
+
+<p>$\given$
+\(\begin{align*}
+    \Delta q &amp;= 100\un{kC} = 100\x10^3\un{C}&amp; \\
+    \Delta t &amp;= 1\un{hr} = 3,600\un{s} \\
+    V &amp;= 60\un{V}
+\end{align*}\)</p>
+
+<h2 id="derivation-of-the-kinematic-equations">Derivation of the kinematic equations</h2>
+
+<p>By now, we are already familiar that most formulas are just derived from simpler formulas that bear simpler notions. The kinematic equations are not excluded from that idea, these four equations are all derived formulas. To start, let us derive the first equation.</p>
+
+<p>$\typB{Proof of Equation \ref{eq:kinematic eqn 1}},$</p>
+
+<p>This first equation can be attained by just rearranging Equation \ref{eq:uniform accelerated motion 1},</p>
+
+\[\begin{align*}
+	a &amp;= \frac{v_f-v_i}{t} \\
+	at &amp;= v_f-v_i \\
+	v_f &amp;= v_i + at	\tagans
+\end{align*}\]
+
+<p>$\typB{Proof of Equation \ref{eq:kinematic eqn 2}},$</p>
+
+<p>In this equation, we will need to start from an equation that we have learned from our previous lesson. If you could recall the formula for the magnitude of average velocity,</p>
+
+\[\begin{align*}
+	\bar{v} &amp;= \frac{\Delta s}{\Delta t} \\
+\end{align*}\]
+
+<p>Then rearranging the equation to express the displacement explicitly,</p>
+
+\[\begin{align*}
+	\Delta s &amp;= \bar{v} \Delta t
+\end{align*}\]
+
+<p>We can substitute the average velocity with $\frac{v_i + v_f}{2}$ since the average of two values can be established through adding those values then dividing the sum to the number of given values, which in this case, is 2.</p>
+
+\[\begin{align*}
+	\Delta s &amp;= \br{\frac{v_i + v_f}{2}} \Delta t
+\end{align*}\]
+
+<p>Given that $t$ is the time ellapsed, we can express the equation as,</p>
+
+\[\begin{align*}
+	\Delta s &amp;= \br{\frac{v_i + v_f}{2}} t
+\end{align*}\]
+
+<p>$\typB{Proof of Equation \ref{eq:kinematic eqn 3}},$</p>
+
+<p>To derive the third kinematic equation, we need to use both Equation \ref{eq:kinematic eqn 1} and Equation \ref{eq:kinematic eqn 2}. Starting with our recently derived equation,</p>
+
+\[\begin{align*}
+	\Delta s &amp;= \br{\frac{v_i + v_f}{2}} t
+\end{align*}\]
+
+<p>Then using Equation \ref{eq:kinematic eqn 1}, we can substitute the final velocity wth $v_i + at$.</p>
+
+\[\begin{align*}
+	\Delta s &amp;= \br{\frac{v_i + v_i + at}{2}} t \\
+			 &amp;= \br{\frac{2v_i + at}{2}} t \\
+			 &amp;= \br{v_i + \frac12at} t \\
+			 &amp;= v_i t + \frac12at^2
+\end{align*}\]
+
+<p>$\typB{Proof of Equation \ref{eq:kinematic eqn 3}},$</p>
+
+<p>For the last kinematic equation, we will start with Equation \ref{eq:kinematic eqn 2},</p>
+
+\[\begin{align*}
+	\Delta s &amp;= \br{\frac{v_i + v_f}{2}} t
+\end{align*}\]
+
+<p>As you may have observed, there is no variable $t$ in the fourth equation. Thus, to eliminate the variable, we must express $t$ with different variables. In this scenario, we can use Equation \ref{eq:kinematic eqn 1} and explicitly define $t$ in the equation.</p>
+
+\[\begin{align*}
+	v_f &amp;= v_i + at \\
+	t &amp;= \frac{v_f - v_i}{a}
+\end{align*}\]
+
+<p>Then substituting $t$ to the first equation gives us,</p>
+
+\[\begin{align*}
+	\Delta s &amp;= \br{\frac{v_i + v_f}{2}} \br{\frac{v_f - v_i}{a}} \\
+		&amp;= \frac{ {v_f}^2-{v_i}^2 }{2a} \\
+	2a\Delta{s} &amp;= {v_f}^2-{v_i}^2 \\
+	{v_f}^2 &amp;= {v_i}^2 + 2a\Delta{s}
+\end{align*}\]
+
+<p>However, you may wonder why these formulas exist since we can just derive them using basic formulas. As you may have noticed, each formula contains a unique combination of variables. Thus, depending on the parameters given on a problem, using one formula than another can simplify the solution.</p>
+
+<p>By enumerating all variables in the kinematic equations, we obtain the following: $v_i$, $v_f$, $a$, $t$, and $s$. While all four equations contain a total of five (5) variables, each kinematic equation contains only four (4) variables. Thus, determining the missing variable can provide insight into the equation we will use to solve the problem. Tabulating this information provides us with,</p>
+
+<center><p>Table 1: Missing variables in kinematic equations</p></center>
+
+\[\begin{array}{c|c}
+	\hline
+	\text{Kinematic Equation} &amp; \text{Missing variable} \\
+	\hline
+	v_f = v_i+at							&amp; s \\
+	\Delta s = \br{ \dfrac{v_i+v_f}{2} }t 	&amp; a \\
+	\Delta s = v_it+\dfrac{1}{2}at^2 		&amp; v_f \\
+	{v_f}^2 = {v_i}^2+2a\Delta s			&amp; t \\
+	\hline
+\end{array}\]
+
+<hr />
+<p>$\example{1}$
+A car overtaking a truck, uniformly accelerates its speed from 40
+kph to 90 kph in 8 seconds. Calculate (a) the average velocity in
+m/s, (b) the car’s acceleration in $\mathrm{m/s^2}$, and (c) the distance travelled
+during the 8 second period in meters.</p>
+
+<p>$\solution$ <br />
+$\For{a}$ <br />
+In uniform accelerated motion, to determine for the average velocity, add the initial and final velocities then divide by 2.</p>
+
+\[\begin{align*}
+	\overline{v} &amp;= \frac{v_i+v_2}{2} \\
+	&amp;= \frac{40\un{kph} + 90\un{kph}}{2} \\
+	&amp;= 65 \,\NDcancel{}{km}{}{hr} \cdot \Dcancel{1,000}{m}{1}{km} \cdot \NDcancel{1}{hr}{60}{min} \cdot \Ncancel{1}{min}{60}{sec} \\
+	&amp;= 18.06 \un{m/s}		\tagans
+\end{align*}\]
+
+<p>$\For{b}$ <br />
+Given that $v_i$, $v_f$, and $t$ are all provided, and only $a$ is required. In this particular problem, the variable $s$ is missing. Thus, utilizing Table 1 indicates that the simplest solution is to use Equation \ref{eq:kinematic eqn 1}. Hence,</p>
+
+\[\begin{align*}
+	a &amp;= \frac{v_f-v_i}{t} \\
+	&amp;= \frac{90\un{kph}-40\un{kph}}{8\un{sec}} \\
+	&amp;= \frac{50 \,\NDcancel{}{km}{}{hr} \cdot \Dcancel{1,000}{m}{1}{km} \cdot \NDcancel{1}{hr}{60}{min} \cdot \Ncancel{1}{min}{60}{sec} }{8 \un{sec}} \\
+	&amp;= 1.74 \un{m/s/s} \\
+	&amp;= 1.74 \un{m/s^2}		\tagans
+\end{align*}\]
+
+<p>$\For{c}$ <br />
+In this problem, we could now use any of the kinematic equations since we already have solved for the different parameters. However, there are instances when we are uncertain about our answers. Thus, if possible, it would be prudent to solve the problem using the provided parameters. $v_i$, $v_f$, and $t$ are all specified in this example, while $\Delta{s}$ is required. Consequently, the variable $a$ is missing. Hence, the simplest approach, as determined by Table 1, is to use Equation \ref{eq:kinematic eqn 2}.</p>
+
+\[\begin{align*}
+	\Delta s &amp;= \br{ \frac{v_i+v_f}{2} }t 
+\end{align*}\]
+
+<p>Since $\overline{v}=\frac{v_i+v_f}{2}$,</p>
+
+\[\begin{align*}
+	\Delta s &amp;= \overline{v}t \\
+	&amp;= (18.06 \un{m/s})(8 \un{sec}) \\
+	&amp;= 144.48 \un{m}	\tagans
+\end{align*}\]
+:ET
