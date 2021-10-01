@@ -1,5 +1,5 @@
 ---
-title: "Exponential and Logarithmic Functions"
+title: "Trigonometric Functions"
 authornum: 2
 author: Engr. Nico O. Aspra, ME, RMP  <br> Engr. Pee Jay N. Gealone
 prevcontenturl: ../IC-3.2-exponential-and-logarithmic-functions

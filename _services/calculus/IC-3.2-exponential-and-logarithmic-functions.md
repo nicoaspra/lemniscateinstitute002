@@ -3,7 +3,7 @@ title: "Exponential and Logarithmic Functions"
 authornum: 2
 author: Engr. Nico O. Aspra, ME, RMP  <br> Engr. Pee Jay N. Gealone
 prevcontenturl: ../IC-3.1-properties-and-the-general-power-rule-for-integration
-nextcontenturl: ../IC-3.1-trigonometric-functions
+nextcontenturl: ../IC-3.3-trigonometric-functions
 ---
 
 
