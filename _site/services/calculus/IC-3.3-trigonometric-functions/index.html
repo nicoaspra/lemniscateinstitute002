@@ -99,14 +99,14 @@ $$
           <!-- <a href="">Engr. Nico O. Aspra, ME, RMP  <br> Engr. Pee Jay N. Gealone</a> -->
           <!-- <br> -->
         <div class="content">
-          <!-- Before proceeding with our topic, it is essential to develop a strong understanding of the basic rules and laws governing exponential and logarithmic functions. It is also crucial to appreciate the importance of these functions in many real-world applications. Exponential and logarithmic functions are present in various fields, specifically in modelling population growth, cell growth and decay, financial growth and depreciation, and radioactive decay, to name a few of its applications. Nevertheless, you can review some of the fundamental laws and concepts underlying these functions to better understand this topic. -->
+          <p>In this section, we will learn how to integrate simple trigonometric functions. However, before starting with this lesson, it is imperative to review some of the basic concepts in trigonometric functions.</p>
 
-<p>Before proceeding with our topic, it is essential to understand the basic rules and laws governing <a href="../DC-8.1-exponential-functions">exponential</a> and <a href="../DC-8.2-logarithmic-functions">logarithmic</a> functions. It is also crucial to appreciate the importance of these functions in many real-world applications. Exponential and logarithmic functions are present in various fields, specifically in modelling population growth, cell growth and decay, financial growth and depreciation, and radioactive decay, to name a few of its applications. Nevertheless, you can review some of the fundamental laws and concepts underlying these functions to understand this topic better.</p>
+<p>Similar to our previous lessons, integrating trigonometric functions is merely the opposite of differentiating them. With this in mind, it is best also to review the methods in differentiating these functions. To begin, let us introduce the fundamental integration formulas for trigonometric functions.</p>
 
-<p>In this lesson, we will learn how to integrate both exponential and logarithmic functions. However, before we can proceed, it is best to review the methods of <a href="../DC-8.3-derivatives-of-exponential-and-logarithmic-functions">differentiating these functions</a>. Considering that integration is the inverse of differentiation; thus, understanding the relationship between the two methods is ideal for us to have a deeper appreciation of this topic.</p>
-
-<h1 id="integration-formulas-for-exponential-and-logarithmic-functions">Integration Formulas for Exponential and Logarithmic Functions</h1>
-<p>For the following formulas in evaluating indefinite integrals, let $u$ be a function of $x$; $a$ as a constant; $e$ as the Euler’s number; and $C$ as the constant of integration.</p>
+<h2 id="integration-formulas">Integration Formulas</h2>
+<p>The following are the integration formulas that can be used in integrating basic trigonometric functions.
+These formulas are derived from the basic differential formulas that were used in Differential Calculus.
+It will be to your advantage if you are very familiar with these formulas.</p>
 
 <p align="center" style="background-color:rgba(64, 130, 110, 0.07);
 border: 3px solid rgba(64, 130, 110, 0.9);
@@ -114,175 +114,204 @@ border-radius:7px;
 padding:10px;
 margin:5px;">
     $$\begin{align}
-        \int \frac{du}{u} &amp;= \ln|u|+C  \qquad\text{where: } u&gt;0
-            \label{eq:integral of Natural Logarithmic Function} \\
-        \int e^u\,du &amp;= e^u+C 
-            \label{eq:integral of Exponential Function e^u}\\
-        \int a^u\,du &amp;= \frac{a^u}{\ln a}+C
-            \label{eq:integral of Exponential Function a^u}
+	&amp;\int \sin u \,du = - \cos u +C \\
+	&amp;\int \cos u \,du =  \sin u +C 
+		\label{eq:trig int cos} \\
+	&amp;\int \tan u \,du =  \ln (\sec u) +C \\
+		&amp; \phantom{\int \tan u \,du}= - \ln (\cos u) + C \\
+	&amp;\int \cot u \,du =  \ln (\sin u) +C  \\
+	&amp;\int \sec u \,du =  \ln (\sec u + \tan u) +C  \\
+	&amp;\int \csc u \,du =  - \ln (\csc u + \cot u) +C \\
+		&amp; \phantom{\int \csc u \,du}= \ln (\csc u - \cot u) +C \\
+	&amp;\int \sec^2 u \,du =  \tan u +C \\
+	&amp;\int \csc^2 u \,du =  - \cot u +C \\
+	&amp;\int \sec u \tan u \,du =  \sec u +C \\
+	&amp;\int \csc u \cot u \,du =  - \csc u +C
     \end{align}$$
 </p>
 
+<p>In evaluating trigonometric functions, we may encounter a variety of distinct forms, each of which demands a different approach. To have a deeper understanding of this notion, it is necessary to gain experience from solving problems.</p>
+
 <hr />
-<p>$\example{1}$ 
-Evaluate the integral
-$\int \frac{x}{x^2+1}\,dx$</p>
+<p>$\example{1}$
+Evaluate the integral $\int\cos 6x \,dx$.</p>
 
 <p>$\solution$ <br />
-Let: $\tcA{u = x^2+1}$</p>
-
-<p>Differentiating the function gives us,</p>
+\(\begin{align*}
+	\text{Let:}\quad u &amp;= 6x &amp; \\
+		du &amp;= 6 dx \\
+		\frac{1}{6}du &amp;= dx	
+\end{align*}\)</p>
 
 \[\begin{align*}
-    d(u) &amp;= d(x^2+1) \\
-    du &amp;= 2x\,dx \\
-	\tcB{\frac{du}{2}} &amp; \tcB{= x\,dx }
+	\int\cos 6x \,dx &amp;= \int\cos u \br{\frac{1}{6}du} \\
+		&amp;= \frac{1}{6} \int\cos u (\,du)
 \end{align*}\]
 
-<p>Then rearrange the given integral,</p>
+<p>Then to evaluate, use Equation \ref{eq:trig int cos},</p>
 
 \[\begin{align*}
-	\int \frac{x}{x^2+1}\,dx &amp;= \int\frac{x\,dx}{x^2+1} \\
-	&amp;= \int\frac{\tcB{du/2}}{\tcA{u}} \\
-	&amp;= \frac12\int\frac{du}{u} \\
+		&amp;= \frac{1}{6} \sin u + C
 \end{align*}\]
 
-<p>As you can recall in our previous lesson, we cannot use the <a href="../IC-3.1-properties-and-the-general-power-rule-for-integration">General Power Rule for Integration</a> if $n = -1$, as you may have realized that this problem is a solution to that restriction. Since $\int \frac{du}{u}$ is just equal to $\int u^{-1}\,du$. We can now solve this problem using Equation $\ref{eq:integral of Natural Logarithmic Function}$. Thus,</p>
+<p>Since $u=6x$,</p>
 
 \[\begin{align*}
-	\int \frac{x}{x^2+1}\,dx &amp;= \frac12 \ln|u|+C
-\end{align*}\]
-
-<p>Since, $u = x^2+1$</p>
-
-\[\begin{align*}
-	\int \frac{x}{x^2+1}\,dx &amp;= \frac12\ln|x^2+1|+C		\tagans
+	\int\cos 6x \,dx &amp;= \frac{1}{6} \sin 6x + C	\tagans
 \end{align*}\]
 
 <hr />
 <p>$\example{2}$
-Evaluate the integral
-$\int \frac{x^3-4x^2+x-3}{x+2}\,dx$</p>
+Evaluate the integral $\int\sin 4x \sec 2x\,dx$.</p>
 
 <p>$\solution$ <br />
-In this case, the integrand is an improper fraction since the numerator’s degree is greater than the denominator. To simplify the rational function, we can first divide the numerator by the denominator.</p>
-
-<figure style="text-align: center;">
-  <img src="/images/content/IC/IC-3.2.1.png" alt="my alt text" width="270px" />
-  <figcaption><em>
-</em></figcaption>
-</figure>
-
-<p>Dividing the rational function results to $x^2-6x+13$ with a remainder of $-29$. Hence,</p>
+In integral calculus, before we can integrate, the angles of every trigonometric function in one term must all be the same. In this example, the angles are $4x$ and $2x$. Hence, the preliminary step that we must do before we can integrate is to simplify the function.</p>
 
 \[\begin{align*}
-	\int\frac{x^3-4x^2+x-3}{x+2}\,dx &amp;= \int\br{x^2-6x+13-\frac{29}{x+2} }\,dx \\
-	&amp;= \int x^2\,dx - 6\int x\,dx + 13\int\,dx - 29\int\frac{dx}{x+2} \\
-	&amp;= \frac{x^3}{3}-\frac{6x^2}{2}+13x-29\ln|x+2|+C \\
-	&amp;= \frac13 x^3-3x^2+13x-29\ln|x+2|+C	\tagans
+	\sin 4x \sec 2x &amp;= \sin 2(2x) \sec 2x 
+\end{align*}\]
+
+<p>To simplify $\sin 2(2x)$, we can use the Double-Angle Formula, $\sin{2\theta} = 2\sin\theta \cos\theta$.</p>
+
+\[\begin{align*}
+	&amp;= (2 \sin 2x \cancel{\cos 2x}) \bigg(\frac{1}{\cancel{\cos 2x}} \bigg) \\
+	&amp;= 2 \sin 2x
+\end{align*}\]
+
+<p><br />
+\(\begin{align*}
+	\text{Let:}\qquad u &amp;= 2x &amp; \\
+		du &amp;= 2 \,dx \\
+		\frac{1}{2}du &amp;= dx	
+\end{align*}\)</p>
+
+\[\begin{align*}
+	\int\sin 4x \sec 2x\,dx &amp;= \int (2 \sin 2x ) \,dx \\
+	&amp;= 2 \int\sin u \br{\frac{1}{2}du} \\
+	&amp;= \int\sin u (\,du) \\
+	&amp;= - \cos u + C \\
+	&amp;= - \cos 2x + C	\tagans
 \end{align*}\]
 
 <hr />
-<p>$\example{3}$
-Evaluate the integral
-$\int e^{2x-7}\,dx$</p>
+<p>$\example{3}$ 
+Evaluate the integral $\int 5\sec\br{\frac{x}{2}}\tan\br{\frac{x}{2}} \,dx$</p>
 
 <p>$\solution$ <br />
 \(\begin{align*}
-	\text{Let:}\quad u &amp;= 2x-7 &amp; \\
-	du &amp;= 2\,dx \\
-	\frac12\,du &amp;= dx
+	\text{Let:}\qquad u &amp;= \frac{x}{2} &amp; \\
+		du &amp;= \frac12 \,dx \\
+		2\,du &amp;= dx	
 \end{align*}\)</p>
 
-<p>Express the function in terms of $u$. Then to integrate the function, use Equation \ref{eq:integral of Exponential Function e^u},</p>
-
 \[\begin{align*}
-	\int e^{2x-7}\,dx &amp;= \int e^u \cdot\frac12\,du \\
-	&amp;= \frac12 \int e^u\,du \\
-	&amp;= \frac12 e^u+C
-\end{align*}\]
-
-<p>Since, $u = 2x-7$</p>
-
-\[\begin{align*}
-	\int e^{2x-7}\,dx &amp;= \frac12 e^{2x-7}+C		\tagans
+	\int 5\sec\br{\frac{x}{2}}\tan\br{\frac{x}{2}} \,dx &amp;= 5\int \sec u \tan u \cdot 2\,du \\
+	&amp;= 10\int \sec u \tan u \cdot \,du \\
+	&amp;= 10\sec u + C \\
+	&amp;= 10\sec\br{\frac{x}{2}}+C		\tagans
 \end{align*}\]
 
 <hr />
-<p>$\example{4}$
-Evaluate the integral
-$\int \frac{3e^{1/x}}{x^2}\,dx$</p>
+<p>$\example{4}$ 
+Evaluate the integral $\int x\csc^2x^2\,dx$</p>
 
 <p>$\solution$ <br />
 \(\begin{align*}
-	\text{Let:}\quad u &amp;= 1/x &amp; \\
-	du &amp;= d(x^{-1}) \\
-	&amp;= -x^{-2}\,dx \\
-	&amp;= -\frac{1}{x^2}\,dx \\
-	-du &amp;= \frac{dx}{x^2}
+	\text{Let:}\qquad u &amp;= x^2 &amp; \\
+		du &amp;= 2x \,dx \\
+		\frac12 du &amp;= dx
 \end{align*}\)</p>
 
-<p>Express the function in terms of $u$. Then to integrate the function, use Equation \ref{eq:integral of Exponential Function e^u},</p>
-
 \[\begin{align*}
-	\int \frac{3e^{1/x}}{x^2}\,dx &amp;= 3\int e^{1/x}\cdot\frac{dx}{x^2} \\
-	&amp;= 3\int e^u (-du) \\
-	&amp;= -3\int e^u \,du \\
-	&amp;= -3 e^u+C
-\end{align*}\]
-
-<p>Since, $u = 1/x$</p>
-
-\[\begin{align*}
-	\int \frac{3e^{1/x}}{x^2}\,dx &amp;= -3e^{1/x}+C	\tagans
+	\int x\csc^2x^2\,dx &amp;= \int \csc^2u \cdot \frac12\,du \\
+	&amp;= \frac12 \int \csc^2u\,du \\
+	&amp;= -\frac12 \cot u +C \\
+	&amp;= -\frac12 \cot x^2 + C		\tagans
 \end{align*}\]
 
 <hr />
 <p>$\example{5}$ 
-Evaluate the integral
-$\int \frac{dx}{e^{3x}+1}$</p>
+Evaluate the integral $\int \frac{\cot(\ln x)}{x}\,dx$</p>
 
 <p>$\solution$ <br />
-In this case, we cannot directly use the formula for integrating an exponential function. But by adding $e^{3x}-e^{3x}$ to the numerator, the integral can be broken down into two rational functions while still retaining its original value since $e^{3x}-e^{3x}$ is just equal to zero.</p>
+\(\begin{align*}
+	\text{Let:}\qquad u &amp;= \ln x &amp; \\
+		du &amp;= \frac1x \,dx
+\end{align*}\)</p>
 
 \[\begin{align*}
-	\int \frac{dx}{e^{3x}+1} &amp;= \int\frac{1+e^{3x}-e^{3x}}{e^{3x}+1} \\
-	&amp;= \int\frac{\cancel{1+e^{3x}}}{\cancel{1+e^{3x}}}\,dx - \int\frac{e^{3x}}{e^{3x}+1}\,dx \\
-	&amp;= \int\,dx-\int\frac{e^{3x}}{e^{3x}+1}\,dx \\
-	&amp;= x - \frac13\int\frac{3e^{3x}}{e^{3x}+1}\,dx \\
-	&amp;= x - \frac13\ln|e^{3x}+1|+C	\tagans
+	\int \frac{\cot(\ln x)}{x}\,dx &amp;= \int \cot(\ln x) \cdot \frac{1}{x}\,dx \\
+	&amp;= \int \cot u\,du \\
+	&amp;= \ln(\sin u)+C \\
+	&amp;= \ln\brk{\sin (\ln x)}+C		\tagans
 \end{align*}\]
 
 <hr />
 <p>$\example{6}$ 
-Evaluate the integral 
-$\int 3^{2x}\,dx$.</p>
+Evaluate the integral $\int \tan^2 4x\,dx$</p>
 
 <p>$\solution$ <br />
-\(\begin{align*}
-	\text{Let:}\quad a &amp;= 3 &amp; \\
-	u &amp;= 2x \\
-	du &amp;= 2\,dx \\
-	\frac{du}{2} &amp;= dx
-\end{align*}\)</p>
-
-<p>Express the function in terms of $u$. Then to integrate the function, use Equation \ref{eq:integral of Exponential Function a^u},</p>
+In this example, there is no direct formula to solve the integral. However, we can use one of the Pythagorean Identities to simplify first the integral.</p>
 
 \[\begin{align*}
-	\int 3^{2x}\,dx&amp;= \int a^2 \cdot\frac{du}{2} \\
-	&amp;= \frac12 \int a^u\,du \\
-	&amp;= \frac12 \cdot \frac{a^u}{\ln a}+C \\
-	&amp;= \frac12\cdot \frac{3^{2x}}{\ln 3}+C \\	
-	&amp;= \frac{9^x}{2\ln 3}+C		\tagans
+	\int \tan^2 4x &amp;= \int (\sec^2 4x-1)\, dx \\
+	&amp;= \int \sec^2 4x\,dx - \int\,dx 
+\end{align*}\]
+
+<p>For $\int \sec^2 4x\,dx$, let $u=4x$, and $\frac14\,du=dx$.</p>
+
+\[\begin{align*}
+	&amp;= \frac14 \int \sec^2 u\,du - \int\,dx \\
+	&amp;= \frac14 \tan u-x+C \\
+	&amp;= \frac14 \tan 4x-x+C	\tagans
 \end{align*}\]
 
 <hr />
-<h2 id="related-articles">Related Articles</h2>
-<ul>
-  <li><a href="../DC-8.1-exponential-functions">Exponential Functions</a></li>
-  <li><a href="../DC-8.2-logarithmic-functions">Logarithmic Functions</a></li>
-  <li><a href="../DC-8.3-derivatives-of-exponential-and-logarithmic-functions">Derivatives of Exponential and Logarithmic Functions</a></li>
-</ul>
+<p>$\example{7}$ 
+Evaluate the integral $\int \frac{e^{3x}\csc e^{3x}}{\tan e^{3x}} \,dx$,</p>
+
+<p>$\solution$ <br />
+Before integrating, simplify first the function.</p>
+
+\[\int \frac{e^{3x}\csc e^{3x}}{\tan e^{3x}} \,dx = \int e^{3x}\csc e^{3x}\cot e^{3x} \,dx\]
+
+\[\begin{align*}
+	\text{Let:}\qquad u &amp;= e^{3x} &amp; \\
+		du &amp;= 3e^{3x} \,dx \\
+		\frac13\,du &amp;= e^{3x} \,dx
+\end{align*}\]
+
+\[\begin{align*}
+	\int \frac{e^{3x}\csc e^{3x}}{\tan e^{3x}} \,dx &amp;= \int \csc e^{3x}\cot e^{3x} \cdot e^{3x}\,dx \\
+	&amp;= \frac13 \int \csc u\cot u \,du \\
+	&amp;= -\frac13 \csc u+C \\
+	&amp;= -\frac13 \csc e^{3x}+C		\tagans
+\end{align*}\]
+
+<hr />
+<p>$\example{8}$ 
+Evaluate the integral $\int \frac{\sin^3x}{1+\cos x}\,dx$</p>
+
+<p>$\solution$ <br />
+From the trigonopmetric identities, there is no identity for cubic functions. But, what we can do, is to first break down $\sin^3x$ to $\sin x$ and $\sin^2 x$. Hence,</p>
+
+\[\begin{align*}
+	\int \frac{\sin^3x}{1+\cos x}\,dx &amp;= \int \frac{\sin x \cdot \sin^2 x}{1+\cos x}\,dx \\
+	&amp;= \int \frac{\sin x (1-\cos^2x)}{1+\cos x}\,dx \\
+	&amp;= \int \frac{\sin x (1-\cos x)\cancel{(1+\cos x)}}{\cancel{(1+\cos x)}}\,dx \\
+	&amp;= \int (\sin x- \cos x \sin x) \,dx \\
+	&amp;= \int \sin x \,dx - \int \cos x \sin x \,dx \\
+	&amp;= \int \sin x \,dx + \int \cos x (-\sin x) \,dx
+\end{align*}\]
+
+<p>For $\int \cos x (-\sin x) \,dx,$ let $u=\cos x$, and $du=-\sin x\,dx$</p>
+
+\[\begin{align*}
+	&amp;= \int \sin x \,dx + \int u\,du \\
+	&amp;= -\cos x + \frac{u^2}{2} + C \\
+	&amp;= -\cos x + \frac{\cos^2x}{2} + C \\
+	&amp;= \frac12 \cos^2x-\cos x + C		\tagans
+\end{align*}\]
 
         </div>
       </div>
@@ -423,24 +452,24 @@ $\int 3^{2x}\,dx$.</p>
 
 <!-- <div class="PageNavigation">
   
-    <a class="prev" href="/services/calculus/IC-3.1-properties-and-the-general-power-rule-for-integration/">&laquo; Properties and the General Power Rule for Integration</a>
+    <a class="prev" href="/services/calculus/IC-3.2-exponential-and-logarithmic-functions/">&laquo; Exponential and Logarithmic Functions</a>
   
   
-    <a class="next" href="/services/calculus/IC-3.3-trigonometric-functions/">Exponential and Logarithmic Functions &raquo;</a>
+    <a class="next" href="/services/circuits-I/1.1-introduction/">Introduction to Circuits I &raquo;</a>
   
 </div> -->
 
 
 
 <!-- <div class="PageNavigation">
-    <a class="prev" href="../IC-3.1-properties-and-the-general-power-rule-for-integration">&laquo; </a> <a class="next" href="../IC-3.1-trigonometric-functions"> &raquo;</a>
+    <a class="prev" href="../IC-3.2-exponential-and-logarithmic-functions">&laquo; </a> <a class="next" href="../IC-3.3-trigonometric-functions"> &raquo;</a>
 </div> -->
 
 
 
 <div class="PageNavigation">
-  <a class="prev" href="../IC-3.1-properties-and-the-general-power-rule-for-integration">&laquo; Previous</a> 
-  <a class="next" href="../IC-3.1-trigonometric-functions">Next &raquo;</a>
+  <a class="prev" href="../IC-3.2-exponential-and-logarithmic-functions">&laquo; Previous</a> 
+  <a class="next" href="../IC-3.3-trigonometric-functions">Next &raquo;</a>
 </div>
 
 
