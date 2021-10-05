@@ -8,6 +8,7 @@ layout: default
     <div class="col-12 col-md-8">
       <div class="service service-single">
         {% include texmacros.html %}
+        {% include mobile-notice.html %}
         <h1 class="title">{{page.title}}</h1>
           {% if page.authornum == 1 %}
             <p style="color:#d02f5d"></pstyle>Author | {{page.author}}</p>
@@ -19,7 +20,6 @@ layout: default
           <!-- <br> -->
 
           <!-- <div class="deskContent">Content for desktop</div> -->
-          {% include mobile-notice.html %}
         <div class="content">
           {{content}}
         </div>
