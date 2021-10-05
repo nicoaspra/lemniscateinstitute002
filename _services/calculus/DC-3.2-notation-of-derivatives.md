@@ -1,7 +1,7 @@
 ---
 title: "Notation of Derivatives"
 prevcontenturl: ../DC-3.1-introduction-to-derivatives
-nextcontenturl: ../DC-3.1-introduction-to-derivatives
+nextcontenturl: ../DC-3.3-slope-of-a-curve
 ---
 
 

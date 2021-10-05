@@ -30,9 +30,9 @@ summary: Calculus, has a reputation of being one of the most dreaded subjects in
 - The Derivative
   - [Introduction to Derivatives](../calculus/DC-3.1-introduction-to-derivatives)
   - [Notation of Derivatives](../calculus/DC-3.2-notation-of-derivatives)
-  - Slope of a Curve
-  - Rate of Change
-  - Average and Instantaneous Velocity
+  - [Slope of a Curve](../calculus/DC-3.3-slope-of-a-curve)
+  - [Rate of Change](../calculus/DC-3.4-rate-of-change)
+  - [Average and Instantaneous Velocity](../calculus/DC-3.5-average-and-instantaneous-velocity)
 - Algebraic Functions
   - Differentiation and its Rules for Algebraic Functions
   - Higher Order Derivatives
@@ -54,8 +54,8 @@ summary: Calculus, has a reputation of being one of the most dreaded subjects in
   - [Logarithmic Functions](../calculus/DC-8.2-logarithmic-functions)
   - [Derivatives of Exponential and Logarithmic Functions](../calculus/DC-8.3-derivatives-of-exponential-and-logarithmic-functions)
 - Trigonometric Functions
-  - Angles
-  - Basic Trigonometric Functions
-  - Evaluating Trigonometric Functions
-  - Trigonometric Identities
-  - Derivatives of Trigonometric Function
+  - [Angles](../calculus/DC-9.1-angles)
+  - [Basic Trigonometric Functions](../calculus/DC-9.2-basic-trigonometric-identities)
+  - [Evaluating Trigonometric Functions](../calculus/DC-9.3-evaluating-trigonometric-functions)
+  - [Trigonometric Identities](../calculus/DC-9.4-trigonometric-identities)
+  - [Derivatives of Trigonometric Function](../calculus/DC-9.5-derivatives-of-trigonometric-functions)
