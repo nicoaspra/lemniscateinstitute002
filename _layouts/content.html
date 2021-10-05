@@ -2,6 +2,7 @@
 layout: default
 ---
 
+
 <div class="container pb-6 pt-6 pt-md-10 pb-md-10">
   <div class="row justify-content-start">
     <div class="col-12 col-md-8">
@@ -16,6 +17,9 @@ layout: default
           <!-- <p style="color:#d02f5d"></pstyle>Author | {{page.author}}</p> -->
           <!-- <a href="{{ page.authorlink }}">{{ page.author }}</a> -->
           <!-- <br> -->
+
+          <!-- <div class="deskContent">Content for desktop</div> -->
+          {% include mobile-notice.html %}
         <div class="content">
           {{content}}
         </div>

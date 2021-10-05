@@ -168,3 +168,37 @@ table {
   opacity: 0.7;
 }
 
+
+
+
+@media all and (min-width: 600px) {
+  .deskContent {display:block;}
+  .phoneContent {display:none;}
+}
+
+@media all and (max-width: 600px) {
+  .deskContent {display:none;}
+  .phoneContent {display:block;}
+}
+
+.phoneContent {
+  background: $details-background-color;
+  // padding: 2px 2px 2px 2px;
+  border: 3px solid $primary;
+  border-radius:7px;
+  padding:10px;
+  margin:5px;
+  color: $steel;
+  // margin-bottom: 15px;
+}
+
+.phoneContent-header{
+  text-align: center;
+  top:10px;
+  left:0;
+  width:100%;
+  height:25px;
+  border-bottom: 2px solid $primary;
+  color: $primary;
+  // background:rgb(196, 13, 13);
+}

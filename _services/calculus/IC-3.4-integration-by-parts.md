@@ -8,6 +8,8 @@ nextcontenturl: ../IC-3.5-tabular-integration-by-parts
 
 
 
+
+
 Integration by parts is a method of integration that can be used to evaluate integrals of a **product of two functions** that cannot be solved using the basic formulas of integration, which we have discussed from our previous lessons.
 
 The formula for Integration by Parts is derived from the differential of the product of two functions. Consider Equation \ref{eq:diff of products of two functions, by parts}, where $u$ and $dv$ are both functions of $x$.
