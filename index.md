@@ -9,4 +9,4 @@ intro_image_hide_on_mobile: false
 
 # Learning at your Fingertips
 
-Learn and excel in engineerning and technology anytime and anywhere you want.
+Learn and excel in engineering and technology anytime and anywhere you want.
