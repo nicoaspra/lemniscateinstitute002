@@ -1,0 +1,222 @@
+I""<p>Integration by parts may be daunting at first, especially it is comprised of different types of functions. 
+Moreover, there are instances in evaluating integrals by integration by parts that there is a need to perform the process more than once. 
+There are already available methods that don’t require this rigorous process anymore, hence evaluating integrals with such method can be further simplified.</p>
+
+<p>The method that we will cover in this lesson is Tabular Integration by Parts, where we will tabulate the derivative of one function and the integral of the other repetitively. In order for us to make a good use of this method, let us have several examples that will show the different possible cases.</p>
+
+<hr />
+<p>$\case{I}$ The $u$ column reduces to zero ``$0$’’ <br />
+$\example{1}$ 
+Evaluate the integral $\int x^2 \sin 2x\,dx$</p>
+
+<p>$\solution$ <br />
+In this method, we can still use the acronym LIATE in choosing the $u$ and $dv$ of the integrand. Since $x^2$ is an algebraic function and $\sin x$ is a trigonometric function, <br />
+\(\begin{align*}
+	\text{Let:}\qquad u &amp;= x^2 &amp;  dv &amp;= \sin 2x\,dx &amp;&amp;&amp;&amp;&amp;&amp;&amp;
+\end{align*}\)</p>
+
+<p>In evaluating the integrals using the tabular method, create a column for $u$ and another for $dv$.
+In the $u$ column, differentiate the function, then write its derivative below it. Similarly, in the $dv$ column, instead of differentiation, integrate the function, then continue the process.</p>
+
+<p>\begin{center}
+	\begin{tikzpicture}
+	\matrix (m) [matrix of math nodes, row sep=5pt,column sep = 20pt,] 
+		{
+		\toprule
+		\boldsymbol{u}	&amp;&amp;	 \boldsymbol{dv}  \ 
+		\midrule
+		x^2 		&amp; &amp;		\sin{2x}  \ 
+		2x 		&amp; &amp;		- \frac{1}{2} \cos{2x}  \ 
+		2 		&amp; &amp;		- \frac{1}{4} \sin{2x}  \ 
+		0 		&amp; &amp;		\phantom{-} \frac{1}{8} \cos{2x}  \<br />
+		\bottomrule
+		\phantom{aaaaaaaaa} &amp; &amp; \phantom{aaaaaaaaa} <br />
+		};
+	\end{tikzpicture} 
+\end{center}</p>
+
+<p>When the $\tcBal{$u$ column reduces to zero “$0$”}$, stop the process. And to evaluate the integral, multiply each $u$ with the $dv$ diagonal lower from it bearing an alternating sign starting with positive ($+$).</p>
+
+<p>\begin{center}
+	\begin{tikzpicture}
+	\matrix (m) [matrix of math nodes, row sep=5pt,column sep = 20pt,] 
+		{
+		\toprule
+		\boldsymbol{u}	&amp;&amp;	 \boldsymbol{dv}  \ 
+		\midrule
+		x^2 		&amp; &amp;		\sin{2x}  \ 
+		2x 		&amp; &amp;		- \frac{1}{2} \cos{2x}  \ 
+		2 		&amp; &amp;		- \frac{1}{4} \sin{2x}  \ 
+		0 		&amp; &amp;		\phantom{-} \frac{1}{8} \cos{2x}  \<br />
+		\bottomrule
+		\phantom{aaaaaaaaa} &amp; &amp; \phantom{aaaaaaaaa} <br />
+		};
+		\begin{scope}[colorB,-latex]
+			\draw (m-2-1)–(m-3-3) node[midway, above]{$+$};
+			\draw (m-3-1)–(m-4-3) node[pos=.45, above]{$-$};
+			\draw (m-4-1)–(m-5-3) node[midway, above]{$+$};
+		\end{scope}
+	\end{tikzpicture} 
+\end{center}</p>
+
+<p>Therefore,</p>
+
+\[\begin{align*}
+	\int x^2 \sin 2x\,dx &amp;= x^2\br{-\frac12\cos2x}-2x\br{-\frac14\sin2x}+2\br{\frac18\cos2x}+C \\
+	&amp;= -\frac12 x^2\cos2x+\frac12x\sin2x+\frac14\cos2x+C		\tagans
+\end{align*}\]
+
+<hr />
+
+<p>$\case{II}$ The product of the last row can be easily integrated <br />
+$\example{2}$
+Evaluate the integral $\int x^3\ln x\,dx$</p>
+
+<p>$\solution$ <br />
+Since $\ln x$ is a logarithmic function and $x^3$ is an algebraic function, <br />
+\(\begin{align*}
+	\text{Let:}\qquad u &amp;= \ln{x} &amp;  dv &amp;= x^3\,dx &amp;&amp;&amp;&amp;&amp;&amp;&amp;
+\end{align*}\)</p>
+
+<p>\begin{center}
+	\begin{tikzpicture}
+	\matrix (m) [matrix of math nodes, row sep=5pt,column sep = 20pt,] 
+		{
+		\toprule
+		\boldsymbol{u}	&amp;&amp;	 \boldsymbol{dv}  \ 
+		\midrule
+		\ln x 		&amp; &amp;		x^3  \ 
+		\frac{1}{x} 	&amp; &amp;		\frac{x^4}{4}  \ 
+		\bottomrule
+		\phantom{aaaaaaaaa} &amp; &amp; \phantom{aaaaaaaaa} <br />
+		};
+		\begin{scope}[colorB,-latex]
+			\draw (m-2-1)–(m-3-3) node[midway, above]{$+$};
+			\draw (m-3-3) – (m-3-1) node[pos=.475, above]{$-$};
+		\end{scope}
+	\end{tikzpicture} 
+\end{center}</p>
+
+<p>In instances where the $u$-column does not end up reducing to zero, but the product of the last row can already be easily integrated, the same solution as the first case can be used together with an additional step which is adding the integral of the product of the last row.</p>
+
+\[\begin{align*}
+	\int x^3\ln x\,dx &amp;= \ln{x}\cdot\frac{x^4}{4}-\int \frac{x^4}{4}\cdot\frac{1}{x}\,dx \\
+	&amp;= \frac{x^4}{4} \ln{x}-\frac14\int x^3\,dx \\
+	&amp;= \frac{x^4}{4} \ln{x}-\frac14\cdot\frac{x^4}{4}+C \\
+	&amp;= \frac{x^4}{4} \ln{x}-\frac{x^4}{16}+C		\tagans
+\end{align*}\]
+
+<hr />
+<p>$\case{III}$ The original integral appears again</p>
+
+<p>$\example{3}$
+Evaluate the integral $\int e^{2x}\sin 3x\,dx$</p>
+
+<p>$\solution$</p>
+
+<p>\begin{center}
+\begin{tikzpicture}
+\matrix (m) [matrix of math nodes, row sep=5pt,column sep = 20pt,] 
+	{
+		\toprule
+		\boldsymbol{u}	&amp;&amp;	 \boldsymbol{dv}  \ 
+		\midrule
+		\sin 3x	&amp; &amp; 		e^{2x}  \ 
+		3\cos 3x	&amp; &amp;		\frac{1}{2}e^{2x}  \ 
+		-9\sin 3x 	&amp; &amp;		 \frac{1}{4}e^{2x} \ 
+		\bottomrule
+		\phantom{aaaaaaaaa} &amp; &amp; \phantom{aaaaaaaaa} <br />
+	};
+	\begin{scope}[colorB,-latex]
+		\draw (m-2-1)–(m-3-3) node[midway, above]{$+$};
+		\draw (m-3-1)–(m-4-3) node[pos=.45, above]{$-$};
+		\draw (m-4-3)–(m-4-1) node[pos=.55, above]{$+$};
+	\end{scope}
+\end{tikzpicture} 
+\end{center}</p>
+
+<p>For this case, the original integral appears again, containing a different coefficient. This can be solved using the same solution as the second case.</p>
+
+\[\begin{align*}
+	\int e^{2x}\sin 3x\,dx &amp;= \frac12 e^{2x}\sin{3x}-\frac34 e^{2x}\cos{3x} + \frac94 \int e^{2x}(-\sin 3x)\,dx \\
+	&amp;= \frac12 e^{2x}\sin{3x}-\frac34 e^{2x}\cos{3x} - \frac94 \int e^{2x}\sin 3x\,dx \\
+	\int e^{2x}\sin 3x\,dx + \frac94 \int e^{2x}\sin 3x\,dx &amp;= \frac12 e^{2x}\sin{3x}-\frac34 e^{2x}\cos{3x} + C \\
+	\frac{13}{4} \int e^{2x}\sin 3x\,dx &amp;= \frac12 e^{2x}\sin{3x}-\frac34 e^{2x}\cos{3x} + C \\
+	\int e^{2x}\sin 3x\,dx &amp;= \frac{4}{13} \br{\frac12 e^{2x}\sin{3x}-\frac34 e^{2x}\cos{3x}} + C \\
+	&amp;= \frac{1}{13} \br{2e^{2x}\sin{3x}-3 e^{2x}\cos{3x}} + C		\tagans
+\end{align*}\]
+
+<hr />
+<p>$\case{IV}$ Rows can be simplified <br />
+$\example{4}$
+Evaluate the integral $\int \ln^2x\,dx$</p>
+
+<p>Evaluating integrals using the tabulation method sometimes may lead to a row that can be simplified. If this happens, we can rewrite the simplified functions to the next row, and a horizontal broken line can also be added to emphasize where the simplification occurs.</p>
+
+<p>\begin{center}
+\begin{tikzpicture}
+\matrix (m) [matrix of math nodes, row sep=5pt,column sep = 20pt,] 
+	{
+	\toprule
+	\boldsymbol{u}	&amp;&amp;	 \boldsymbol{dv}  \ 
+	\midrule
+	\ln^2{x}	&amp; &amp;		1  \ 
+	2\ln{x} \cdot \frac{1}{\tcA{x}} 		&amp; &amp;		\tcA{x}  \ 
+	2\ln{x} \cdot \frac{1}{\cancel{x}} \cancel{x }		&amp; &amp;		  1  \ 
+	\frac{2}{\tcA{x}} 		&amp; &amp;		\tcA{x}  \<br />
+	\frac{2}{\cancel{x}}\cancel{x}			&amp; &amp;		1 <br />
+	0			&amp; &amp;		x <br />
+	\bottomrule
+	\phantom{aaaaaaaaa} &amp; &amp; \phantom{aaaaaaaaa} <br />
+	};
+	\begin{scope}[colorB,-latex]
+		\draw (m-2-1)–(m-3-3) node[midway, above]{$+$};
+		\draw (m-4-1)–(m-5-3) node[pos=0.4, above]{$-$};
+		\draw (m-6-1)–(m-7-3) node[midway, above]{$+$};
+	\end{scope}
+	\draw[dashed, -] (-2.6,1) – (2.6,1);<br />
+	\draw[dashed, -] (-2.6,-1.2) – (2.6,-1.2); 
+\end{tikzpicture} 
+\end{center}
+%
+Hence,
+\begin{align<em>}
+	\int \ln^2 x \,dx = x\ln^2 x - 2x\ln x + 2x + C		\tagans
+\end{align</em>}</p>
+
+<p>\erule</p>
+
+<p>\case{V} Rows can be redistributed <br />
+$\example{5}$
+Evaluate the integral $\int x^3e^{x^2}\,dx$</p>
+
+<p>In cases where simplification may not be enough, we can also redistribute variables to another column in a row. A horizontal broken line can also be added to emphasize where the redistribution occurs.</p>
+
+<p>\begin{center}
+\begin{tikzpicture}
+\matrix (m) [matrix of math nodes, row sep=5pt,column sep = 20pt,] 
+	{
+	\toprule
+	\boldsymbol{u}	&amp;&amp;	 \boldsymbol{dv}  \ 
+	\midrule
+	x^2			&amp; &amp;		xe^{x^2}  \ 
+	2\tcA{x} 	&amp; &amp;		\frac{1}{2}e^{x^2} \ 
+	2			&amp; &amp;		\frac{1}{2}\tcA{x}e^{x^2} \ 
+	0 			&amp; &amp;		\frac{1}{4}e^{x^2} \ 
+	\bottomrule 
+	\phantom{aaaaaaaaa} &amp; &amp; \phantom{aaaaaaaaa} <br />
+	};
+	\begin{scope}[colorB,-latex]
+		\draw (m-2-1)–(m-3-3) node[midway, above]{$+$};
+		\draw (m-4-1)–(m-5-3) node[pos=0.5, above]{$-$};
+	\end{scope}
+	\draw[dashed, -] (-2.6,0.1) – (2.6,0.1);<br />
+\end{tikzpicture} 
+\end{center}
+%
+Hence,
+\begin{align<em>}
+	\int x^3e^{x^2} \,dx &amp;= \frac{1}{2}x^2e^{2x} -{2 \cdot \frac{1}{4}}e^{x^2} + C <br />
+	&amp;= \frac{1}{2}x^2e^{2x} - \frac{1}{2}e^{x^2} + C	\tagans
+\end{align</em>}</p>
+:ET

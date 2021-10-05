@@ -3,7 +3,7 @@ title: "Trigonometric Functions"
 authornum: 2
 author: Engr. Nico O. Aspra, ME, RMP  <br> Engr. Pee Jay N. Gealone
 prevcontenturl: ../IC-3.2-exponential-and-logarithmic-functions
-nextcontenturl: ../IC-3.3-trigonometric-functions
+nextcontenturl: ../IC-3.4-integration-by-parts
 ---
 
 

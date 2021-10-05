@@ -1,0 +1,259 @@
+I"�<p>Integration by parts may be daunting at first, especially it is comprised of different types of functions. 
+Moreover, there are instances in evaluating integrals by integration by parts that there is a need to perform the process more than once. 
+There are already available methods that don’t require this rigorous process anymore, hence evaluating integrals with such method can be further simplified.</p>
+
+<p>The method that we will cover in this lesson is Tabular Integration by Parts, where we will tabulate the derivative of one function and the integral of the other repetitively. In order for us to make a good use of this method, let us have several examples that will show the different possible cases.</p>
+
+<hr />
+<p>$\case{I}$ The $u$ column reduces to zero ``$0$’’ \</p>
+
+<!-- \example 
+Evaluate the integral $\int x^2 \sin 2x\,dx$
+
+\solution \\
+In this method, we can still use the acronym LIATE in choosing the $u$ and $dv$ of the integrand. Since $x^2$ is an algebraic function and $\sin x$ is a trigonometric function,
+\begin{flalign*}
+	\text{Let:}\qquad u &= x^2 &  dv &= \sin 2x\,dx &&&&&&&
+\end{flalign*}
+
+In evaluating the integrals using the tabular method, create a column for $u$ and another for $dv$.
+In the $u$ column, differentiate the function, then write its derivative below it. Similarly, in the $dv$ column, instead of differentiation, integrate the function, then continue the process.
+
+%an alternating sign starting with positive (+)
+
+\begin{center}
+	\begin{tikzpicture}
+	\matrix (m) [matrix of math nodes, row sep=5pt,column sep = 20pt,] 
+		{
+		\toprule
+		\boldsymbol{u}	&&	 \boldsymbol{dv}  \\ 
+		\midrule
+		x^2 		& &		\sin{2x}  \\ 
+		2x 		& &		- \frac{1}{2} \cos{2x}  \\ 
+		2 		& &		- \frac{1}{4} \sin{2x}  \\ 
+		0 		& &		\phantom{-} \frac{1}{8} \cos{2x}  \\  
+		\bottomrule
+		\phantom{aaaaaaaaa} & & \phantom{aaaaaaaaa} \\
+		};
+	\end{tikzpicture} 
+\end{center}
+
+When the \tcB{$u$ column reduces to zero ``$0$''}, stop the process. And to evaluate the integral, multiply each $u$ with the $dv$ diagonal lower from it bearing an alternating sign starting with positive ($+$).
+
+\begin{center}
+	\begin{tikzpicture}
+	\matrix (m) [matrix of math nodes, row sep=5pt,column sep = 20pt,] 
+		{
+		\toprule
+		\boldsymbol{u}	&&	 \boldsymbol{dv}  \\ 
+		\midrule
+		x^2 		& &		\sin{2x}  \\ 
+		2x 		& &		- \frac{1}{2} \cos{2x}  \\ 
+		2 		& &		- \frac{1}{4} \sin{2x}  \\ 
+		0 		& &		\phantom{-} \frac{1}{8} \cos{2x}  \\  
+		\bottomrule
+		\phantom{aaaaaaaaa} & & \phantom{aaaaaaaaa} \\
+		};
+		\begin{scope}[colorB,-latex]
+			\draw (m-2-1)--(m-3-3) node[midway, above]{$+$};
+			\draw (m-3-1)--(m-4-3) node[pos=.45, above]{$-$};
+			\draw (m-4-1)--(m-5-3) node[midway, above]{$+$};
+		\end{scope}
+	\end{tikzpicture} 
+\end{center}
+
+Therefore,
+\begin{align*}
+	\int x^2 \sin 2x\,dx &= x^2\br{-\frac12\cos2x}-2x\br{-\frac14\sin2x}+2\br{\frac18\cos2x}+C \\
+	&= -\frac12 x^2\cos2x+\frac12x\sin2x+\frac14\cos2x+C		\tagans
+\end{align*}
+
+
+
+
+
+
+
+\newpage
+\erule
+
+\case{II} The product of the last row can be easily integrated \\
+\example
+Evaluate the integral $\int x^3\ln x\,dx$
+
+\solution \\
+Since $\ln x$ is a logarithmic function and $x^3$ is an algebraic function,
+\begin{flalign*}
+	\text{Let:}\qquad u &= \ln{x} &  dv &= x^3\,dx &&&&&&&
+\end{flalign*}
+%
+\begin{center}
+	\begin{tikzpicture}
+	\matrix (m) [matrix of math nodes, row sep=5pt,column sep = 20pt,] 
+		{
+		\toprule
+		\boldsymbol{u}	&&	 \boldsymbol{dv}  \\ 
+		\midrule
+		\ln x 		& &		x^3  \\ 
+		\frac{1}{x} 	& &		\frac{x^4}{4}  \\ 
+		\bottomrule
+		\phantom{aaaaaaaaa} & & \phantom{aaaaaaaaa} \\
+		};
+		\begin{scope}[colorB,-latex]
+			\draw (m-2-1)--(m-3-3) node[midway, above]{$+$};
+			\draw (m-3-3) -- (m-3-1) node[pos=.475, above]{$-$};
+		\end{scope}
+	\end{tikzpicture} 
+\end{center}
+%
+In instances where the $u$-column does not end up reducing to zero, but the product of the last row can already be easily integrated, the same solution as the first case can be used together with an additional step which is adding the integral of the product of the last row.
+\begin{align*}
+	\int x^3\ln x\,dx &= \ln{x}\cdot\frac{x^4}{4}-\int \frac{x^4}{4}\cdot\frac{1}{x}\,dx \\
+	&= \frac{x^4}{4} \ln{x}-\frac14\int x^3\,dx \\
+	&= \frac{x^4}{4} \ln{x}-\frac14\cdot\frac{x^4}{4}+C \\
+	&= \frac{x^4}{4} \ln{x}-\frac{x^4}{16}+C		\tagans
+\end{align*}
+
+
+
+
+
+
+
+
+\erule
+
+\case{III} The original integral appears again \\
+\example
+Evaluate the integral $\int e^{2x}\sin 3x\,dx$
+
+
+
+\begin{center}
+\begin{tikzpicture}
+\matrix (m) [matrix of math nodes, row sep=5pt,column sep = 20pt,] 
+	{
+		\toprule
+		\boldsymbol{u}	&&	 \boldsymbol{dv}  \\ 
+		\midrule
+		\sin 3x	& & 		e^{2x}  \\ 
+		3\cos 3x	& &		\frac{1}{2}e^{2x}  \\ 
+		-9\sin 3x 	& &		 \frac{1}{4}e^{2x} \\ 
+		\bottomrule
+		\phantom{aaaaaaaaa} & & \phantom{aaaaaaaaa} \\
+	};
+	\begin{scope}[colorB,-latex]
+		\draw (m-2-1)--(m-3-3) node[midway, above]{$+$};
+		\draw (m-3-1)--(m-4-3) node[pos=.45, above]{$-$};
+		\draw (m-4-3)--(m-4-1) node[pos=.55, above]{$+$};
+	\end{scope}
+\end{tikzpicture} 
+\end{center}
+
+For this case, the original integral appears again, containing a different coefficient. This can be solved using the same solution as the second case.
+\begin{align*}
+	\int e^{2x}\sin 3x\,dx &= \frac12 e^{2x}\sin{3x}-\frac34 e^{2x}\cos{3x} + \frac94 \int e^{2x}(-\sin 3x)\,dx \\
+	&= \frac12 e^{2x}\sin{3x}-\frac34 e^{2x}\cos{3x} - \frac94 \int e^{2x}\sin 3x\,dx \\
+	\int e^{2x}\sin 3x\,dx + \frac94 \int e^{2x}\sin 3x\,dx &= \frac12 e^{2x}\sin{3x}-\frac34 e^{2x}\cos{3x} + C \\
+	\frac{13}{4} \int e^{2x}\sin 3x\,dx &= \frac12 e^{2x}\sin{3x}-\frac34 e^{2x}\cos{3x} + C \\
+	\int e^{2x}\sin 3x\,dx &= \frac{4}{13} \br{\frac12 e^{2x}\sin{3x}-\frac34 e^{2x}\cos{3x}} + C \\
+	&= \frac{1}{13} \br{2e^{2x}\sin{3x}-3 e^{2x}\cos{3x}} + C		\tagans
+\end{align*}
+
+
+
+
+
+
+
+
+
+
+\erule
+
+\case{IV} Rows can be simplified \\
+\example
+Evaluate the integral $\int \ln^2x\,dx$
+
+
+Evaluating integrals using the tabulation method sometimes may lead to a row that can be simplified. If this happens, we can rewrite the simplified functions to the next row, and a horizontal broken line can also be added to emphasize where the simplification occurs.
+
+
+
+
+\begin{center}
+\begin{tikzpicture}
+\matrix (m) [matrix of math nodes, row sep=5pt,column sep = 20pt,] 
+	{
+	\toprule
+	\boldsymbol{u}	&&	 \boldsymbol{dv}  \\ 
+	\midrule
+	\ln^2{x}	& &		1  \\ 
+	2\ln{x} \cdot \frac{1}{\tcA{x}} 		& &		\tcA{x}  \\ 
+	2\ln{x} \cdot \frac{1}{\cancel{x}} \cancel{x }		& &		  1  \\ 
+	\frac{2}{\tcA{x}} 		& &		\tcA{x}  \\  
+	\frac{2}{\cancel{x}}\cancel{x}			& &		1 \\
+	0			& &		x \\
+	\bottomrule
+	\phantom{aaaaaaaaa} & & \phantom{aaaaaaaaa} \\
+	};
+	\begin{scope}[colorB,-latex]
+		\draw (m-2-1)--(m-3-3) node[midway, above]{$+$};
+		\draw (m-4-1)--(m-5-3) node[pos=0.4, above]{$-$};
+		\draw (m-6-1)--(m-7-3) node[midway, above]{$+$};
+	\end{scope}
+	\draw[dashed, -] (-2.6,1) -- (2.6,1);  
+	\draw[dashed, -] (-2.6,-1.2) -- (2.6,-1.2); 
+\end{tikzpicture} 
+\end{center}
+%
+Hence,
+\begin{align*}
+	\int \ln^2 x \,dx = x\ln^2 x - 2x\ln x + 2x + C		\tagans
+\end{align*}	
+
+
+
+
+
+\erule
+
+\case{V} Rows can be redistributed \\
+\example
+Evaluate the integral $\int x^3e^{x^2}\,dx$
+
+
+In cases where simplification may not be enough, we can also redistribute variables to another column in a row. A horizontal broken line can also be added to emphasize where the redistribution occurs.
+
+
+
+
+
+\begin{center}
+\begin{tikzpicture}
+\matrix (m) [matrix of math nodes, row sep=5pt,column sep = 20pt,] 
+	{
+	\toprule
+	\boldsymbol{u}	&&	 \boldsymbol{dv}  \\ 
+	\midrule
+	x^2			& &		xe^{x^2}  \\ 
+	2\tcA{x} 	& &		\frac{1}{2}e^{x^2} \\ 
+	2			& &		\frac{1}{2}\tcA{x}e^{x^2} \\ 
+	0 			& &		\frac{1}{4}e^{x^2} \\ 
+	\bottomrule 
+	\phantom{aaaaaaaaa} & & \phantom{aaaaaaaaa} \\
+	};
+	\begin{scope}[colorB,-latex]
+		\draw (m-2-1)--(m-3-3) node[midway, above]{$+$};
+		\draw (m-4-1)--(m-5-3) node[pos=0.5, above]{$-$};
+	\end{scope}
+	\draw[dashed, -] (-2.6,0.1) -- (2.6,0.1);  
+\end{tikzpicture} 
+\end{center}
+%
+Hence,
+\begin{align*}
+	\int x^3e^{x^2} \,dx &= \frac{1}{2}x^2e^{2x} -{2 \cdot \frac{1}{4}}e^{x^2} + C \\
+	&= \frac{1}{2}x^2e^{2x} - \frac{1}{2}e^{x^2} + C	\tagans
+\end{align*} -->
+:ET

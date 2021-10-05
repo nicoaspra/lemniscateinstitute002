@@ -27,7 +27,7 @@ To understand the difference between Average and Instantaneous Velocity, conside
 
 **Instantaneous velocity**, on the other hand, is the velocity of the object at a specific instant. To understand this, let us have a simple example.
 
-Suppose a stray dog chased a student, his initial instinct tells him to run as fast as possible, say he is running at a rate of 10 m/s per second, but as time passed by, he starts slowing down to a rate of 4 m/s, then somehow realized that the dog already stopped chasing him, so he then stopped running. 
+Suppose a stray dog chased a student, his initial instinct tells him to run as fast as possible, say he is running at a rate of 10 m/s, but as time passed by, he starts slowing down to a rate of 4 m/s, then somehow realized that the dog already stopped chasing him, so he then stopped running. 
 
 **Instantaneous velocity**, is the *velocity at a certain instant*, so at the time he hit his velocity at 10 m/s that was his *instantaneous velocity at that certain moment*. And at the time he stopped, he has an instantaneous velocity of 0 m/s. Hence, instantaneous velocity is denoted as,
 
