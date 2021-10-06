@@ -34,10 +34,10 @@ summary: Calculus, has a reputation of being one of the most dreaded subjects in
   - [Rate of Change](../calculus/DC-3.4-rate-of-change)
   - [Average and Instantaneous Velocity](../calculus/DC-3.5-average-and-instantaneous-velocity)
 - Algebraic Functions
-  - Differentiation and its Rules for Algebraic Functions
-  - Higher Order Derivatives
-  - The Chain Rule
-  - Implicit Differentiation
+  - [Differentiation and its Rules for Algebraic Functions](../calculus/DC-4.1-differentiation-and-its-rules-for-algebraic-functions)
+  - [Higher Order Derivatives](../calculus/DC-4.2-higher-order-derivatives)
+  - [The Chain Rule](../calculus/DC-4.3-the-chain-rule)
+  - [Implicit Differentiation](../calculus/DC-4.4-implicit-differentiation)
 - Polynomial Curves
   - Tangents and Normals to Plane Curves
   - Maxima, Minima, and the First Derivative Test

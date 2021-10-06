@@ -1,7 +1,7 @@
 ---
 title: "Average and Instantaneous Velocity"
 prevcontenturl: ../DC-3.4-rate-of-change
-nextcontenturl: ../DC-3.5-average-and-instantaneous-velocity
+nextcontenturl: ../DC-4.1-differentiation-and-its-rules-for-algebraic-functions
 ---
 
 

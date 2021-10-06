@@ -1,4 +1,4 @@
-I"A<h1 id="contents">Contents</h1>
+I"<<h1 id="contents">Contents</h1>
 <ul>
   <li><a href="../calculus/DC-0.1-introduction-to-differential-calculus">Introduction to Differential Calculus</a></li>
   <li>Functions
@@ -36,10 +36,10 @@
   </li>
   <li>Algebraic Functions
     <ul>
-      <li>Differentiation and its Rules for Algebraic Functions</li>
-      <li>Higher Order Derivatives</li>
-      <li>The Chain Rule</li>
-      <li>Implicit Differentiation</li>
+      <li><a href="../calculus/DC-4.1-differentiation-and-its-rules-for-algebraic-functions">Differentiation and its Rules for Algebraic Functions</a></li>
+      <li><a href="../calculus/DC-4.2-higher-order-derivatives">Higher Order Derivatives</a></li>
+      <li><a href="../calculus/DC-4.3-the-chain-rule">The Chain Rule</a></li>
+      <li><a href="../calculus/DC-4.4-implicit-differentiation">Implicit Differentiation</a></li>
     </ul>
   </li>
   <li>Polynomial Curves
