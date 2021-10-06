@@ -1,0 +1,358 @@
+I"&;<p>Functions may not always appear as simple as the examples given from the past sections. Hence, differentiating complexly structured functions such as a <a href="../DC-1.4-composite-functions">composite function</a> cannot be easily solved by the previously discussed rules. With this in mind, we will introduce the Chain Rule in this section to solve composite functions. Notably, this rule is essential and may be one of the most widely used rules in Calculus. It may seem ambiguous now, but composite functions appear more frequently than it seems.</p>
+
+<p>To start our discussion, let us first describe what the Chain Rule is and how to use it. Consider the composite function $y=f(g(x))$, let $u=g(x)$ so that we could simplify the function to  $y=f(u)$. Where $f(u)$ is the outer function and $g(x)$ is the inner function, given that $f(u)$ is differentiable to $g(x)$ and $g(x)$ is differentiable to $x$. The derivative of the composite function $f(g(x))$ with respect to $x$ is equal to the \textit{product of the derivative of the outer function and the derivative of the inner function}.</p>
+
+<p align="center" style="background-color:rgba(64, 130, 110, 0.07);
+border: 3px solid rgba(64, 130, 110, 0.9);
+border-radius:7px;
+padding:10px;
+margin:5px;">
+    $$\begin{align}
+	(f \circ g)'(x) = f'(g(x)) \cdot g'(x)
+    \end{align}$$
+</p>
+
+<p>In Leibniz’s Notation, if $u=g(x)$ so that $y=f(u)$, then</p>
+<p align="center" style="background-color:rgba(64, 130, 110, 0.07);
+border: 3px solid rgba(64, 130, 110, 0.9);
+border-radius:7px;
+padding:10px;
+margin:5px;">
+    $$\begin{align}
+	\frac{dy}{dx}=\frac{dy}{du} \cdot \frac{du}{dx}
+    \end{align}$$
+</p>
+
+<p>Where $dy/du$ is the derivative of the outer function $y=f(u)$ and $du/dx$ is the derivative of the inner function $u=g(x)$.</p>
+
+<hr />
+<p>$\example{}$
+Differentiate the function $y = (x^2+x)^3$.</p>
+
+<p>\solution
+\begin{flalign<em>}
+	\text{Let: } u &amp;= x^2+x &amp; <br />
+	y &amp;= u^3
+\end{flalign</em>}
+%
+Differentiate the function with respect to $u$,
+\begin{align<em>}
+	\frac{d}{du}\br{y} &amp;= \frac{d}{du}\br{u^3} <br />
+	\frac{dy}{du} &amp;= 3u^{2} <br />
+\intertext{Then differentiate $u=x^2+x$ with respect to $x$,}
+	\ddx\br{u} &amp;= \ddx\br{x^2+x} <br />
+	\frac{du}{dx} &amp;= 2x+1 <br />
+\intertext{Thus, applying the Chain Rule,}
+%	\dydx &amp;= \frac{dy}{du}\cdot\frac{du}{dx} <br />
+	\dydx &amp;= 3u^2 \cdot (2x+1) \quad \tcA{\dydx=\frac{dy}{du}\cdot\frac{du}{dx}} <br />
+\intertext{Since $u=x^2+x$,}
+	\dydx &amp;= 3(x^2+x)^2 (2x+1)	\tagans
+\end{align</em>}</p>
+
+<p>\erule</p>
+
+<p>\subsection{General Power Rule}
+	The general power rule is a special case of  the chain rule. 
+This rule is meant to evaluate functions in the form of $y=[f(x)]^n$ or $y=u^n$, given that $u$ is a function of $x$.
+%
+The derivative of the function $y=u^n$ with respect to $x$ is equal to the product of the exponent $n$, the power of a function with the exponent diminished by one $u^{n-1}$, and the derivative of the inner function ${du}/{dx}$.</p>
+<p align="center" style="background-color:rgba(64, 130, 110, 0.07);
+border: 3px solid rgba(64, 130, 110, 0.9);
+border-radius:7px;
+padding:10px;
+margin:5px;">
+    $$\begin{align}
+	\frac{d}{dx}(u^n)=nu^{n-1} \frac{du}{dx}
+    \end{align}$$
+</p>
+
+<p>And we can also prove this by using the Chain Rule. Consider the function $y=u^n$.</p>
+
+<p>Differentiate the function with respect to $u$,
+\begin{align<em>}
+	\frac{d}{du}\br{y} &amp;= \frac{d}{du}\br{u^n} <br />
+	\frac{dy}{du} &amp;= nu^{n-1} <br />
+\intertext{Then differentiate $u$ with respect to $x$,}
+	\ddx\br{u} &amp;= \frac{du}{dx} <br />
+\intertext{Thus, applying the Chain Rule,}
+	\dydx &amp;= \frac{dy}{du}\cdot\frac{du}{dx} <br />
+	&amp;= nu^{n-1}\frac{du}{dx}
+\end{align</em>}</p>
+
+<hr />
+<p>$\example{}$
+Differentiate the function $y=(7x^2+1)^5$.</p>
+
+<p>\solution<br />
+Apply the General Power Rule,
+\begin{align<em>}
+	\ddx\br{y} &amp;= \ddx\brk{(7x^2+1)^5} <br />
+	\dydx &amp;= 5(7x^2+1)^4 \cdot \ddx\br{7x^2+1} \qquad \tcA{u=7x^2+1} <br />
+	&amp;= 5(7x^2+1)^4 (14x) <br />
+	&amp;= 70x(7x^2+1)^4		\tagans
+\end{align</em>}</p>
+
+<hr />
+<p>$\example{}$
+Differentiate the function $y=\br{5-\frac{x}{3}}^{-4}$.</p>
+
+<p>Apply the General Power Rule,
+\begin{align<em>}
+	\ddx\br{y} &amp;= \ddx\brk{ \br{5-\frac{x}{3}}^{-4} } <br />
+	\dydx &amp;= -4 \br{5-\frac{x}{3}}^{-5} \cdot \ddx\br{5-\frac{x}{3}} \qquad \tcA{u=5-\frac{x}{3}} <br />
+	&amp;= -\frac{4}{\br{5-\frac{x}{3}}^{5} } \br{-\frac{1}{3}} <br />
+	&amp;= \frac{4}{3 \br{5-\frac{x}{3}}^{5} }		\tagans
+\end{align</em>}</p>
+
+<p>\note{This can still be simplified}</p>
+
+<hr />
+<p>$\example{}$
+Differentiate the function $y = \frac{1}{(5x^2+1)^2}+(x^2+2)^{1/3}$.</p>
+
+<p>\solution <br />
+Simplify the expression,
+\begin{align<em>}
+	y &amp;= (5x^2+1)^{-2}+(x^2+2)^{1/3} <br />
+\intertext{Then differentiate the function by applying the Sum Rule along with the General Power Rule,}
+	\ddx\br{y} &amp;= \ddx\brk{(5x^2+1)^{-2}+(x^2+2)^{1/3}} <br />
+	\dydx &amp;= \ubrace{ -2(5x^2+1)^{-3} \cdot \ddx\br{5x^2+1} }{derivative of $(5x^2+1)^{-2}$} + 
+		\ubrace{ \frac{1}{3}(x^2+2)^{\frac{1}{3}-1} \cdot \ddx\br{x^2+2} }{derivative of $(x^2+2)^{1/3}$} <br />
+	&amp;= -2(5x^2+1)^{-3} (10x) + \frac{1}{3}(x^2+2)^{-2/3} (2x) <br />
+	&amp;= -\frac{20x}{(5x^2+1)^{3}} + \frac{2x}{3(x^2+2)^{2/3}}
+\end{align</em>}</p>
+
+<hr />
+<p>$\example{}$
+Differentiate the function $x = \sqrt{5t^4-t^2+2t+7}$.</p>
+
+<p>\solution<br />
+Express the radical as a power of a rational exponent,
+\begin{align<em>}
+	x &amp;= \br{5t^4-t^2+2t+7}^{1/2} <br />
+\intertext{Then differentiate the function,}
+	\ddt\br{x} &amp;= \ddt\brk{\br{5t^4-t^2+2t+7}^{1/2}} <br />
+	\frac{dx}{dt} &amp;= \frac{1}{2}\br{5t^4-t^2+2t+7}^{\frac{1}{2}-1} 
+		\cdot \ddt\br{5t^4-t^2+2t+7} <br />
+	&amp;= \frac{1}{2}\br{5t^4-t^2+2t+7}^{-1/2} \br{20x^3-2t+2} <br />
+	&amp;= \frac{\cancel{2} (10x^3-t+1)}{\cancel{2} (5t^4-t^2+2t+7)^{1/2}} <br />
+	&amp;= \frac{10x^3-t+1}{\sqrt{5t^4-t^2+2t+7}}		\tagans
+\end{align</em>}</p>
+
+<p>%—
+$\example{}$
+%$z = \frac{w}{\sqrt{w+3}}$
+%
+%
+%\solution<br />
+%Apply the Quotient Rule,
+%\begin{align<em>}
+%	\ddw\br{z} &amp;= \ddw\br{\frac{w}{\sqrt{w+3}} } <br />
+%	\frac{dz}{dw} &amp;= \frac{\sqrt{w+3} \cdot\ddw(w) - 
+%		w \cdot\ddw\br{\sqrt{w+3} } }{ \br{\sqrt{w+3}}^2 } 
+%		\quad \tcA{\ddx\br{\frac{u}{v}}=
+%		\frac{v\dfrac{du}{dx}-u\dfrac{dv}{dx}}{v^2} } <br />
+%	&amp;= \frac{(w+3)^{1/2} \cdot\ddw(w) - 
+%		w \cdot\ddw\br{(w+3)^{1/2}} }{ w+3 } <br />
+%	&amp;= \frac{(w+3)^{1/2} (1) - 
+%		w \frac{1}{2}(w+3)^{1/2-1} }{ w+3 } <br />
+%\end{align</em>}</p>
+
+<p>%\begin{align<em>}
+%	z &amp;= w \br{w+3}^{-1/2}
+%\intertext{Apply the Product Rule,}
+%	\ddw\br{z} &amp;= \ddw\brk{w \br{w+3}^{-1/2} } <br />
+%	\frac{dz}{dw} &amp;= w \cdot \ddw\brk{(w+3)^{-1/2}} + (w+3)^{-1/2} \cdot \ddw(w) 
+%		\quad \tcA{\ddx{uv}=u\frac{dv}{dx}+v\frac{du}{dx}} <br />
+%	&amp;= w \br{-\frac12} \brk{(w+3)^{-\frac12-1}} (1) + (w+3)^{-1/2} (1) <br />
+%	&amp;= -\frac{w}{2}(w+3)^{-3/2} + (w+3)^{-1/2} <br />
+%	&amp;= -\frac{w}{2(w+3)^{3/2}} + \frac{1}{(w+3)^{1/2}}
+%\end{align</em>}</p>
+
+<hr />
+<p>$\example{}$
+Find the slope at point $(1,9)$ of the curve $y = (2x-1)^3(x+2)^2$</p>
+
+<p>\solution<br />
+Apply the Product Rule,
+\begin{align<em>}
+	\ddx\br{y} &amp;= \ddx\brk{(2x-1)^3(x+2)^2} <br />
+	\dydx &amp;= (2x-1)^3 \cdot\ddx\brk{(x+2)^2} + (x+2)^2 \cdot\ddx\brk{(2x-1)^3} 
+		\quad \tcA{\ddx{uv}=u\frac{dv}{dx}+v\frac{du}{dx}} <br />
+	&amp;= (2x-1)^3 [2(x+2)(1)] + (x+2)^2 [3(2x-1)^2(2)] <br />
+	&amp;= 2(2x-1)^3 (x+2) + 6(x+2)^2 (2x-1)^2 <br />
+\intertext{At point (1,9),}
+	&amp;= 2[2(1)-1]^3 [(1)+2] + 6[(1)+2]^2 [2(1)-1]^2 <br />
+	&amp;= 60		\tagans
+\end{align</em>}</p>
+
+<hr />
+<p>$\example{}$
+Differentiate the function $\textstyle{ y = \sqrt{1+\sqrt{x+1}} }$</p>
+
+<p>\solution<br />
+There are times that we have to use the chain rule more than once in order to find the derivative, and here is an example of it. 
+\begin{align<em>}
+	y &amp;= \br{1+(x+1)^{1/2} }^{1/2} <br />
+\intertext{Differentiate the function by applying the chain rule twice,}
+	\ddx\br{y} &amp;= \ddx\brk{ \br{1+(x+1)^{1/2} }^{1/2} } <br />
+	\dydx &amp;= \frac{1}{2} \brk{1+(x+1)^{1/2} }^{1/2-1} \cdot\ddx\brk{1+(x+1)^{1/2} } <br />
+	&amp;= \frac{1}{2} \brk{1+(x+1)^{1/2} }^{-1/2} \brk{\frac{1}{2}(x+1)^{1/2-1}(1) } <br />
+	&amp;= \frac{1}{4} \brk{1+(x+1)^{1/2} }^{-1/2} (x+1)^{-1/2} <br />
+	&amp;= \frac{1}{4} \brk{ \brk{ 1+(x+1)^{1/2} } (x+1) }^{-1/2} <br />
+	&amp;= \frac{1}{4\brk{ (1+\sqrt{x+1})(x+1) }^{1/2}} <br />
+	&amp;= \frac{1}{4\sqrt{ (1+\sqrt{x+1})(x+1) } }		\tagans
+\end{align</em>}</p>
+
+<p>\newpage
+\begin{prac}
+Differentiate the following functions with respect to $x$. Make sure to show your solutions. 
+\enuprac{
+	\item $y = (5x+1)^3$
+	\item $y = \br{ \frac{x^3}{2}+x-\frac{1}{x} }^3$
+	\item $y = \br{\frac{x+1}{x-2} }^3 + 3x^2$ 
+	\item $y = (2x+5)^4 (x+1)^{-3}$
+	\item $y = \sqrt[3]{(5x+x^2)^2}$
+%	\item $y = \br{ \frac{x}{3}+\frac{7}{2x} }^6$
+%	\item $y = \sqrt{x-7}$
+%	\item $y = \sqrt{5x-x^2}$
+%	\item $y = \frac{x}{\sqrt{x+1}}$
+%	\item $y = x^2 (1-4x^3)^{1/3}$
+%	\item $y = \frac{\sqrt{x+2}}{\sqrt{x-1}}$
+%	\item $y = \sqrt{3+\sqrt{3+x}}$
+	}
+\vspace{1em}
+\end{prac}</p>
+
+<p>\newpage
+\section{Implicit Differentiation}
+\introrule
+	Before we can differentiate Implicit functions, we must first understand what an implicit function is, and to do this, we need to know the difference between explicit and implicit functions. An Explicit Function is a function where the dependent variable is \tcA{expressed explicitly} in terms of the independent variable; it is denoted as $y=f(x)$. With this in mind, all the functions that we have dealt with are all explicit functions for the past sections, but not all functions can be expressed explicitly.  Having said so, an Implicit Function is a function where the dependent variable is \tcA{not expressed explicitly} as a function of the independent variable; it is denoted as $f(x,y)=0$.</p>
+
+<p>\miniboxx{
+\centering
+	\tcA{Examples of Explicit Functions}
+	%
+	\(y=3x^2+5x-1\)
+	\(w=\frac{3x-1}{5x^2+2}\)
+	\(f(x) = \sqrt{1+\sqrt{x+1}}\)
+	%
+%\vspace{7.45em}
+}
+{
+\centering
+	\tcA{Examples of Implicit Functions}
+	%
+	\(x^2+y^2=1\)
+	\(5x^3+xy^2=3x^2y^5\)
+	\(f(x,y)=x^2+4xy+y^2\)
+\vspace{1.5em}
+}</p>
+
+<p>%The first step in solving for the derivative of an Implicit Function is by differentiating all the terms of the equation individually, where treating one of the variables as a function of the other (usually $y$ is a function of $x$). The chain rule will be a great use when differentiating the dependent variable $y$. After differentiating, combine all the terms that contains $dy/dx$, then isolate $dy/dx$ on one side. The result would now be the derivative of the function. And to understand this more clearly, let’s have some examples.</p>
+
+<p>The first step in solving the derivative of an Implicit Function is by differentiating all the terms of the equation individually, treating one of the variables as a function of the other (usually $y$ is a function of $x$). The chain rule will be a great use when differentiating the dependent variable $y$. After differentiating, combine all the terms that contains $dy/dx$, then isolate $dy/dx$ on one side. Then the result would now be the derivative of the function.</p>
+
+<hr />
+<p>$\example{}$
+Find $\frac{dy}{dx}$ of the equation $x^2+y^2=1$.</p>
+
+<p>\solution<br />
+Differentiate the equation with respect to $x$,
+\begin{align<em>}
+	\ddx\br{x^2+y^2} &amp;= \ddx\br{1} <br />
+	\ddx\br{x^2} + \ddx\br{y^2} &amp;= 0 <br />
+\intertext{Applying the Chain Rule to $\ddx\br{y^2}$,}
+	2x + 2y \cdot \dydx &amp;= 0  \qquad \tcA{\ddx(y^2)= \ddy(y^2) \cdot \dydx} <br />
+	2y \cdot \dydx &amp;= -2x <br />
+	\dydx &amp;= -\frac{\cancel{2}x}{\cancel{2}y} <br />
+	&amp;= -\frac{x}{y}		\tagans
+\end{align</em>}</p>
+
+<hr />
+<p>$\example{}$
+Find $y’$ of the implicit function $x^2+2xy+y^2=0$.</p>
+
+<p>\solution<br />
+Differentiate the equation with respect to $x$,
+\begin{align<em>}
+	\ddx\br{x^2+2xy+y^2} &amp;= \ddx\br{0} <br />
+	\ddx\br{x^2} + \ddx\br{2xy} \ddx\br{y^2} &amp;= 0 <br />
+\intertext{Applying the Product Rule to $\ddx\br{2xy}$,}
+	2x + 2\brk{ x \cdot \ddx(y) + y \cdot \ddx(x) } + 2y \cdot \dydx &amp;= 0 
+		\quad \tcA{\ddx{uv}=u\frac{dv}{dx}+v\frac{du}{dx}} <br />
+	2x+2\brk{x\dydx+y(1)}+ 2y \dydx &amp;= 0 <br />
+	2x+2\br{xy’+y}+ 2y \, y’ &amp;= 0 <br />
+	2x+2xy’+2y+2y \, y’ &amp;= 0 <br />
+\intertext{Then combine all the terms that contains $y’$,}
+	(2x+2y) y’ &amp;= -2x-2y <br />
+	y’ &amp;= \frac{-\cancel{(2x+2y)}}{\cancel{2x+2y}} <br />
+	&amp;= -1			\tagans
+%	2y \cdot \dydx &amp;= -2x <br />
+%	\dydx &amp;= -\frac{\cancel{2}x}{\cancel{2}y} <br />
+%	&amp;= -\frac{x}{y}		\tagans
+\end{align</em>}</p>
+
+<hr />
+<p>$\example{}$
+Differentiate the implicit function $x\sqrt{y}=2x+1$ with respect to $x$.</p>
+
+<p>\solution
+\begin{align<em>}
+	x(y)^{1/2} &amp;= 2x+1 <br />
+\intertext{Differentiate the equation with respect to $x$,}
+	\ddx\brk{ x(y)^{1/2} } &amp;= \ddx\br{2x+1} <br />
+	x\cdot\ddx\br{y^{1/2}} + y^{1/2} \cdot\ddx\br{x} &amp;= 2 
+		\qquad \qquad \tcA{\ddx{uv}=u\frac{dv}{dx}+v\frac{du}{dx}} <br />
+	x\br{\frac12}y^{-1/2} \dydx + y^{1/2} (1) &amp;= 2 <br />
+	\frac{x}{2y^{1/2}} \dydx &amp;= 2 - y^{1/2}<br />
+	\dydx &amp;= \frac{2y^{1/2}}{x} \br{2 - y^{1/2}} <br />
+	&amp;= \frac{2\sqrt{y}}{x} \br{2 - \sqrt{y}} 		\tagans
+\end{align</em>}</p>
+
+<hr />
+<p>$\example{}$
+Differentiate the function $5x^3=(2xy+1)^2$ with respect to $x$.</p>
+
+<p>\solution<br />
+Differentiate the equation with respect to $x$,
+\begin{align<em>}
+	\ddx\br{5x^3} &amp;= \ddx\brk{(2xy+1)^2} <br />
+	15x^2 &amp;= 2(2xy+1) \cdot \ddx\br{2xy+1} <br />
+	15x^2 &amp;= 2(2xy+1) \cdot 2(xy’+y) <br />
+	4(2xy+1)(xy’+y) &amp;= 15x^2 <br />
+	xy’ &amp;= \frac{15x^2}{4(2xy+1)} - y <br />
+	y’ &amp;= \frac{15x^2}{4x(2xy+1)} - \frac{y}{x} <br />
+	&amp;= \frac{15x^2 - 4y(2xy+1)}{4x(2xy+1)}		\tagans
+\end{align</em>}</p>
+
+<hr />
+<p>$\example{}$
+Use implicit differentiation to find the derivative of the function $\textstyle{ y=\sqrt{1+\sqrt{x+1}} }$.</p>
+
+<p>\solution<br />
+Square the equation twice to eliminate the radicals,
+\begin{align<em>}
+	y^2 &amp;= \br{ \sqrt{1+\sqrt{x+1}} }^2 <br />
+	y^2 &amp;= 1+\sqrt{x+1} <br />
+	(y^2-1)^2 &amp;= \br{ \sqrt{x+1} }^2 <br />
+	(y^2-1)^2 &amp;= x+1 <br />
+\intertext{Then differentiate the equation with respect to $x$,}
+	\ddx\brk{(y^2-1)^2} &amp;= \ddx\br{x+1} <br />
+	2(y^2-1) \cdot \ddx\br{y^2-1} &amp;= 1 <br />
+	2(y^2-1)(2y\,y’) &amp;= 1 <br />
+	4y\,y’ (y^2-1) &amp;= 1 <br />
+	y’ &amp;= \frac{1}{4y(y^2-1)}		\tagans
+\end{align</em>}</p>
+
+<p>%We have already solved this problem using the General Power Rule from the previous section, and you might wonder ``why the result is different?’’. So let’s try to prove that this is just equivalent to our previous answer.
+%
+%Remember that $y=\sqrt{1+\sqrt{x+1}}$ and $y^2=1+\sqrt{x+1}$,
+%\begin{align<em>}
+%	y’ &amp;= \frac{1}{4y(y^2-1)} <br />
+%	&amp;= \frac{1}{4\sqrt{1+\sqrt{x+1}}(\cancel{1}+\sqrt{x+1}-\cancel{1})} <br />
+%	&amp;= \frac{1}{4\sqrt{1+\sqrt{x+1}} \cdot \sqrt{x+1} } <br />
+%	&amp;= \frac{1}{4\sqrt{ \br{ 1+\sqrt{x+1} } (x+1) } } <br />
+%\end{align</em>}</p>
+
+:ET
