@@ -1,0 +1,132 @@
+I"O<p>Before we can differentiate Implicit functions, we must first understand what an implicit function is, and to do this, we need to know the difference between explicit and implicit functions. An Explicit Function is a function where the dependent variable is \tcA{expressed explicitly} in terms of the independent variable; it is denoted as $y=f(x)$. With this in mind, all the functions that we have dealt with are all explicit functions for the past sections, but not all functions can be expressed explicitly.  Having said so, an Implicit Function is a function where the dependent variable is \tcA{not expressed explicitly} as a function of the independent variable; it is denoted as $f(x,y)=0$.</p>
+
+<p align="center" style="background-color:rgba(64, 130, 110, 0.07);
+border: 3px solid rgba(118, 165, 151, 0.9);
+border-radius:0px;
+padding:10px;
+margin:5px;">
+    
+	$\tcAal{Examples of Explicit Functions}$
+        $$y=3x^2+5x-1$$
+        $$w=\frac{3x-1}{5x^2+2}$$
+        $$f(x) = \sqrt{1+\sqrt{x+1}}$$
+	    %
+    
+</p>
+
+<p align="center" style="background-color:rgba(64, 130, 110, 0.07);
+border: 3px solid rgba(118, 165, 151, 0.9);
+border-radius:0px;
+padding:10px;
+margin:5px;">
+    
+        \tcA{Examples of Implicit Functions}
+        %
+        $$x^2+y^2=1$$
+        $$5x^3+xy^2=3x^2y^5$$
+        $$f(x,y)=x^2+4xy+y^2$$
+    
+</p>
+
+<p>%The first step in solving for the derivative of an Implicit Function is by differentiating all the terms of the equation individually, where treating one of the variables as a function of the other (usually $y$ is a function of $x$). The chain rule will be a great use when differentiating the dependent variable $y$. After differentiating, combine all the terms that contains $dy/dx$, then isolate $dy/dx$ on one side. The result would now be the derivative of the function. And to understand this more clearly, let’s have some examples.</p>
+
+<p>The first step in solving the derivative of an Implicit Function is by differentiating all the terms of the equation individually, treating one of the variables as a function of the other (usually $y$ is a function of $x$). The chain rule will be a great use when differentiating the dependent variable $y$. After differentiating, combine all the terms that contains $dy/dx$, then isolate $dy/dx$ on one side. Then the result would now be the derivative of the function.</p>
+
+<p>\example
+Find $\frac{dy}{dx}$ of the equation $x^2+y^2=1$.</p>
+
+<p>\solution<br />
+Differentiate the equation with respect to $x$,
+\begin{align<em>}
+	\ddx\br{x^2+y^2} &amp;= \ddx\br{1} <br />
+	\ddx\br{x^2} + \ddx\br{y^2} &amp;= 0 <br />
+\intertext{Applying the Chain Rule to $\ddx\br{y^2}$,}
+	2x + 2y \cdot \dydx &amp;= 0  \qquad \tcA{\ddx(y^2)= \ddy(y^2) \cdot \dydx} <br />
+	2y \cdot \dydx &amp;= -2x <br />
+	\dydx &amp;= -\frac{\cancel{2}x}{\cancel{2}y} <br />
+	&amp;= -\frac{x}{y}		\tagans
+\end{align</em>}</p>
+
+<p>\example
+Find $y’$ of the implicit function $x^2+2xy+y^2=0$.</p>
+
+<p>\solution<br />
+Differentiate the equation with respect to $x$,
+\begin{align<em>}
+	\ddx\br{x^2+2xy+y^2} &amp;= \ddx\br{0} <br />
+	\ddx\br{x^2} + \ddx\br{2xy} \ddx\br{y^2} &amp;= 0 <br />
+\intertext{Applying the Product Rule to $\ddx\br{2xy}$,}
+	2x + 2\brk{ x \cdot \ddx(y) + y \cdot \ddx(x) } + 2y \cdot \dydx &amp;= 0 
+		\quad \tcA{\ddx{uv}=u\frac{dv}{dx}+v\frac{du}{dx}} <br />
+	2x+2\brk{x\dydx+y(1)}+ 2y \dydx &amp;= 0 <br />
+	2x+2\br{xy’+y}+ 2y \, y’ &amp;= 0 <br />
+	2x+2xy’+2y+2y \, y’ &amp;= 0 <br />
+\intertext{Then combine all the terms that contains $y’$,}
+	(2x+2y) y’ &amp;= -2x-2y <br />
+	y’ &amp;= \frac{-\cancel{(2x+2y)}}{\cancel{2x+2y}} <br />
+	&amp;= -1			\tagans
+%	2y \cdot \dydx &amp;= -2x <br />
+%	\dydx &amp;= -\frac{\cancel{2}x}{\cancel{2}y} <br />
+%	&amp;= -\frac{x}{y}		\tagans
+\end{align</em>}</p>
+
+<p>\example
+Differentiate the implicit function $x\sqrt{y}=2x+1$ with respect to $x$.</p>
+
+<p>\solution
+\begin{align<em>}
+	x(y)^{1/2} &amp;= 2x+1 <br />
+\intertext{Differentiate the equation with respect to $x$,}
+	\ddx\brk{ x(y)^{1/2} } &amp;= \ddx\br{2x+1} <br />
+	x\cdot\ddx\br{y^{1/2}} + y^{1/2} \cdot\ddx\br{x} &amp;= 2 
+		\qquad \qquad \tcA{\ddx{uv}=u\frac{dv}{dx}+v\frac{du}{dx}} <br />
+	x\br{\frac12}y^{-1/2} \dydx + y^{1/2} (1) &amp;= 2 <br />
+	\frac{x}{2y^{1/2}} \dydx &amp;= 2 - y^{1/2}<br />
+	\dydx &amp;= \frac{2y^{1/2}}{x} \br{2 - y^{1/2}} <br />
+	&amp;= \frac{2\sqrt{y}}{x} \br{2 - \sqrt{y}} 		\tagans
+\end{align</em>}</p>
+
+<p>\example
+Differentiate the function $5x^3=(2xy+1)^2$ with respect to $x$.</p>
+
+<p>\solution<br />
+Differentiate the equation with respect to $x$,
+\begin{align<em>}
+	\ddx\br{5x^3} &amp;= \ddx\brk{(2xy+1)^2} <br />
+	15x^2 &amp;= 2(2xy+1) \cdot \ddx\br{2xy+1} <br />
+	15x^2 &amp;= 2(2xy+1) \cdot 2(xy’+y) <br />
+	4(2xy+1)(xy’+y) &amp;= 15x^2 <br />
+	xy’ &amp;= \frac{15x^2}{4(2xy+1)} - y <br />
+	y’ &amp;= \frac{15x^2}{4x(2xy+1)} - \frac{y}{x} <br />
+	&amp;= \frac{15x^2 - 4y(2xy+1)}{4x(2xy+1)}		\tagans
+\end{align</em>}</p>
+
+<p>\example
+Use implicit differentiation to find the derivative of the function $\textstyle{ y=\sqrt{1+\sqrt{x+1}} }$.</p>
+
+<p>\solution<br />
+Square the equation twice to eliminate the radicals,
+\begin{align<em>}
+	y^2 &amp;= \br{ \sqrt{1+\sqrt{x+1}} }^2 <br />
+	y^2 &amp;= 1+\sqrt{x+1} <br />
+	(y^2-1)^2 &amp;= \br{ \sqrt{x+1} }^2 <br />
+	(y^2-1)^2 &amp;= x+1 <br />
+\intertext{Then differentiate the equation with respect to $x$,}
+	\ddx\brk{(y^2-1)^2} &amp;= \ddx\br{x+1} <br />
+	2(y^2-1) \cdot \ddx\br{y^2-1} &amp;= 1 <br />
+	2(y^2-1)(2y\,y’) &amp;= 1 <br />
+	4y\,y’ (y^2-1) &amp;= 1 <br />
+	y’ &amp;= \frac{1}{4y(y^2-1)}		\tagans
+\end{align</em>}</p>
+
+<p>%We have already solved this problem using the General Power Rule from the previous section, and you might wonder ``why the result is different?’’. So let’s try to prove that this is just equivalent to our previous answer.
+%
+%Remember that $y=\sqrt{1+\sqrt{x+1}}$ and $y^2=1+\sqrt{x+1}$,
+%\begin{align<em>}
+%	y’ &amp;= \frac{1}{4y(y^2-1)} <br />
+%	&amp;= \frac{1}{4\sqrt{1+\sqrt{x+1}}(\cancel{1}+\sqrt{x+1}-\cancel{1})} <br />
+%	&amp;= \frac{1}{4\sqrt{1+\sqrt{x+1}} \cdot \sqrt{x+1} } <br />
+%	&amp;= \frac{1}{4\sqrt{ \br{ 1+\sqrt{x+1} } (x+1) } } <br />
+%\end{align</em>}</p>
+
+:ET

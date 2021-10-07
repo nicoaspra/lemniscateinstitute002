@@ -1,5 +1,0 @@
-I"�<p>Differentiation of previously differentiated functions is still possible. The process of successively differentiating a function is referred to as <strong>Successive Differentiation</strong>. For instance, the second derivative of a function is achieved by differentiating the first derivative, and differentiating it again yields the third derivative, provided that it is still differentiable. Thus, through Successive Differentiation, Higher-Order Derivatives are obtained.</p>
-
-<p><strong>Higher-Order Derivatives</strong> can be interpreted differently in various applications; for instance, in physics, the second derivative of an object’s displacement with respect to time is referred to as acceleration. In Polynomial Curves, on the other hand, the second derivative of a function is utilized to determine the polynomial’s points of inflection. 
-However, before applying this concept to various fields, let us first familiarize ourselves with its notations and solve some fundamental problems.</p>
-:ET

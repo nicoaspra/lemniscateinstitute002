@@ -1,0 +1,145 @@
+I"�<p>Before we can differentiate Implicit functions, we must first understand what an implicit function is, and to do this, we need to know the difference between explicit and implicit functions. An Explicit Function is a function where the dependent variable is \tcA{expressed explicitly} in terms of the independent variable; it is denoted as $y=f(x)$. With this in mind, all the functions that we have dealt with are all explicit functions for the past sections, but not all functions can be expressed explicitly.  Having said so, an Implicit Function is a function where the dependent variable is \tcA{not expressed explicitly} as a function of the independent variable; it is denoted as $f(x,y)=0$.</p>
+
+<p align="center" style="background-color:rgba(64, 130, 110, 0.07);
+border: 3px solid rgba(118, 165, 151, 0.9);
+border-radius:0px;
+padding:10px;
+margin:5px;">
+    
+	$\tcAal{Examples of Explicit Functions}$
+        $$y=3x^2+5x-1$$
+        $$w=\frac{3x-1}{5x^2+2}$$
+        $$f(x) = \sqrt{1+\sqrt{x+1}}$$
+    
+</p>
+
+<p align="center" style="background-color:rgba(64, 130, 110, 0.07);
+border: 3px solid rgba(118, 165, 151, 0.9);
+border-radius:0px;
+padding:10px;
+margin:5px;">
+    
+        $\tcAal{Examples of Implicit Functions}$
+        $$x^2+y^2=1$$
+        $$5x^3+xy^2=3x^2y^5$$
+        $$f(x,y)=x^2+4xy+y^2$$
+    
+</p>
+
+<p>The first step in solving the derivative of an Implicit Function is by differentiating all the terms of the equation individually, treating one of the variables as a function of the other (usually $y$ is a function of $x$). The chain rule will be a great use when differentiating the dependent variable $y$. After differentiating, combine all the terms that contains $dy/dx$, then isolate $dy/dx$ on one side. Then the result would now be the derivative of the function.</p>
+
+<hr />
+<p>$\example{1}$
+Find $\frac{dy}{dx}$ of the equation $x^2+y^2=1$.</p>
+
+<p>$\solution$<br />
+Differentiate the equation with respect to $x$,</p>
+
+\[\begin{align*}
+	\ddx\br{x^2+y^2} &amp;= \ddx\br{1} \\
+	\ddx\br{x^2} + \ddx\br{y^2} &amp;= 0 \\
+\end{align*}\]
+
+<p>Applying the Chain Rule to $\ddx\br{y^2}$,</p>
+
+\[\begin{align*}
+	2x + 2y \cdot \dydx &amp;= 0  \qquad \tcA{\ddx(y^2)= \ddy(y^2) \cdot \dydx} \\
+	2y \cdot \dydx &amp;= -2x \\
+	\dydx &amp;= -\frac{\cancel{2}x}{\cancel{2}y} \\
+	&amp;= -\frac{x}{y}		\tagans
+\end{align*}\]
+
+<hr />
+<p>$\example{2}$
+Find $y’$ of the implicit function $x^2+2xy+y^2=0$.</p>
+
+<p>$\solution$<br />
+Differentiate the equation with respect to $x$,</p>
+
+\[\begin{align*}
+	\ddx\br{x^2+2xy+y^2} &amp;= \ddx\br{0} \\
+	\ddx\br{x^2} + \ddx\br{2xy} \ddx\br{y^2} &amp;= 0 \\
+\end{align*}\]
+
+<p>Applying the Product Rule to $\ddx\br{2xy}$,</p>
+
+\[\begin{align*}
+	2x + 2\brk{ x \cdot \ddx(y) + y \cdot \ddx(x) } + 2y \cdot \dydx &amp;= 0 
+		\quad \tcA{\ddx{uv}=u\frac{dv}{dx}+v\frac{du}{dx}} \\
+	2x+2\brk{x\dydx+y(1)}+ 2y \dydx &amp;= 0 \\
+	2x+2\br{xy'+y}+ 2y \, y' &amp;= 0 \\
+	2x+2xy'+2y+2y \, y' &amp;= 0 \\
+\end{align*}\]
+
+<p>Then combine all the terms that contains $y’$,</p>
+
+\[\begin{align*}
+	(2x+2y) y' &amp;= -2x-2y \\
+	y' &amp;= \frac{-\cancel{(2x+2y)}}{\cancel{2x+2y}} \\
+	&amp;= -1			\tagans
+\end{align*}\]
+
+<hr />
+<p>$\example{3}$
+Differentiate the implicit function $x\sqrt{y}=2x+1$ with respect to $x$.</p>
+
+<p>$\solution$</p>
+
+\[\begin{align*}
+	x(y)^{1/2} &amp;= 2x+1 \\
+\end{align*}\]
+
+<p>Differentiate the equation with respect to $x$,</p>
+
+\[\begin{align*}
+	\ddx\brk{ x(y)^{1/2} } &amp;= \ddx\br{2x+1} \\
+	x\cdot\ddx\br{y^{1/2}} + y^{1/2} \cdot\ddx\br{x} &amp;= 2 
+		\qquad \qquad \tcA{\ddx{uv}=u\frac{dv}{dx}+v\frac{du}{dx}} \\
+	x\br{\frac12}y^{-1/2} \dydx + y^{1/2} (1) &amp;= 2 \\
+	\frac{x}{2y^{1/2}} \dydx &amp;= 2 - y^{1/2}\\
+	\dydx &amp;= \frac{2y^{1/2}}{x} \br{2 - y^{1/2}} \\
+	&amp;= \frac{2\sqrt{y}}{x} \br{2 - \sqrt{y}} 		\tagans
+\end{align*}\]
+
+<hr />
+<p>$\example{4}$
+Differentiate the function $5x^3=(2xy+1)^2$ with respect to $x$.</p>
+
+<p>$\solution$<br />
+Differentiate the equation with respect to $x$,</p>
+
+\[\begin{align*}
+	\ddx\br{5x^3} &amp;= \ddx\brk{(2xy+1)^2} \\
+	15x^2 &amp;= 2(2xy+1) \cdot \ddx\br{2xy+1} \\
+	15x^2 &amp;= 2(2xy+1) \cdot 2(xy'+y) \\
+	4(2xy+1)(xy'+y) &amp;= 15x^2 \\
+	xy' &amp;= \frac{15x^2}{4(2xy+1)} - y \\
+	y' &amp;= \frac{15x^2}{4x(2xy+1)} - \frac{y}{x} \\
+	&amp;= \frac{15x^2 - 4y(2xy+1)}{4x(2xy+1)}		\tagans
+\end{align*}\]
+
+<hr />
+<p>$\example{5}$
+Use implicit differentiation to find the derivative of the function $\textstyle{ y=\sqrt{1+\sqrt{x+1}} }$.</p>
+
+<p>$\solution$<br />
+Square the equation twice to eliminate the radicals,</p>
+
+\[\begin{align*}
+	y^2 &amp;= \br{ \sqrt{1+\sqrt{x+1}} }^2 \\
+	y^2 &amp;= 1+\sqrt{x+1} \\
+	(y^2-1)^2 &amp;= \br{ \sqrt{x+1} }^2 \\
+	(y^2-1)^2 &amp;= x+1 \\
+\end{align*}\]
+
+<p>Then differentiate the equation with respect to $x$,</p>
+
+\[\begin{align*}
+	\ddx\brk{(y^2-1)^2} &amp;= \ddx\br{x+1} \\
+	2(y^2-1) \cdot \ddx\br{y^2-1} &amp;= 1 \\
+	2(y^2-1)(2y\,y') &amp;= 1 \\
+	4y\,y' (y^2-1) &amp;= 1 \\
+	y' &amp;= \frac{1}{4y(y^2-1)}		\tagans
+\end{align*}\]
+
+:ET

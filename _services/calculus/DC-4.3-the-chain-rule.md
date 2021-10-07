@@ -7,11 +7,12 @@ nextcontenturl: ../DC-4.4-implicit-differentiation
 
 Functions may not always appear as simple as the examples given from the past sections. Hence, differentiating complexly structured functions such as a [composite function](../DC-1.4-composite-functions) cannot be easily solved by the previously discussed rules. With this in mind, we will introduce the Chain Rule in this section to solve composite functions. Notably, this rule is essential and may be one of the most widely used rules in Calculus. It may seem ambiguous now, but composite functions appear more frequently than it seems.
 
-To start our discussion, let us first describe what the Chain Rule is and how to use it. Consider the composite function $y=f(g(x))$, let $u=g(x)$ so that we could simplify the function to  $y=f(u)$. Where $f(u)$ is the outer function and $g(x)$ is the inner function, given that $f(u)$ is differentiable to $g(x)$ and $g(x)$ is differentiable to $x$. The derivative of the composite function $f(g(x))$ with respect to $x$ is equal to the \textit{product of the derivative of the outer function and the derivative of the inner function}.
+To start our discussion, let us first describe what the Chain Rule is and how to use it. Consider the composite function $y=f(g(x))$, let $u=g(x)$ so that we could simplify the function to  $y=f(u)$. Where $f(u)$ is the outer function and $g(x)$ is the inner function, given that $f(u)$ is differentiable to $g(x)$ and $g(x)$ is differentiable to $x$. The derivative of the composite function $f(g(x))$ with respect to $x$ is equal to the *product of the derivative of the outer function and the derivative of the inner function*.
 
 {% include tcolorbox.html
     details = "
 	(f \circ g)'(x) = f'(g(x)) \cdot g'(x)
+	\label{eq:chain rule lagranges notation}
     "
 %}
 
@@ -19,10 +20,11 @@ In Leibniz’s Notation, if $u=g(x)$ so that $y=f(u)$, then
 {% include tcolorbox.html
     details = "
 	\frac{dy}{dx}=\frac{dy}{du} \cdot \frac{du}{dx}
+	\label{eq:chain rule leibnizs notation}
     "
 %}
 
-Where $dy/du$ is the derivative of the outer function $y=f(u)$ and $du/dx$ is the derivative of the inner function $u=g(x)$.
+Where $dy/du$ is the derivative of the outer function $y=f(u)$ and $du/dx$ is the derivative of the inner function $u=g(x)$. To illustrate how the chain rule works, consider the following example.
 
 ---
 $\example{1}$
@@ -93,7 +95,7 @@ The derivative of the function $y=u^n$ with respect to $x$ is equal to the produ
     "
 %}
 
-And we can also prove this by using the Chain Rule. Consider the function $y=u^n$.
+And we can also prove this by using the Chain Rule (Equation \ref{eq:chain rule leibnizs notation}). Consider the function $y=u^n$.
 
 
 Differentiate the function with respect to $u$,
@@ -132,11 +134,13 @@ Apply the General Power Rule,
 $$
 \begin{align*}
 	\ddx\br{y} &= \ddx\brk{(7x^2+1)^5} \\
-	\dydx &= 5(7x^2+1)^4 \cdot \ddx\br{7x^2+1} \qquad \tcA{u=7x^2+1} \\
+	\dydx &= 5(7x^2+1)^4 \cdot \ubraces{\ddx\br{7x^2+1}}{derivative of the}{inner function} \qquad \tcA{u=7x^2+1} \\
 	&= 5(7x^2+1)^4 (14x) \\
 	&= 70x(7x^2+1)^4		\tagans
 \end{align*}
 $$
+
+
 
 
 
@@ -225,18 +229,18 @@ $\example{6}$
 Find the slope at point $(1,9)$ of the curve $y = (2x-1)^3(x+2)^2$
 
 $\solution$\\
-Apply the Product Rule,
+Apply the Product Rule along with the General Power Rule,
 $$
 \begin{align*}
 	\ddx\br{y} &= \ddx\brk{(2x-1)^3(x+2)^2} \\
-	\dydx &= (2x-1)^3 \cdot\ddx\brk{(x+2)^2} + (x+2)^2 \cdot\ddx\brk{(2x-1)^3} 
+	\dydx &= \ubrace{(2x-1)^3 \cdot\ddx\brk{(x+2)^2}}{$u\cdot\frac{dv}{dx}$} + \ubrace{(x+2)^2 \cdot\ddx\brk{(2x-1)^3}}{$v\cdot\frac{du}{dx}$} 
 		\quad \tcA{\ddx{uv}=u\frac{dv}{dx}+v\frac{du}{dx}} \\
 	&= (2x-1)^3 [2(x+2)(1)] + (x+2)^2 [3(2x-1)^2(2)] \\
 	&= 2(2x-1)^3 (x+2) + 6(x+2)^2 (2x-1)^2 \\
 \end{align*}
 $$
 
-At point (1,9),
+At point $(1,9)$,
 
 $$
 \begin{align*}
@@ -251,7 +255,8 @@ $\example{7}$
 Differentiate the function $\textstyle{ y = \sqrt{1+\sqrt{x+1}} }$
 
 $\solution$\\
-There are times that we have to use the chain rule more than once in order to find the derivative, and here is an example of it. 
+There are situations when we must use the chain rule multiple times to determine the derivative. This particular example is one of its instances. To start, let us first express the radical as a power of a rational exponent.
+
 $$
 \begin{align*}
 	y &= \br{1+(x+1)^{1/2} }^{1/2} \\
