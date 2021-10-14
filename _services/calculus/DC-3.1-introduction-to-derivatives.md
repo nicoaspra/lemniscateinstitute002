@@ -74,9 +74,16 @@ Which is read as the "derivative of $y$ with respect to $x$ is equal to the limi
 {% include images.html 
     url= "DC/DC-3.1.3.png" 
     size= "550px"
-    caption = "Figure 1: Slope of a line"
+    caption = "Figure 3: Slope of the tangent line of a curve"
 %}
 
+
+
+{% include images.html 
+    url= "DC/DC-3.1.4.gif" 
+    size= "250px"
+    caption = "Figure 4: Approaching $\D{x}$ to zero (0)"
+%}
 
 
 
