@@ -39,7 +39,7 @@ summary: Calculus, has a reputation of being one of the most dreaded subjects in
   - [The Chain Rule](../calculus/DC-4.3-the-chain-rule)
   - [Implicit Differentiation](../calculus/DC-4.4-implicit-differentiation)
 - Polynomial Curves
-  - Tangents and Normals to Plane Curves
+  - [Tangents and Normals to Plane Curves](../calculus/DC-5.1-tangents-and-normals-to-plane-curves)
   - Maxima, Minima, and the First Derivative Test
   - Points of Inflection
   - Concavity and the Second Derivative Test
