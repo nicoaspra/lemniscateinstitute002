@@ -1,4 +1,4 @@
-I"‰<h1 id="contents">Contents</h1>
+I"<h1 id="contents">Contents</h1>
 
 <ul>
   <li><a href="../calculus/IC-0.1-introduction-to-integral-calculus">Introduction to Integral Calculus</a></li>
@@ -18,8 +18,8 @@
   </li>
   <li>The Definite Integral
     <ul>
-      <li>Introduction to Definite Integrals</li>
-      <li>Properties of Definite Integrals</li>
+      <li><a href="../calculus/IC-4.1-introduction-to-definite-integrals">Introduction to Definite Integrals</a></li>
+      <li><a href="../calculus/IC-4.2-properties-of-definite-integrals">Properties of Definite Integrals</a></li>
     </ul>
   </li>
 </ul>

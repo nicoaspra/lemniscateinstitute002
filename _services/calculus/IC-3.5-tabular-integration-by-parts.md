@@ -3,7 +3,7 @@ title: "Tabular Integration by Parts"
 authornum: 2
 author: Engr. Nico O. Aspra, ME, RMP  <br> Engr. Pee Jay N. Gealone
 prevcontenturl: ../IC-3.4-integration-by-parts
-nextcontenturl: ../IC-3.5-tabular-integration-by-parts
+nextcontenturl: ../IC-4.1-introduction-to-definite-integrals
 ---
 
 

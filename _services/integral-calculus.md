@@ -22,5 +22,5 @@ summary: Integral Calculus is a branch of mathematics concerned with the theory 
   - [Integration by Parts](../calculus/IC-3.4-integration-by-parts)
     - [Tabular Integration by Parts](../calculus/IC-3.5-tabular-integration-by-parts)
 - The Definite Integral
-  - Introduction to Definite Integrals
-  - Properties of Definite Integrals
+  - [Introduction to Definite Integrals](../calculus/IC-4.1-introduction-to-definite-integrals)
+  - [Properties of Definite Integrals](../calculus/IC-4.2-properties-of-definite-integrals)
