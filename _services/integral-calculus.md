@@ -24,3 +24,7 @@ summary: Integral Calculus is a branch of mathematics concerned with the theory 
 - The Definite Integral
   - [Introduction to Definite Integrals](../calculus/IC-4.1-introduction-to-definite-integrals)
   - [Properties of Definite Integrals](../calculus/IC-4.2-properties-of-definite-integrals)
+- Plane Areas
+  - Introduction to Plane Areas
+  - Area Under a Curve
+  - Area Between Curves
