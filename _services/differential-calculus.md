@@ -40,6 +40,7 @@ summary: Calculus, has a reputation of being one of the most dreaded subjects in
   - [Implicit Differentiation](../calculus/DC-4.4-implicit-differentiation)
 - Polynomial Curves
   - [Tangents and Normals to Plane Curves](../calculus/DC-5.1-tangents-and-normals-to-plane-curves)
+  - [Equation of Tangent and Normal Lines](../calculus/DC-5.2-equation-of-tangent-and-normal-lines)
   - Maxima, Minima, and the First Derivative Test
   - Points of Inflection
   - Concavity and the Second Derivative Test

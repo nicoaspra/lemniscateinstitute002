@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>Exponential Functions</title>
+  <title>Equation of Tangent and Normal Lines</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link rel="icon" type="image/png" href="/images/favicon-32x32.svg">
   <link rel="apple-touch-icon" sizes="120x120" href="/images/favicon-32x32.svg">
@@ -93,7 +93,7 @@
   <div class="row justify-content-start">
     <div class="col-12 col-md-8">
       <div class="service service-single">
-        <h1 class="title">Exponential Functions</h1>
+        <h1 class="title">Equation of Tangent and Normal Lines</h1>
           
             <p style="color:#d02f5d"></pstyle>Author | Engr. Nico O. Aspra, ME, RMP</p>
           
@@ -108,10 +108,9 @@ $$
 
           <!-- <div class="deskContent">Content for desktop</div> -->
         <div class="content">
-          <p>We have already dealt with algebraic functions from the previous lessons, so we are no longer strangers with terms containing exponents. 
-For example, in the function $f(x)=x^2$, the exponent of the independent variable $x$ is 2. Now consider an exponential function, such as $g(x)=2^x$. The latter example shows that the independent variable is now the exponent in the function. 
-This minor distinction between the two functions has a significant effect on how the function behaves.
-Furthermore, Exponential Functions is written in the form,</p>
+          <p>From the previous section, we have already learned how we can determine the slope of either a tangent or a normal line through differentiation, or in the case of normal lines, getting the negative reciprocal of the slope of the tangent line. In this section, we will learn how to utilize their slopes to find the general equation of such lines.</p>
+
+<p>In determining the equation of a line, there are different methods available. However in our case, since we can easily determine the slope of the line by differentiation and the point will most likely be available, we can specifically use the Point-Slope Form (\(\eref{eq:pt-slope of a line}\)) .</p>
 
 <p align="center" style="background-color:rgba(64, 130, 110, 0.07);
 border: 3px solid rgba(64, 130, 110, 0.9);
@@ -119,223 +118,256 @@ border-radius:7px;
 padding:10px;
 margin:5px;">
     $$\begin{align}
-        f(x) = a^x, \quad\text{where: $a&gt;0$ and $a \neq 1$}
+        y-y_1=m(x-x_1)
+        \label{eq:pt-slope of a line}
     \end{align}$$
 </p>
 
-<p>Before we start our lesson, let us have a simple example to appreciate the importance of an exponential function.
-Consider the following scenario: you’ve decided to start a networking business and have initially hired five (5) employees. To break even, they must each recruit five (5) individuals, and each recruitee must likewise recruit five (5) people. As a result, your business grows at a rate of $f(x)=5^x$.</p>
-
-<p>Having the ability to express your business mathematically helps us calculate the revenue of the company. However, this is just one instance of how exponential functions may be advantageous. There are many more, but before we can evaluate problems in exponential functions, we must first be familiar with some of the fundamental laws of exponents and radicals.</p>
-
-<h2 id="basic-laws-of-exponents-and-radicals">Basic Laws of Exponents and Radicals</h2>
-
-<p align="center" style="background-color:rgba(64, 130, 110, 0.07);
-border: 3px solid rgba(118, 165, 151, 0.9);
-border-radius:0px;
-padding:10px;
-margin:5px;">
-    
-    $\tcBal{Laws of Exponents}$ 
-    $$
-    \begin{align}
-        a^m \cdot a^n &amp;= a^{m+n} \\
-		\frac{a^m}{a^n} &amp;= a^{m-n} \\
-		(a^m)^n &amp;= a^{mn} \\
-		\br{ \frac{a}{b} }^n &amp;= \frac{a^n}{b^n} \\
-		a^{\frac{m}{n}} &amp;= \sqrt[n]{a^m} \\
-		a^{-n} &amp;= \frac{1}{a^n} \\
-		a^0 &amp;= 1
-    \end{align}
-    $$
-    
-</p>
-
-<p align="center" style="background-color:rgba(64, 130, 110, 0.07);
-border: 3px solid rgba(118, 165, 151, 0.9);
-border-radius:0px;
-padding:10px;
-margin:5px;">
-    
-    $\tcBal{Laws of Radicals}$ 
-    $$
-    \begin{align}
-        \sqrt[n]{a} &amp;= a^{\frac{1}{n}} \\
-		\sqrt[n]{a^m} &amp;= \br{ \sqrt[n]{a} }^m \\
-		\sqrt[n]{a^n} &amp;= a \\
-		\sqrt[n]{a} \cdot \sqrt[n]{b} &amp;= \sqrt[n]{ab} \\
-		\frac{\sqrt[n]{a}}{\sqrt[n]{b}} &amp;= \sqrt[n]{\frac{a}{b}} \; : b\neq 0 \\
-		\sqrt[-n]{a} &amp;= \frac{1}{\sqrt[n]{a}} \\
-		\sqrt[1]{a} &amp;= a
-    \end{align}
-    $$
-    
-</p>
+<p>Point-slope Form, by the name suggests, can be used to determine the equation of a line by using two parameters, namely: a point, and a slope of a line. To understand more how we can use this form, it is best to solve some problems.</p>
 
 <hr />
-<p>$\example{1}$ 
-Solve for $x$, $7^{x-1}=7^{4x}$.</p>
+<p>$\example{1}$
+Find the equation of the tangent and normal lines to the curve $y=x^3+3x^2+1$ at point $(1,5)$.</p>
 
 <p>$\solution$ <br />
-Since the base of all the terms are the same, equate its exponents,</p>
+To get the slope of the tangent, differentiate the function with respect to $x$,</p>
 
 \[\begin{align*}
-	x-1 &amp;= 4x \\
-	4x-x &amp;= -1 \\
-	x &amp;= -\frac{1}{3}	\tagans
+	\ddx\br{y} &amp;= \ddx\br{x^3+3x^2+1} \\
+	\dydx &amp;= 3x^2+6x \\
+\end{align*}\]
+
+<p>Then to find the slope of the tangent line at point $(1,5)$, replace the independent variable $x$ with 1.</p>
+
+\[\begin{align*}
+	y-y_1 &amp;= m_T (x-x_1) \\
+	m_T &amp;= \dydx = 3(1)^2+6(1) \\
+	&amp;= 9
+\end{align*}\]
+
+<p>Thus, the equation of the tangent line at point $(1,5)$ with a slope of 9 can be determined by using the Poin-Slope Form ($\eref{eq:pt-slope of a line}$)</p>
+
+\[\begin{align*}
+	y-(5) &amp;= 9[x-(1)] \\
+	y-5 &amp;= 9x -9 \\
+	9x-y &amp;= 4	\tagans
+\end{align*}\]
+
+<p>And for the slope of the normal line, get the negative reciprocal of the slope of the tangent,</p>
+
+\[\begin{align*}
+	m_N &amp;= -\frac{1}{m_T} \\
+	&amp;= -\frac{1}{9} 
+\end{align*}\]
+
+<p>Hence, the equation of the normal line at point $(1,5)$ with a slope of $-\frac{1}{9}$ is,</p>
+
+\[\begin{align*}
+	y-y_1 &amp;= m_N (x-x_1) \\
+	y-(5) &amp;= -\frac{1}{9}[x-(1)] \\
+	9y-45 &amp;= -x+1 \\
+	x+9y &amp;= 46 	\tagans
+\end{align*}\]
+
+<p>$$
+Therefore, the equation of the tangent and normal lines are $9x-y = 4$ and $x+9y = 46$ respectively.</p>
+
+<hr />
+<p>$\example{2}$
+Find the equation of the tangent and normal lines to the curve $x^2+y^2+6x-8y=0$ at the origin.</p>
+
+<p>$\solution$  <br />
+In this example, since we are given an implicit function, the first step that we need to do is differentiate the given equation through Implicit Differentiation.</p>
+
+\[\begin{align*}
+	\ddx\br{x^2+y^2+6x-8y} &amp;= \ddx\br{0} \\
+	2x+2y y' + 6 - 8 y' &amp;= 0 \\
+	(2y-8) y' &amp;= -2x-6 \\
+	y' &amp;= \frac{-2x-6}{2y-8} \\
+		  &amp;= \frac{-x-3}{y-4}
+\end{align*}\]
+
+<p>To determine the slope of the tangent line at the origin, which has a coordinates of $(0,0)$, substitute the variables of the derivative with the respective values of the coordinates.</p>
+
+\[\begin{align*}
+	m_T &amp;= y' = \frac{-0-3}{0-4} \\
+	      &amp;= \frac34 
+\end{align*}\]
+
+<p>Solving for the equation of the tangent line using the Point-Slope Form ($\eref{eq:pt-slope of a line}$) gives us,</p>
+
+\[\begin{align*}
+	y-y_1 &amp;= m_T (x-x_1) \\
+	y-0 &amp;= \frac34[x-0] \\
+	y &amp;= \frac34x \\
+	4y &amp;= 3x \\
+	4y-3x &amp;= 0			\tagans
+\end{align*}\]
+
+<p>Then for the equation of the normal line, we can directly plug the slope to the Point-Slope Form,</p>
+
+\[\begin{align*}
+	y-y_1 &amp;= m_N (x-x_1) \\
+	y-y_1 &amp;= -\frac{1}{m_T} (x-x_1) \\
+	y-0 &amp;= -\frac43 (x-0) \\
+	3y &amp;= -4x \\
+	4x+3y &amp;= 0	\tagans
 \end{align*}\]
 
 <hr />
-<p>$\example{2}$ 
-Solve for $x$, $5^{1-x}=25$</p>
+<p>$\example{3}$
+Find the equation of the tangent and normal lines to the curve $y=(x+4)^2$ at the point where the curve intersects the $y$-axis.</p>
 
-<p>$\solution$ <br />
-Express 25 as $5^2$ to match the base of the other term,</p>
-
-\[\begin{align*}
-	5^{1-x} &amp;= 5^2
-\end{align*}\]
-
-<p>And since all the terms have the same base, equate its exponents,</p>
-
-\[\begin{align*}
-	1-x &amp;= 2 \\
-	x &amp;= 1-2 \\
-	&amp;= -1	\tagans
-\end{align*}\]
-
-<hr />
-<p>$\example{3}$ 
-Solve for $x$, $4^{3x-1} = 8^{x}$</p>
-
-<p>$\solution$ <br />
-Express all the terms as base of 2,</p>
-
-\[\begin{align*}
-	2^{2(3x-1)} &amp;= 2^{3x} 
-\end{align*}\]
-
-<p>Then equate its exponents,</p>
-
-\[\begin{align*}
-	2(3x-1) &amp;= 3x \\
-	6x-2 &amp;= 3x \\
-	3x &amp;= 2 \\
-	x &amp;= \frac{2}{3}		\tagans
-\end{align*}\]
-
-<hr />
-<p>$\example{4}$ 
-Solve for $x$, $3^{5-2x} = \frac{1}{27}$</p>
-
-<p>$\solution$ <br />
-Get the reciprocal of 27,</p>
-
-\[\begin{align*}
-	3^{5-2x} &amp;= 27^{-1}
-\end{align*}\]
-
-<p>Express as a base of 3,</p>
-
-\[\begin{align*}
-	3^{5-2x} &amp;= 3^{-3}
-\end{align*}\]
-
-<p>Then equate its exponents,</p>
-
-\[\begin{align*}
-	5-2x &amp;= -3 \\
-	2x &amp;= 8 \\
-	x &amp;= 4		\tagans			
-\end{align*}\]
-
-<hr />
-<p>$\example{5}$ 
-Solve for $x$, $2^{x^2+x-\frac{11}{2}} = \sqrt{2}$</p>
-
-<p>$\solution$ <br />
-Express the radical as a power with a rational exponent,</p>
-
-\[\begin{align*}
-	2^{x^2+x-\frac{11}{2}} &amp;= 2^{1/2}
-\end{align*}\]
-
-<p>Then equate its exponents,</p>
-
-\[\begin{align*}
-	x^2+x-\frac{11}{2} &amp;= \frac{1}{2} \\
-	2x^2+2x-11 &amp;= 1 \\
-	2x^2+2x-12 &amp;= 0 \\
-	(2x-4)(x+3) &amp;= 0 \\
-	(x-2)(x+3) &amp;= 0 \\
-\end{align*}\]
-
-<p>Hence,</p>
-
-\[\begin{align*}
-	x =2 \quad or \quad x=-3    \tagans
-\end{align*}\]
-
-<hr />
-<p>$\example{6}$ 
-Solve for $x$, $1=\br{ \frac{1}{2} }^{2x+1}$</p>
-
-<p>$\solution$ <br />
-In this example, we cannot simply match the base of the terms, but remember that any number or variable with an exponent of 0 is equal to 1. And we can use this concept and equate the exponent of $\frac{1}{2}$ to 0. This gives us,</p>
-
-\[\begin{align*}
-	2x+1 &amp;= 0 \\
-	2x &amp;= -1 \\
-	x &amp;= -\frac{1}{2}	\tagans
-\end{align*}\]
-
-<hr />
-
-<h1 id="natural-exponential-functions">Natural Exponential Functions</h1>
-<p>Natural Exponential Function is a special case of an exponential function, instead of having a base of any constant, it has the Euler’s number $e$ as its base. Natural Exponential Functions is written in the form of,</p>
-
-<p align="center" style="background-color:rgba(64, 130, 110, 0.07);
-border: 3px solid rgba(64, 130, 110, 0.9);
-border-radius:7px;
-padding:10px;
-margin:5px;">
-    $$\begin{align}
-        f(x)=e^x 
-    \end{align}$$
-</p>
-
-<p>Where $e$ is a non-terminating irrational number which is approximately $e \approx 2.71828\dots$ Natural Exponential Functions has a lot of applications since the slope at any point on the curve of $y=e^x$ is also equal to $e^x$ (Figure 1). In the subsequent lessons we will see why this function is special.</p>
+<p>$\solution$  <br />
+In this example, the coordinates of the point are not given. However, it is stated that the point is located where the curve intersects the $y$-axis. Thus, graphing the curve can give us a clearer picture of where it is located.</p>
 
 <figure style="text-align: center;">
-  <img src="/images/content/DC/DC-8.1.1.png" alt="my alt text" width="300px" />
-  <figcaption><em><p>Figure 1: The slope at any point on the curve $y=e^x$ is also equal to $e^x$</p>
+  <img src="/images/content/DC/DC-5.2.1.png" alt="my alt text" width="250px" />
+  <figcaption><em>
+</em></figcaption>
+</figure>
+
+<p>Mathematically, we can solve the intersection point by equating the equation of the curve and the $y$-axis. If you can recall, the equation of the $y$-axis is $x=0$, since every point that lies on the $y$-axis has an $x$-coordinate of 0. Thus, replacing 0 to $y=(x+4)^2$ will give us the $y$-coordinate of the intersection point.
+%</p>
+
+\[\begin{align*}
+	y &amp;= (x+4)^2 \\
+	  &amp;= (0+4)^2 \\
+	  &amp;= 16
+\end{align*}\]
+
+<p>Hence, the point of intersection is at $(0,16)$</p>
+
+<p>Since we already have the coordinates of the point, we can now solve the problem by the same method as our previous examples. To start, differentiate the equation of the curve with respect to $x$.</p>
+
+\[\begin{align*}
+	\ddx\br{y} &amp;= \ddx\brk{(x+4)^2} \\
+	y' &amp;= 2(x+4)
+\end{align*}\]
+
+<p>At $(0,16)$,</p>
+
+\[\begin{align*}
+	m_T &amp;= y' = 2(0+4) \\
+	    &amp;= 8
+\end{align*}\]
+
+<p>Solving for the equation of the tangent line using the Point-Slope Form ($\eref{eq:pt-slope of a line}$) gives us,</p>
+
+\[\begin{align*}
+	y-y_1 &amp;= m_T (x-x_1) \\
+	y-16 &amp;= 8[x-0] \\
+	y-16 &amp;= 8x \\
+	8x-y &amp;= -16		\tagans
+\end{align*}\]
+
+<p>Then for the equation of the normal line,</p>
+
+\[\begin{align*}
+	y-y_1 &amp;= -\frac{1}{m_T} (x-x_1) \\
+	y-16 &amp;= -\frac18 (x-0) \\
+	8(y-16) &amp;= -x \\
+	8y-128 &amp;= -x \\
+	x+8y &amp;= 128			\tagans
+\end{align*}\]
+
+<p>To visualize, we can graph the tangent and normal lines of the curve $y=(x+4)^2$ at $(0,16)$.</p>
+
+<figure style="text-align: center;">
+  <img src="/images/content/DC/DC-5.2.2.png" alt="my alt text" width="250px" />
+  <figcaption><em>
 </em></figcaption>
 </figure>
 
 <hr />
-<p>$\example{7}$ 
-Solve for $x$, $e^{5x}=e^{7x-3}$</p>
+<p>$\example{4}$
+Find the equation of the tangent and normal lines to the curve $a^2y-x^3=0$ at point $(a,a)$.</p>
 
-<p>$\solution$ <br />
-Since the base $e$ is just a constant, we can solve this example by using the same method that we have previously discussed in exponential functions, which is by equating all of its exponents.</p>
+<p>$\solution$  <br />
+In this example, we can treat $a$ as a constant. Thus,</p>
 
 \[\begin{align*}
-	5x &amp;= 7x-3 \\
-	2x &amp;= 3 \\
-	x &amp;= \frac{3}{2}		\tagans
+	\ddx\br{a^2y-x^3} &amp;= \ddx\br{0} \\
+	a^2 y'-3x^2 &amp;= 0 \\
+	y' &amp;= \frac{3x^2}{a^2}
+\end{align*}\]
+
+<p>To solve for the tangent at $(a,a)$, we can replace $x$ and $y$ with $a$. However, in this case, we only have the variable $x$. Thus,</p>
+
+\[\begin{align*}
+	y' &amp;= \frac{3\cancel{a^2}}{\cancel{a^2}} \\
+	   &amp;= 3
+\end{align*}\]
+
+<p>Solving for the equation of the tangent line gives us,</p>
+
+\[\begin{align*}
+	y-y_1 &amp;= m_T (x-x_1) \\
+	y-a &amp;= 3(x-a) \\
+	y-a &amp;= 3x-3a \\
+	3x-y &amp;= -a+3a \\
+	3x-y &amp;= 2a		\tagans
+\end{align*}\]
+
+<p>Then for the equation of the normal line,</p>
+
+\[\begin{align*}
+	y-y_1 &amp;= -\frac{1}{m_T} (x-x_1) \\
+	y-a &amp;= -\frac13 (x-a) \\
+	3(y-a) &amp;= -x+a \\
+	3y-3a &amp;= -x+a \\
+	x+3y &amp;= 4a			\tagans
 \end{align*}\]
 
 <hr />
-<p>$\example{8}$ 
-Solve for $x$, $e^{2x+3}=1$</p>
+<p>$\example{5}$
+Find the equation of the tangent and normal lines to the curve $x^2+4x-y-2=0$ where the slope of the tangent is 6.</p>
 
-<p>$\solution$ <br />
-For $e^{2x+3}$ be equal to 1, its exponent must be equal to zero. With this in mind, we can equate the exponent $2x+3$ by 0. This gives us,</p>
+<p>$\solution$  <br />
+In this example, instead of having a point as one of its given, we have the slope of the tangent. To solve for the point, we can first differentiate the function.</p>
 
 \[\begin{align*}
-	2x+3 &amp;= 0 \\
-	x &amp;= - \frac{3}{2}	\tagans
+	\ddx\br{x^2+4x-y-2} &amp;= \ddx\br{0} \\
+	2x+4-y' &amp;= 0 \\
+	y' &amp;= 2x+4
 \end{align*}\]
+
+<p>Since the tangent is equal to the derivative, we can use this parameter to solve for the $x$-coordinate of the point of tangency.</p>
+
+\[\begin{align*}
+	y' &amp;= 6 \\
+	2x+4 &amp;= 6 \\
+	x &amp;= \frac{6-4}{2} \\
+	  &amp;= 1
+\end{align*}\]
+
+<p>Then to solve for the $y$-coordinate, substitute the value of $x$ to the equation  of the curve.</p>
+
+\[\begin{align*}
+	x^2+4x-y-2 &amp;= 0 \\
+	y &amp;= (1)^2+4(1)-2 \\
+	y &amp;= 3
+\end{align*}\]
+
+<p>Hence, the point of tangency is at $(0,-2)$. With this, we can now solve for the equation of the tangent line.</p>
+
+\[\begin{align*}
+	y-y_1 &amp;= m_T (x-x_1) \\
+	y-3 &amp;= 6 (x-1) \\
+	y-3 &amp;= 6x-6 \\
+	6x-y &amp;= 3		\tagans
+\end{align*}\]
+
+<p>Then for the equation of the normal line,</p>
+
+\[\begin{align*}
+	y-y_1 &amp;= -\frac{1}{m_T} (x-x_1) \\
+	y-3 &amp;= -\frac16 (x-1) \\
+	6(y-3) &amp;= -x+1 \\
+	6y-18 &amp;= -x+1 \\
+	x+6y &amp;= 19		\tagans
+\end{align*}\]
+
 
         </div>
       </div>
@@ -485,24 +517,24 @@ For $e^{2x+3}$ be equal to 1, its exponent must be equal to zero. With this in m
 
 <!-- <div class="PageNavigation">
   
-    <a class="prev" href="/services/calculus/DC-5.2-equation-of-tangent-and-normal-lines/">&laquo; Equation of Tangent and Normal Lines</a>
+    <a class="prev" href="/services/calculus/DC-5.1-tangents-and-normals-to-plane-curves/">&laquo; Tangents and Normals to Plane Curves</a>
   
   
-    <a class="next" href="/services/calculus/DC-8.2-logarithmic-functions/">Logarithmic Functions &raquo;</a>
+    <a class="next" href="/services/calculus/DC-8.1-exponential-functions/">Exponential Functions &raquo;</a>
   
 </div> -->
 
 
 
 <!-- <div class="PageNavigation">
-    <a class="prev" href="../DC-8.1-exponential-functions">&laquo; </a> <a class="next" href="../DC-8.2-logarithmic-functions"> &raquo;</a>
+    <a class="prev" href="../DC-5.1-tangents-and-normals-to-plane-curves">&laquo; </a> <a class="next" href="../DC-5.1-tangents-and-normals-to-plane-curves"> &raquo;</a>
 </div> -->
 
 
 
 <div class="PageNavigation">
-  <a class="prev" href="../DC-8.1-exponential-functions">&laquo; Previous</a> 
-  <a class="next" href="../DC-8.2-logarithmic-functions">Next &raquo;</a>
+  <a class="prev" href="../DC-5.1-tangents-and-normals-to-plane-curves">&laquo; Previous</a> 
+  <a class="next" href="../DC-5.1-tangents-and-normals-to-plane-curves">Next &raquo;</a>
 </div>
 
 

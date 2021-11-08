@@ -1,7 +1,7 @@
 ---
 title: "Tangents and Normals to Plane Curves"
 prevcontenturl: ../DC-4.4-implicit-differentiation
-nextcontenturl: ../DC-5.1-tangents-and-normals-to-plane-curves
+nextcontenturl: ../DC-5.2-equation-of-tangent-and-normal-lines
 ---
 
 
@@ -46,6 +46,14 @@ Furthermore, a line tangent to a curve changes from one point to another, follow
 ## Normal to a Curve
 A line normal to a curve, on the other hand, is dependent on the tangent line. It is simply the line perpendicular to the tangent line.  With this in mind, if we have already determined the slope of the tangent, we could easily solve for the slope of the normal line.
 
+
+{% include images.html 
+    url= "DC/DC-5.1.4.png" 
+    size= "250px"
+    caption = "Figure 4: Normal to a curve is the line perpendicular to the tangent line."
+%}
+
+
 If you could recall in Analytic Geometry, the slope of a perpendicular line is the negative reciprocal of the slope. Thus, 
 
 {% include tcolorbox.html
@@ -58,18 +66,3 @@ If you could recall in Analytic Geometry, the slope of a perpendicular line is t
 Where $m_T$ denotes the slope of the tangent line, and $m_N$ as the slope of the normal line.
 
 
-## Equation of Tangent and Normal Lines
-In determining the equation of a line, there are different methods available. However in our case, since we can easily determine the slope of the line by differentiation and the point will most likely be available, we can specifically use the Point-Slope Form ($\eref{eq:pt-slope of a line}$) .
-
-Point-slope Form, by the name suggests, can be used to determine the equation of a line by using two parameters, namely: a point, and a slope of a line. To understand more how we can use this form, it is best to solve some problems.
-
-
-
-
-
-{% include tcolorbox.html
-    details = "
-        y-y_1=m(x-x_1)
-        \label{eq:pt-slope of a line}
-    "
-%}
