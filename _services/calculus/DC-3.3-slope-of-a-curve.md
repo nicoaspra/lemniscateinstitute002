@@ -198,6 +198,7 @@ $$
 \begin{align*}
 	(y+\Dy)^2 &= 2(x+\Dx)+7 \\
 	y^2+2y\Dy+\Dy^2-7 &= 2(x+\Dx) \\
+	\frac12(y^2+2y\Dy+\Dy^2-7) &=  \frac{\cancel{2}(x+\Dx)}{\cancel{2}} \\
 	x+\Dx &= \frac{1}{2} (y^2+2y\Dy+\Dy^2-7) \\
 	\Dx &= \frac{1}{2} (y^2+2y\Dy+\Dy^2-7) - x 
 \end{align*}

@@ -1,4 +1,4 @@
-I"º<p>From the previous lesson, we have defined <a href="../DC-3.1-introduction-to-derivatives">derivatives</a> as a slope of a curve. In this lesson, we will explore how we can apply the concept of derivatives to solve for the slope of a tangent line of a curve at a specific point. To start, let us first review some of the properties of the slope of a line.</p>
+I"ì<p>From the previous lesson, we have defined <a href="../DC-3.1-introduction-to-derivatives">derivatives</a> as a slope of a curve. In this lesson, we will explore how we can apply the concept of derivatives to solve for the slope of a tangent line of a curve at a specific point. To start, let us first review some of the properties of the slope of a line.</p>
 
 <p>The slope of a line measures the <strong>steepness</strong> and <strong>direction</strong> of the line. <em>The larger the value of the slope, the steeper it becomes</em>. And the <strong>sign</strong> of the numerical value of the slope indicates its <em>direction</em>.</p>
 
@@ -148,6 +148,7 @@ Differentiate $y$ with respect to $x$,</p>
 \[\begin{align*}
 	(y+\Dy)^2 &amp;= 2(x+\Dx)+7 \\
 	y^2+2y\Dy+\Dy^2-7 &amp;= 2(x+\Dx) \\
+	\frac{1}{2} (y^2+2y\Dy+\Dy^2-7) &amp;=  x+\Dx \\
 	x+\Dx &amp;= \frac{1}{2} (y^2+2y\Dy+\Dy^2-7) \\
 	\Dx &amp;= \frac{1}{2} (y^2+2y\Dy+\Dy^2-7) - x 
 \end{align*}\]
