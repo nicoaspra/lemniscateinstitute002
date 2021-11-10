@@ -43,8 +43,8 @@ summary: Calculus, has a reputation of being one of the most dreaded subjects in
   - [Equation of Tangent and Normal Lines](../calculus/DC-5.2-equation-of-tangent-and-normal-lines)
   - [Increasing and Decreasing Functions](../calculus/DC-5.3-increasing-and-decreasing-functions)
   - [Maxima and Minima](../calculus/DC-5.4-maxima-and-minima)
-  - Points of Inflection
   - Concavity and the Second Derivative Test
+  - Points of Inflection
 - Applications of the Derivative
   - Applications of Maxima and Minima
   - Time-Rates
