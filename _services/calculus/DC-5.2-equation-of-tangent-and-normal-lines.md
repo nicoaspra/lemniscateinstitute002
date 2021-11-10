@@ -344,6 +344,9 @@ $$
 
 
 
+
+
+---
 $\example{6}$
 At point $(1,1)$, the tangent line to the curve $y = x^3$ intersects the $x$-axis at $x=$ ?
 
