@@ -1,7 +1,7 @@
 ---
 title: "Equation of Tangent and Normal Lines"
 prevcontenturl: ../DC-5.1-tangents-and-normals-to-plane-curves
-nextcontenturl: ../DC-5.1-tangents-and-normals-to-plane-curves
+nextcontenturl: ../DC-5.3-increasing-and-decreasing-functions
 ---
 
 From the previous section, we have already learned how we can determine the slope of either a tangent or a normal line through differentiation, or in the case of normal lines, getting the negative reciprocal of the slope of the tangent line. In this section, we will learn how to utilize their slopes to find the general equation of such lines.
@@ -80,7 +80,7 @@ $$
 \end{align*}
 $$
 
-$$
+
 Therefore, the equation of the tangent and normal lines are $9x-y = 4$ and $x+9y = 46$ respectively.
 
 
@@ -244,11 +244,11 @@ $$
 \end{align*}
 $$
 
-To solve for the tangent at $(a,a)$, we can replace $x$ and $y$ with $a$. However, in this case, we only have the variable $x$. Thus,
+To solve for the slope at $(a,a)$, we can replace $x$ and $y$ with $a$. However, in this case, we only have the variable $x$. Thus,
 
 $$
 \begin{align*}
-	y' &= \frac{3\cancel{a^2}}{\cancel{a^2}} \\
+	m_T &= y' = \frac{3\cancel{a^2}}{\cancel{a^2}} \\
 	   &= 3
 \end{align*}
 $$
@@ -344,5 +344,55 @@ $$
 
 
 
+$\example{6}$
+At point $(1,1)$, the tangent line to the curve $y = x^3$ intersects the $x$-axis at $x=$ ?
 
+$\solution$ \\
+In this example, we need to find the $x$-coordinate of the tangent line were it intersects the $x$-axis. To visualize, let us first try to plot the given function.
+
+
+{% include images.html 
+    url= "DC/DC-5.2.3.png" 
+    size= "250px"
+%}
+
+
+
+We can start by first differentiating the equation of the curve to determine its slope.
+
+$$
+\begin{align*}
+	\ddx\br{y} &= \ddx\br{x^3} \\
+	y' &= 3x^2
+\end{align*}
+$$
+
+At $(1,1)$,
+
+$$
+\begin{align*}
+	m_T &= y' = 3(1)^2 \\
+	   &= 3
+\end{align*}
+$$
+
+Then we can now use the slope to solve for the equation of the tangent line,
+
+$$
+\begin{align*}
+	y-y_1 &= m_T (x-x_1) \\
+	y-1 &= 3(x-1) \\
+	y-1 &= 3x-3 \\
+	3x-y &= 2
+\end{align*}
+$$
+
+Since all points tha lie on the $x$-axis have a $y$-coordinate of 0, we can substitute this to the equation of the line to get its $x$-coordinate where it intersects the $x$-axis.
+
+$$
+\begin{align*}
+	3x-(0) &= 2 \\
+	x &= \frac23	\tagans
+\end{align*}
+$$
 

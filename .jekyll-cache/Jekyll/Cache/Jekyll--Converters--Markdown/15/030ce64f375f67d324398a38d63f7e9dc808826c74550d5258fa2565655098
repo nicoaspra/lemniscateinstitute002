@@ -1,0 +1,24 @@
+I"�<p>From the previous sections, we have already well established that the derivative of $y$ with respect to $x$, $\frac{dy}{dx}$ or $y’$ in Lagrange’s notation indicates the rate of change of $y$ with respect to $x$, which can also be represented graphically as the slope of a curve at a certain point. Additionally, we learned in Chapter 3 that the direction of a slope is determined by its sign. With this in mind, we can tell whether a continuous curve increases or decreases based on its slope.</p>
+
+<p>The function increases if the direction of the graph is going upwards. Hence, having a slope with a positive value ($y’&gt;0$) or $y$ increases as $x$ increases will indicate that the function increases at a specific interval. On the contrary, having a slope with a negative value ($y&lt;0$) or $y$ decreases as $x$ increases will indicate that the function decreases at a specific interval.</p>
+
+<figure style="text-align: center;">
+  <img src="/images/content/DC/DC-5.3.1.png" alt="my alt text" width="350px" />
+  <figcaption><em><p>Figure 1: Increasing and decreasing</p>
+</em></figcaption>
+</figure>
+
+<figure style="text-align: center;">
+  <img src="/images/content/DC/DC-5.3.2.gif" alt="my alt text" width="350px" />
+  <figcaption><em><p>Figure 2: At the point where the slope is positive, the function increases. And where the slope is negative, the function decreases.</p>
+</em></figcaption>
+</figure>
+
+<p>However, a function can increase in two ways: either increasing at a decreasing rate ($\fref{3a}$) or increasing at an increasing rate (\fref{fig:dir of inc and dec func 1.2}). Similarly, a function can also decrease at a decreasing rate (\fref{fig:dir of inc and dec func 1.3}) or decrease at an increasing rate (\fref{fig:dir of inc and dec func 1.4}). The direction of a function can reveal a great deal about it, particularly when it comes to identifying the graph’s behavior, which is very valuable when sketching curves.</p>
+
+<figure style="text-align: center;">
+  <img src="/images/content/DC/DC-5.3.3.png" alt="my alt text" width="650px" />
+  <figcaption><em><p>Figure 3: Direction of increasing and decreasing functions</p>
+</em></figcaption>
+</figure>
+:ET

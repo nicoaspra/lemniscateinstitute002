@@ -41,7 +41,8 @@ summary: Calculus, has a reputation of being one of the most dreaded subjects in
 - Polynomial Curves
   - [Tangents and Normals to Plane Curves](../calculus/DC-5.1-tangents-and-normals-to-plane-curves)
   - [Equation of Tangent and Normal Lines](../calculus/DC-5.2-equation-of-tangent-and-normal-lines)
-  - Maxima, Minima, and the First Derivative Test
+  - [Increasing and Decreasing Functions](../calculus/DC-5.3-increasing-and-decreasing-functions)
+  - [Maxima and Minima](../calculus/DC-5.4-maxima-and-minima)
   - Points of Inflection
   - Concavity and the Second Derivative Test
 - Applications of the Derivative

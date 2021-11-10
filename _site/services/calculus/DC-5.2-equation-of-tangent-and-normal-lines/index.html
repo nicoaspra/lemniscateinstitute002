@@ -169,8 +169,7 @@ To get the slope of the tangent, differentiate the function with respect to $x$,
 	x+9y &amp;= 46 	\tagans
 \end{align*}\]
 
-<p>$$
-Therefore, the equation of the tangent and normal lines are $9x-y = 4$ and $x+9y = 46$ respectively.</p>
+<p>Therefore, the equation of the tangent and normal lines are $9x-y = 4$ and $x+9y = 46$ respectively.</p>
 
 <hr />
 <p>$\example{2}$
@@ -292,10 +291,10 @@ In this example, we can treat $a$ as a constant. Thus,</p>
 	y' &amp;= \frac{3x^2}{a^2}
 \end{align*}\]
 
-<p>To solve for the tangent at $(a,a)$, we can replace $x$ and $y$ with $a$. However, in this case, we only have the variable $x$. Thus,</p>
+<p>To solve for the slope at $(a,a)$, we can replace $x$ and $y$ with $a$. However, in this case, we only have the variable $x$. Thus,</p>
 
 \[\begin{align*}
-	y' &amp;= \frac{3\cancel{a^2}}{\cancel{a^2}} \\
+	m_T &amp;= y' = \frac{3\cancel{a^2}}{\cancel{a^2}} \\
 	   &amp;= 3
 \end{align*}\]
 
@@ -366,6 +365,48 @@ In this example, instead of having a point as one of its given, we have the slop
 	6(y-3) &amp;= -x+1 \\
 	6y-18 &amp;= -x+1 \\
 	x+6y &amp;= 19		\tagans
+\end{align*}\]
+
+<p>$\example{6}$
+At point $(1,1)$, the tangent line to the curve $y = x^3$ intersects the $x$-axis at $x=$ ?</p>
+
+<p>$\solution$ <br />
+In this example, we need to find the $x$-coordinate of the tangent line were it intersects the $x$-axis. To visualize, let us first try to plot the given function.</p>
+
+<figure style="text-align: center;">
+  <img src="/images/content/DC/DC-5.2.3.png" alt="my alt text" width="250px" />
+  <figcaption><em>
+</em></figcaption>
+</figure>
+
+<p>We can start by first differentiating the equation of the curve to determine its slope.</p>
+
+\[\begin{align*}
+	\ddx\br{y} &amp;= \ddx\br{x^3} \\
+	y' &amp;= 3x^2
+\end{align*}\]
+
+<p>At $(1,1)$,</p>
+
+\[\begin{align*}
+	m_T &amp;= y' = 3(1)^2 \\
+	   &amp;= 3
+\end{align*}\]
+
+<p>Then we can now use the slope to solve for the equation of the tangent line,</p>
+
+\[\begin{align*}
+	y-y_1 &amp;= m_T (x-x_1) \\
+	y-1 &amp;= 3(x-1) \\
+	y-1 &amp;= 3x-3 \\
+	3x-y &amp;= 2
+\end{align*}\]
+
+<p>Since all points tha lie on the $x$-axis have a $y$-coordinate of 0, we can substitute this to the equation of the line to get its $x$-coordinate where it intersects the $x$-axis.</p>
+
+\[\begin{align*}
+	3x-(0) &amp;= 2 \\
+	x &amp;= \frac23	\tagans
 \end{align*}\]
 
 
@@ -520,21 +561,21 @@ In this example, instead of having a point as one of its given, we have the slop
     <a class="prev" href="/services/calculus/DC-5.1-tangents-and-normals-to-plane-curves/">&laquo; Tangents and Normals to Plane Curves</a>
   
   
-    <a class="next" href="/services/calculus/DC-8.1-exponential-functions/">Exponential Functions &raquo;</a>
+    <a class="next" href="/services/calculus/DC-5.3-increasing-and-decreasing-functions/">Increasing and Decreasing Functions &raquo;</a>
   
 </div> -->
 
 
 
 <!-- <div class="PageNavigation">
-    <a class="prev" href="../DC-5.1-tangents-and-normals-to-plane-curves">&laquo; </a> <a class="next" href="../DC-5.1-tangents-and-normals-to-plane-curves"> &raquo;</a>
+    <a class="prev" href="../DC-5.1-tangents-and-normals-to-plane-curves">&laquo; </a> <a class="next" href="../DC-5.3-increasing-and-decreasing-functions"> &raquo;</a>
 </div> -->
 
 
 
 <div class="PageNavigation">
   <a class="prev" href="../DC-5.1-tangents-and-normals-to-plane-curves">&laquo; Previous</a> 
-  <a class="next" href="../DC-5.1-tangents-and-normals-to-plane-curves">Next &raquo;</a>
+  <a class="next" href="../DC-5.3-increasing-and-decreasing-functions">Next &raquo;</a>
 </div>
 
 
