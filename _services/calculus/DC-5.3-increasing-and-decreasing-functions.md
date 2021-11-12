@@ -31,6 +31,6 @@ However, a function can increase in two ways: either increasing at a decreasing 
 
 {% include images.html 
     url= "DC/DC-5.3.3.png" 
-    size= "650px"
+    size= "300px"
     caption = "Figure 3: Direction of increasing and decreasing functions"
 %}
