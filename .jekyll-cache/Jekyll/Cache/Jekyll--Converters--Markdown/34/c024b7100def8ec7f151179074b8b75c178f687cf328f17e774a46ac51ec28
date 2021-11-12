@@ -1,0 +1,470 @@
+I"nZ<h1 id="general-equation-of-a-plane-area">General Equation of a Plane Area</h1>
+
+<p>In solving for the area, there are two methods that can be taken into consideration. We can use a \tcA{horizontal strip} or a \tcA{vertical strip}, either of these will yield the same result. However, there are some problems that are preferably solved using one method than the other since it is much simpler. 
+In order for us to determine what method to use, we fist need to learn the formulas of each method and how it is used.</p>
+
+<h2 id="considering-a-vertical-strip">Considering a Vertical Strip</h2>
+<p>In using the vertical strip to solve for the area, consider \fref{fig:area under a curve using a vertical strip}. The rectangular element of the vertical strip has a width of $dx$ and has a length of $y$. The lower and upper limits of the area are the left and right boundaries, respectively.</p>
+
+<p>Moreover, the length of the strip $y$ is equal to the difference of the upper and lower boundaries $y=y_2-y_1$, this is oftentimes neglected in some references. However, it is a necessary detail in order to fully define the area. Also, in order for us not be confused when dealing with more than one curve, which we will tackle in the succeeding lessons. Mathematically, we can denote the formula as,
+\begin{tcolorbox}[ams align]
+	A = \int_{x_1}^{x_2} y\,dx
+	\label{eq:area of integration using vertical strip}
+\end{tcolorbox}
+\vspace{-2.5em}
+\begin{flalign<em>}
+	\text{Where:}\quad y &amp;= y_2-y_1 &amp; <br />
+	y_1 &amp;= \text{equation of lower curve (bottom boundary)} <br />
+	y_2 &amp;= \text{equation of upper curve (top boundary)} <br />
+	x_1 &amp;= \text{lower limit (left boundary)} <br />
+	x_2 &amp;= \text{upper limit (right boundary)}
+\end{flalign</em>}</p>
+
+<p>\begin{figure}[H]
+	\centering
+	\begin{tikzpicture}[scale=\scaleB,every node/.style={scale=1.3}]
+		\begin{axis}[xyqngnl, smooth, samples=100,]
+		\AreaNodes
+			\addplot [colorA, line width=1pt, domain=-1:5, name path=A] 
+				{sin(-1.7<em>deg(x))+2.5+ .2</em>x-0.4<em>cos(deg(.6</em>x))};
+			\addplot [draw=none,name path=B] {0};<br />
+			\tikzfillbetween[of=A and B,soft clip={domain=1:4}]{colorA, opacity=0.2};
+			% \tikzfillbetween[of=A and B,soft clip={domain=2.0:2.2}]{colorA, opacity=0.9};
+			\filldraw [colorA!90] (2,0) rectangle (t08) node[black,below,pos=0]{$dx$};
+			\draw [decorate,decoration={brace,amplitude=4pt,raise=3pt,mirror}]
+			(b08) – (t08) node[midway,xshift=15pt,black]{$y$};
+			\draw [dashed, colorB] (1, -0.1) – (t00) ;
+			\draw [dashed, colorB] (4, -0.1) – (t20);
+			\draw (1, -0.31) node {$x_1$};				
+			\draw (4, -0.31) node {$x_2$};
+		\end{axis}
+	\end{tikzpicture}
+	\caption{Area under a curve using a vertical strip}
+	\label{fig:area under a curve using a vertical strip}
+\end{figure}</p>
+
+<h2 id="considering-a-horizontal-strip">Considering a Horizontal Strip</h2>
+<p>The steps in solving the area using the horizontal strip are not that different from using the vertical strip. The significant difference between the two methods is the orientation of its boundaries. In using the horizontal strip in integrating for the area, the limits are the bottom and top boundaries, while the integrand is the difference between the right and left boundaries, $x=x_2-x_1$. Mathematically, the formula is expressed as,
+\begin{tcolorbox}[ams align]
+	A = \int_{y_1}^{y_2} x\,dy
+	\label{eq:area of integration using horizontal strip}
+\end{tcolorbox}
+\vspace{-2em}
+\begin{flalign<em>}
+	\text{Where:}\quad x &amp;= x_2-x_1 &amp; <br />
+	x_1 &amp;= \text{equation of left curve (left boundary)} <br />
+	x_2 &amp;= \text{equation of right curve (right boundary)} <br />
+	y_1 &amp;= \text{lower limit (bottom boundary)} <br />
+	y_2 &amp;= \text{upper limit (top boundary)}
+\end{flalign</em>}</p>
+
+<p>\begin{figure}[H]
+	\centering
+	\begin{tikzpicture}[scale=\scaleB,every node/.style={scale=1.3}]
+		\begin{axis}[
+			x=1cm,			y=1cm,
+			xmin=-.5,		ymin=-.5,
+			xmax=5,			ymax=5,
+			xtick=false,	ytick=false,
+			xlabel=,  		ylabel=,
+			axis x line=center, 	axis y line=middle, 
+			xmajorgrids=true,	ymajorgrids=true,
+			samples=100,
+			color=white,
+			smooth,rotate around={-90:(0,0)}, xscale=-1]
+			\AreaNodes
+			\addplot [colorA, line width=1pt, domain=-1:5, name path=A] 
+				{sin(-1.7<em>deg(x))+2.5+ .2</em>x-0.4<em>cos(deg(.6</em>x))};
+			\addplot [draw=none,name path=B] {0};<br />
+			\tikzfillbetween[of=A and B,soft clip={domain=1:4}]{colorA, opacity=0.2};
+			% \tikzfillbetween[of=A and B,soft clip={domain=2.0:2.2}]{colorA, opacity=0.9};
+			\filldraw [colorA!90] (2,0) rectangle (t08);
+			\draw [decorate,decoration={brace,amplitude=4pt,raise=3pt},black]
+			(b08) – (t08) node[midway,yshift=15pt,black]{$x$};
+			\draw [dashed, colorB] (1, -0.1) – (t00) ;
+			\draw [dashed, colorB] (4, -0.1) – (t20);
+			\draw[black] (1, -0.31) node {$y_1$};				
+			\draw[black] (4, -0.31) node {$y_2$};
+		\end{axis}
+		\begin{axis}[xyqngnl, smooth, samples=100,]	
+		\end{axis}
+		\begin{scope}[scale=\scaleA,every node/.style={scale=1.0},xshift=0.5cm,yshift=0.5cm]
+			\node[left] at (0,2.1) {$dy$};
+		\end{scope}
+	\end{tikzpicture}
+	\caption{Area under a curve using a horizontal strip}
+	\label{fig:area under a curve using a horizontal strip}
+\end{figure}</p>
+
+<p>To fully understand how to use these equations and how each can be more beneficial to use than the other. Let us have some examples.</p>
+
+<p>\example 
+Compute the area bounded by the curve $y=x^2+1$, the $x$-axis, $x=0$, and $x=2$.</p>
+
+<p>\solution <br />
+In solving for the area, the first step that we need to undergo everytime is to graph the boundaries. With this, we can visualize the graph and identify the position of each boundary with respect to each other.
+\begin{center}
+	\begin{tikzpicture}[scale=\scaleB,every node/.style={scale=1.3}]
+		\begin{axis}[\xyqngnl{5}{10}, smooth, samples=100,]
+			\addplot [colorA, line width=1pt, domain=-1:4.1, name path=A] 
+				{x^2+1};
+			\addplot [draw=none,name path=B] {0};<br />
+			\tikzfillbetween[of=A and B,soft clip={domain=0:2}]{colorA, opacity=0.2};
+			\draw [dashed, colorB] (2, 0-0.1cm) – (2,5) ;
+			% \draw [dashed, colorB] (4, -0.1) – (t20);
+			\draw[below] (0, 0) node[fill=white,inner sep=1pt,outer sep=2.5pt] {$x_1$};				
+			\draw[below] (2, 0) node {$x_2$};
+		\end{axis}
+	\end{tikzpicture}
+\end{center}</p>
+
+<p>\bfB{Considering a Vertical Strip,}
+\begin{center}
+	\begin{tikzpicture}[scale=\scaleB,every node/.style={scale=1.3}]
+		\begin{axis}[\xyqngnl{5}{8}, smooth, samples=100,]
+			\addplot [colorA, line width=1pt, domain=-1:4.1, name path=A] 
+				{x^2+1};
+			\addplot [draw=none,name path=B] {0};<br />
+			\tikzfillbetween[of=A and B,soft clip={domain=0:2}]{colorA, opacity=0.2};</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>		\filldraw [colorA!90] (1,2) rectangle (1-0.2,0);
+		\draw[above] (1-.1, 2) node {$dx$};
+		\draw[right] (1, 2/2) node {$y$};
+
+		\draw[right] (2.5, 7) node {$y_2 = x^2+1$};
+		\draw[above right] (2.5, 0) node {$y_1=0$};
+
+		\draw [dashed, colorB] (2, 0-0.1cm) -- (2,5) ;
+		% \draw [dashed, colorB] (4, -0.1) -- (t20);
+		\draw[below] (0, 0) node[fill=white,inner sep=1pt,outer sep=2.5pt] {$x_1$};				
+		\draw[below] (2, 0) node {$x_2$};
+	\end{axis}
+\end{tikzpicture} \end{center} \begin{align*}
+A &amp;= \int_{x_1}^{x^2} y\,dx \\
+  &amp;= \int_{x_1}^{x^2} \brk{y_2-y_1}\,dx \\
+  &amp;= \int_{0}^{2} \brk{(x^2+1)-0}\,dx \\
+  &amp;= \brk{\frac{x^3}{3}+x}_0^2 \\
+  &amp;= \brk{\frac{2^3}{3}+2} - \cancel{\brk{\frac{0^3}{3}+0}} \\
+  &amp;= \frac{14}{3}\un{units^2}		\tagans \end{align*}
+</code></pre></div></div>
+
+<p>\example 
+Solve for the area bounded by the curve $y=x^2-4$ and the $x$-axis.</p>
+
+<p>\solution <br />
+\bfB{Considering a Vertical Strip,} <br />
+In this example, the left and right boundaries are defined by a point of intersection of the curve and the $x$-axis. Moreover, the curve is located below the $x$-axis. The steps in solving this type of problem are similar to the previous example, just that we will give a greater emphasis on the top and bottom boundaries, since in this case, the upper boundary is now the $x$-axis.
+\begin{center}
+	\begin{tikzpicture}[scale=\scaleB,every node/.style={scale=1.1}]
+		\begin{axis}[
+			x=1cm<em>5/5,			y=1cm</em>5/5,
+			xmin=-3/5<em>5,		ymin=-5/5</em>5,
+			xmax=3/5<em>5,			ymax=.5/5</em>5,
+			xtick=false,		ytick=false,
+			xlabel=,  			ylabel=,
+			axis x line=center, axis y line=middle, 
+			xmajorgrids=true,	ymajorgrids=true,
+			samples=100,, smooth, samples=100,
+		]
+			\addplot [colorA, line width=1pt, domain=-2.03:2.03, name path=A] 
+				{x^2-4};
+			\addplot [draw=none,name path=B] {0};<br />
+			\tikzfillbetween[of=A and B,soft clip={domain=-2:2}]{colorA, opacity=0.2};</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>		\filldraw [colorA!90] (-1,-3) rectangle (-1-0.2,0);
+		\draw[below] (-1-.1, -3) node {$dx$};
+		\draw[right] (-1, -3/2) node {$y$};
+
+		\draw[right] (0, 0.3) node {$y_2 =0$};
+		\draw[right] (0.5, -4) node {$y_1 = x^2-4$};
+
+		% \draw [dashed, colorB] (2, 0-0.1cm) -- (2,5) ;
+		% \draw [dashed, colorB] (4, -0.1) -- (t20);
+		\draw[above] (-2, 0) node {$x_1$};				
+		\draw[above] (2, 0) node {$x_2$};
+	\end{axis}
+\end{tikzpicture} \end{center} % Before we can use the equation of the area, we still need to solve for the limits, which in this case are the points of intersection between the curve and the $x$-axis. To do that, we can first equate the two equations of the intersecting curves, \begin{align*}
+y_1 &amp;= y_2 \\
+x^2-4 &amp;= 0 \\
+(x+2)(x-2) &amp;= 0 \\
+x+2 = 0   \qquad&amp;;\qquad   x-2 = 0 \\
+\intertext{Solving for $x$ gives us,}
+x_1 = -2   \qquad&amp;;\qquad   x_2 = 2  \end{align*} %% With all the parameters ready for substitution, we can now use equation \ref{eq:area of integration using vertical strip} \begin{align*}
+A &amp;= \int_{x_1}^{x^2} y\,dx \\
+  &amp;= \int_{x_1}^{x^2} \brk{y_2-y_1}\,dx \\
+  &amp;= \int_{-2}^{2} \brk{0-(x^2-4)}\,dx \\
+  &amp;= \int_{-2}^{2} \brk{-x^2+4}\,dx \\
+  &amp;= \brk{-\frac{x^3}{3}+4x}_{-2}^2 \\
+  &amp;= \brk{-\frac{2^3}{3}+4(2)} - \brk{-\frac{(-2)^3}{3}+4(-2)} \\
+  &amp;= \brk{-\frac83+8}-\brk{\frac83-8} \\
+  &amp;= \frac{32}{3}\un{units^2}		\tagans \end{align*}
+</code></pre></div></div>
+
+<p>\bfB{Considering a Horizontal Strip,} <br />
+Using the horizontal strip, we cannot directly input the given parameters to the equation since the area’s left and right boundaries are of the same curve; doing so will lead to misdefined boundaries. However, a workaround in this situation is to first consider half of the area and double the result after since the area is symmetrical about the $y$-axis, which creates a mirror image of the other half.
+\begin{center}
+	\begin{tikzpicture}[scale=\scaleB,every node/.style={scale=1.3}]
+		\begin{axis}[
+			x=1cm<em>5/5,			y=1cm</em>5/5,
+			xmin=-3/5<em>5,		ymin=-5/5</em>5,
+			xmax=3/5<em>5,			ymax=.5/5</em>5,
+			xtick=false,		ytick=false,
+			xlabel=,  			ylabel=,
+			axis x line=center, axis y line=middle, 
+			xmajorgrids=true,	ymajorgrids=true,
+			samples=100,, smooth, samples=100,
+		]
+			\addplot [colorA, line width=1pt, domain=-2.03:2.03, name path=A] 
+				{x^2-4};
+			\addplot [draw=none,name path=B] {0};<br />
+			\tikzfillbetween[of=A and B,soft clip={domain=0:2}]{colorA, opacity=0.2};
+			\tikzfillbetween[of=A and B,soft clip={domain=-2:0}]{colorA, opacity=0.05};</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>		\filldraw [colorA!90] (1.581,-1.5) rectangle (0, -1.5-.2);
+		\draw[right] (1.581, -1.5-.1) node {$dy$};
+		\draw[above] (1.581/2,-1.5) node {$x$};
+
+		\draw[left] (0, -0.3) node {$x_1 =0$};
+		\draw[right] (0, -4.1) node {$x_2 = \sqrt{y+4}$};
+
+		% \draw [dashed, colorB] (2, 0-0.1cm) -- (2,5) ;
+		% \draw [dashed, colorB] (4, -0.1) -- (t20);
+		\draw[above] (-2, 0) node {$x_1$};				
+		\draw[above] (2, 0) node {$x_2$};
+	\end{axis}
+\end{tikzpicture} \end{center} % Before we can use the formula, we must first find the limits of the area. In this case, the top boundary is defined by $x$-axis or $y=0$, and the bottom boundary is a point of intersection between the curve and the $y$-axis. To solve for the point, we can equate the equations of the intersecting curves just as we did in the previous example, \begin{align*}
+x_2 &amp;= x_1 \\
+\sqrt{y+4} &amp;= 0 \\
+y+4 &amp;= 0 \\
+y &amp;= -4 \end{align*} Hence, the lower and upper limits are $y_1=-4$ and $y_2=0$, respectively. \begin{align*}
+A_{\text{half}} &amp;= \frac{A}{2} = \int_{y_1}^{y_2} x\,dy \\
+A &amp;= 2\int_{y_1}^{y_2} x\,dy \\
+  &amp;= 2\int_{y_1}^{y_2} \brk{x_2-x_1}\,dy \\
+  &amp;= 2\int_{-4}^{0} \brk{\sqrt{y+4}-0}\,dy \\
+  &amp;= 2\brk{\frac23(y+4)^{3/2}}_{-4}^{0} \\
+  &amp;= 2\brk{\brk{\frac23(0+4)^{3/2}} - \brk{\frac23\cancel{(-4+4)}^{3/2}}} \\
+  &amp;= 2\cdot\frac{16}{3} \\
+  &amp;= \frac{32}{3}\un{units^2}		\tagans \end{align*}
+</code></pre></div></div>
+
+<p>\example 
+Find the area of the region bounded by the function $x=y^2-2y-3$ and the axes at the third quadrant.</p>
+
+<p>\solution <br />
+Graphing the bounded area gives us,
+\begin{center}
+	\begin{tikzpicture}[scale=\scaleB,every node/.style={scale=1.3}]
+		\begin{axis}[xyngnl, xlabel=$x$,  		ylabel=$y$,
+		]
+			\addplot [colorA, line width=1pt, domain=-4:5, name path=A,samples=300] 
+				{sqrt(x+4)+1};
+			\addplot [colorA, line width=1pt, domain=-4:5, name path=B,samples=300] 
+				{-sqrt(x+4)+1};
+			\addplot [draw=none,name path=C] {0};<br />
+			\tikzfillbetween[of=A and B,soft clip={domain=-4:0}]{colorA, opacity=0.2};
+			\tikzfillbetween[of=C and B,soft clip={domain=-3:0}]{white};
+			\addplot [colorA, line width=1pt, domain=-4:5,samples=300] 
+				{-sqrt(x+4)+1};</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>	\end{axis}
+\end{tikzpicture} \end{center} % By inspection, we can see that using a horizontal strip is easier to solve the problem. Thus,
+</code></pre></div></div>
+
+<p>\bfB{Considering a Horizontal Strip,} 
+\begin{center}
+	\begin{tikzpicture}[scale=\scaleB,every node/.style={scale=1.3}]
+		\begin{axis}[xyngnl, xlabel=$x$,  		ylabel=$y$,
+		]
+			\addplot [colorA, line width=1pt, domain=-4:5, name path=A,samples=300] 
+				{sqrt(x+4)+1};
+			\addplot [colorA, line width=1pt, domain=-4:5, name path=B,samples=300] 
+				{-sqrt(x+4)+1};
+			\addplot [draw=none,name path=C] {0};<br />
+			\tikzfillbetween[of=A and B,soft clip={domain=-4:0}]{colorA, opacity=0.2};
+			\tikzfillbetween[of=C and B,soft clip={domain=-3:0}]{white};
+			\addplot [colorA, line width=1pt, domain=-4:5,samples=300] 
+				{-sqrt(x+4)+1};</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>		\filldraw [colorA!90] (-4, 1) rectangle (0, 1-.3);
+		\draw[left] (-4, 1-.15) node {$dy$};
+		\draw[above] (-4/2, 1) node {$x$};
+
+		\draw[right] (0, 2) node{\fns{$x_2 =0$}};
+		\draw[left] (0, 3.5) node{\fns{$x_1 = y^2-2y-3$}};
+
+		% \draw [dashed, colorB] (2, 0-0.1cm) -- (2,5) ;
+		% \draw [dashed, colorB] (4, -0.1) -- (t20);
+		% \draw[above] (-2, 0) node {$x_1$};				
+		% \draw[above] (2, 0) node {$x_2$};
+	\end{axis}
+\end{tikzpicture} \end{center} % The lower limit of the area in considering a horizontal strip is the $x$-axis or $y=0$, and the upper limit is the intersection of the the curve and the $y$-axis. Hence, equating the curves gives us, \begin{align*}
+x_1 &amp;= x_2 \\
+y^2-2y-3 &amp;= 0 \\
+\intertext{To solve for $y$, we can use the method of ``Completing the Square''}
+(y^2-2y \tcA{+1})-3 \tcA{-1} &amp;= 0 \qquad\qquad \tcA{y^2-2y+1=(y-1)^2} \\
+(y-1)^2-4 &amp;= 0 \\
+(y-1)^2 &amp;= 4 \\
+y &amp;= \pm\sqrt{4}+1 \\
+\intertext{Breaking down the two possible result of the sqare root gives us,}
+y = -\sqrt{4}+1		\qquad&amp;;\qquad   y = +\sqrt{4}+1 \\
+y = -2+1			\qquad&amp;;\qquad   y = 2+1 \\
+y = -1				\qquad&amp;;\qquad   y = 3 \\ \end{align*} Since the curves intersect at two points, it is expected that we will have two results. However, in our case we only need one, specifically the $y=3$. Hence, the lower and upper limits are $y_1=0$ and $y_2=3$, respectively. \begin{align*}
+A &amp;= \int_{y_1}^{y^2} x\,dy \\
+  &amp;= \int_{0}^{3} \brk{(y^2-2y-3)-0}\,dy \\
+  &amp;= \brk{\frac{x^3}{3}-\frac{2y^2}{2}-3x}_0^3 \\
+  &amp;= \brk{\frac{3^3}{3}-\frac{2(3)^2}{2}-3(3)} - \cancel{\brk{\frac{0^3}{3}-\frac{2(0)^2}{2}-3(0)}} \\
+  &amp;= -9\un{units^2}		\tagans \end{align*}
+</code></pre></div></div>
+
+<p>\example 
+Find the area of the region bounded by the function $x^2-6x+8$, the $x$-axis, and the vertical lines $x=0$ and $x=5$.</p>
+
+<p>\solution <br />
+Graphing the bounded area gives us,
+\begin{center}
+	\begin{tikzpicture}[scale=\scaleB,every node/.style={scale=1.3}]
+		\begin{axis}[
+			x=1cm<em>5/5,			y=1cm</em>5/10,
+			xmin=-.5/5<em>5,		ymin=-1.5/5</em>10,
+			xmax=6/5<em>5,			ymax=5/5</em>10,
+			xtick=false,		ytick=false,
+			xlabel=,  			ylabel=,
+			axis x line=center, axis y line=middle, 
+			xmajorgrids=true,	ymajorgrids=true,
+			samples=100,, smooth, samples=100,
+		]
+			\addplot [colorA, line width=1pt, domain=-2:7, name path=A] 
+				{x^2-6*x+8};
+			\addplot [draw=none,name path=B] {0};<br />
+			\tikzfillbetween[of=A and B,soft clip={domain=0:5}]{colorA, opacity=0.2};</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>		% \filldraw [colorA!90] (1.581,-1.5) rectangle (0, -1.5-.2);
+		% \draw[right] (1.581, -1.5-.1) node {$dy$};
+		% \draw[above] (1.581/2,-1.5) node {$x$};
+
+		\draw[right] (0.5, 6) node {$y_2 =x^{2}-6x+8 $};
+		% \draw[right] (0, -4.1) node {$x_2 = \sqrt{y+4}$};
+
+		\draw [dashed, colorB] (5, 0-0.1cm) -- (5,3) ;
+		% \draw [dashed, colorB] (4, -0.1) -- (t20);
+		\draw[below] (0, 0) node[fill=white,inner sep=1pt,outer sep=2.5pt] {$0$};				
+		\draw[below] (5, 0) node {$5$};
+	\end{axis}
+\end{tikzpicture} \end{center}
+</code></pre></div></div>
+
+<p>The area is divided into three parts, each having different boundaries. In this case, we must treat each sub-area differently, ultimately summing up the values to determine the whole area. By inspection, we can also see that using a vertical stip is easier to solve the problem.</p>
+
+<p>First, we need to pinpoint the intersection points between the curve and the $x$-axis since it serves as the new limits for the sub-areas.
+\begin{align<em>}
+	y_2 &amp;= y_1 <br />
+	x^2-6x+8 &amp;= 0 <br />
+	\intertext{By ``Completing the Square’’,}
+	(x^2-6x \tcA{+9})+8 \tcA{-9} &amp;= 0 <br />
+	(x-3)^2-1 &amp;= 0 <br />
+	x &amp;= \pm\sqrt{1}+3
+	\intertext{Breaking down the two possible result of the sqare root gives us,}
+	x = -\sqrt{1}+3		\qquad&amp;;\qquad   x = +\sqrt{1}+3 <br />
+	x = -1+3			\qquad&amp;;\qquad   x = 1+3 <br />
+	x = 2				\qquad&amp;;\qquad   x = 4 <br />
+\end{align</em>}
+%%
+\begin{center}
+	\begin{tikzpicture}[scale=\scaleB,every node/.style={scale=1.3}]
+		\begin{axis}[
+			x=1cm<em>5/5,			y=1cm</em>5/10,
+			xmin=-.5/5<em>5,		ymin=-1.5/5</em>10,
+			xmax=6/5<em>5,			ymax=5/5</em>10,
+			xtick=false,		ytick=false,
+			xlabel=,  			ylabel=,
+			axis x line=center, axis y line=middle, 
+			xmajorgrids=true,	ymajorgrids=true,
+			samples=100,, smooth, samples=100,
+		]
+			\addplot [colorA, line width=1pt, domain=-2:7, name path=A] 
+				{x^2-6*x+8};
+			\addplot [draw=none,name path=B] {0};<br />
+			\tikzfillbetween[of=A and B,soft clip={domain=0:5}]{colorA, opacity=0.2};</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>		\node (area1) at (1,8) {$A_1$};
+		\draw[-&gt;] (area1) to[out=-90,in=90] (1,3);
+		\node (area2) at (3,8) {$A_2$};
+		\draw[-&gt;] (area2) to[out=-90,in=90] (3,0);
+		\node (area3) at (4.5,8) {$A_3$};
+		\draw[-&gt;] (area3) to[out=-90,in=90] (4.5,1.25);
+
+		\draw [dashed, colorB] (5, 0-0.1cm) -- (5,3) ;
+		\draw[below] (0, 0) node[fill=white,inner sep=1pt,outer sep=2.5pt] {$0$};
+		\draw[below] (2, 0) node {$2$};
+		\draw[below] (4, 0) node {$4$};
+		\draw[below] (5, 0) node {$5$};
+	\end{axis}
+\end{tikzpicture} \end{center}
+</code></pre></div></div>
+
+<p>Hence,
+\begin{align<em>}
+	A &amp;= A_1 + A_2 + A_3 <br />
+	  &amp;= \int_0^2 \brk{y_2-y_1}\,dx + \int_2^4 \brk{y_1-y_2}\,dx + \int_4^5 \brk{y_2-y_1}\,dx <br />
+	  &amp;= \int_0^2 \brk{(x^2-6x+8)-0}\,dx + \int_2^4 \brk{0-(x^2-6x+8)}\,dx \ 
+	  		&amp;\qquad + \int_4^5 \brk{(x^2-6x+8)-0}\,dx <br />
+	  &amp;= \int_0^2 \brk{x^2-6x+8}\,dx + \int_2^4 \brk{-x^2+6x-8}\,dx + \int_4^5 \brk{x^2-6x+8}\,dx <br />
+	  &amp;= \int_0^2 \brk{x^2-6x+8}\,dx - \int_2^4 \brk{x^2-6x+8}\,dx + \int_4^5 \brk{x^2-6x+8}\,dx <br />
+	  &amp;= \brk{\frac{x^3}{3}-3x^2+8x}_0^2 - \brk{\frac{x^3}{3}-3x^2+8x}_2^4 + \brk{\frac{x^3}{3}-3x^2+8x}_4^5 <br />
+	  &amp;= \brk{\br{\frac{2^3}{3}-3(2)^2+8(2)}-\br{\frac{0^3}{3}-3(0)^2+8(0)}} + \left[\br{\frac{4^3}{3}-3(4)^2+8(4)} \right. \ 
+	  		&amp;\qquad  - \left.\br{\frac{(2)^3}{3}-3(2)^2+8(2)} \right]
+			+ \brk{\br{\frac{5^3}{3}-3(5)^2+8(5)} - \br{\frac{4^3}{3}-3(4)^2+8(4)}} <br />
+	&amp;= \brk{\frac{20}{3}-0} - \brk{\frac{16}{3}-\frac{20}{3}} + \brk{\frac{20}{3}-\frac{16}{3}} <br />
+	&amp;= \frac{20}{3} - \frac{16}{3} + \frac{20}{3} + \frac{20}{3} - \frac{16}{3} <br />
+	&amp;= \frac{28}{3}\un{sq.units}		\tagans
+\end{align</em>}</p>
+
+<p>\example 
+Compute the area at the first quadrant of the region bounded by the function $y=3\cos\frac12x$, $x=0$, and $y=0$.</p>
+
+<p>\solution<br />
+\bfB{Considering a Vertical Strip,} <br />
+Graphing the bounded area gives us, 
+\begin{center}
+	\begin{tikzpicture}[scale=\scaleB,every node/.style={scale=1.3}]
+		\begin{axis}[xyngnl, xlabel=$x$,  		ylabel=$y$,
+		]
+			\addplot [colorA, line width=1pt, domain=-5:5, name path=A,samples=300] 
+				{3*cos(deg(x/2))};
+			\addplot [draw=none,name path=B] {0};<br />
+			\tikzfillbetween[of=A and B,soft clip={domain=0:pi}]{colorA, opacity=0.2};</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>		\filldraw [colorA!90] (1,2.633) rectangle (1+0.3,0);
+		\draw[below] (1+.15, 0) node{\fns{$dx$}};
+		\draw[right] (1+.3, 2.633/2) node{\fns{$y$}};
+
+		\draw[left] (0, 3.5) node{\fns{$y = 3\cos\frac12x$}};
+		
+
+		% \draw [dashed, colorB] (2, 0-0.1cm) -- (2,5) ;
+		% \draw [dashed, colorB] (4, -0.1) -- (t20);
+		% \draw[below] (0, 0) node[fill=white,inner sep=1pt,outer sep=2.5pt] {$x_1$};				
+		% \draw[below] (2, 0) node {$x_2$};
+	\end{axis}
+\end{tikzpicture} \end{center}
+</code></pre></div></div>
+
+<p>The lower limit of the area is the $y$-axis or $x=0$. However, we still need to solve for the upper limit, which is the $x$-coordinate of the point of intersection of the curve and the $x$-axis. Hence, equating the equations of the two curves,
+\begin{align<em>}
+	3\cos\frac12x &amp;= 0 <br />
+	\cos\frac12x &amp;= 0 <br />
+	\frac12x &amp;= \cos^{-1}(0) <br />
+	\frac12x &amp;= \frac{\pi}{2} <br />
+	x &amp;= \pi
+\end{align</em>}
+Hence,
+\begin{align<em>}
+	A &amp;= \int_{x_1}^{x_2} \brk{y_2-y_1}\,dx <br />
+	  &amp;= \int_0^\pi \brk{3\cos\frac12x - 0}\,dx <br />
+	  &amp;= \brk{6\sin\frac12x}_0^{\pi} <br />
+	  &amp;= \brk{6\sin\frac\pi2} - \brk{6\sin\frac02} <br />
+	  &amp;= 6-0 <br />
+	  &amp;= 6\un{sq.units}		\tagans
+\end{align</em>}</p>
+
+:ET

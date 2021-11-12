@@ -96,7 +96,9 @@ $$
 This equation can then be further simplified by introducing a the **Definite Integral** symbol,
 
 {% include tcolorbox.html
-	details = "A = \int_a^b f(x)\,dx"
+	details = "
+        A = \int_a^b f(x)\,dx
+    "
 %}
 \\
 $$
