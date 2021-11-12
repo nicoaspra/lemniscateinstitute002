@@ -157,7 +157,6 @@ In this example, the coordinates of the point are not given. However, it is stat
 
 
 Mathematically, we can solve the intersection point by equating the equation of the curve and the $y$-axis. If you can recall, the equation of the $y$-axis is $x=0$, since every point that lies on the $y$-axis has an $x$-coordinate of 0. Thus, replacing 0 to $y=(x+4)^2$ will give us the $y$-coordinate of the intersection point.
-%
 
 $$
 \begin{align*}
