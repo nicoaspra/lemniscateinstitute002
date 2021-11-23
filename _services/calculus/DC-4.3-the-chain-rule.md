@@ -84,7 +84,7 @@ $$
 
 ## General Power Rule
 
-The general power rule is a special case of  the chain rule. 
+The general power rule is a **special case of the chain rule**. 
 This rule is meant to evaluate functions in the form of $y=[f(x)]^n$ or $y=u^n$, given that $u$ is a function of $x$.
 
 The derivative of the function $y=u^n$ with respect to $x$ is equal to the product of the exponent $n$, the power of a function with the exponent diminished by one $u^{n-1}$, and the derivative of the inner function ${du}/{dx}$.

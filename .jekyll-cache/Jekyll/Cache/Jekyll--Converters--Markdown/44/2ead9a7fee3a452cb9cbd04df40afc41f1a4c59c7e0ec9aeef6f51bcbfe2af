@@ -1,4 +1,4 @@
-I"x<p>Functions may not always appear as simple as the examples given from the past sections. Hence, differentiating complexly structured functions such as a <a href="../DC-1.4-composite-functions">composite function</a> cannot be easily solved by the previously discussed rules. With this in mind, we will introduce the Chain Rule in this section to differentiate composite functions. Notably, this rule is essential and may be <strong>one of the most widely used rules</strong> in Calculus. It may seem ambiguous now, but composite functions appear more frequently than it seems.</p>
+I"ˆ<p>Functions may not always appear as simple as the examples given from the past sections. Hence, differentiating complexly structured functions such as a <a href="../DC-1.4-composite-functions">composite function</a> cannot be easily solved by the previously discussed rules. With this in mind, we will introduce the Chain Rule in this section to differentiate composite functions. Notably, this rule is essential and may be <strong>one of the most widely used rules</strong> in Calculus. It may seem ambiguous now, but composite functions appear more frequently than it seems.</p>
 
 <p>To start our discussion, let us first describe what the Chain Rule is and how to use it. Consider the composite function $y=f(g(x))$, let $u=g(x)$ so that we could simplify the function to  $y=f(u)$. Where $f(u)$ is the outer function and $g(x)$ is the inner function, given that $f(u)$ is differentiable to $g(x)$ and $g(x)$ is differentiable to $x$. The derivative of the composite function $f(g(x))$ with respect to $x$ is equal to the <em>product of the derivative of the outer function and the derivative of the inner function</em>.</p>
 
@@ -67,7 +67,7 @@ Differentiate the function $y = (x^2+x)^3$.</p>
 
 <h2 id="general-power-rule">General Power Rule</h2>
 
-<p>The general power rule is a special case of  the chain rule. 
+<p>The general power rule is a <strong>special case of the chain rule</strong>. 
 This rule is meant to evaluate functions in the form of $y=[f(x)]^n$ or $y=u^n$, given that $u$ is a function of $x$.</p>
 
 <p>The derivative of the function $y=u^n$ with respect to $x$ is equal to the product of the exponent $n$, the power of a function with the exponent diminished by one $u^{n-1}$, and the derivative of the inner function ${du}/{dx}$.</p>
