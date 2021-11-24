@@ -6,7 +6,7 @@ nextcontenturl: ../DC-5.4-maxima-and-minima
 
 
 
-From the previous sections, we have already well established that the derivative of $y$ with respect to $x$, $\frac{dy}{dx}$ or $y'$ in Lagrange's notation indicates the rate of change of $y$ with respect to $x$, which can also be represented graphically as the slope of a curve at a certain point. Additionally, we learned in Chapter 3 that the direction of a slope is determined by its sign. With this in mind, we can tell whether a continuous curve increases or decreases based on its slope.
+From the previous sections, we have already well established that the derivative of $y$ with respect to $x$, $\frac{dy}{dx}$ or $y'$ in Lagrange's notation indicates the rate of change of $y$ with respect to $x$, which can also be represented graphically as the slope of a curve at a certain point. Additionally, we learned in our [previous lesson](../DC-3.3-slope-of-a-curve) that the direction of a slope is determined by its sign. With this in mind, we can tell whether a continuous curve increases or decreases based on its slope.
 
 The function increases if the direction of the graph is going upwards. Hence, having a slope with a positive value ($y'>0$) or $y$ increases as $x$ increases will indicate that the function increases at a specific interval. On the contrary, having a slope with a negative value ($y<0$) or $y$ decreases as $x$ increases will indicate that the function decreases at a specific interval.
 
