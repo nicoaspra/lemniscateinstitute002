@@ -263,13 +263,14 @@ $$
 \end{align*}
 $$
 
-Differentiate the function by applying the chain rule twice,
+Differentiate the function by applying the chain rule more than once,
 
 $$
 \begin{align*}
 	\ddx\br{y} &= \ddx\brk{ \br{1+(x+1)^{1/2} }^{1/2} } \\
 	\dydx &= \frac{1}{2} \brk{1+(x+1)^{1/2} }^{1/2-1} \cdot\ddx\brk{1+(x+1)^{1/2} } \\
-	&= \frac{1}{2} \brk{1+(x+1)^{1/2} }^{-1/2} \brk{\frac{1}{2}(x+1)^{1/2-1}(1) } \\
+	&= \frac{1}{2} \brk{1+(x+1)^{1/2} }^{-1/2} \brk{0+\frac{1}{2}(x+1)^{1/2-1} \cdot \ddx\br{x+1} } \\
+	&= \frac{1}{2} \brk{1+(x+1)^{1/2} }^{-1/2} \brk{\frac{1}{2}(x+1)^{-1/2} (1) } \\
 	&= \frac{1}{4} \brk{1+(x+1)^{1/2} }^{-1/2} (x+1)^{-1/2} \\
 	&= \frac{1}{4} \bbbrk{ \brk{ 1+(x+1)^{1/2} } (x+1) }^{-1/2} \\
 	&= \frac{1}{4\brk{ (1+\sqrt{x+1})(x+1) }^{1/2}} \\
