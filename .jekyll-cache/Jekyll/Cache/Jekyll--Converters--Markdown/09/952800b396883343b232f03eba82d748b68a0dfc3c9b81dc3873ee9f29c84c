@@ -1,4 +1,4 @@
-I"!<p>In the seventeenth century, Sir Isaac Newton established the foundations of what we now know as Classical Mechanics, often referred to as Newtonian Mechanics.
+I"!<p>In the seventeenth century, Sir Isaac Newton established the foundations of what we now know as Classical Mechanics, often referred to as Newtonian Mechanics.
 However, we are more concerned with its underlying principles, which are Newton’s Laws of Motion. 
 Newton established three fundamental laws, and in this section, we will try to grasp and build up our understanding of these laws.</p>
 
@@ -59,7 +59,8 @@ border-radius:7px;
 padding:10px;
 margin:5px;">
     $$\begin{align}
-	\vv{a} = \frac{\sum\vv{F}}{m} \qquad\text{or}\qquad 
+	\vv{a} = \frac{\sum\vv{F}}{m} \\
+    \qquad\text{or}\qquad \nonumber \\
     \sum\vv{F} = m\vv{a}
     \end{align}$$
 </p>
