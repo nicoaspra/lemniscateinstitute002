@@ -1,4 +1,4 @@
-I"5<p>From the previous sections, we have already learned kinematics to describe and solve motions in different dimensions. However, have you ever wondered why objects move in the first place? Or why does everything seems to come to a halt? 
+I"F<p>From the previous sections, we have already learned kinematics to describe and solve motions in different dimensions. However, have you ever wondered why objects move in the first place? Or why does everything seems to come to a halt? 
 In this section, we will try to understand the phenomenon that causes objects to move by introducing two new concepts: mass and force.</p>
 
 <h2 id="force">Force</h2>
@@ -6,7 +6,7 @@ In this section, we will try to understand the phenomenon that causes objects to
 Forces are classified into two types: contact and noncontact. As the name implies, <strong>contact forces</strong> occur when objects come into contact with one another, such as when lifting a book or when two teams play tug-of-war. <strong>Noncontact forces</strong>, on the other hand, occur when no physical contact exists between the objects. The force between magnets are an example of noncontact forces; two magnets brought together at a relative distance experience either an attractive or repulsive force despite their separation. Another example of noncontact forces is our weight, the gravitational force that the earth exerts on our bodies.</p>
 
 <h2 id="mass">Mass</h2>
-<p>If you’re wondering about mass, yes, there is a difference between mass and weight. Mass is a property of matter and a measurement of inertia. We can also think of it as the resistance to acceleration when force is applied; however, we will discuss this concept in greater detail in the following section. 
+<p>If you’re wondering about mass, yes, <strong>there is a difference between mass and weight</strong>. Mass is a property of matter and a measurement of inertia. We can also think of it as the resistance to acceleration when force is applied; however, we will discuss this concept in greater detail in the following section. 
 In the International System of Units (SI), the mass has a unit of kilograms (kg).</p>
 
 <p>Oftentimes, mass is confused with weight. Mass simply measures the amount of matter confined within an object. On the other hand, weight relies on the pull of the earth or any planet you may be located on. For instance, a 5 kg ball here on earth will still be 5 kg on the moon. Its weight, however, will be less on the moon.  Mass remains constant regardless of its location.</p>
@@ -26,7 +26,7 @@ For instance, in $\fref{1}$, a block is pulled by two workers. The two individua
 <p>Additionally, we can use this notion to break down a force acting at an angle $\vv{F}$ on an object into several components. For instance, a string is used to draw a block at an angle to the horizontal, and this force can be expressed as two forces $\vv{F_x}$ and $\vv{F_y}$.</p>
 
 <figure style="text-align: center;">
-  <img src="/images/content/phys1/phys1-5.1.2.png" alt="my alt text" width="400px" />
+  <img src="/images/content/phys1/phys1-5.1.2.png" alt="my alt text" width="600px" />
   <figcaption><em><p>Figure 2: In some cases, decomposing a force into several components can significantly reduce the complexity of the problem.</p>
 </em></figcaption>
 </figure>
