@@ -28,29 +28,10 @@ summary: Have you ever wondered how a car can easily pass a bike, why a rainbow 
 	- [Kinematic Equations in Two Dimensions](4.2-kinematic-equations-in-two-dimensions)
 	<!-- - Projectile Motion -->
 - Newton's Laws of Motion
-	- Force
-		- Unit of Force
-		- Differentiate Weight and Mass
-		- Different Types of Forces
-			- Weight
-			- Applied Force
-			- Tension
-			- Normal / Contact Force
-			- Frictional Force
-	- Newton's First Law of Motion
-	- Newton's Second Law of Motion
-	- Newton's Third Law of Motion
-	- Balanced and Unbalanced Forces
-		- Unbalanced Forces in Motion
+	- [Introduction to Force and Mass](5.1-introduction-to-force-and-mass)
+	- [Newton's Laws of Motion](5.2-newtons-laws-of-motion)
+	- Types of Forces and Free Body Diagrams
 	- Normal Force and Friction
 		- Inclined Planes
 		- Static and Kinetic Friction
-	- Treating Systems
-- Centripetal Forces and Gravitation
-- Work and Energy
-	- Different Types of Energy
-	- Springs and Hooke's Law
-	- Mechanical Advantage
-- Impacts and Linear Momentum
-	- Impulse and Momentum
-	- Elastic and Inelastic Collisions
+
