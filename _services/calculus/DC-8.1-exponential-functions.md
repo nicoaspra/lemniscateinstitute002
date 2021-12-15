@@ -279,7 +279,16 @@ $\example{8}$
 Solve for $x$, $e^{2x+3}=1$		
 
 $\solution$ \\
-For $e^{2x+3}$ be equal to 1, its exponent must be equal to zero. With this in mind, we can equate the exponent $2x+3$ by 0. This gives us,
+From our previous examples, we have learned that in order for the exponents to equated, its base must be the same. In this case, we want to express both sides with the base $e$. If you recall, any non-zero number raised to the power of zero is equal to 1. Thus, $e^0 = 1$.
+<!-- For $e^{2x+3}$ be equal to 1, its exponent must be equal to zero, $e^0 = 1$.  -->
+
+$$
+\begin{align*}
+	e^{2x+3} &= e^0
+\end{align*}
+$$
+
+With this in mind, we can equate the exponent $2x+3$ by 0. This gives us,
 
 $$
 \begin{align*}

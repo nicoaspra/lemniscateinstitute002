@@ -49,7 +49,7 @@ summary: Calculus, has a reputation of being one of the most dreaded subjects in
   - Applications of Maxima and Minima
   - Time-Rates
 - The Differential
-  - Differentials
+  - [Differentials](../calculus/DC-7.1-differentials)
   - Approximate Formula
 - Exponential and Logarithmic Functions
   - [Exponential Functions](../calculus/DC-8.1-exponential-functions)
