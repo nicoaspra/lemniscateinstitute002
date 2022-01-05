@@ -243,7 +243,7 @@ $\example{5}$
 Evaluate the definite integral:
 $\int_{\pi/4}^{5\pi/4} \br{\sin{2x}-\cos{x}}\,dx$
 
-$\solution$ \\
+$\solution$
 
 $$
 \begin{align*}

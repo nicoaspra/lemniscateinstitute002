@@ -1,5 +1,5 @@
 ---
-title: "Physics I"
+title: "College Physics I"
 date: 2021-01-03
 featured: true
 weight: 1

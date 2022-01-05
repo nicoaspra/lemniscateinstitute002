@@ -1,6 +1,6 @@
 ---
 title: "Circuits I"
-date: 2021-01-04
+date: 2021-01-07
 featured: true
 weight: 1
 # layout: course
