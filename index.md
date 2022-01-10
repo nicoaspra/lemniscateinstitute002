@@ -1,7 +1,7 @@
 ---
 title: Lemniscate Institute
 layout: home
-description: Jekyll Serif contains content types for a typical business website. The theme is fully responsive, blazing fast and artfully illustrated.
+# description: Jekyll Serif contains content types for a typical business website. The theme is fully responsive, blazing fast and artfully illustrated.
 intro_image: "images/illustrations/reading.gif"
 intro_image_absolute: true
 intro_image_hide_on_mobile: false
@@ -16,4 +16,9 @@ intro:
 # Learning at your Fingertips
 
 
-Learn and excel in engineering and technology anytime and anywhere you want.
+**Lemniscate Institute** is a non-profit organization that aims to guide and teach students from diverse backgrounds with subjects both in **engineering** and **technology** programs. 
+<br><br>
+As you are reading this, you are probably one of the few people that have witnessed this website’s progress. As such, your **feedback** is extremely valuable in terms of enhancing and improving this website and its future contents. 
+
+
+<!-- Learn and excel in engineering and technology anytime and anywhere you want. -->

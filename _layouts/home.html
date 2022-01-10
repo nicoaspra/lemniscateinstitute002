@@ -92,3 +92,78 @@ bodyClass: page-home
   </div>
 </div>
 {% endif %} -->
+
+
+
+
+
+
+
+
+<div class="container pt-6 pb-6">
+  <h1 id="meet-the-team" style="-webkit-user-select: auto; text-align: center;">Meet the Team</h1>
+  <div class="row">
+      {% assign promoted_teams = site.team | where: "promoted", true | sort: "weight" %}
+      {% for team in promoted_teams %}
+      <div class="col-12 col-md-6 mb-2">
+          <div class="team team-summary team-summary-large">
+              {% if team.image %}
+              <div class="team-image">
+                  <img alt="{{ team.title }}" class="img-fluid mb-2" src="{{ team.image | relative_url }}" />
+              </div>
+              {% endif %}
+              <div class="team-meta">
+                  <h2 class="team-name"><a href="{{ team.url | relative_url }}">{{ team.title }}</a></h2>
+                  <p class="team-description">{{ team.jobtitle }}</p>
+                  {% if team.linkedinurl %}
+                  <a target="_blank" href="{{ team.linkedinurl }}">LinkedIn</a>
+                  {% endif %}
+              </div>
+              <div class="team-content">{{ team.content | truncate: 120 }}</div>
+          </div>
+      </div>
+      {% endfor %}
+  </div>
+
+  <!-- <br>
+  <h1 id="meet-the-team" style="-webkit-user-select: auto;">Contributors</h1>
+  <div class="row">
+      {% assign teams = site.team | where: "promoted", false | sort: "weight" %}
+      {% for team in teams %}
+      <div class="col-12 col-md-4 mb-3">
+          <div class="team team-summary">
+              {% if team.image %}
+              <div class="team-image">
+                  <img alt="{{ team.title }}" class="img-fluid mb-2" src="{{ team.image | relative_url }}" />
+              </div>
+              {% endif %}
+              <div class="team-meta">
+                  <h2 class="team-name"><a href="{{ team.url | relative_url }}">{{ team.title }}</a></h2>
+                  <p class="team-description">{{ team.jobtitle }}</p>
+              </div>
+          </div>
+      </div>
+      {% endfor %}
+  </div> -->
+</div>
+
+
+
+
+
+
+
+
+
+<div class="container pt-6 pb-6">
+  <h1 id="meet-the-team" style="-webkit-user-select: auto; text-align: center;">Message from the Team</h1>
+  <p>
+    At present, you may still find the website incomplete, as we are still working on finalizing the existing contents. However, we are aiming to have additional courses, even courses that are program specific in different engineering and technology fields. As we are working with only a few people and only a handful of writers, please bear with us, as our progress may be slow but it is progress nonetheless.
+    <br><br>
+    If now, you are fully engaging with a specific course, it means that you might be one of our students. Regardless, we wish you the best of luck and we hope that you find this website useful in your studies. Happy learning! 
+  </p>
+</div>
+
+
+
+
