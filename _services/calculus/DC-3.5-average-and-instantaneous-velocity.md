@@ -5,7 +5,7 @@ nextcontenturl: ../DC-4.1-differentiation-and-its-rules-for-algebraic-functions
 ---
 
 
-A well-known application of the rate of change is when it involves motion. Moreover, in [physics](../../physics-I/3.2-speed-and-velocity), velocity is a fundamental concept that must be learned at the start of the course. 
+A well-known application of the rate of change is when it involves motion. Moreover, in [physics](../../physics/3.2-speed-and-velocity), velocity is a fundamental concept that must be learned at the start of the course. 
 
 To understand the difference between Average and Instantaneous Velocity, consider Figure 1, which represents a **position vs. time graph**, where the vertical axis represents the **object's position** $s$ and the horizontal axis (independent variable) represents the **time** $t$. 
 
