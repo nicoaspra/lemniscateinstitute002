@@ -1,10 +1,10 @@
-I"Ñ<p>In this section, we will learn how to integrate simple trigonometric functions. However, before starting with this lesson, it is imperative to review some of the basic concepts in trigonometric functions.</p>
+I"<p>In this section, we will learn how to integrate simple trigonometric functions. However, before starting with this lesson, it is imperative to review some of the <a href="#related-articles">basic concepts in trigonometric functions</a>.</p>
 
 <p>Similar to our previous lessons, integrating trigonometric functions is merely the opposite of differentiating them. With this in mind, it is best also to review the methods in differentiating these functions. To begin, let us introduce the fundamental integration formulas for trigonometric functions.</p>
 
 <h2 id="integration-formulas">Integration Formulas</h2>
 <p>The following are the integration formulas that can be used in integrating basic trigonometric functions.
-These formulas are derived from the basic differential formulas that were used in Differential Calculus.
+These formulas are derived from the basic differential formulas that were used in <a href="../../../calculus-I">Differential Calculus</a>.
 It will be to your advantage if you are very familiar with these formulas.</p>
 
 <p align="center" style="background-color:rgba(64, 130, 110, 0.07);
@@ -211,4 +211,14 @@ From the trigonopmetric identities, there is no identity for cubic functions. Bu
 	&amp;= -\cos x + \frac{\cos^2x}{2} + C \\
 	&amp;= \frac12 \cos^2x-\cos x + C		\tagans
 \end{align*}\]
+
+<hr />
+<h2 id="related-articles">Related Articles</h2>
+<ul>
+  <li><a href="../calculus/DC-9.1-angles">Angles</a></li>
+  <li><a href="../DC-9.2-basic-trigonometric-identities">Basic Trigonometric Functions</a></li>
+  <li><a href="../DC-9.3-evaluating-trigonometric-functions">Evaluating Trigonometric Functions</a></li>
+  <li><a href="../DC-9.4-trigonometric-identities">Trigonometric Identities</a></li>
+  <li><a href="../DC-9.5-derivatives-of-trigonometric-functions">Derivatives of Trigonometric Function</a></li>
+</ul>
 :ET

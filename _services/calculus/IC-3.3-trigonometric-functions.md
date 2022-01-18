@@ -10,7 +10,7 @@ nextcontenturl: ../IC-3.4-integration-by-parts
 
 
 
-In this section, we will learn how to integrate simple trigonometric functions. However, before starting with this lesson, it is imperative to review some of the basic concepts in trigonometric functions. 
+In this section, we will learn how to integrate simple trigonometric functions. However, before starting with this lesson, it is imperative to review some of the [basic concepts in trigonometric functions](#related-articles). 
 
 Similar to our previous lessons, integrating trigonometric functions is merely the opposite of differentiating them. With this in mind, it is best also to review the methods in differentiating these functions. To begin, let us introduce the fundamental integration formulas for trigonometric functions. 
 
@@ -19,7 +19,7 @@ Similar to our previous lessons, integrating trigonometric functions is merely t
 
 ## Integration Formulas
 The following are the integration formulas that can be used in integrating basic trigonometric functions.
-These formulas are derived from the basic differential formulas that were used in Differential Calculus.
+These formulas are derived from the basic differential formulas that were used in [Differential Calculus](../../differential-calculus).
 It will be to your advantage if you are very familiar with these formulas.
 
 
@@ -280,3 +280,15 @@ $$
 	&= \frac12 \cos^2x-\cos x + C		\tagans
 \end{align*}
 $$
+
+
+
+
+
+---
+## Related Articles
+- [Angles](../calculus/DC-9.1-angles)
+- [Basic Trigonometric Functions](../DC-9.2-basic-trigonometric-identities)
+- [Evaluating Trigonometric Functions](../DC-9.3-evaluating-trigonometric-functions)
+- [Trigonometric Identities](../DC-9.4-trigonometric-identities)
+- [Derivatives of Trigonometric Function](../DC-9.5-derivatives-of-trigonometric-functions)
