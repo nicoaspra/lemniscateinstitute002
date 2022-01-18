@@ -1,0 +1,19 @@
+I"�<p>Electrostatic Force is the force of either attraction or repulsion experienced by two charged particles. This force is also called the Coulomb Force or Coulomb Interaction. Several factors affect the strength of the force between the charges, such as the magnitude of the particles’ charge and the distance between them.</p>
+
+<p>Also, the direction of the forces will depend on the sign of the charges. As we have learned from the previous lesson, opposite charges attract, and like charges repel.</p>
+
+<p>Experiments have shown that the distance between the charges hugely affects the force between them.</p>
+
+<p>This results in what is known as Coulomb’s Law, which is denoted as,</p>
+
+<p align="center" style="background-color:rgba(64, 130, 110, 0.07);
+border: 3px solid rgba(64, 130, 110, 0.9);
+border-radius:7px;
+padding:10px;
+margin:5px;">
+    $$\begin{align}
+	F=k\frac{|q_1||q_2|}{r^2}
+    \end{align}$$
+</p>
+
+:ET

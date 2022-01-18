@@ -17,7 +17,7 @@ summary: Have you ever considered how electricity affects almost every aspect of
   - [Atoms and Electric Charge](../physics/20.2-atoms-and-electric-charge)
   - [Calculating the Charge of a Body](../physics/20.3-calculating-the-charge-of-a-body)
 - Coulomb's Law and Electric Fields
-  - Coulomb's Law
+  - [Coulomb's Law](../physics/21.1-coulombs-law)
   - The Electric Field
 - Electric Potential Energy and Electric Potential
   - Work and Energy
