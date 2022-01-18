@@ -1,4 +1,4 @@
-I"½<p>From the previous sections we have already learned about electric charges and atoms. We also have learned that all objects are made up of atoms with its sub atomic particles. Since atoms consist of charged particles, by knowing the number of particles we can compute for the charge of a body using the equation,</p>
+I"É<p>From the previous sections we have already learned about electric charges and atoms. We also have learned that all objects are made up of atoms with its sub atomic particles. Since atoms consist of charged particles, by knowing the number of particles we can compute for the charge of a body using the equation,</p>
 
 <p align="center" style="background-color:rgba(64, 130, 110, 0.07);
 border: 3px solid rgba(64, 130, 110, 0.9);
@@ -29,7 +29,7 @@ Determine the number of protons if it has a charge of $1 \un{C}$.</p>
 \end{align*}\)</p>
 
 <p>$\solution$<br />
-To determine the number of electrons, use Equation \ref{eq:number of electrons and charge}</p>
+To determine the number of protons, use Equation \ref{eq:number of electrons and charge}</p>
 
 \[\begin{align*}
 	q &amp;= Ne \\
@@ -105,4 +105,6 @@ The net charge is equal sum of the initial charge of the sphere and the charge o
 \end{align*}\]
 
 <p>The negative $(-)$ sign denotes that it is negatively charged since more electrons have been added to the sphere.</p>
+
+<p>hello</p>
 :ET
