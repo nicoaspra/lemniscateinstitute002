@@ -16,24 +16,37 @@ summary: Have you ever considered how electricity affects almost every aspect of
   - [Introduction and History of Electricity](../physics/20.1-introduction-and-history-of-electricity)
   - [Atoms and Electric Charge](../physics/20.2-atoms-and-electric-charge)
   - [Calculating the Charge of a Body](../physics/20.3-calculating-the-charge-of-a-body)
+  - Conductors and Insulators
 - Coulomb's Law and Electric Fields
   - [Coulomb's Law](../physics/21.1-coulombs-law)
-  - The Electric Field
-- Electric Potential Energy and Electric Potential
-  - Work and Energy
-  - Electric Potential Energy
-  - Electric Potential
-- Capacitors and Dielectrics
-  - Introduction to Capacitors
-  - Capacitors in Series and Parallel
-  - Energy Stored in Capacitors
-  - Dielectrics
+  - [The Electric Field](../physics/21.2-the-electric-field)
 - Current, Electromotive Force, and Ohm's Law
-  - Current
   - Electromotive Force (Voltage)
+  - Current
   - Ohm's Law
 - Resistance and Resistivity
   - Resistance
   - Resistivity
   - Resistivity and Temperature
-- Electric Power and Electrical Energy
+- Work, Energy and Power
+  - Work and Energy
+  - Electric Potential Energy
+  - Electric Power and Electrical Energy
+- Electric Circuits
+  - Series Wiring
+  - Parallel Wiring
+  - Equivalent Resistance
+  - Kirchhoff’s Rules
+- Capacitors and Dielectrics
+  - Introduction to Capacitors
+  - Capacitors in Series and Parallel
+  - Energy Stored in Capacitors
+  - Dielectrics
+- Alternating Current
+	- Introduction to Alternating Current
+	- Impedance
+		- Resistance
+		- Capacitive Reactance
+		- Inductive Reactance
+- Alternating Circuits
+- Magnetism

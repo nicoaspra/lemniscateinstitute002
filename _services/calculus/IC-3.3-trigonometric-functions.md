@@ -68,7 +68,7 @@ $$
 \end{align*}
 $$
 
-Then to evaluate, use Equation \ref{eq:trig int cos},
+Then to evaluate, use $\eref{eq:trig int cos}$,
 
 $$
 \begin{align*}

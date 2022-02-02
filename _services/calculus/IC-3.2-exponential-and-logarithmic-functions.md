@@ -69,7 +69,7 @@ $$
 \end{align*}
 $$
 
-As you can recall in our previous lesson, we cannot use the [General Power Rule for Integration](../IC-3.1-properties-and-the-general-power-rule-for-integration) if $n = -1$, as you may have realized that this problem is a solution to that restriction. Since $\int \frac{du}{u}$ is just equal to $\int u^{-1}\,du$. We can now solve this problem using Equation $\ref{eq:integral of Natural Logarithmic Function}$. Thus,
+As you can recall in our previous lesson, we cannot use the [General Power Rule for Integration](../IC-3.1-properties-and-the-general-power-rule-for-integration) if $n = -1$, as you may have realized that this problem is a solution to that restriction. Since $\int \frac{du}{u}$ is just equal to $\int u^{-1}\,du$. We can now solve this problem using $\eref{eq:integral of Natural Logarithmic Function}$. Thus,
 
 $$
 \begin{align*}
@@ -131,7 +131,7 @@ $$
 \end{align*}
 $$
 
-Express the function in terms of $u$. Then to integrate the function, use Equation \ref{eq:integral of Exponential Function e^u},
+Express the function in terms of $u$. Then to integrate the function, use $\eref{eq:integral of Exponential Function e^u}$,
 
 $$
 \begin{align*}
@@ -166,7 +166,7 @@ $$
 \end{align*}
 $$
 
-Express the function in terms of $u$. Then to integrate the function, use Equation \ref{eq:integral of Exponential Function e^u},
+Express the function in terms of $u$. Then to integrate the function, use $\eref{eq:integral of Exponential Function e^u}$,
 
 $$
 \begin{align*}
@@ -220,7 +220,7 @@ $$
 \end{align*}
 $$
 
-Express the function in terms of $u$. Then to integrate the function, use Equation \ref{eq:integral of Exponential Function a^u},
+Express the function in terms of $u$. Then to integrate the function, use $\eref{eq:integral of Exponential Function a^u}$,
 
 $$
 \begin{align*}

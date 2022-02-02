@@ -24,7 +24,7 @@ The path to the development of the integral calculus is multi-branched, wherein 
 {% include images.html 
     url= "IC/IC-0.1.1.png" 
     caption= "Figure 1: Area under a curve"
-    size= "60%"
+    size= "270px"
 %}
 
 The foundations for the discovery of the integral were first laid by **Cavalieri**, an Italian Mathematician, in around 1635. Cavalieri's work centered around the observation that **a curve can be sketched by a moving point**.
@@ -33,7 +33,7 @@ To deal with the geometrical idea of a moving point, Cavalieri worked with what 
 {% include images.html 
     url= "IC/IC-0.1.2.png" 
     caption= "Figure 2: Zoomed partition of a curve"
-    size= "95%"
+    size= "550px"
 %}
 
 Similarly, an area (regular or irregular shapes) was simply composed of an infinite number of lines. 

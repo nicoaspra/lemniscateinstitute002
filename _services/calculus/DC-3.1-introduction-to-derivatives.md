@@ -121,7 +121,7 @@ $$
 \end{align*}
 $$
 
-From equation \ref{eq:the derivative 1}, 
+From $\eref{eq:the derivative 1}$, 
 
 $$
 \begin{align*}

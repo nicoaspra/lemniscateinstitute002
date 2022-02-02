@@ -165,7 +165,7 @@ $$
 $$
 
 
-With all the parameters ready for substitution, we can now use equation \ref{eq:area of integration using vertical strip}
+With all the parameters ready for substitution, we can now use $\eref{eq:area of integration using vertical strip}$,
 
 $$
 \begin{align*}

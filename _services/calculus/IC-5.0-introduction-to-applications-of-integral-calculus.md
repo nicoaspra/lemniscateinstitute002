@@ -1,6 +1,7 @@
 ---
 title: "Introduction to Applications of Integral Calculus"
 authornum: 2
+featured: yes
 author: Engr. Nico O. Aspra, ME, RMP  <br> Engr. Pee Jay N. Gealone
 prevcontenturl: ../IC-4.2-properties-of-definite-integrals
 nextcontenturl: ../IC-6.1-introduction-to-plane-areas

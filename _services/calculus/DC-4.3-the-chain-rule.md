@@ -95,7 +95,7 @@ The derivative of the function $y=u^n$ with respect to $x$ is equal to the produ
     "
 %}
 
-And we can also prove this by using the Chain Rule (Equation \ref{eq:chain rule leibnizs notation}). Consider the function $y=u^n$.
+And we can also prove this by using the Chain Rule ($\eref{eq:chain rule leibnizs notation}$). Consider the function $y=u^n$.
 
 
 Differentiate the function with respect to $u$,
