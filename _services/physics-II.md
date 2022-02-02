@@ -24,19 +24,22 @@ summary: Have you ever considered how electricity affects almost every aspect of
   - Electromotive Force (Voltage)
   - Current
   - Ohm's Law
-- Resistance and Resistivity
+- Resistance and Conductance
   - Resistance
   - Resistivity
+  - Conductance
   - Resistivity and Temperature
 - Work, Energy and Power
   - Work and Energy
   - Electric Potential Energy
   - Electric Power and Electrical Energy
 - Electric Circuits
-  - Series Wiring
-  - Parallel Wiring
+  - Series Connection
+  - Parallel Connection
   - Equivalent Resistance
   - Kirchhoff’s Rules
+    - Kirchhoff’s Voltage Law
+    - Kirchhoff’s Current Law
 - Capacitors and Dielectrics
   - Introduction to Capacitors
   - Capacitors in Series and Parallel
@@ -49,4 +52,10 @@ summary: Have you ever considered how electricity affects almost every aspect of
 		- Capacitive Reactance
 		- Inductive Reactance
 - Alternating Circuits
+  - Series Connection
+  - Parallel Connection
+  - Equivalent Resistance
+  - Kirchhoff’s Rules
+    - Kirchhoff’s Voltage Law
+    - Kirchhoff’s Current Law
 - Magnetism
