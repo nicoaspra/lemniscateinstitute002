@@ -11,10 +11,10 @@ summary: Integral Calculus is a branch of mathematics concerned with the theory 
 
 # Contents
 
-
-- [Introduction to Integral Calculus](../calculus/IC-0.1-introduction-to-integral-calculus)
-- [Definite and Indefinite Integrals](../calculus/IC-1.1-definite-and-indefinite-integrals)
-- [Antiderivatives](../calculus/IC-2.1-antiderivatives)
+- Introduction to Integral Calculus
+  - [Introduction and History of Integral Calculus](../calculus/IC-1.1-introduction-and-history-of-integral-calculus)
+  - [Definite and Indefinite Integrals](../calculus/IC-1.2-definite-and-indefinite-integrals)
+  - [Antiderivatives](../calculus/IC-1.3-antiderivatives)
 - Indefinite Integrals
   - [Properties and the General Power Rule for Integration](../calculus/IC-3.1-properties-and-the-general-power-rule-for-integration)
   - [Exponential and Logarithmic Functions](../calculus/IC-3.2-exponential-and-logarithmic-functions)
@@ -29,3 +29,16 @@ summary: Integral Calculus is a branch of mathematics concerned with the theory 
   - [Introduction to Plane Areas](../calculus/IC-6.1-introduction-to-plane-areas)
   - [Area Under a Curve](../calculus/IC-6.2-area-under-a-curve)
   - [Area Between Curves](../calculus/IC-6.3-area-between-curves)
+- Volumes of Solids of Revolution
+  - Introduction to Solids of Revolution
+  - Circular Disk Method
+  - Washer Method
+  - Cylindrical Shell Method
+- Methods of Integration
+  - Algebraic Substitution
+  - Trigonometric Substitution
+- Integration of Rational Functions
+  - Partial Fractions
+  - Distinct Linear Factors
+  - Repeated Linear Factors
+  - Quadratic Factors

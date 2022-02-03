@@ -4,7 +4,7 @@ authornum: 2
 author: Engr. Nico O. Aspra, ME, RMP  <br> Engr. Pee Jay N. Gealone
 weight: 2
 layout: content
-prevcontenturl: ../IC-2.1-antiderivatives
+prevcontenturl: ../IC-1.3-antiderivatives
 nextcontenturl: ../IC-3.2-exponential-and-logarithmic-functions
 ---
 
