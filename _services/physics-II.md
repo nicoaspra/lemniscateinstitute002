@@ -12,18 +12,18 @@ summary: Have you ever considered how electricity affects almost every aspect of
 
 
 # Contents
-- Introduction to Electricity
+- [Introduction to Electricity](../physics/20.0-introduction-to-electricity)
   - [Introduction and History of Electricity](../physics/20.1-introduction-and-history-of-electricity)
   - [Atoms and Electric Charge](../physics/20.2-atoms-and-electric-charge)
-  - [Calculating the Charge of a Body](../physics/20.3-calculating-the-charge-of-a-body)
-  - Conductors and Insulators
-- Coulomb's Law and Electric Fields
+  - [Electrical Charges in a Body](../physics/20.3-electrical-charges-in-a-body)
+- [Coulomb's Law and Electric Fields](../physics/21.0-coulombs-law-and-electric-fields)
   - [Coulomb's Law](../physics/21.1-coulombs-law)
   - [The Electric Field](../physics/21.2-the-electric-field)
-- Current, Electromotive Force, and Ohm's Law
-  - Electromotive Force (Voltage)
-  - Current
-  - Ohm's Law
+- [Current, Voltage, and Ohm's Law](../physics/22.0-current-voltage-and-ohms-law)
+  - [Introduction](../physics/22.1-introduction)
+  - [Current](../physics/22.2-current)
+  - [Voltage (Electromotive Force)](../physics/22.3-voltage-electromotive-force)
+  - [Ohm's Law](../physics/22.4-ohms-law)
 - Resistance and Conductance
   - Resistance
   - Resistivity

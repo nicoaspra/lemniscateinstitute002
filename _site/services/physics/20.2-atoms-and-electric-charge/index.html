@@ -97,7 +97,7 @@
           
             <p style="color:#d02f5d"></pstyle>
               <a href="/team">
-                Author | Engr. Nico O. Aspra, ME, RMP
+                Authors | <br> Engr. Nico O. Aspra, ME, RMP  <br> Engr. Pee Jay N. Gealone
               </a>
             </p>
           
@@ -106,13 +106,15 @@
   <!-- \definecolor{colorA}{rgb}{0.25, 0.51, 0.43}	
   \definecolor{colorB}{rgb}{0.89, 0.04, 0.36}	 -->
 $$
-          <!-- <p style="color:#d02f5d"></pstyle>Author | Engr. Nico O. Aspra, ME, RMP</p> -->
-          <!-- <a href="">Engr. Nico O. Aspra, ME, RMP</a> -->
+          <!-- <p style="color:#d02f5d"></pstyle>Author | Engr. Nico O. Aspra, ME, RMP  <br> Engr. Pee Jay N. Gealone</p> -->
+          <!-- <a href="">Engr. Nico O. Aspra, ME, RMP  <br> Engr. Pee Jay N. Gealone</a> -->
           <!-- <br> -->
 
           <!-- <div class="deskContent">Content for desktop</div> -->
         <div class="content">
-          <p>To comprehend how objects can generate a positive or negative charge, it is necessary first to understand the particles that comprise these objects. Atoms are the basic building blocks of matter and consist of three (3) basic particles: <strong>protons</strong>, <strong>neutrons</strong>, and <strong>electrons</strong>. Of these three, protons and electrons carry a charge, while neutrons, on the other hand, is neutral, which means it has no net charge.</p>
+          <h1 id="atoms">Atoms</h1>
+
+<p>To comprehend how objects can generate a positive or negative charge, it is necessary first to understand the particles that comprise these objects. Atoms are the basic building blocks of matter and consist of three (3) basic particles: <strong>protons</strong>, <strong>neutrons</strong>, and <strong>electrons</strong>. Of these three, protons and electrons carry a charge, while neutrons, on the other hand, is neutral, which means it has no net charge.</p>
 
 <p>Protons and electrons reside at the <strong>nucleus</strong>, which can be found at the very center of the atom, while electrons orbit the nucleus ($\fref{1}$).</p>
 
@@ -121,6 +123,10 @@ $$
   <figcaption><em><p>Figure 1: Visual representation of an atom</p>
 </em></figcaption>
 </figure>
+
+<h1 id="electric-charge">Electric Charge</h1>
+
+<p>A charge is defined as an electrical property of the atomic particles that consists of matter. It is measured in coulombs (C), named after French Engineer and Physicist Charles-Augustin de Coulomb.</p>
 
 <p>The symbol $e$ usually denotes the <strong>elementary unit</strong> of charge. It is defined in terms of the charge of either a proton or an electron. Since a <strong>proton</strong> has a <em>net positive charge</em>, we can denote it as $e$. While an <strong>electron</strong> carries <em>the same magnitude but has an opposite charge</em> as the proton, hence we can represent it as $-e$.</p>
 
@@ -140,7 +146,17 @@ The number of protons or electrons in a <strong>neutral atom</strong> is referre
 
 <p>The imbalance of numbers of protons and electrons happens when an atom <strong>gains or loses electrons</strong>, and this phenomenon is called <strong>ionization</strong>.</p>
 
-<p>Coulomb, denoted as C, is used as the unit of charge in the SI units to quantify the charge on a larger scale than the molecular level. This has a value of,</p>
+<h2 id="unit-of-charge">Unit of Charge</h2>
+
+<p>An <strong>electron’s charge</strong> ($e$) is quantified as being equal to $1.602 \x 10^{-19}$ coulombs $(C)$ and has a <strong>negative charge</strong>.  What this means is that every electron intrinsically contains $–1.602 \x 10^{-19} \un{C}$, and it requires $6.24 \x 10^{18} \un{electrons}$ to gain one (1) coulomb of charge.</p>
+
+<p>Similarly, a single <strong>proton</strong> contains $1.602 \x 10^{-19} \un{C}$ in magnitude but <strong>positive in charge</strong>. Hence, one proton contains $+1.602 \x 10^{-19} \un{C}$.</p>
+
+<p>The presence of equal numbers of protons and electrons in an atom makes it neutrally charged (The algebraic sum of charges is zero).</p>
+
+<!-- Coulomb, denoted as C, is used as the unit of charge in the SI units to quantify the charge on a larger scale than the molecular level. This has a value of, -->
+
+<!-- And if we want to know the number of Coulombs in an elementary charge, all we need to do is to get its reciprocal, -->
 
 <p align="center" style="background-color:rgba(64, 130, 110, 0.07);
 border: 3px solid rgba(64, 130, 110, 0.9);
@@ -148,16 +164,14 @@ border-radius:7px;
 padding:10px;
 margin:5px;">
     $$\begin{align}
-        1 \un{C} = 6.24\times 10^{18} \,e
+        e = 1.602 \times 10^{-19} \un{C}
     \end{align}$$
 </p>
 
-<p>And if we want to know the number of Coulombs in an elementary charge, all we need to do is to get its reciprocal,</p>
-
 \[\begin{align*}
-	\cancel{6.24\times 10^{18}} \,e \cdot \Dcancel{}{1}{}{6.24\times 10^{18}} &amp;= 1 \un{C} \cdot \frac{1}{6.24\times 10^{18}} \\
-	e &amp;= \frac{1}{6.24\times 10^{18}} \un{C} \\
-	&amp;= 1.60 \times 10^{-19} \un{C}
+    e &amp;= 1.602 \times 10^{-19} \un{C} \\
+    \frac{e}{1.602 \times 10^{-19}} &amp;= \frac{\cancel{1.602 \times 10^{-19}} \un{C}}{\cancel{1.602 \times 10^{-19}}} \\
+    6.24\x10^{18} \un{e} &amp;= 1\un{C}
 \end{align*}\]
 
 <p align="center" style="background-color:rgba(64, 130, 110, 0.07);
@@ -166,7 +180,7 @@ border-radius:7px;
 padding:10px;
 margin:5px;">
     $$\begin{align}
-        e = 1.60 \times 10^{-19} \un{C}
+        1 \un{C} = 6.24\times 10^{18} \,e
     \end{align}$$
 </p>
 
@@ -330,21 +344,21 @@ margin:5px;">
     <a class="prev" href="/services/physics/20.1-introduction-and-history-of-electricity/">&laquo; Introduction and History of Electricity</a>
   
   
-    <a class="next" href="/services/physics/20.3-calculating-the-charge-of-a-body/">Calculating the Charge of a Body &raquo;</a>
+    <a class="next" href="/services/physics/20.3-electrical-charges-in-a-body/">Calculating the Charge of a Body &raquo;</a>
   
 </div> -->
 
 
 
 <!-- <div class="PageNavigation">
-    <a class="prev" href="../20.1-introduction-and-history-of-electricity">&laquo; </a> <a class="next" href="../20.3-calculating-the-charge-of-a-body"> &raquo;</a>
+    <a class="prev" href="../20.1-introduction-and-history-of-electricity">&laquo; </a> <a class="next" href="../20.3-electrical-charges-in-a-body"> &raquo;</a>
 </div> -->
 
 
 
 <div class="PageNavigation">
   <a class="prev" href="../20.1-introduction-and-history-of-electricity">&laquo; Previous</a> 
-  <a class="next" href="../20.3-calculating-the-charge-of-a-body">Next &raquo;</a>
+  <a class="next" href="../20.3-electrical-charges-in-a-body">Next &raquo;</a>
 </div>
 
 
