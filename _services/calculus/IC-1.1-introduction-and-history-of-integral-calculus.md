@@ -5,7 +5,7 @@ author: Engr. Nico O. Aspra, ME, RMP  <br> Engr. Pee Jay N. Gealone
 weight: 2
 layout: content
 prevcontenturl: ../../integral-calculus
-nextcontenturl: ../IC-1.2-definite-and-indefinite-integrals
+nextcontenturl: ../IC-1.2-the-essence-of-integral-calculus
 ---
 
 

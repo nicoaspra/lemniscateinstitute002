@@ -2,7 +2,7 @@
 title: "Introduction to Plane Areas"
 authornum: 2
 author: Engr. Nico O. Aspra, ME, RMP  <br> Engr. Pee Jay N. Gealone
-prevcontenturl: ../IC-5.0-introduction-to-applications-of-integral-calculus
+prevcontenturl: ../IC-4.2-properties-of-definite-integrals
 nextcontenturl: ../IC-6.2-area-under-a-curve
 ---
 

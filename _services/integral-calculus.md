@@ -13,8 +13,9 @@ summary: Integral Calculus is a branch of mathematics concerned with the theory 
 
 - Introduction to Integral Calculus
   - [Introduction and History of Integral Calculus](../calculus/IC-1.1-introduction-and-history-of-integral-calculus)
-  - [Definite and Indefinite Integrals](../calculus/IC-1.2-definite-and-indefinite-integrals)
-  - [Antiderivatives](../calculus/IC-1.3-antiderivatives)
+  - [The Essence of Integral Calculus](../calculus/IC-1.2-the-essence-of-integral-calculus)
+  - [Definite and Indefinite Integrals](../calculus/IC-1.3-definite-and-indefinite-integrals)
+  - [Antiderivatives](../calculus/IC-1.4-antiderivatives)
 - Indefinite Integrals
   - [Properties and the General Power Rule for Integration](../calculus/IC-3.1-properties-and-the-general-power-rule-for-integration)
   - [Exponential and Logarithmic Functions](../calculus/IC-3.2-exponential-and-logarithmic-functions)
