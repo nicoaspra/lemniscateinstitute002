@@ -8,6 +8,10 @@ prevcontenturl: ../IC-1.2-the-essence-of-integral-calculus
 nextcontenturl: ../IC-1.4-antiderivatives
 ---
 
+{% include youtube.html 
+    id="ZM7M6UuZOKY" 
+%}
+
 
 **Integration** is simply the calculation of an integral. Integrals as a solution to differential functions that have undergone integration can be classified into two, namely the **Definite** and **Indefinite** Integral.
 

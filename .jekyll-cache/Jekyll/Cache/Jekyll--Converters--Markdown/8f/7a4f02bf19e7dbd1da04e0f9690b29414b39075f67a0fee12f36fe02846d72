@@ -1,4 +1,10 @@
-I"X<p><strong>Integration</strong> is simply the calculation of an integral. Integrals as a solution to differential functions that have undergone integration can be classified into two, namely the <strong>Definite</strong> and <strong>Indefinite</strong> Integral.</p>
+I".<div class="youtube-wrapper">
+    <iframe src="https://www.youtube.com/embed/ZM7M6UuZOKY" allowfullscreen=""></iframe>
+  </div>
+
+<p><!-- https://www.chunkhang.com/blog/responsive-youtube-video-with-jekyll --></p>
+
+<p><strong>Integration</strong> is simply the calculation of an integral. Integrals as a solution to differential functions that have undergone integration can be classified into two, namely the <strong>Definite</strong> and <strong>Indefinite</strong> Integral.</p>
 
 <p>When we refer to the <em>application of integrals</em>, it usually pertains to the utilization of <strong>Definite integrals</strong>. Definite integrals result from integrating functions with <strong>defined boundaries</strong> (limits), integrals that result in specific values. However, we will focus on this notion in later chapters of this course.</p>
 
