@@ -66,7 +66,7 @@ $$
 $$
 
 
-$\For{b}$ \\
+$\For{d}$ \\
 Differentiate the function,
 $$
 \begin{align*}
@@ -87,7 +87,7 @@ $$\int 2x \,dx = x^2+C$$
 
 
 
-
+---
 $\example{1}$
 Verify the equation by differentiating the antiderivative: $\int 20 \,dx = 20x+C$
 
@@ -105,7 +105,7 @@ Hence, the equation is $\tcAal{correct}$.
 
 
 
-
+---
 $\example{2}$
 Verify the equation by differentiating the antiderivative: \\
 $\int\br{3x^2+10x^4-\frac{8}{x^3}} \,dx = x^3+2x^5-\frac{4}{x^2}+C$
@@ -127,7 +127,7 @@ Hence, the equation is $\tcAal{incorrect}$.
 
 
 
-
+---
 $\example{3}$
 Verify the equation by differentiating the antiderivative: \\
 $\int\br{y^{3/2}+2\sqrt{y}} \,dy = \frac25y^{5/2}+\frac23y^{3/2}+C$
@@ -148,13 +148,13 @@ Hence, the equation is $\tcAal{incorrect}$.
 
 
 
-
+---
 $\example{4}$
 Verify the equation by differentiating the antiderivative: \\
 $\displaystyle{\int\br{\frac{15t^2-6t+2}{2\sqrt{5t^3-3t^2+2t+1}}} \,dt = \sqrt{5t^3-3t^2+2t+1}+C}$
 
 $\solution$ \\
-Differentiating the antiderivative using the \textit{Chain Rule},
+Differentiating the antiderivative using the [Chain Rule](../DC-4.3-the-chain-rule),
 
 $$
 \begin{align*}
