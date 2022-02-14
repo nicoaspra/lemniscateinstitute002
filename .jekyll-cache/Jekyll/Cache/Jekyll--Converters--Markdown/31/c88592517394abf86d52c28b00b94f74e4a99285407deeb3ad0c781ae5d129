@@ -1,0 +1,8 @@
+I"�<p>As previously established, electron movement is dependent on two conditions: (a) an electromotive force (voltage) and (b) a closed path. Together with the voltage, the closed path constitutes a complete electrical circuit. A physicist named George Simon Ohm found that current is directly proportional to the provided voltage in an electric circuit and therefore formulated an equation and what is now known as Ohm’s law.</p>
+
+<p>According to Ohm’s law, the voltage $V$ across a resistor is proportional to the current $I$ flowing through it.</p>
+
+\[V \propto I\]
+
+<p>Ohm defined the resistance, $R$, as the constant of proportionality for a resistor. $R$ is expressed in ohms, which is indicated by the symbol omega [$\ohm$]. Note that resistance will be explored in greater detail in the following lesson; in the meantime, consider it as a parameter that relates voltage and current.</p>
+:ET

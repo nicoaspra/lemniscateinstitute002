@@ -1,0 +1,76 @@
+I"�
+<p>As previously established, electron movement is dependent on two conditions: (a) an electromotive force (voltage) and (b) a closed path. Together with the voltage, the closed path constitutes a complete electrical circuit. A physicist named George Simon Ohm found that current is directly proportional to the provided voltage in an electric circuit and therefore formulated an equation and what is now known as Ohm’s law.</p>
+
+<p>According to Ohm’s law, the voltage $V$ across a resistor is proportional to the current $I$ flowing through it.</p>
+
+\[V \propto I\]
+
+<p>Ohm defined the resistance, $R$, as the constant of proportionality for a resistor. $R$ is expressed in ohms, which is indicated by the symbol omega [$\ohm$]. Note that resistance will be explored in greater detail in the following lesson; in the meantime, consider it as a parameter that relates voltage and current.</p>
+
+<figure style="text-align: center;">
+  <img src="/images/content/phys2/phys2-22.4.1.png" alt="my alt text" width="250px" />
+  <figcaption><em><p>Figure 1: The resistance is equal to the slope of the current-voltage graph.</p>
+</em></figcaption>
+</figure>
+
+<p>Mathematically, Ohm’s law can be expressed as:</p>
+<p align="center" style="background-color:rgba(64, 130, 110, 0.07);
+border: 3px solid rgba(64, 130, 110, 0.9);
+border-radius:7px;
+padding:10px;
+margin:5px;">
+    $$\begin{align}
+        V = IR
+    \end{align}$$
+</p>
+<p>\(\begin{align*}
+	\text{Where:}\quad V &amp;= \text{voltage, [V]} &amp; \\
+		I &amp;= \text{current, [A]} \\
+		R &amp;= \text{resistance, [$\ohm$]}
+\end{align*}\)</p>
+
+<hr />
+<p>$\example{1}$
+An electric iron draws 2-A of current. If the iron is known to posses 60 ohms of resistance, find the supplied voltage.</p>
+
+<p>$\given$<br />
+\(\begin{align*}
+	I &amp;= 2\un{A} &amp; \\
+	R &amp;= 60\un{\ohm}
+\end{align*}\)</p>
+
+<p>$\solution$ <br />
+To solve for the voltage, use the Ohm’s Law,</p>
+
+\[\begin{align*}
+	V &amp;= IR \\
+	&amp;= (2\un{A})(60\un{\ohm}) \\
+	&amp;= 120\un{V}		\tagans
+\end{align*}\]
+
+<hr />
+<p>$\example{2}$
+Consider the circuit shown below. Using the Ohm’s law, determine the current that will flow in the circuit when the switch is closed.</p>
+
+<figure style="text-align: center;">
+  <img src="/images/content/phys2/phys2-22.4.2.png" alt="my alt text" width="300px" />
+  <figcaption><em>
+</em></figcaption>
+</figure>
+
+<p>$\given$<br />
+\(\begin{align*}
+	V &amp;= 12\un{V} &amp; \\
+	R &amp;= 10\un{\ohm}
+\end{align*}\)</p>
+
+<p>$\solution$ <br />
+Consider the following data from the circuit, to calculate the current $I$, use the Ohm’s Law,</p>
+
+\[\begin{align*}
+	V &amp;= IR \\
+	I &amp;= \frac{V}{R} \\
+	&amp;= \frac{12\un{V}}{10\un{\ohm}} \\
+	&amp;= 1.2\un{A}		\tagans
+\end{align*}\]
+:ET
