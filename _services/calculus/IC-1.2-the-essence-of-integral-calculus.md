@@ -124,7 +124,7 @@ $$
 
 This is only one of the many ways the formula of the area can be derived, there are numerous methods with different underlying concepts, all we need is a little imagination.
 
-Understanding the underlying concept of how formulas have been derived gives us a better understanding and appreciation of this kind of topic.
+Understanding the concepts on how formulas have been derived gives us a better understanding and appreciation of this kind of topic.
 
 The core concept of integral calculus is taking the sum of infinitely small quantities to be represented as a whole. Its primary goal is simple and is equipped with some essential mathematical tools. As a result, problems that were once
 impossible to solve can now be easily manipulated using calculus.

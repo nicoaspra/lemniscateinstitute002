@@ -24,11 +24,11 @@ summary: Have you ever considered how electricity affects almost every aspect of
   - [Current](../physics/22.2-current)
   - [Voltage (Electromotive Force)](../physics/22.3-voltage-electromotive-force)
   - [Ohm's Law](../physics/22.4-ohms-law)
-- Resistance and Conductance
-  - Resistance
-  - Resistivity
-  - Conductance
-  - Resistivity and Temperature
+- [Resistance and Conductance](../physics/23.0-resistance-and-conductance)
+  - [Resistance](../physics/23.1-resistance)
+  - [Resistivity](../physics/23.2-resistivity)
+  - [Conductance and Conductivity](../physics/23.3-conductance-and-conductivity)
+  - [Resistivity and Temperature](../physics/23.4-resistivity-and-temperature)
 - Work, Energy and Power
   - Work and Energy
   - Electric Potential Energy

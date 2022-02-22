@@ -29,7 +29,7 @@ Just as algebraic functions, differentiating exponential and logarithmic functio
 
 
 ---
-$\example{}$
+$\example{1}$
 Find the derivative of the function $y = \log_5 (2x+3)$
 
 $\solution$ \\
@@ -53,7 +53,7 @@ $$
 
 
 ---
-$\example{}$
+$\example{2}$
 Find the derivative of the function $y = \log_e (5-2x)$
 
 $\solution$ \\
@@ -89,7 +89,7 @@ $$
 
 
 ---
-$\example{}$
+$\example{3}$
 Find the derivative of the function $y = \ln (5-2x)$
 
 $\solution$ \\
@@ -121,7 +121,7 @@ As you may have noticed, the answer is the same as the previous example. With th
 
 
 ---
-$\example{}$ 
+$\example{4}$ 
 $y = \ln\sqrt{2x^2-5x+3}$
 
 $\solution$ \\
@@ -154,7 +154,7 @@ $$
 
 
 ---
-$\example{}$ 
+$\example{5}$ 
 Determine the differential of the function $y = 5e^{3x}$.
 
 $\solution$ \\
@@ -171,7 +171,7 @@ $$
 
 
 ---
-$\example{}$ 
+$\example{6}$ 
 Find the derivative of the function with respect to $t$: $x = e^{3t}e^{2t^2}$.
 
 $\solution$ \\
@@ -192,7 +192,7 @@ $$
 
 
 ---
-$\example{}$ 
+$\example{7}$ 
 Determine the differential of the function $w = 125\br{5^{3v}}$.
 
 $\solution$ \\
@@ -214,14 +214,14 @@ $$
 
 
 
----
+<!-- ---
 $\example{}$
-$\ln{y} = 8x+3$
+$\ln{y} = 8x+3$ -->
 
 
 
 ---
-$\example{}$ 
+$\example{8}$ 
 Find the derivative of $y$ with respect to $x$ of the function
 $e^{\frac12 y} = x^2-1$.
 
