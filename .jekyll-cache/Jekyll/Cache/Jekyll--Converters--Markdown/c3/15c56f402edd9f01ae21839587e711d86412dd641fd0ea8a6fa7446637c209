@@ -1,0 +1,407 @@
+I"�><p>In our previous lesson, we have reviewed some of the fundamental concepts in trigonometric functions.
+Since before we can differentiate such functions, we must first be proficient in transforming functions from one form to another. Below are some of the different formulas for differentiating trigonometric functions. For the following formulas, let $u$ be a function of $x$.</p>
+
+<p align="center" style="background-color:rgba(64, 130, 110, 0.07);
+border: 3px solid rgba(64, 130, 110, 0.9);
+border-radius:7px;
+padding:10px;
+margin:5px;">
+    $$\begin{align}
+	\ddx\br{\sin u} &amp;= \cos u
+		\label{eq:derivative of sin}\\
+	\ddx\br{\cos u} &amp;= -\sin u
+		\label{eq:derivative of cos}\\
+	\ddx\br{\tan u} &amp;= \sec^2 u
+		\label{eq:derivative of tan}\\
+	\ddx\br{\cot u} &amp;= -\csc^2 u
+		\label{eq:derivative of cot}\\
+	\ddx\br{\sec u} &amp;= \tan u \sec u
+		\label{eq:derivative of sec}\\
+	\ddx\br{\csc u} &amp;= -\cot u \csc u
+		\label{eq:derivative of csc}
+        \end{align}$$
+</p>
+
+<p>\subsection{Differential Formulas for Trigonometric Functions}
+As you may have realized, there is only a small difference between the formulas for differentiation and its differentials. 
+\begin{tcolorbox}[ams align]
+	d\br{\sin u} &amp;= \cos u\,du 
+		\label{eq:differential of sin}<br />
+	d\br{\cos u} &amp;= -\sin u\,du
+		\label{eq:differential of cos}<br />
+	d\br{\tan u} &amp;= \sec^2 u\,du 
+		\label{eq:differential of tan}<br />
+	d\br{\cot u} &amp;= -\csc^2 u\,du 
+		\label{eq:differential of cot}<br />
+	d\br{\sec u} &amp;= \tan u \sec u\,du 
+		\label{eq:differential of sec}<br />
+	d\br{\csc u} &amp;= -\cot u \csc u\,du
+		\label{eq:differential of csc}
+\end{tcolorbox}</p>
+
+<p>\example
+Find the differential of the function $y = \sin 5x$</p>
+
+<p>\solution<br />
+To solve for the derivative of the function, use equation \ref{eq:derivative of sin},
+\begin{align<em>}
+	\ddx\br{y} &amp;= \ddx\br{\sin 5x} <br />
+	\dydx &amp;= \cos{5x}\cdot \ddx\br{5x} <br />
+	&amp;= \cos{5x}\cdot 5 <br />
+	&amp;= 5\cos{5x}	\tagans
+\end{align</em>}</p>
+
+<p>\example
+Determine the second derivative of the function
+$y = \cos(3-2x)$</p>
+
+<p>\solution<br />
+We can utilize differential formulas to differentiate functions and still get the same result as differentiating them. In this example, use equation \ref{eq:derivative of cos},
+\begin{align<em>}
+	\ddx\br{y} &amp;= \ddx\br{\cos(3-2x)} <br />
+	\dydx &amp;= -\sin(3-2x)\cdot \ddx\br{3-2x} <br />
+	&amp;= -\sin(3-2x) (-2) <br />
+	&amp;= 2\sin(3-2x) <br />
+	&amp;= 2\sin(3-2x)
+\intertext{Then differentiate again,}
+	\ddx\br{\dydx} &amp;= d\brk{2\sin(3-2x)} <br />
+	\frac{d^2y}{dx^2} &amp;= 2\cos(3-2x) \cdot \ddx(3-2x) <br />
+	&amp;= 2\cos(3-2x) \cdot (-2) <br />
+	&amp;= -4\cos(3-2x) <br />
+	\frac{d^2y}{dx^2} &amp;= -4\cos(3-2x)		\tagans
+\end{align</em>}</p>
+
+<p>% \example
+% Differentiate the function
+% $x = 3\tan(2t^2)$</p>
+
+<p>\example
+Differentiate the function with respect to $\theta$: $x = \sec{2\theta}+\tan{3\theta}$</p>
+
+<p>\solution<br />
+To solve for the derivative of the function, use equations \ref{eq:differential of sec} and \ref{eq:differential of tan},
+\begin{align<em>}
+	d\br{x} &amp;= d\br{\sec{2\theta}+\tan{3\theta}} <br />
+	dx &amp;= \tan{2\theta}\sec{2\theta}\cdot d(2\theta) + \sec^2{3\theta}\cdot d(3\theta) <br />
+	&amp;= \tan{2\theta}\sec{2\theta}\cdot 2\,d\theta + \sec^2{3\theta}\cdot 3\,d\theta <br />
+	&amp;= \br{2\tan{2\theta}\sec{2\theta} + 3\sec^2{3\theta}}\,d\theta <br />
+	\frac{dx}{d\theta}&amp;= 2\tan{2\theta}\sec{2\theta} + 3\sec^2{3\theta}		\tagans
+\end{align</em>}</p>
+
+<p>\example
+Find the derivative of $x$ with respect to $y$ of the function
+$y = \tan x-x$</p>
+
+<p>\solution<br />
+To solve for the derivative of the function, use equation \ref{eq:differential of tan},
+\begin{align<em>}
+	d(y) &amp;= d(\tan x-x) <br />
+	dy &amp;= \sec^2x\,dx-dx <br />
+	&amp;= (\sec^2x-1)\,dx <br />
+\intertext{From the Pythagorean Identities (equation \ref{eq:pythagorean id tan}),}
+	\tan^2{x}+1 &amp;= \sec^2{x} <br />
+	\sec^2{x}-1 &amp;= \tan^2{x}
+\intertext{Substituting this to the soultion,}
+	dy &amp;= \tan^2{x}\,dx <br />
+\intertext{Hence,}
+	\frac{dx}{dy} &amp;= \frac{1}{\tan^2x} <br />
+	&amp;= \cot^2x		\tagans
+\end{align</em>}</p>
+
+<p>\example
+Differentiate the function with respect to $t$. $w = t^5\csc 4t$</p>
+
+<p>\solution <br />
+In this example, before we can use a differential formula for trigonometric function, we first need to apply the Product Rule.
+\begin{align<em>}
+	d(w) &amp;= d(t^5 \cdot \csc{4t}) <br />
+	dw &amp;= t^5 \cdot d(\csc{4t}) + \csc{4t} \cdot d(t^5) <br />
+	&amp;= t^5\brk{-\cot{4t}\csc{4t}\,(4\,dt)}+\csc{4t}\,(5t^4\,dt) <br />
+	&amp;= \brk{-4t^5\cot{4t}\csc{4t}+5t^4\csc{4t}}\,dt <br />
+	\frac{dw}{dt} &amp;= 5t^4\csc{4t}-4t^5\cot{4t}\csc{4t}	\tagans
+\end{align</em>}</p>
+
+<p>\example
+Find the differential of the function $v = \sec^2\br{\frac{6}}$</p>
+
+<p>\solution <br />
+In this example, we can recall that $\sec^2\br{\frac{6}}$ can also be expressed as $\brk{\sec\br{\frac{6}}}^2$. With this in mind, we can use the power rule to differentiate the function.
+\begin{align<em>}
+	d(v) &amp;= d\brk{\brk{\sec\br{\frac{6}}}^2} <br />
+	&amp;= 2\sec\br{\frac{6}} \cdot d\brk{\sec\br{\frac{6}}} <br />
+	&amp;= 2\sec\br{\frac{6}} \cdot \brk{\tan\br{\frac{6}}\sec\br{\frac{6}} \cdot d\br{\frac{x}{6}}} <br />
+	&amp;= 2\sec\br{\frac{6}} \cdot \brk{\tan\br{\frac{6}}\sec\br{\frac{6}} \cdot \frac{1}{6}\, dx} <br />
+	&amp;= \frac{1}{3} \tan\br{\frac{6}}\sec^2\br{\frac{6}} \,dx
+\end{align</em>}</p>
+
+<p>\example
+Let $a$ be hold constant. Determine the third derivative of the function $y = \cos ax$</p>
+
+<p>\solution 
+\begin{align<em>}
+	d(y) &amp;= d(\cos ax) <br />
+	dy &amp;= -\sin ax \cdot d(ax) <br />
+	&amp;= -\sin ax \cdot a\,dx <br />
+	&amp;= -a\sin ax\,dx <br />
+\intertext{Then differentiate again,}
+	d(dy) &amp;= d(-a\sin ax\,dx) <br />
+	d^2y &amp;= -a\cos ax\,dx \cdot(a\,dx) <br />
+	&amp;= -a^2\cos ax\,dx^2
+\intertext{And differentiating for the last time,}
+	d(d^2y) &amp;= d(-a^2\cos ax\,dx^2) <br />
+	d^3y &amp;= -(-a^2\sin ax\,dx^2) \cdot(a\,dx) <br />
+	&amp;= a^3\sin ax\,dx^3 <br />
+	\frac{d^3y}{dx^3} &amp;= a^3\sin ax		\tagans
+\end{align</em>}</p>
+
+<p>% \example
+% Determine the $y’$ of the function $x = \br{5\cos^3 2y-4}^{1/3}$</p>
+
+<p>\example
+Determine the $y’$ of the function $s = \sec(\sin t)$</p>
+
+<p>\solution <br />
+To evaluate this example, use the chain rule.
+\begin{align<em>}
+	d(s) &amp;= d(\sec(\sin t)) <br />
+	ds &amp;= \tan(\sin t)\sec(\sin t) \cdot d(\sin t) <br />
+	&amp;= \tan(\sin t)\sec(\sin t)\cos t \,dt <br />
+	\frac{ds}{dt} &amp;= \tan(\sin t)\sec(\sin t)\cos t		\tagans
+\end{align</em>}</p>
+
+<p>\example
+Let $A$, $B$, and $k$ be constants. From the function $y = A\cos kx+B\sin kx$, show that $\frac{d^2y}{dx^2} = -k^2x$.</p>
+
+<p>\solution <br />
+Differentiate the function twice.
+\begin{align<em>}
+	d(y) &amp;= d(A\cos kx+B\sin kx) <br />
+	dy &amp;= A(-\sin kx) (k\,dx) + B\cos kx (k\,dx) <br />
+	&amp;= \br{-Ak\sin kx + Bk\cos kx}\,dx <br />
+	d(dy) &amp;= d\brk{\br{-Ak\sin kx + Bk\cos kx}\,dx} <br />
+	d^2y &amp;= \brk{-Ak\cos kx (k\,dx) + Bk(-\cos kx)(k\,dx) } \,dx <br />
+	&amp;= \br{-Ak^2\cos kx - Bk^2\cos kx } \,dx^2 <br />
+	\frac{d^2y}{dx^2}&amp;= -Ak^2\cos kx - Bk^2\cos kx <br />
+	&amp;= -k^2\br{Ak^2\cos kx + B\cos kx} <br />
+\intertext{Since $y = A\cos kx+B\sin kx$,}
+	\frac{d^2y}{dx^2}&amp;= -k^2y		\tagans
+\end{align</em>}</p>
+
+<p>\begin{prac}
+	Differentiate the following functions:
+	\enupracs{2}{
+		\item $y = \sin 2x$
+		\item $y = \cos (4x+5)$
+		\item $v = 5x+\tan(2u^3)$
+		\item $z = 4\csc\br{\frac{2}{w^2}}$
+		\item $s = t+\cot t$
+		\item $y = \sec\sqrt{x+1}$
+		\item $x = \csc\sqrt{2+\sqrt{y}}$
+		\item $x = \sin(\cos\theta)$
+	}
+	\vspace{1em}
+\end{prac}</p>
+
+<p>\newpage
+\section{Integral of Trigonometric Functions}
+\introrule</p>
+
+<p>In this section, we will learn how to integrate simple trigonometric functions. However, before starting with this lesson, it is imperative to review some of the basic concepts in trigonometric functions.</p>
+
+<p>Similar to our previous lessons, integrating trigonometric functions is merely the opposite of differentiating them. With this in mind, it is best also to review the methods in differentiating these functions. To begin, let us introduce the fundamental integration formulas for trigonometric functions.</p>
+
+<p>% In this section, we will be introduced to the integration techniques for trigonometric functions. There are several forms that you may encounter in dealing with the said function, and its form requires a different approach. Let us first begin by introducing the basic integal formula for trigonometric functions.</p>
+
+<p>\subsection{Integration Formulas}
+The following are the integration formulas that can be used in integrating basic trigonometric functions.
+These formulas are derived from the basic differential formulas that were used in Differential Calculus.
+It will be to your advantage if you are very familiar with these formulas.</p>
+
+<p>% The following are the basic integration formulas that can be used in integrating basic trigonometric functions. These formulas are derived from the basic differential formulas that are used in Differential Calculus. It will be to your advantage if you are very familiar with these formula.</p>
+
+<p>\begin{tcolorbox}[ams align]
+	% \shortintertext{\centering \tcB{Integral Formula}} \nonumber \[-15pt]
+	% 	\hline \nonumber \[-12pt]
+	&amp;\int \sin u \,du = - \cos u +C <br />
+	&amp;\int \cos u \,du =  \sin u +C 
+		\label{eq:trig int cos} <br />
+	&amp;\int \tan u \,du =  \ln (\sec u) +C <br />
+		&amp; \phantom{\int \tan u \,du}= - \ln (\cos u) + C <br />
+	&amp;\int \cot u \,du =  \ln (\sin u) +C  <br />
+	&amp;\int \sec u \,du =  \ln (\sec u + \tan u) +C  <br />
+	&amp;\int \csc u \,du =  - \ln (\csc u + \cot u) +C <br />
+		&amp; \phantom{\int \csc u \,du}= \ln (\csc u - \cot u) +C <br />
+	&amp;\int \sec^2 u \,du =  \tan u +C <br />
+	&amp;\int \csc^2 u \,du =  - \cot u +C <br />
+	&amp;\int \sec u \tan u \,du =  \sec u +C <br />
+	&amp;\int \csc u \cot u \,du =  - \csc u +C
+\end{tcolorbox}</p>
+
+<p>In evaluating trigonometric functions, we may encounter a variety of distinct forms, each of which demands a different approach. To have a deeper understanding of this notion, it is necessary to gain experience from solving problems.</p>
+
+<p>\example
+Evaluate the integral $\int\cos 6x \,dx$.</p>
+
+<p>\solution
+\begin{flalign<em>}
+	\text{Let:}\quad u &amp;= 6x &amp; <br />
+		du &amp;= 6 dx <br />
+		\frac{1}{6}du &amp;= dx	
+\end{flalign</em>}	
+%
+\begin{align<em>}
+	\int\cos 6x \,dx &amp;= \int\cos u \br{\frac{1}{6}du} <br />
+		&amp;= \frac{1}{6} \int\cos u (\,du) <br />
+\intertext{s}
+		&amp;= \frac{1}{6} \sin u + C <br />
+\intertext{Since $u=6x$,}
+	\int\cos 6x \,dx &amp;= \frac{1}{6} \sin 6x + C	\tagans
+\end{align</em>}</p>
+
+<p>\example
+Evaluate the integral $\int\sin 4x \sec 2x\,dx$.</p>
+
+<p>\solution <br />
+In integral calculus, before we can integrate, the angles of every trigonometric function in one term must all be the same. In this example, the angles are $4x$ and $2x$. Hence, the preliminary step that we must do before we can integrate is to simplify the function.
+\begin{align<em>}
+	\sin 4x \sec 2x &amp;= \sin 2(2x) \sec 2x <br />
+\intertext{To simplify $\sin 2(2x)$, we can use the Double-Angle Formula, $\sin{2\theta} = 2\sin\theta \cos\theta$.}
+	&amp;= (2 \sin 2x \cancel{\cos 2x}) \bigg(\frac{1}{\cancel{\cos 2x}} \bigg) <br />
+	&amp;= 2 \sin 2x
+\end{align</em>}
+%
+\begin{flalign<em>}
+	\text{Let:}\qquad u &amp;= 2x &amp; <br />
+		du &amp;= 2 \,dx <br />
+		\frac{1}{2}du &amp;= dx	
+\end{flalign</em>}		
+%
+\begin{align<em>}
+	\int\sin 4x \sec 2x\,dx &amp;= \int (2 \sin 2x ) \,dx <br />
+	&amp;= 2 \int\sin u \br{\frac{1}{2}du} <br />
+	&amp;= \int\sin u (\,du) <br />
+	&amp;= - \cos u + C <br />
+	&amp;= - \cos 2x + C	\tagans
+\end{align</em>}</p>
+
+<p>\example 
+Evaluate the integral $\int 5\sec\br{\frac{x}{2}}\tan\br{\frac{x}{2}} \,dx$</p>
+
+<p>\solution 
+\begin{flalign<em>}
+	\text{Let:}\qquad u &amp;= \frac{x}{2} &amp; <br />
+		du &amp;= \frac12 \,dx <br />
+		2\,du &amp;= dx	
+\end{flalign</em>}	
+%
+\begin{align<em>}
+	\int 5\sec\br{\frac{x}{2}}\tan\br{\frac{x}{2}} \,dx &amp;= 5\int \sec u \tan u \cdot 2\,du <br />
+	&amp;= 10\int \sec u \tan u \cdot \,du <br />
+	&amp;= 10\sec u + C <br />
+	&amp;= 10\sec\br{\frac{x}{2}}+C		\tagans
+\end{align</em>}</p>
+
+<p>\example 
+Evaluate the integral $\int x\csc^2x^2\,dx$</p>
+
+<p>\solution 
+\begin{flalign<em>}
+	\text{Let:}\qquad u &amp;= x^2 &amp; <br />
+		du &amp;= 2x \,dx <br />
+		\frac12 du &amp;= dx
+\end{flalign</em>}	
+\begin{align<em>}
+	\int x\csc^2x^2\,dx &amp;= \int \csc^2u \cdot \frac12\,du <br />
+	&amp;= \frac12 \int \csc^2u\,du <br />
+	&amp;= -\frac12 \cot u +C <br />
+	&amp;= -\frac12 \cot x^2 + C		\tagans
+\end{align</em>}</p>
+
+<p>\example 
+Evaluate the integral $\int \frac{\cot(\ln x)}{x}\,dx$</p>
+
+<p>\solution 
+\begin{flalign<em>}
+	\text{Let:}\qquad u &amp;= \ln x &amp; <br />
+		du &amp;= \frac1x \,dx
+\end{flalign</em>}	
+\begin{align<em>}
+	\int \frac{\cot(\ln x)}{x}\,dx &amp;= \int \cot(\ln x) \cdot \frac{1}{x}\,dx <br />
+	&amp;= \int \cot u\,du <br />
+	&amp;= \ln(\sin u)+C <br />
+	&amp;= \ln\brk{\sin (\ln x)}+C		\tagans
+\end{align</em>}</p>
+
+<p>\example 
+Evaluate the integral $\int \tan^2 4x\,dx$</p>
+
+<p>\solution <br />
+In this example, there is no direct formula to solve the integral. However, we can use one of the Pythagorean Identities to simplify first the integral.
+\begin{align<em>}
+	\int \tan^2 4x &amp;= \int (\sec^2 4x-1)\, dx <br />
+	&amp;= \int \sec^2 4x\,dx - \int\,dx <br />
+\intertext{For $\int \sec^2 4x\,dx$, let $u=4x$, and $\frac14\,du=dx$.}
+	&amp;= \frac14 \int \sec^2 u\,du - \int\,dx <br />
+	&amp;= \frac14 \tan u-x+C <br />
+	&amp;= \frac14 \tan 4x-x+C	\tagans
+\end{align</em>}</p>
+
+<p>\example 
+Evaluate the integral $\int \frac{e^{3x}\csc e^{3x}}{\tan e^{3x}} \,dx$,</p>
+
+<p>\solution <br />
+Before integrating, simplify first the function.
+\(\int \frac{e^{3x}\csc e^{3x}}{\tan e^{3x}} \,dx = \int e^{3x}\csc e^{3x}\cot e^{3x} \,dx\)
+\begin{flalign<em>}
+	\text{Let:}\qquad u &amp;= e^{3x} &amp; <br />
+		du &amp;= 3e^{3x} \,dx <br />
+		\frac13\,du &amp;= e^{3x} \,dx
+\end{flalign</em>}
+\begin{align<em>}
+	\int \frac{e^{3x}\csc e^{3x}}{\tan e^{3x}} \,dx &amp;= \int \csc e^{3x}\cot e^{3x} \cdot e^{3x}\,dx <br />
+	&amp;= \frac13 \int \csc u\cot u \,du <br />
+	&amp;= -\frac13 \csc u+C <br />
+	&amp;= -\frac13 \csc e^{3x}+C		\tagans
+\end{align</em>}</p>
+
+<p>\example 
+Evaluate the integral $\int \frac{\sin^3x}{1+\cos x}\,dx$</p>
+
+<p>\solution <br />
+From the trigonopmetric identities, there is no identity for cubic functions. But, what we can do, is to first break down $\sin^3x$ to $\sin x$ and $\sin^2 x$. Hence,
+\begin{align<em>}
+	\int \frac{\sin^3x}{1+\cos x}\,dx &amp;= \int \frac{\sin x \cdot \sin^2 x}{1+\cos x}\,dx <br />
+	&amp;= \int \frac{\sin x (1-\cos^2x)}{1+\cos x}\,dx <br />
+	&amp;= \int \frac{\sin x (1-\cos x)\cancel{(1+\cos x)}}{\cancel{(1+\cos x)}}\,dx <br />
+	&amp;= \int (\sin x- \cos x \sin x) \,dx <br />
+	&amp;= \int \sin x \,dx - \int \cos x \sin x \,dx <br />
+	&amp;= \int \sin x \,dx + \int \cos x (-\sin x) \,dx
+\intertext{For $\int \cos x (-\sin x) \,dx,$ let $u=\cos x$, and $du=-\sin x\,dx$.}
+	&amp;= \int \sin x \,dx + \int u\,du <br />
+	&amp;= -\cos x + \frac{u^2}{2} + C <br />
+	&amp;= -\cos x + \frac{\cos^2x}{2} + C <br />
+	&amp;= \frac12 \cos^2x-\cos x + C		\tagans
+\end{align</em>}</p>
+
+<p>\begin{prac}
+	Evaluate the following integrals:
+	\enupracs{2}{
+		\item $\int \sin (7x) \,dx$
+		\item $\int \frac{\cot (3x)}{1+\cot^2 (3x)} \,dx$
+		\item $\int \tan(3x-2)\,dx$
+		\item $\int (3\sin x - 4\sec^2 x) \,dx$
+		\item $\int 5\csc(3x)\,dx$
+		\item $\int x\cot(2x^2)\,dx$
+		\item $\int \frac{\cos\sqrt{x}}{\sqrt{x}}\,dx$
+		\item $\int e^{5x}\sec^2(e^3x)\,dx$
+		\item $\int \frac1x \sec(\ln x^2)\tan(\ln x^2)\,dx$
+		\item $\int \frac{dx}{\cos 9x}$
+		\item $\int \frac{dx}{e^{2x}\cos(e^{-2x})}$
+		\item $\int \frac{x}{\cot^2(2x^2)}\,dx$
+		\item $\int \frac{\sin^2 x \,dx}{1-\cos x}$
+		\item $\int \frac{\br{\sin x + \cos x}^2}{\sin x}\,dx$
+	}
+	\vspace{1em}
+\end{prac}</p>
+
+:ET
