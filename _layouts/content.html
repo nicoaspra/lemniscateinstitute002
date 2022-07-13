@@ -15,7 +15,9 @@ layout: default
                 Author | {{page.author}}
               </a>
             </p>
-          {% elsif page.authornum %}
+          {% elsif page.authornum ==0 %}
+        
+          {% else page.authornum %}
             <p style="color:#d02f5d"></pstyle>
               <a href="/team">
                 Authors | <br> {{page.author}}
