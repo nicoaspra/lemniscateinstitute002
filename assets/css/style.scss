@@ -148,10 +148,20 @@ table {
 }
 
 thead {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 2;
   background-color: $primary;
   color: white;
 }
 
+th {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 2;
+}
 
 // .highlight .gs { color: #d60e0e } /* Generic.Strong */
 

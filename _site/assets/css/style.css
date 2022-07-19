@@ -1053,7 +1053,9 @@ details summary { color: #d02f5d; }
 
 table { width: 100%; color: #5C5A5A; }
 
-thead { background-color: #d02f5d; color: white; }
+thead { position: -webkit-sticky; position: sticky; top: 0; z-index: 2; background-color: #d02f5d; color: white; }
+
+th { position: -webkit-sticky; position: sticky; top: 0; z-index: 2; }
 
 .content hr { height: 30px; border-bottom: 3px solid #40826e; opacity: 0.7; }
 

@@ -7,7 +7,7 @@ nextcontenturl: ../23.1-resistance
 ---
 
 
-| T (C)   | P (MPa)   | $\textcolor{white}{10^3v_f}$ | $\textcolor{white}{10^3v_g}$ | $\textcolor{white}{u_f}$ | $\textcolor{white}{u_{fg}}$ | $\textcolor{white}{u_g}$ | $\textcolor{white}{h_f}$ | $\textcolor{white}{h_{fg}}$ | $\textcolor{white}{h_g}$ | $\textcolor{white}{s_f}$ | $\textcolor{white}{s_{fg}}$ | $\textcolor{white}{s_g}$ |
+| T ($\textcolor{white}{\degC}$)   | P (MPa)   | $\textcolor{white}{10^3v_f}$ | $\textcolor{white}{10^3v_g}$ | $\textcolor{white}{u_f}$ | $\textcolor{white}{u_{fg}}$ | $\textcolor{white}{u_g}$ | $\textcolor{white}{h_f}$ | $\textcolor{white}{h_{fg}}$ | $\textcolor{white}{h_g}$ | $\textcolor{white}{s_f}$ | $\textcolor{white}{s_{fg}}$ | $\textcolor{white}{s_g}$ |
 | ------- | --------- | ---------------------------- | ---------------------------- | -----------------------: | :-------------------------: | ------------------------ | -----------------------: | :-------------------------: | ------------------------ | -----------------------: | :-------------------------: | ------------------------ |
 | 0.01    | 0.000612 | 1.0002 | 205997.5 | 0.00    | 2374.9 | 2374.9 | 0.00    | 2500.9 | 2500.9 | 0.0000  | 9.1555 | 9.1555 |
 | 1       | 0.000657 | 1.0001 | 192444.7 | 4.18    | 2372.1 | 2376.3 | 4.18    | 2498.6 | 2502.7 | 0.0153  | 9.1138 | 9.1291 |
