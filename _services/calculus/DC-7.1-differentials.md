@@ -38,6 +38,7 @@ However, in this lesson, we are more particular in understanding first how to ev
 {% include tcolorbox.html
     details="
 	\text{Constant:} &&& d(c) = 0 \\
+	\text{Variable:} &&& d(x) = dx \\
 	\text{Constant Multiple:} &&& d(cu) = c\,du \\
 	\text{Sum/Difference of Two Functions:} &&& d(u\pm v) = du\pm dv \\
 	\text{Product of Two Functions:} &&& d(uv) = u\,dv + v\,du \\

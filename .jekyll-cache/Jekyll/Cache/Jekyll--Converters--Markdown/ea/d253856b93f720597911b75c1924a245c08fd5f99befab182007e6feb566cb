@@ -1,4 +1,4 @@
-I"�<p>Derivative is the rate of change of a variable with respect to another. In <a href="../DC-3.1-introduction-to-derivatives">Chapter 3</a>, we have established that the derivative $dy/dx$ is not referred as a ratio but a limit of the ratio $\Delta y / \Delta x$ as $\Delta x$ approaches zero. On the other hand, the <strong>differential</strong> simply means an <strong>infinitely small amount of change</strong> which can be useful to approximate the amount of change of the function. The notation $dy$ or $dx$ alone are called <strong>differentials</strong>, the symbol $d$ before the variable is read “differential of.’’</p>
+I"'<p>Derivative is the rate of change of a variable with respect to another. In <a href="../DC-3.1-introduction-to-derivatives">Chapter 3</a>, we have established that the derivative $dy/dx$ is not referred as a ratio but a limit of the ratio $\Delta y / \Delta x$ as $\Delta x$ approaches zero. On the other hand, the <strong>differential</strong> simply means an <strong>infinitely small amount of change</strong> which can be useful to approximate the amount of change of the function. The notation $dy$ or $dx$ alone are called <strong>differentials</strong>, the symbol $d$ before the variable is read “differential of.’’</p>
 
 <p>Given the function $y=f(x)\,dx$, its differential is denoted as,</p>
 
@@ -31,6 +31,7 @@ padding:10px;
 margin:5px;">
     $$\begin{align}
 	\text{Constant:} &amp;&amp;&amp; d(c) = 0 \\
+	\text{Variable:} &amp;&amp;&amp; d(x) = dx \\
 	\text{Constant Multiple:} &amp;&amp;&amp; d(cu) = c\,du \\
 	\text{Sum/Difference of Two Functions:} &amp;&amp;&amp; d(u\pm v) = du\pm dv \\
 	\text{Product of Two Functions:} &amp;&amp;&amp; d(uv) = u\,dv + v\,du \\
