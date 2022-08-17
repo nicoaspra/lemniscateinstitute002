@@ -1,0 +1,8 @@
+I"¾
+\[Since $\sqrt{5}$ is a constant, its derivative is equal to zero.
+\begin{align*}
+	\ddx{(y)} &amp;= \ddx\br{ \sqrt{5} }  \quad \tcA{\ddx (c) = 0} \\
+	\dydx &amp;= 0	\tagans
+\end{align*}\]
+
+:ET

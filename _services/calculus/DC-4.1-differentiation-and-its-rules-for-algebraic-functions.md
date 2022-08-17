@@ -76,13 +76,18 @@ The derivative of the quotient of two functions is equal to the product of the d
 $\example{1}$
 Differentiate the function $y = \sqrt{5}$
 
-$\solution$\\
+{% capture include_content %}
+Since $\sqrt{5}$ is a constant, its derivative is equal to zero.
+
 $$
 \begin{align*}
 	\ddx{(y)} &= \ddx\br{ \sqrt{5} }  \quad \tcA{\ddx (c) = 0} \\
 	\dydx &= 0	\tagans
 \end{align*}
 $$
+
+{% endcapture %}
+{% include solution.html details = include_content %}
 
 
 
@@ -91,7 +96,7 @@ $$
 $\example{2}$
 Differentiate the function $y=7x^3$
 
-$\solution$\\
+{% capture include_content %}
 Apply the Power Rule. Multiply the term by the exponent 3, then subtract 1 to the exponent,
 $$
 \begin{align*}
@@ -101,6 +106,9 @@ $$
 \end{align*}
 $$
 
+{% endcapture %}
+{% include solution.html details = include_content %}
+
 
 
 
@@ -109,7 +117,7 @@ $$
 $\example{3}$
 Differentiate the function $y=5x^2+3x$
 
-$\solution$\\
+{% capture include_content %}
 Apply the Sum Rule along with the Power Rule,
 $$
 \begin{align*}
@@ -121,13 +129,16 @@ $$
 \end{align*}
 $$
 
+{% endcapture %}
+{% include solution.html details = include_content %}
+
 
 
 ---
 $\example{4}$
 Differentiate the function $y = x^3+7x^{-6}-2x^5+\frac{\pi}{3}$
 
-$\solution$
+{% capture include_content %}
 $$
 \begin{align*}
 	\ddx{(y)} &= \ddx\br{ x^3+7x^{-6}-2x^5+\frac{\pi}{3} } \\
@@ -137,13 +148,16 @@ $$
 \end{align*}
 $$
 
+{% endcapture %}
+{% include solution.html details = include_content %}
+
 
 
 ---
 $\example{5}$
 Differentiate the function $w = \frac{1}{t^2}-\frac{1}{t^5}$
 
-$\solution$
+{% capture include_content %}
 $$
 \begin{align*}
 	\frac{d}{dt}(w) &= \frac{d}{dt}\br{ \frac{1}{t^2}-\frac{1}{t^5} } \\
@@ -154,6 +168,10 @@ $$
 \end{align*}
 $$
 
+{% endcapture %}
+{% include solution.html details = include_content %}
+
+
 
 
 
@@ -161,7 +179,7 @@ $$
 $\example{6}$
 Differentiate the function $x = 2\sqrt[3]{y}-\frac{5}{y^{1/2}}$
 
-$\solution$\\
+{% capture include_content %}
 Express the radical as a power with a rational exponent,
 $$
 \begin{align*}
@@ -176,18 +194,22 @@ $$
 \end{align*}
 $$
 
+{% endcapture %}
+{% include solution.html details = include_content %}
+
 
 
 ---
 $\example{7}$
 Determine the slope of the function $y=(x^2+1)(3x-2)$ at $(1,2)$
 
-$\solution$\\
+{% capture include_content %}
 Apply the Product Rule,
 $$
 \begin{align*}
 	\ddx{(y)} &= \ddx\brk{ (x^2+1)(3x-2) } \\
-	\dydx &= (x^2+1) \cdot\ddx(3x-2)+(3x-2) \cdot\ddx(x^2+1) 	\; \tcA{\ddx(uv) = u \frac{dv}{dx} + v \frac{du}{dx}} \\
+	% \dydx &= \ubrace{(x^2+1)}{$\tcA{u}$} \cdot\ddx(3x-2)+(3x-2) \cdot\ddx(x^2+1) 	\; \tcA{\ddx(uv) = u \frac{dv}{dx} + v \frac{du}{dx}} \\
+	\dydx &= \ubrace{(x^2+1)}{$\tcA{u}$} \cdot \ubrace{\ddx(3x-2)}{$\tcA{dv/dx}$} + \ubrace{(3x-2)}{$\tcA{v}$} \cdot \ubrace{\ddx(x^2+1)}{$\tcA{du/dx}$} 	\\ %\; \tcA{\ddx(uv) = u \frac{dv}{dx} + v \frac{du}{dx}} \\
 	&= (x^2+1)(3)+(3x-2)(2x) \\
 	&= 3x^2+3+6x^2-4x \\
 	&= 9x^2-4x+3
@@ -203,6 +225,9 @@ $$
 \end{align*}
 $$
 
+{% endcapture %}
+{% include solution.html details = include_content %}
+
 
 
 
@@ -210,17 +235,22 @@ $$
 $\example{8}$
 Differentiate the function $z = \frac{w^3+2w}{3w-2}$
 
-$\solution$\\
+{% capture include_content %}
 Apply the Quotient Rule,
 $$
 \begin{align*}
 	\frac{d}{dw}(z) &= \frac{d}{dw}\br{ \frac{w^3+2w}{3w-2} } \\
-	\frac{dz}{dw} &= \frac{(3w-2) \cdot\dfrac{d}{dw}(w^3+2w)-(w^3+2w) \cdot\dfrac{d}{dw}(3w-2)}{(3w-2)^2}	\quad \tcA{\ddx\br{\frac{u}{v}} = \frac{v\dfrac{du}{dx} - u\dfrac{dv}{dx}}{v^2}} \\
+	\frac{dz}{dw} &= \frac{(3w-2) \cdot\dfrac{d}{dw}(w^3+2w)-(w^3+2w) \cdot\dfrac{d}{dw}(3w-2)}{(3w-2)^2}	\\ %\quad \tcA{\ddx\br{\frac{u}{v}} = \frac{v\dfrac{du}{dx} - u\dfrac{dv}{dx}}{v^2}} \\
 	&= \frac{(3w-2)(3w^2+2)-(w^3+2w)(3)}{(3w-2)^2} \\
 	&= \frac{(9w^3+6w-6w^2-4)-(3w^3+6w)}{(3w-2)^2} \\
 	&= \frac{6w^3-6w^2-4}{(3w-2)^2}		\tagans
 \end{align*}
 $$
+
+{% endcapture %}
+{% include solution.html details = include_content %}
+
+
 
 
 
@@ -229,8 +259,9 @@ $$
 $\example{9}$
 Differentiate the function $y = \frac{(2x+1)(x+2)}{x+1}$
 
-$\solution$\\
+{% capture include_content %}
 Expand the numerator,
+
 $$
 \begin{align*}
 	y &= \frac{2x^2+4x+x+2}{x+1} \\
@@ -248,3 +279,6 @@ $$
 	&= \frac{2x^2+4x+3}{(x+1)^2}		\tagans
 \end{align*}
 $$
+
+{% endcapture %}
+{% include solution.html details = include_content %}

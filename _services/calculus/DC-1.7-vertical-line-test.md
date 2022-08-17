@@ -71,7 +71,7 @@ Since the vertical line intersects the graph at only one point, it is a **FUNCTI
 
 
 
-
+---
 $\example{3}$
 Determine if the given curve represents a function or not.
 

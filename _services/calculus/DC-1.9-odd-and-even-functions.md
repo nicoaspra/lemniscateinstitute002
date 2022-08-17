@@ -35,7 +35,7 @@ In order to identify algebraically if a function is odd, even or neither, we nee
 $\example{1}$
 Determine whether the function $f(x)=x^4+2x^2-3$ is odd, even, or neither
 
-$\solution$ \\
+{% capture include_content %}
 Replace $x$ with $-x$,
 
 $$
@@ -61,6 +61,8 @@ Hence, the function is **Even**
     size= "250px"
 %}
 
+{% endcapture %}
+{% include solution.html details = include_content %}
 
 
 
@@ -68,7 +70,7 @@ Hence, the function is **Even**
 $\example{2}$
 Determine whether the function $g(x)=5x^3-3x$ is odd, even, or neither
 
-$\solution$ \\
+{% capture include_content %}
 Replace $x$ with $-x$,
 
 $$
@@ -94,6 +96,8 @@ Hence, the function is **Odd**
     size= "250px"
 %}
 
+{% endcapture %}
+{% include solution.html details = include_content %}
 
 
 
@@ -102,7 +106,7 @@ Hence, the function is **Odd**
 $\example{3}$
 Determine whether the function $\phi(x)=-2x^5+2x^3$ is odd, even, or neither
 
-$\solution$ \\
+{% capture include_content %}
 Replace $x$ with $-x$,
 
 $$
@@ -128,6 +132,8 @@ Hence, the function is **Odd**
     size= "250px"
 %}
 
+{% endcapture %}
+{% include solution.html details = include_content %}
 
 
 
@@ -138,7 +144,7 @@ Hence, the function is **Odd**
 $\example{4}$
 Determine whether the function $F(x)=\frac{8}{x^2+3}$ is odd, even, or neither
 
-$\solution$ \\
+{% capture include_content %}
 Replace $x$ with $-x$,
 
 $$
@@ -156,13 +162,21 @@ Hence, the function is **Even**
     size= "250px"
 %}
 
+{% endcapture %}
+{% include solution.html details = include_content %}
+
+
+
+
+
+
 
 
 ---
 $\example{5}$
 Determine whether $h(x)=2x^3-x^2-5x+2$ is odd, even, or neither
 
-$\solution$ \\
+{% capture include_content %}
 Replace $x$ with $-x$,
 
 $$
@@ -179,3 +193,6 @@ $h(-x) \neq h(x)$   and  $h(-x) \neq -h(x)$  hence, the function is **neither od
     url= "DC/DC-1.9.6.png" 
     size= "250px"
 %}
+
+{% endcapture %}
+{% include solution.html details = include_content %}

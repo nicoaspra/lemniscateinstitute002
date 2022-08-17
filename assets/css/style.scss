@@ -94,18 +94,21 @@ body {
 //
 // <details> tag
 //
-$details-background-color: rgba(208, 47, 93, .1);
+$details-background-color: rgba(208, 47, 93, .05);
+$details-border-color: rgba(208, 47, 93, .5);
 
 details {
-    background: $details-background-color;
+    // background: $details-background-color;
     border-radius: 6px;
     padding: 2px 2px 2px 10px;
     // margin-bottom: 15px;
 }
 details[open] {
-    background: $details-background-color;
-    padding: 2px 2px 2px 10px;
+    border: 2px dotted;
+    border-color: $details-border-color;
+    padding: 2px 2px 2px 2px;
     margin: 0px 0px 0px 0px;
+    // margin-left: 10px;
 }
 summary {
     margin: 0px 0px 0px 0px;
@@ -114,7 +117,26 @@ summary {
 }
 details summary {
     color: $primary;
+    background: $details-background-color;
+    border-radius: 6px;
+    padding: 2px 2px 2px 10px;
+    margin: 0px 0px 0px 0px;
 }
+
+details[open] > summary {
+  background: $details-background-color;
+  border-radius: 6px;
+  padding: 2px 2px 2px 10px;
+  margin: 0px 0px 0px 0px;
+}
+// open summary
+// details > summary {
+//   background: $details-background-color;
+//   border-radius: 6px;
+//   padding: 2px 2px 2px 10px;
+//   margin: 0px 0px 0px 0px;
+// }
+
 
 
 
