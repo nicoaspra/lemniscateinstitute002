@@ -22,7 +22,7 @@ From the given graph, find:
 %}
 
 
-$\solution$ \\
+{% capture include_content %}
 To evaluate functions from a graph, remember that $y=f(x)$, so $f(2)$ means that the $x$-coordinate is 2, and if we substitute it to the function we would get its $y$-coordinate. See the figure below.
 
 {% include images.html 
@@ -36,6 +36,10 @@ Hence, \\
 **b.** $ f(5) =1$ \\
 **c.** $ f(-6) =-2$ \\
 **d.** $ f(-4) =3$
+
+{% endcapture %}
+{% include solution.html details = include_content %}
+
 
 
 
@@ -58,7 +62,7 @@ From the given graph, find:
 %}
 
 
-$\solution$ \\
+{% capture include_content %}
 In this problem, the solution is similar to the previous example. However, we will only be applying an additional competency that we have learned in the [Combination of Functions](..\DC-1.3-combining-functions).
 
 $\For{a}$ \\
@@ -101,3 +105,5 @@ $$
 \end{align*}
 $$
 
+{% endcapture %}
+{% include solution.html details = include_content %}

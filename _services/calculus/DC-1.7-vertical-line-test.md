@@ -28,7 +28,7 @@ Determine if the given curve represents a function or not.
 %}
 
 
-$\solution$ \\
+{% capture include_content %}
 Use the Vertical Line Test,
 
 {% include images.html 
@@ -38,6 +38,8 @@ Use the Vertical Line Test,
 
 Since the vertical line intersects the graph more than once, it is **NOT A FUNCTION**.
 
+{% endcapture %}
+{% include solution.html details = include_content %}
 
 
 
@@ -53,7 +55,7 @@ Determine if the given curve represents a function or not.
 
 
 
-$\solution$ \\
+{% capture include_content %}
 Use the Vertical Line Test,
 
 {% include images.html 
@@ -63,7 +65,8 @@ Use the Vertical Line Test,
 
 Since the vertical line intersects the graph at only one point, it is a **FUNCTION**.
 
-
+{% endcapture %}
+{% include solution.html details = include_content %}
 
 
 
@@ -78,7 +81,7 @@ Determine if the given curve represents a function or not.
 %}
 
 
-$\solution$ \\
+{% capture include_content %}
 Use the Vertical Line Test,
 
 {% include images.html 
@@ -87,3 +90,6 @@ Use the Vertical Line Test,
 %}
 
 Since the vertical line intersects the graph more than once, it is **NOT A FUNCTION**.
+
+{% endcapture %}
+{% include solution.html details = include_content %}

@@ -24,7 +24,7 @@ Functions can be expressed in various ways, including **symbolic** representatio
 $\example{1}$ 
 Determine $y=2x+1$ if $x=5$.
 
-$\solution$ \
+{% include solution.html details = "
 Replace $x$ with 5 to the equation,
 
 $$
@@ -37,6 +37,9 @@ $$
 $$
 
 Hence, if the input is 5 then the output of the function is 11
+
+"
+%}
 
 ---
 
@@ -139,8 +142,8 @@ b. $y=\sqrt{x+3}$
 c. $y^2=3x-5$           
 
 
-$\solution$ \
-$\For{a}$ \
+{% include solution.html details = "
+$\For{a}$ \\
 For an equation to be considered a function, there must only be one output for every input. Say if we replace $x$ with 1
 
 $$
@@ -154,7 +157,7 @@ $$
 The output is 3. And even if we replace $x$ with any value, there is only one possible output, therefore $y=2x^2+1$ is a $\tcAal{function}$.
 
 
-$\For{b}$ \
+$\For{b}$ \\
 All positive real numbers has two square roots, so if we replace $x$ with 6,
 
 $$
@@ -169,7 +172,7 @@ $$
 The outputs are $3$ and $-3$. So since a single input has two possible outputs, $y=\sqrt{x+3}$ is $\tcAal{not a function}$
 
 
-$\For{c}$ \
+$\For{c}$ \\
 This case is almost the same as the second example, if we isolate $y$ from one side,
 
 $$
@@ -182,7 +185,8 @@ $$
 Hence, $y^2=3x-5$ is also $\tcAal{not a function}$
 
 
-
+"
+%}
 
 
 

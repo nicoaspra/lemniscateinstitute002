@@ -42,7 +42,7 @@ This topic may have been covered in previous prerequisite courses. However, to r
 $\example{1}$
 Graph the equation of the line $y=-x+3$
 
-$\solution$ \\
+{% capture include_content %}
 There are a lot of ways of plotting a graph in a cartesian plane, but one of the simplest method is by assigning values to the independent variable, which in this case is $x$,
 
 $$
@@ -60,6 +60,10 @@ Trace the points on the cartesian plane after plotting them.
     size= "250px"
 %}
 
+{% endcapture %}
+{% include solution.html details = include_content %}
+
+
 
 
 
@@ -67,7 +71,7 @@ Trace the points on the cartesian plane after plotting them.
 $\example{2}$
 Express the volume of a cube as a function of the length of its edge. Graph the function.
 
-$\solution$ \\
+{% capture include_content %}
 $\text{Let: } V = \text{volume of the cube} $ \\
 $\phantom{\text{Let: }} x = \text{length of an edge of the cube}$
 
@@ -96,6 +100,10 @@ Plot the points on the cartesian plane,
     size= "250px"
 %}
 	
+{% endcapture %}
+{% include solution.html details = include_content %}
+
+
 
 
 
@@ -103,7 +111,7 @@ Plot the points on the cartesian plane,
 $\example{3}$
 Express the length of the edge of a cube as a function of its volume. Graph the function.
 
-$\solution$ \\
+{% capture include_content %}
 $\text{Let: } V = \text{volume of the cube} $ \\
 $\phantom{\text{Let: }} x = \text{length of an edge of the cube}$
 
@@ -131,14 +139,18 @@ Plot the points on the cartesian plane,
     size= "250px"
 %}
 
+{% endcapture %}
+{% include solution.html details = include_content %}
 
 
 
 
+
+---
 $\example{4}$
 A right triangle has a hypotenuse of 5 cm. Express its area as a function of its base. Graph the function.
 
-$\solution$ \\
+{% capture include_content %}
 $\text{Let: } A = \text{area} $ \\
 $\phantom{\text{Let: }} a = \text{altitude}$ \\
 $\phantom{\text{Let: }} b = \text{base}$ \\
@@ -184,3 +196,5 @@ Plot the points on the cartesian plane,
     size= "250px"
 %}
 
+{% endcapture %}
+{% include solution.html details = include_content %}

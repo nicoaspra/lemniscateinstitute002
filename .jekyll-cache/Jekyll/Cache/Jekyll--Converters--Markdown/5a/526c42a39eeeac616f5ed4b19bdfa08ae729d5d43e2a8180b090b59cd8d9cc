@@ -1,0 +1,34 @@
+I"Ÿ
+<p>$\For{a}$ <br />
+Since $g(3)$ is required, we can quickly identify what function is the question relating to, 
+\(\begin{align*}
+	g(x) &amp;= x^2-3 \\
+	g(3) &amp;= (3)^2-3 \\
+	&amp;= 6		\tagans
+\end{align*}\)</p>
+
+<p>$\For{b}$ <br />
+Replace $x$ with $-2x$
+\(\begin{align*}
+	g(x) &amp;= x^2-3 \\
+	g(-2x) &amp;= (-2x)^2-3 \\
+	&amp;= 4x^2-3		\tagans
+\end{align*}\)</p>
+
+<p>$\For{c}$ <br />
+Replace $x$ with $-5$
+\(\begin{align*}
+	h(x) &amp;= 7-2x \\
+	h(-5) &amp;= 7-2(-5) \\
+	&amp;= 17		\tagans
+\end{align*}\)</p>
+
+<p>$\For{d}$ <br />
+Replace $x$ with $3x-y$
+\(\begin{align*}
+	h(x) &amp;= 7-2x \\
+	h(3x-y) &amp;= 7-2(3x-y) \\
+	&amp;= 7-6x+2y	\tagans
+\end{align*}\)</p>
+
+:ET

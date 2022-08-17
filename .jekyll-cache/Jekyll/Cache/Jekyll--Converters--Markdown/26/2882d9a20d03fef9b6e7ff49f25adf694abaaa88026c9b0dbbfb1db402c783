@@ -1,0 +1,32 @@
+I"Œ
+<p>$\solution$ <br />
+In this case, the composed function is one of the given,<br />
+\(\begin{align*}
+	f(g(x)) &amp;= x
+\end{align*}\)</p>
+
+<p>Start with $f(x)$</p>
+
+\[\begin{align*}
+	f(x) &amp;= \frac{2}{x+1} \\
+	f(g(x)) &amp;= \frac{2}{ g(x) +1}
+\end{align*}\]
+
+<p>Since $f(g(x))=x$,</p>
+
+\[\begin{align*}
+	\frac{2}{ g(x) +1} &amp;= x \\
+	g(x) +1 &amp;= \frac{2}{x} \\
+	g(x) &amp;= \frac{2}{x} -1		\tag*{(ans.)}
+\end{align*}\]
+
+<p>You can check your answer by composing the function,</p>
+
+\[\begin{align*}
+	f(x) &amp;= \frac{2}{x+1} \\
+	f(g(x)) &amp;= 	\frac{2}{\br{ \frac{2}{x} -1 }+1} \\
+	&amp;= \frac{2}{\frac{2}{x}} \\
+	&amp;= x
+\end{align*}\]
+
+:ET

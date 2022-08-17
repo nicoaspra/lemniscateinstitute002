@@ -57,7 +57,7 @@ If $ f(x)=x+2 $ and $ g(x)=x-1 $, find:
 **e.** $ \br{ \frac{f}{g} } (x) $,
 **f.** $ \br{ \frac{g}{f} } (x) $
 
-$\solution$\\
+{% include solution.html details = "
 $\For{a}$ \\
 Use Equation 1,
 
@@ -133,7 +133,7 @@ $$
 \end{align*} 
 $$
 	
-	
+"%}
 	
 
 
@@ -149,7 +149,7 @@ If $ f(x)=x^2+2x $ and $ g(x)=x+1 $, find:
 **f.** $ \br{ \frac{g}{f} } \br{ -\frac{1}{2} } $	
 	
 	
-$\solution$ \\
+{% include solution.html details = "
 $\For{a}$ \\
 Use Equation 1,
 
@@ -234,3 +234,5 @@ $$
 	&= -\frac{2}{3}		\tagans
 \end{align*}
 $$
+
+"%}

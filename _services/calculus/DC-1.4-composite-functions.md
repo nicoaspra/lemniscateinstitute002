@@ -71,7 +71,7 @@ If $ f(x)=x^2 $ and $ g(x)=x+1 $, find:
 
 
 
-$\solution$ \\
+{% include solution.html details = "
 $\For{a}$ \\
 $$
 \begin{align*}
@@ -118,6 +118,10 @@ $$
 \end{align*} 
 $$
 
+"%}
+
+
+
 	
 ---
 $\example{2}$ 
@@ -127,7 +131,7 @@ If $ g(x)= 2x+1$ and $ h(x)=3-x^2$, find:
 **c.** $ g(g(-3)) $,
 **d.** $ h(h(1/2)) $
 
-$\solution$ \\
+{% include solution.html details = "
 $\For{a}$ \\
 $$
 \begin{align*}
@@ -176,6 +180,11 @@ $$
 \end{align*} 
 $$
 
+"%}
+
+
+
+
 
 ---
 $\example{3}$
@@ -188,7 +197,7 @@ If $ f(x)=x+3$, $ g(x)=(x+1)^2$ and $ h(x)=\frac{1}{x}$, find:
 **f.** $ g(f(h(1/2))) $
 
 
-$\solution$ \\
+{% include solution.html details = "
 $\For{a}$ \\
 $$
 \begin{align*}
@@ -262,6 +271,8 @@ $$
 \end{align*} 
 $$
 
+"%}
+
 
 
 
@@ -269,7 +280,7 @@ $$
 $\example{4}$
 If $ f(x)= \frac{2}{x+1}$ and $ f(g(x))=x$, determine $g(x)$.
 
-$\solution$ \\
+{% include solution.html details = "
 In this case, the composed function is one of the given,  
 $$
 \begin{align*}
@@ -306,3 +317,5 @@ $$
 	&= x
 \end{align*}
 $$
+
+"%}

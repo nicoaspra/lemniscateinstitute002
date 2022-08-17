@@ -39,7 +39,7 @@ d. $f(y)$,
 e. $f(x-y)$
 
 
-$\solution$ \\
+{% include solution.html details = "
 $\For{a}$ \\
 Replace $x$ with $0$
 
@@ -94,7 +94,12 @@ $$
 		      &= 3x^2-6xy+3y^2+2x-2y+5		\tagans
 	\end{align*}
 $$
-		
+
+"
+%}
+
+
+
 ---	
 
 
@@ -125,7 +130,7 @@ d. $h(3x-y)$
 
 
 
-$\solution$ \\
+{% include solution.html details = "
 $\For{a}$ \\
 Since $g(3)$ is required, we can quickly identify what function is the question relating to, 
 $$
@@ -166,16 +171,15 @@ $$
 \end{align*}
 $$
 
+"
+%}
 
 
 ---
-
-
-
 $\example{3}$ \\
 Let $h(y)=7-4y-3y^2$, find $h(-4)$
 
-$\solution$ \\
+{% include solution.html details = "
 Replace $y$ with $-4$
 $$
 \begin{align*}
@@ -186,14 +190,15 @@ $$
 \end{align*}
 $$
 
+"
+%}
+
 
 ---
-
-
 $\example{4}$
 If $v(t)=3t+7$ and $v(t)=19$, find $t$
 
-$\solution$ \\
+{% include solution.html details = "
 In this example, the output of the function is given, and the input $t$ is required,
 
 $$
@@ -211,3 +216,6 @@ $$
 	t &= 4	\tagans
 \end{align*}
 $$
+
+"
+%}
