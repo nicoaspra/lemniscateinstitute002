@@ -1,5 +1,5 @@
 ---
-title: "Engr. Nico O. Aspra, ME, RMP"
+title: "Engr. Nico O. Aspra, M.Eng, RMP"
 date: 2018-11-19T10:47:58+10:00
 draft: false
 image: "images/team/nico-aspra-photo.png"
@@ -11,4 +11,12 @@ layout: team
 permalink: /authors/engr-nico-o-aspra
 ---
 
-Nico Aspra is a registered and licensed Mechanical Engineer and licensed Master Plumber. He is a lecturer and researcher in the Mechanical Technology Department at Bicol University. He also serves as an affiliate lecturer of the Mechanical Engineering Department at the College of Engineering. He also has presented papers at conferences held in both local and international settings. His research and publication interests include engineering education and innovative designs of mechanical devices.
+
+
+
+Nico Aspra is a registered Mechanical Engineer and Master Plumber. He also has a Master's Degree major in Mechanical Engineering. 
+
+After passing the board exam, he was offered the chance to teach at his alma mater, where he gained an appreciation for teaching and working with students to achieve their desired degrees. He is currently a faculty member at the Department of Mechanical Technology at Bicol University. He also serves as an affiliate lecturer in the Mechanical Engineering Department at the College of Engineering.
+
+
+
