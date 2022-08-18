@@ -1,0 +1,12 @@
+I"w
+<p>Factor both the numerator and the denominator,</p>
+
+\[\begin{align*}
+	\lim_{y \to 2}{ \sqrt{ \frac{y^3-y^2-y-2}{2y^3-5y^2+5y-6} } }
+		&amp;=  \lim_{y \to 2}{ \sqrt{ \frac{ \cancel{(y-2)}(y^2+y+1)}{ \cancel{(y-2)}(2y^2-y+3)} } }  \\
+		&amp;=  \sqrt{ \frac{(2)^2+2+1}{2(2)^2-2+3} } \\
+		&amp;= \sqrt{ \frac{7}{9} } \\
+		&amp;= \frac{ \sqrt{7} }{3}		\tagans
+\end{align*}\]
+
+:ET

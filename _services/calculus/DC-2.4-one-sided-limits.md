@@ -84,11 +84,7 @@ Evaluate the following limits based from the graph. \\
 %}
 
 
-
-
-
-
-$\solution$ \\
+{% capture include_content %}
 $\For{a}$\\
 To evaluate the **left-hand limit** of the function as $x$ approaches $2^-$, trace the graph from the **left side** of $x=2$. Then determine the corresponding output value, which in this case is 1. Hence,
 
@@ -122,8 +118,6 @@ $$
 
 
 
-
-
 $\For{c}$\\
 Since both the left and right hand limits approaches the same value at $x=2$. Use Equation 3,
 
@@ -141,12 +135,16 @@ $$
 %}
 
 
+{% endcapture %}
+{% include solution.html details = include_content %}
 
 
 
 
 
 
+
+---
 $\example{2}$ \\
 Evaluate the following limits based from the graph. \\
 **a.** $\lim_{x \to 1^-}f(x)$ \\
@@ -160,9 +158,7 @@ Evaluate the following limits based from the graph. \\
 
 
 
-
-
-$\solution$ \\
+{% capture include_content %}
 $\For{a}$\\
 To evaluate the **left-hand limit** of the function as $x$ approaches $1^-$, trace the graph from the **left side** of $x=1$. Then determine the corresponding output value, which in this case is $-1$. Hence,
 
@@ -177,8 +173,6 @@ $$
     url= "DC/DC-2.4.7.png" 
     size= "220px"
 %}
-
-
 
 
 
@@ -209,9 +203,14 @@ $$
 \end{align*}
 $$
 
+{% endcapture %}
+{% include solution.html details = include_content %}
 
 
 
+
+
+---
 $\example{3}$ \\
 Evaluate the following limits based from the graph. \\
 **a.** $\lim_{x \to -2^-}f(x)$ \\
@@ -228,8 +227,7 @@ Evaluate the following limits based from the graph. \\
 %}
 
 
-
-$\solution$ \\
+{% capture include_content %}
 $\For{a}$ \\
 To evaluate the **left-hand limit** of the function as $x$ approaches $-2^-$, trace the graph from the **left side** of $x=-2$. In this case, the function is approaching to positive infinity. Hence,
 
@@ -306,7 +304,8 @@ $$
 \end{align*}
 $$
 
-
+{% endcapture %}
+{% include solution.html details = include_content %}
 
 
 

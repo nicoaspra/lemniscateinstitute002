@@ -52,7 +52,7 @@ Instantaneous velocity can be represented as the derivative of the function at a
 $\example{1}$
 What is the instantaneous velocity of a car at $t= 5$ sec if its displacement is defined by the equation: $s=2t^2+3t-5$ meters.
 
-$\solution$ \\
+{% capture include_content %}
 From the given equation, the displacement is a function of its time. To determine the instantaneous velocity of the car at a specific instant, differentiate the function with respect to time,
 
 $$
@@ -75,6 +75,14 @@ $$
 \end{align*}
 $$
 
+{% endcapture %}
+{% include solution.html details = include_content %}
+
+
+
+
+
+
 
 
 
@@ -82,7 +90,7 @@ $$
 $\example{2}$
 A ball is thrown vertically upward with the displacement from its initial point defined by the equation: $s=160t-16t^2$ ft, what is the height of the ball in ft. at the moment it stopped rising?
 
-$\solution$\\
+{% capture include_content %}
 When a ball is thrown upward, it will eventually stop rising at its peak. And the instantaneous velocity of the ball when it reaches its peak is zero.
 
 {% include images.html 
@@ -123,4 +131,7 @@ $$
 $$
 
 
-Hence, the ball will stop rising after it reaches the height of 400 ft.
+Hence, the ball **will stop rising** after it reaches the height of **400 ft**.
+
+{% endcapture %}
+{% include solution.html details = include_content %}

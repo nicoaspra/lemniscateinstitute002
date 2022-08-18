@@ -1,0 +1,14 @@
+I"Ê
+<p>Differentiate the function four (4) times,
+\(\begin{align*}
+	\ddx\br{y} &amp;= \ddx\br{x^5-3x^4+7x^2+5} \\
+	\dydx &amp;= 5x^4-12x^3+14x \\
+	\ddx\br{\dydx} &amp;= \ddx\br{5x^4-12x^3+14x} \\
+	\frac{d^2y}{dx^2} &amp;= 20x^3-36x^2+14 \\
+	\ddx\br{\frac{d^2y}{dx^2}} &amp;= \ddx\br{20x^3-36x^2+14} \\
+	\frac{d^3y}{dx^3} &amp;= 60x^2-72x \\
+	\ddx\br{\frac{d^3y}{dx^3}} &amp;= \ddx\br{60x^2-72x} \\
+	\frac{d^4y}{dx^4} &amp;= 120x-72		\tagans
+\end{align*}\)</p>
+
+:ET

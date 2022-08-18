@@ -51,7 +51,7 @@ $\example{1}$
 Determine the slope of the line $y=2x-3$.
 
 
-$\solution$ \\
+{% capture include_content %}
 Differentiate $y$ with respect to $x$,
 
 $$
@@ -87,6 +87,12 @@ $$
 
 Since the function represents a line, the slope remains constant which is equal to 2 anywhere on the curve.
 
+{% endcapture %}
+{% include solution.html details = include_content %}
+
+
+
+
 
 
 
@@ -95,7 +101,7 @@ $\example{2}$
 Determine the slope of the curve $y=3x^2+5x-2$ at $(-2,0)$.
 
 
-$\solution$\\
+{% capture include_content %}
 Differentiate $y$ with respect to $x$,
 
 $$
@@ -131,6 +137,12 @@ $$
     size= "250px"
 %}
 
+{% endcapture %}
+{% include solution.html details = include_content %}
+
+
+
+
 
 
 
@@ -139,7 +151,7 @@ $\example{3}$
 Find $y'(-1)$ of the curve $y=\frac{3}{x^2+2}$
 
 
-$\solution$ \\
+{% capture include_content %}
 Differentiate $y$ with respect to $x$,
 
 $$
@@ -179,6 +191,8 @@ $$
     size= "250px"
 %}
 
+{% endcapture %}
+{% include solution.html details = include_content %}
 
 
 
@@ -191,7 +205,7 @@ $\example{4}$
 Determine the slope of the curve $y^2=2x+7$ at $y=3$.
 
 
-$\solution$\\
+{% capture include_content %}
 Differentiate $y$ with respect to $x$,
 
 $$
@@ -248,11 +262,17 @@ $$
 $$
 
 
-
 {% include images.html 
     url= "DC/DC-3.3.6.png" 
     size= "250px"
 %}
+
+{% endcapture %}
+{% include solution.html details = include_content %}
+
+
+
+
 
 
 
@@ -262,7 +282,7 @@ $\example{5}$
 Determine the slope of the curve $y=x^3-1$ where the curve intersects the $x$-axis.
 
 
-$\solution$ \\
+{% capture include_content %}
 Differentiate $y$ with respect to $x$,
 
 $$
@@ -299,3 +319,5 @@ $$
     size= "250px"
 %}
 
+{% endcapture %}
+{% include solution.html details = include_content %}

@@ -55,7 +55,7 @@ As you may have realized, there is only a small difference between the formulas 
 $\example{1}$
 Find the differential of the function $y = \sin 5x$
 
-$\solution$\\
+{% capture include_content %}
 To solve for the derivative of the function, use $\eref{eq:derivative of sin}$,
 
 $$
@@ -67,13 +67,23 @@ $$
 \end{align*}
 $$
 
+{% endcapture %}
+{% include solution.html details = include_content %}
+
+
+
+
+
+
+
 ---
 $\example{2}$
 Determine the second derivative of the function
 $y = \cos(3-2x)$
 
-$\solution$\\
-We can utilize differential formulas to differentiate functions and still get the same result as differentiating them. In this example, use $\eref{eq:derivative of cos}$,
+{% capture include_content %}
+<!-- We can utilize differential formulas to differentiate functions and still get the same result as differentiating them.  -->
+In this example, use $\eref{eq:derivative of cos}$,
 
 $$
 \begin{align*}
@@ -97,6 +107,12 @@ $$
 \end{align*}
 $$
 
+{% endcapture %}
+{% include solution.html details = include_content %}
+
+
+
+
 
 
 
@@ -105,7 +121,7 @@ $$
 $\example{3}$
 Differentiate the function with respect to $\theta$: $x = \sec{2\theta}+\tan{3\theta}$
 
-$\solution$\\
+{% capture include_content %}
 To solve for the derivative of the function, use $\tcAal{Equations \ref{eq:differential of sec} and \ref{eq:differential of tan}}$,
 
 $$
@@ -118,13 +134,22 @@ $$
 \end{align*}
 $$
 
+{% endcapture %}
+{% include solution.html details = include_content %}
+
+
+
+
+
+
+
 
 ---
 $\example{4}$
 Find the derivative of $x$ with respect to $y$ of the function
 $y = \tan x-x$
 
-$\solution$\\
+{% capture include_content %}
 To solve for the derivative of the function, use $\eref{eq:differential of tan}$,
 
 $$
@@ -161,6 +186,14 @@ $$
 \end{align*}
 $$
 
+{% endcapture %}
+{% include solution.html details = include_content %}
+
+
+
+
+
+
 
 
 
@@ -168,7 +201,7 @@ $$
 $\example{5}$
 Differentiate the function with respect to $t$. $w = t^5\csc 4t$
 
-$\solution$ \\
+{% capture include_content %}
 In this example, before we can use a differential formula for trigonometric function, we first need to apply the Product Rule.
 
 $$
@@ -181,12 +214,20 @@ $$
 \end{align*}
 $$
 
+{% endcapture %}
+{% include solution.html details = include_content %}
+
+
+
+
+
+
 
 ---
 $\example{6}$
 Find the differential of the function $v = \sec^2\br{\frac{x}{6}}$
 
-$\solution$ \\
+{% capture include_content %}
 In this example, we can recall that $\sec^2\br{\frac{x}{6}}$ can also be expressed as $\brk{\sec\br{\frac{x}{6}}}^2$. With this in mind, we can use the power rule to differentiate the function.
 
 $$
@@ -199,13 +240,23 @@ $$
 \end{align*}
 $$
 
+{% endcapture %}
+{% include solution.html details = include_content %}
+
+
+
+
+
+
 
 
 ---
 $\example{7}$
 Let $a$ be hold constant. Determine the third derivative of the function $y = \cos ax$
 
-$\solution$ 
+{% capture include_content %}
+
+In this example, $a$ is treated as a constant. Thus,
 
 $$
 \begin{align*}
@@ -237,6 +288,12 @@ $$
 \end{align*}
 $$
 
+{% endcapture %}
+{% include solution.html details = include_content %}
+
+
+
+
 
 
 
@@ -244,7 +301,7 @@ $$
 $\example{8}$
 Determine the $y'$ of the function $s = \sec(\sin t)$
 
-$\solution$ \\
+{% capture include_content %}
 To evaluate this example, use the chain rule.
 
 $$
@@ -256,6 +313,13 @@ $$
 \end{align*}
 $$
 
+{% endcapture %}
+{% include solution.html details = include_content %}
+
+
+
+
+
 
 
 
@@ -263,7 +327,7 @@ $$
 $\example{9}$
 Let $A$, $B$, and $k$ be constants. From the function $y = A\cos kx+B\sin kx$, show that $\frac{d^2y}{dx^2} = -k^2x$.
 
-$\solution$ \\
+{% capture include_content %}
 Differentiate the function twice.
 
 $$
@@ -287,18 +351,5 @@ $$
 \end{align*}
 $$
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+{% endcapture %}
+{% include solution.html details = include_content %}

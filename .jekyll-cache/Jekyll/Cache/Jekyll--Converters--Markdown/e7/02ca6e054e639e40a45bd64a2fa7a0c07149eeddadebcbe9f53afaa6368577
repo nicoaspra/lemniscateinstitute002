@@ -1,0 +1,17 @@
+I"×
+<p>Combine the terms for each side of the equation that contains logarithms.</p>
+
+\[\begin{align*}
+	\ln x &amp;= \ln\frac{1}{2}+\ln 2-\ln 3 \\
+	&amp;= \ln\br{\frac{\frac12 \cdot 2}{3}} \qquad\tcA{\ln\br{\frac{x}{y}} = \ln x - \ln y} \\
+	\ln x &amp;= \ln\frac{1}{3}	
+\end{align*}\]
+
+<p>Raise both sides to a power with base $e$,</p>
+
+\[\begin{align*}
+	e^{\ln{x}}	&amp;= e^{\ln\frac13}	\qquad\qquad\quad\tcA{e^{\ln x} = x} \\
+	x &amp;= \frac{1}{3} \tagans
+\end{align*}\]
+
+:ET

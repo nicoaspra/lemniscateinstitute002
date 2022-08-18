@@ -139,6 +139,8 @@ $\example{4}$
 Differentiate the function $y = x^3+7x^{-6}-2x^5+\frac{\pi}{3}$
 
 {% capture include_content %}
+The Sum Rule also applies to subtraction. In this case, the function that is to be differentiated has four terms. Thus, the function's derivative can be obtained by differentiating each term separately.
+
 $$
 \begin{align*}
 	\ddx{(y)} &= \ddx\br{ x^3+7x^{-6}-2x^5+\frac{\pi}{3} } \\

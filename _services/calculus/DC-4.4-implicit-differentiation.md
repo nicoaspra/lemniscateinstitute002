@@ -50,7 +50,7 @@ Then apply the [Chain Rule](../DC-4.3-the-chain-rule) to $\ddx\br{y^2}$,
 
 $$
 \begin{align*}
-	2x + 2y \cdot \dydx &= 0  \qquad \tcA{\ddx(y^2)= \ddy(y^2) \cdot \dydx} \\
+	2x + 2y \cdot \dydx &= 0  \qquad \tcA{\ddx(y^2)= \frac{d}{\tcB{dy}}(y^2) \cdot \frac{\tcB{dy}}{dx}} \\
 	2y \cdot \dydx &= -2x \\
 	\dydx &= -\frac{\cancel{2}x}{\cancel{2}y} \\
 	&= -\frac{x}{y}		\tagans
@@ -81,7 +81,7 @@ Differentiating $y$ with respect to $x$ results in $\dydx$. Differentiating $x$ 
 $\example{2}$
 Find $y'$ of the implicit function $x^2+2xy+y^2=0$.
 
-$\solution$\\
+{% capture include_content %}
 Differentiate the equation with respect to $x$,
 
 $$
@@ -113,13 +113,22 @@ $$
 \end{align*}
 $$
 
+{% endcapture %}
+{% include solution.html details = include_content %}
+
+
+
+
+
+
+
 
 
 ---
 $\example{3}$
 Differentiate the implicit function $x\sqrt{y}=2x+1$ with respect to $x$.
 
-$\solution$
+{% capture include_content %}
 
 $$
 \begin{align*}
@@ -141,6 +150,12 @@ $$
 \end{align*}
 $$
 
+{% endcapture %}
+{% include solution.html details = include_content %}
+
+
+
+
 
 
 
@@ -151,7 +166,7 @@ $$
 $\example{4}$
 Differentiate the function $5x^3=(2xy+1)^2$ with respect to $x$.
 
-$\solution$\\
+{% capture include_content %}
 Differentiate the equation with respect to $x$,
 
 $$
@@ -166,6 +181,11 @@ $$
 \end{align*}
 $$
 
+{% endcapture %}
+{% include solution.html details = include_content %}
+
+
+
 
 
 
@@ -174,7 +194,7 @@ $$
 $\example{5}$
 Use implicit differentiation to find the derivative of the function $\textstyle{ y=\sqrt{1+\sqrt{x+1}} }$.
 
-$\solution$\\
+{% capture include_content %}
 From the previous lesson, we have already differentiated the same problem using the [Chain Rule](../DC-4.3-the-chain-rule). However, we can further simplify our solution through Implicit Differentiation. In this case, what makes the problem a bit challenging to solve are the radicals. Therefore, to alleviate the situation, let us first eliminate the radicals by squaring the equation.
 
 $$
@@ -214,7 +234,8 @@ As a result, the final answer can be expressed in any of the two ways. It will u
 
 $$y' = \frac{1}{4y(y^2-1)} = \frac{1}{4\sqrt{\br{1+\sqrt{x+1}}(x+1)}}$$
 
-
+{% endcapture %}
+{% include solution.html details = include_content %}
 
 
 

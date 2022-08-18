@@ -1,0 +1,26 @@
+I"Q
+<p>By substituting $x$ in the function with 0, we would get $\frac{1}{0}$ which is undefined. However, let us try to substitute a value for $x$ that approaches zero from either side and try to see what value the function is approaching.</p>
+
+<figure style="text-align: center;">
+  <img src="/images/content/DC/DC-2.5.2.png" alt="my alt text" width="400px" />
+  <figcaption><em>
+</em></figcaption>
+</figure>
+
+<p>As you can see, the value is getting larger and larger as $x$ approaches zero. Thus, the function is not approaching a certain value but to infinity. In this case, 
+the <strong>right hand-limit</strong> is approaching to positive infinity,</p>
+
+\[\lim_{x\to 0^+} \frac{1}{x} = \infty\]
+
+<p>And the <strong>left-hand limit</strong> is approaching negative infinity.</p>
+
+\[\lim_{x\to 0^-} \frac{1}{x} = -\infty\]
+
+<p>Since the left and right hand limits do not approach the same value, the limit as $x$ approaches $0$ <strong>does not exist</strong>.</p>
+
+\[\begin{align*}
+	\lim_{x\to 0^-} &amp;\neq \lim_{x\to 0^+} \\  
+	\lim_{x\to 0} \frac{1}{x} &amp;= \mathrm{DNE}	\tagans
+\end{align*}\]
+
+:ET

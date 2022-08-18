@@ -46,7 +46,7 @@ In relation to [Limits at Infinity](../DC-2.3-limits-at-infinity), the graph has
 $\example{1}$
 Evaluate $\lim_{x\to 0} \frac{1}{x}$
 
-$\solution$ \\
+{% capture include_content %}
 By substituting $x$ in the function with 0, we would get $\frac{1}{0}$ which is undefined. However, let us try to substitute a value for $x$ that approaches zero from either side and try to see what value the function is approaching.
 
 {% include images.html 
@@ -73,6 +73,11 @@ $$
 \end{align*}
 $$
 
+{% endcapture %}
+{% include solution.html details = include_content %}
+
+
+
 
 
 
@@ -80,7 +85,7 @@ $$
 $\example{2}$
 Evaluate $\lim_{x\to 0} \frac{5}{x^2}$
 
-$\solution$ \\
+{% capture include_content %}
 Substitute values to $x$ approaching 0 from both sides.
 
 {% include images.html 
@@ -97,21 +102,25 @@ $$
 \end{align*}
 $$
 
+{% endcapture %}
+{% include solution.html details = include_content %}
+
+
+
+
 
 
 ---
 $\example{3}$
 Evaluate $\lim_{x\to 2^+} \frac{7}{x-2}$
 
-$\solution$ \\
+{% capture include_content %}
 In this example, we are only asked to determine the **right-hand limit** of the function. So, substitute values to $x$ approaching 2 from the right.
 
 {% include images.html 
     url= "DC/DC-2.5.4.png" 
     size= "400px"
 %}
-
-
 
 Since the function is getting larger and larger as $x$ approaches 2 from the right,
 
@@ -121,6 +130,12 @@ $$
 \end{align*}
 $$
 
+{% endcapture %}
+{% include solution.html details = include_content %}
+
+
+
+
 
 
 
@@ -128,7 +143,7 @@ $$
 $\example{4}$
 Evaluate $\lim_{x\to -3^-} \br{ 5-\frac{1}{x+3} }$
 
-$\solution$ \\
+{% capture include_content %}
 In this example, we are only asked to determine the **left-hand limit** of the function. So, substitute values to $x$ approaching $-3$ from the left.
 
 {% include images.html 
@@ -143,3 +158,7 @@ $$
 	\lim_{x\to -3^-} \br{ 5-\frac{1}{x+3} } &= \infty	\tagans
 \end{align*}
 $$
+
+{% endcapture %}
+{% include solution.html details = include_content %}
+

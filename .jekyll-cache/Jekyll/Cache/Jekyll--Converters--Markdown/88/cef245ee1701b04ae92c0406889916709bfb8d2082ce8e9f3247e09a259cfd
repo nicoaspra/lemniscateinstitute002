@@ -1,0 +1,17 @@
+I"à
+<p>Break down the absolute value,</p>
+
+\[|x-3|=
+\begin{cases}
+	\phantom{-}\tcB{(x-3)}, &amp; \text{if $x &gt; 3$  $\quad \tcAal{approaches from the right}$} \\
+	-(x-3), &amp; \text{if $x&lt;3$  $\quad \tcAal{approaches from the left}$}
+\end{cases}\]
+
+<p>Since we are only required to determine the the <strong>right-hand limit</strong>,</p>
+
+\[\begin{align*}
+	\lim_{x\to 3^+} \frac{|x-3|}{x-3} &amp;= \lim_{x\to 3^+} \frac{\tcB{(x-3)}}{x-3} \\
+	&amp;= 1		\tagans
+\end{align*}\]
+
+:ET

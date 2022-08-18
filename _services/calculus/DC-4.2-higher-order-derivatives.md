@@ -58,7 +58,7 @@ However, before applying this concept to various fields, let us first familiariz
 $\example{1}$
 Find the second derivative of the function $y = x^3+3x+2$.
 
-$\solution$\\
+{% capture include_content %}
 Differentiate the function,
 
 $$
@@ -77,13 +77,22 @@ $$
 \end{align*}
 $$
 
+{% endcapture %}
+{% include solution.html details = include_content %}
+
+
+
+
+
+
+
 
 
 ---
 $\example{2}$
 Find $\frac{d^4y}{dx^4}$ of the function $y = x^5-3x^4+7x^2+5$.
 
-$\solution$\\
+{% capture include_content %}
 Differentiate the function four (4) times,
 $$
 \begin{align*}
@@ -98,13 +107,22 @@ $$
 \end{align*}
 $$
 
+{% endcapture %}
+{% include solution.html details = include_content %}
+
+
+
+
+
+
+
 
 
 ---
 $\example{3}$
 Find $f'''(x)$ of the function $f(x)=\frac{5}{a\sqrt{x}}-\frac{1}{x^3}$, where $a$ is a constant.
 
-$\solution$\\
+{% capture include_content %}
 Express the radical as a power with a rational exponent,
 
 $$
@@ -129,6 +147,14 @@ $$
 \end{align*}
 $$
 
+{% endcapture %}
+{% include solution.html details = include_content %}
+
+
+
+
+
+
 
 
 
@@ -137,7 +163,7 @@ $\example{4}$
 Determine on what $n^{th}$ derivative of $y=5x^3-x^2+7$ will have a value of zero. ($y^n = 0$)
 
 
-$\solution$ \\
+{% capture include_content %}
 Differentiate the function until its value becomes zero.
 
 $$
@@ -154,6 +180,9 @@ $$
 $$
 
 Therefore, the value will become zero at the 4$\nth$ derivative.
+
+{% endcapture %}
+{% include solution.html details = include_content %}
 
 
 
@@ -203,7 +232,7 @@ Determine the rock's
 
 
 
-$\solution$\\
+{% capture include_content %}
 $\For{a}$ \\
 Differentiate the function with respect to time $t$,
 
@@ -233,5 +262,5 @@ $$
 \end{align*}
 $$
 
-
-
+{% endcapture %}
+{% include solution.html details = include_content %}

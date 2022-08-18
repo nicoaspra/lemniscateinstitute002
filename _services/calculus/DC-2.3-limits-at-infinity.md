@@ -62,7 +62,7 @@ Evaluate the following limits: \\
 **b.** $\lim\limits_{x\to-\infty}\frac{7}{x}$
 
 
-$\solution$ \\
+{% capture include_content %}
 $\For{a}$\\
 Factor the expression,
 
@@ -93,6 +93,14 @@ $$
 \end{align*}
 $$
 
+{% endcapture %}
+{% include solution.html details = include_content %}
+
+
+
+
+
+
 
 
 ---
@@ -102,9 +110,7 @@ Evaluate the following limits: \\
 **b.** $\lim\limits_{x\to-\infty} \frac{25}{3x^3}$
 
 
-
-
-$\solution$ \\
+{% capture include_content %}
 $\For{a}$\\
 Factor the expression,
 
@@ -125,6 +131,10 @@ $$
 \end{align*}
 $$
 
+{% endcapture %}
+{% include solution.html details = include_content %}
+
+
 
 
 
@@ -134,7 +144,7 @@ $\example{3}$
 Evaluate the limit, $\lim\limits_{x\to\infty} \frac{20x-6}{x}$
 
 
-$\solution$ \\
+{% capture include_content %}
 Simplify the expression,
 
 $$
@@ -146,6 +156,8 @@ $$
 \end{align*}
 $$
 
+{% endcapture %}
+{% include solution.html details = include_content %}
 
 ---
 
@@ -181,7 +193,7 @@ Evaluate the following limits: \\
 **b.** $\lim\limits_{x\to-\infty} (7x^2)$
 
 
-$\solution$ \\
+{% capture include_content %}
 $\For{a}$
 
 $$
@@ -226,6 +238,10 @@ $$
 \end{align*}
 $$
 
+{% endcapture %}
+{% include solution.html details = include_content %}
+
+
 
 
 
@@ -239,7 +255,7 @@ Evaluate the following limits: \\
 **b.** $\lim\limits_{x\to-\infty} (7x+2-x^3)$
 
 
-$\solution$ \\
+{% capture include_content %}
 $\For{a}$\\
 In this example, the leading term is $-x^3$ since its exponent has the highest power. With this, all the other terms would become insignificant. Hence, we can focus our attention to this term.
 
@@ -266,6 +282,9 @@ $$
 \end{align*}
 $$
 
+{% endcapture %}
+{% include solution.html details = include_content %}
+
 
 
 
@@ -280,7 +299,7 @@ Evaluate the following limits: \\
 **a.** $\lim\limits_{x\to\infty} (-20x^{-7}+3x^{-5})$ \\
 **b.** $\lim\limits_{x\to-\infty} (-20x^{-7}+3x^{-5})$
 
-$\solution$ \\
+{% capture include_content %}
 $\For{a}$\\
 In this example, all the variables contains negative exponents. So,
 
@@ -306,6 +325,8 @@ $$
 \end{align*}
 $$
 
+{% endcapture %}
+{% include solution.html details = include_content %}
 
 
 
@@ -313,9 +334,6 @@ $$
 
 
 ---
-
-
-
 
 ## Limits at Infinity of Rational Functions
 Evaluating the limits of a rational function may require an extra step or two before determining its result.
@@ -360,7 +378,7 @@ $\case{III}$ The degree of the numerator is greater than the degree of the denom
 $\example{7}$
 Evaluate the limit, $\lim\limits_{x\to\infty} \frac{3x^4+4x-2}{7+2x^4}$.
 
-$\solution$ \\
+{% capture include_content %}
 Start by dividing both the numerator and the denominator by the variable with the highest power, which in this case is $x^4$
 
 $$
@@ -380,12 +398,17 @@ $$
 \end{align*}
 $$
 
+{% endcapture %}
+{% include solution.html details = include_content %}
+
+
+
 
 ---
 $\example{8}$
 Evaluate the limit, $\lim\limits_{x\to-\infty} \frac{3x+4}{5x^2-7}$.
 
-$\solution$ \\
+{% capture include_content %}
 Divide the numerator and the denominator by $x^2$,
 
 $$
@@ -397,6 +420,9 @@ $$
 \end{align*}
 $$
 
+{% endcapture %}
+{% include solution.html details = include_content %}
+
 
 
 
@@ -407,7 +433,7 @@ $$
 $\example{9}$
 Evaluate the following limits of the function $f(x)=\frac{x^3-2x}{5x^2+1}$ as $x$ approaches **(a)** infinity, and **(b)** negative infinity.
 
-$\solution$ \\
+{% capture include_content %}
 $\For{a}$\\
 For cases that the degree of the denominator is greater than the numerator, divide the numerator and the denominator by the variable with the highest power found on the denominator, which in this case is $x^2$
 
@@ -436,4 +462,5 @@ $$
 \end{align*}
 $$
 
-
+{% endcapture %}
+{% include solution.html details = include_content %}

@@ -1,0 +1,16 @@
+I"
+<p>In this example, we are only asked to determine the <strong>right-hand limit</strong> of the function. So, substitute values to $x$ approaching 2 from the right.</p>
+
+<figure style="text-align: center;">
+  <img src="/images/content/DC/DC-2.5.4.png" alt="my alt text" width="400px" />
+  <figcaption><em>
+</em></figcaption>
+</figure>
+
+<p>Since the function is getting larger and larger as $x$ approaches 2 from the right,</p>
+
+\[\begin{align*}
+	\lim_{x\to 2^+} \frac{7}{x-2} &amp;= \infty	\tagans
+\end{align*}\]
+
+:ET

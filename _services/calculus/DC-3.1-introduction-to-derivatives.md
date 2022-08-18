@@ -157,7 +157,7 @@ Therefore, the derivative of $y$ with respect to $x$ is,
 $\example{1}$
 Differentiate the function $y=5x+2$
 
-$\solution$ \\
+{% capture include_content %}
 Add $\Delta x$ and $\Delta y$ to $x$ and $y$ respectively,
 
 $$
@@ -197,6 +197,11 @@ $$
 \end{align*}
 $$
 
+{% endcapture %}
+{% include solution.html details = include_content %}
+
+
+
 
 
 
@@ -205,7 +210,7 @@ $$
 $\example{2}$
 Differentiate the function $y=3-2x+x^2$
 
-$\solution$ \\
+{% capture include_content %}
 Add $\Delta x$ and $\Delta y$ to $x$ and $y$ respectively,
 
 $$
@@ -245,6 +250,11 @@ $$
 \end{align*}
 $$
 
+{% endcapture %}
+{% include solution.html details = include_content %}
+
+
+
 
 
 
@@ -252,7 +262,7 @@ $$
 $\example{3}$
 Differentiate the function $x=\frac{1}{t^2}$
 
-$\solution$ \\
+{% capture include_content %}
 Add $\Delta x$ and $\Delta t$ to $x$ and $t$ respectively,
 
 $$
@@ -284,6 +294,10 @@ $$
 \end{align*}
 $$
 
+{% endcapture %}
+{% include solution.html details = include_content %}
+
+
 
 
 
@@ -292,7 +306,7 @@ $$
 $\example{4}$
 Differentiate the function $x=\frac{y-2}{2y+5}$
 
-$\solution$ \\
+{% capture include_content %}
 Add $\Delta x$ and $\Delta y$ to $x$ and $y$ respectively,
 
 $$
@@ -325,13 +339,18 @@ $$
 \end{align*}
 $$
 
+{% endcapture %}
+{% include solution.html details = include_content %}
+
+
+
 
 
 ---
 $\example{5}$
 Find the value of the derivative: $\frac{dz}{dw}$ at $w=3$, if $z=\sqrt{1+w}$.
 
-$\solution$ \\
+{% capture include_content %}
 Add $\Delta z$ and $\Delta w$ to $z$ and $w$ respectively,
 
 $$
@@ -385,3 +404,6 @@ $$
 	&= \frac{1}{4}		\tagans
 \end{align*}
 $$
+
+{% endcapture %}
+{% include solution.html details = include_content %}

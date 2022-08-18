@@ -1,0 +1,11 @@
+I"^
+<p>Apply the Sum Rule along with the Power Rule,
+\(\begin{align*}
+	\ddx{(y)} &amp;= \ddx\br{ 5x^2+3x } \\
+	\dydx &amp;= \ubrace{\ddx(5x^2)}{$\tcA{d\frac{u}{dx}}$} + \ddx(3x) \\ %\qquad \tcA{\frac{d}{dx} (u+v) = \frac{du}{dx} + \frac{dv}{dx}} \\
+	&amp;= (2)5x^{2-1} + (1)3x^{1-1} \\
+	&amp;= 10x^1 + 3x^0 \\
+	&amp;= 10x+3		\tagans
+\end{align*}\)</p>
+
+:ET

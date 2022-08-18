@@ -32,7 +32,7 @@ $\example{1}$
 Let
 $f(\theta) = \sin\theta$, find $f\br{ \frac{3\pi}{2} }$.
 
-$\solution$
+{% capture include_content %}
 
 $$
 \begin{align*}
@@ -49,13 +49,23 @@ $$
 \end{align*}
 $$
 
+{% endcapture %}
+{% include solution.html details = include_content %}
+
+
+
+
+
+
+
+
 
 ---
 $\example{2}$
 Let
 $f(x) = \csc{x}\tan{x}$, find $f\br{ \frac{5\pi}{6} }$.
 
-$\solution$
+{% capture include_content %}
 
 $$
 \begin{align*}
@@ -82,3 +92,6 @@ $$
 	&= -\frac{2\sqrt{3}}{3}	\tagans
 \end{align*}
 $$
+
+{% endcapture %}
+{% include solution.html details = include_content %}

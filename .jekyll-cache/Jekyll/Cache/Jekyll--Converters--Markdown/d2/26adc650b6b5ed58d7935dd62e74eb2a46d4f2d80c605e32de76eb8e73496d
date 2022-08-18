@@ -1,0 +1,18 @@
+I"
+\[\begin{align*}
+	x(y)^{1/2} &amp;= 2x+1 \\
+\end{align*}\]
+
+<p>Differentiate the equation with respect to $x$,</p>
+
+\[\begin{align*}
+	\ddx\brk{ x(y)^{1/2} } &amp;= \ddx\br{2x+1} \\
+	x\cdot\ddx\br{y^{1/2}} + y^{1/2} \cdot\ddx\br{x} &amp;= 2 
+		\qquad \qquad \tcA{\ddx{uv}=u\frac{dv}{dx}+v\frac{du}{dx}} \\
+	x\br{\frac12}y^{-1/2} \dydx + y^{1/2} (1) &amp;= 2 \\
+	\frac{x}{2y^{1/2}} \dydx &amp;= 2 - y^{1/2}\\
+	\dydx &amp;= \frac{2y^{1/2}}{x} \br{2 - y^{1/2}} \\
+	&amp;= \frac{2\sqrt{y}}{x} \br{2 - \sqrt{y}} 		\tagans
+\end{align*}\]
+
+:ET

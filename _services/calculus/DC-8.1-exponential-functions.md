@@ -71,7 +71,7 @@ Having the ability to express your business mathematically helps us calculate th
 $\example{1}$ 
 Solve for $x$, $7^{x-1}=7^{4x}$.
 
-$\solution$ \\
+{% capture include_content %}
 Since the base of all the terms are the same, equate its exponents,
 
 $$
@@ -82,12 +82,21 @@ $$
 \end{align*}
 $$
 
+{% endcapture %}
+{% include solution.html details = include_content %}
+
+
+
+
+
+
+
 
 ---
 $\example{2}$ 
 Solve for $x$, $5^{1-x}=25$
 
-$\solution$ \\
+{% capture include_content %}
 Express 25 as $5^2$ to match the base of the other term,
 
 $$
@@ -106,12 +115,22 @@ $$
 \end{align*}
 $$
 
+{% endcapture %}
+{% include solution.html details = include_content %}
+
+
+
+
+
+
+
+
 
 ---
 $\example{3}$ 
 Solve for $x$, $4^{3x-1} = 8^{x}$
 
-$\solution$ \\
+{% capture include_content %}
 Express all the terms as base of 2,
 
 $$
@@ -131,6 +150,13 @@ $$
 \end{align*}
 $$
 
+{% endcapture %}
+{% include solution.html details = include_content %}
+
+
+
+
+
 
 
 
@@ -140,7 +166,7 @@ $$
 $\example{4}$ 
 Solve for $x$, $3^{5-2x} = \frac{1}{27}$
 
-$\solution$ \\
+{% capture include_content %}
 Get the reciprocal of 27,
 
 $$
@@ -167,6 +193,14 @@ $$
 \end{align*}
 $$
 
+{% endcapture %}
+{% include solution.html details = include_content %}
+
+
+
+
+
+
 
 
 
@@ -175,7 +209,7 @@ $\example{5}$
 Solve for $x$, $2^{x^2+x-\frac{11}{2}} = \sqrt{2}$
 
 
-$\solution$ \\
+{% capture include_content %}
 Express the radical as a power with a rational exponent,
 
 $$
@@ -204,13 +238,23 @@ $$
 \end{align*}
 $$
 
+{% endcapture %}
+{% include solution.html details = include_content %}
+
+
+
+
+
+
+
+
 
 
 ---
 $\example{6}$ 
 Solve for $x$, $1=\br{ \frac{1}{2} }^{2x+1}$
 
-$\solution$ \\
+{% capture include_content %}
 In this example, we cannot simply match the base of the terms, but remember that any number or variable with an exponent of 0 is equal to 1. And we can use this concept and equate the exponent of $\frac{1}{2}$ to 0. This gives us,
 
 $$
@@ -221,13 +265,19 @@ $$
 \end{align*}
 $$
 
+{% endcapture %}
+{% include solution.html details = include_content %}
+
+
+
+
+
 
 
 
 
 
 ---
-
 
 # Natural Exponential Functions
 Natural Exponential Function is a special case of an exponential function, instead of having a base of any constant, it has the Euler's number $e$ as its base. Natural Exponential Functions is written in the form of,
@@ -260,7 +310,7 @@ Where $e$ is a non-terminating irrational number which is approximately $e \appr
 $\example{7}$ 
 Solve for $x$, $e^{5x}=e^{7x-3}$
 
-$\solution$ \\
+{% capture include_content %}
 Since the base $e$ is just a constant, we can solve this example by using the same method that we have previously discussed in exponential functions, which is by equating all of its exponents.
 
 $$
@@ -271,6 +321,14 @@ $$
 \end{align*}
 $$
 
+{% endcapture %}
+{% include solution.html details = include_content %}
+
+
+
+
+
+
 
 
 
@@ -278,7 +336,7 @@ $$
 $\example{8}$ 
 Solve for $x$, $e^{2x+3}=1$		
 
-$\solution$ \\
+{% capture include_content %}
 From our previous examples, we have learned that in order for the exponents to be equated, its base must be the same. In this case, we want to express both sides with the base $e$. If you recall, any non-zero number raised to the power of zero is equal to 1. Thus, $e^0 = 1$.
 <!-- For $e^{2x+3}$ be equal to 1, its exponent must be equal to zero, $e^0 = 1$.  -->
 
@@ -296,3 +354,6 @@ $$
 	x &= - \frac{3}{2}	\tagans
 \end{align*}
 $$
+
+{% endcapture %}
+{% include solution.html details = include_content %}

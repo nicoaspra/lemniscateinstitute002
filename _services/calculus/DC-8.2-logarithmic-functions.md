@@ -41,7 +41,7 @@ Hence, this proves that Exponential and Logarithmic Functions are indeed inverse
 $\example{1}$
 Solve for $x$ if $\log_{10} x =2$
 
-$\solution$ \\
+{% capture include_content %}
 Express the logarithmic function as an exponential function,
 
 $$
@@ -51,6 +51,15 @@ $$
 	&= 100		\tagans
 \end{align*}
 $$
+
+{% endcapture %}
+{% include solution.html details = include_content %}
+
+
+
+
+
+
 
 ---
 
@@ -135,7 +144,7 @@ Natural logarithm is a type logarithm whose base is $e$ (Euler's number) and is 
 $\example{2}$
 Solve for $x$: $\log_4(x+3) = 2$	
 
-$\solution$ \\
+{% capture include_content %}
 Express the logarithmic function in an exponential form,
 
 $$
@@ -147,11 +156,19 @@ $$
 \end{align*}
 $$	
 
+{% endcapture %}
+{% include solution.html details = include_content %}
+
+
+
+
+
+
 ---
 $\example{3}$
 Solve for $x$: $\log_{5}(x+3)+\log_{5}5 = 2$
 
-$\solution$ \\
+{% capture include_content %}
 Combine the terms that contains logarithms,
 
 $$
@@ -164,6 +181,12 @@ $$
 \end{align*}
 $$
 
+{% endcapture %}
+{% include solution.html details = include_content %}
+
+
+
+
 
 
 
@@ -172,7 +195,7 @@ $$
 $\example{4}$
 Solve for $x$: $\ln x = \ln\frac{1}{2}+\ln 2-\ln 3$
 
-$\solution$ \\
+{% capture include_content %}
 Combine the terms for each side of the equation that contains logarithms.
 
 $$
@@ -192,13 +215,20 @@ $$
 \end{align*}
 $$
 
+{% endcapture %}
+{% include solution.html details = include_content %}
+
+
+
+
+
 
 
 ---
 $\example{5}$
 Solve for $x$: $\ln{x} = 2\ln{3}-\ln{e}$
 
-$\solution$ 
+{% capture include_content %}
 
 $$
 \begin{align*}
@@ -210,6 +240,15 @@ $$
 \end{align*}
 $$
 
+{% endcapture %}
+{% include solution.html details = include_content %}
+
+
+
+
+
+
+
 
 
 
@@ -217,7 +256,7 @@ $$
 $\example{6}$
 Solve for $x$: $\ln(x+6)+\ln(2-x) = \ln 15$
 
-$\solution$ 
+{% capture include_content %}
 
 $$
 \begin{align*}
@@ -247,6 +286,9 @@ $$
 \end{align*}
 $$
 
+{% endcapture %}
+{% include solution.html details = include_content %}
+
 
 
 
@@ -259,7 +301,7 @@ $$
 $\example{7}$
 Solve for $x$: $2^x = 3$
 
-$\solution$ \\
+{% capture include_content %}
 Express the exponential function in a logarithmic form,
 
 $$
@@ -268,6 +310,10 @@ $$
 	x &= \log_{2}3  \tagans
 \end{align*}
 $$
+
+{% endcapture %}
+{% include solution.html details = include_content %}
+
 
 
 
@@ -278,7 +324,7 @@ $$
 $\example{8}$
 Solve for $x$: $3^{5x} = 4^{2x+1}$
 
-$\solution$ \\
+{% capture include_content %}
 Get the natural logarithm of both sides of the equation,
 
 $$
@@ -292,12 +338,21 @@ $$
 \end{align*}
 $$
 
+{% endcapture %}
+{% include solution.html details = include_content %}
+
+
+
+
+
+
+
 
 ---
 $\example{9}$
 Solve for $x$: $e^x-6e^{-x} = -1$
 
-$\solution$ \\
+{% capture include_content %}
 To remove the negative exponent, multiply both sides of the equation by $e^x$,
 
 $$
@@ -325,3 +380,6 @@ $$
 	x &= -3 &   x &= 2      \tagans
 \end{align*}
 $$
+
+{% endcapture %}
+{% include solution.html details = include_content %}

@@ -14,7 +14,7 @@ The rate of change indicates how fast a variable is changing with respect to ano
 $\example{1}$
 Find the rate of change of an area of a square with respect to its side.
 
-$\solution$ \\
+{% capture include_content %}
 We have already learned how to explicitly express one variable as a function of another in our lesson in [Functions](../DC-1.6-graph-of-functions). In this example, before we can differentiate to find the rate of change, we must first represent the area of the square as a function of the length of its side.
 
 $$
@@ -45,6 +45,10 @@ $$
 
 Therefore, the rate of change of the area of the square with respect to its side is equal to twice the length of its side. 
 
+{% endcapture %}
+{% include solution.html details = include_content %}
+
+
 
 
 
@@ -54,8 +58,8 @@ Therefore, the rate of change of the area of the square with respect to its side
 $\example{2}$
 A spherical balloon has a volume of $V=\frac{4}{3}\pi r^3$. Determine how fast its volume is increasing with respect to its radius in $(\mathrm{in^3/in})$ when $r=5\un{in}$.
 
-$\solution$\\
-Differentiate $V$ with respect to $r$,
+{% capture include_content %}
+To determine the rate of change of the volume $V$ with respect to the radius $r$, differentiate $V$ with respect to $r$,
 
 $$
 \begin{align*}
@@ -78,6 +82,11 @@ $$
 \end{align*}
 $$
 
+{% endcapture %}
+{% include solution.html details = include_content %}
+
+
+
 
 
 
@@ -86,10 +95,10 @@ $$
 $\example{3}$
 A right circular cone's radius increases as its height remains constant ($h=10\un{cm}$). Find the rate of change of the cone's volume with respect to its radius.
 
-$\solution$ \\
+{% capture include_content %}
 $$
 \begin{align*}
-	\text{Let: } V &= \text{volume of the cone} &\\
+	\text{Let: } V &= \text{volume of the cone} \hspace{100cm} \\
 		   r &= \text{radius of the base oh the cone} \\
 		   h &= \text{height of the cone}  
 \end{align*} 
@@ -132,3 +141,6 @@ $$
 	\frac{dV}{dr} &= \frac{20}{3}\pi r \un{cm^3/cm} 	\tagans
 \end{align*}
 $$
+
+{% endcapture %}
+{% include solution.html details = include_content %}

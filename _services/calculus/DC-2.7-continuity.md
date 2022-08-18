@@ -105,7 +105,7 @@ In asymptotic discontinuity, the curve approaches the line $x=a$ but does not me
 $\example{1}$
 Determine if the function $f(x)=2x^{2}-1$ is continuous or not at $x=2$.
 
-$\solution$ \\
+{% capture include_content %}
 The function is continuous at $x=a$ if $\lim_{x\to a} f(x)=f(a)$.
 
 For $\lim_{x\to a} f(x)$,
@@ -130,6 +130,10 @@ $$
 
 Since $\lim_{x\to 2} f(x)=f(2)$, the function is **continuous**.
 
+{% endcapture %}
+{% include solution.html details = include_content %}
+
+
 
 
 
@@ -137,7 +141,7 @@ Since $\lim_{x\to 2} f(x)=f(2)$, the function is **continuous**.
 $\example{2}$
 Determine if the function $f(x)=\frac{4|x-5|}{x-5}$ is continuous or not at $x=5$.
 
-$\solution$ \\
+{% capture include_content %}
 Break down the absolute value,
 
 $$
@@ -169,6 +173,10 @@ $$
 
 Since the left and right hand limits do not approach to the same value, the limit as $x$ approaches 5 does not exist. Thus, the function is **not continuous** at $x=5$.
 
+{% endcapture %}
+{% include solution.html details = include_content %}
+
+
 
 
 
@@ -177,10 +185,15 @@ Since the left and right hand limits do not approach to the same value, the limi
 $\example{3}$
 Find the point/s of discontinuity of the function $f(x)=\frac{x^2-16}{x-4}$
 
-$\solution$ \\
+{% capture include_content %}
 Discontinuities occur where the function is undefined. In this example, at $x=4$ both the numerator and the denominator becomes 0.
 
 Hence, the function is **discontinuous at $x=4$**.
+
+{% endcapture %}
+{% include solution.html details = include_content %}
+
+
 
 <!-- %We can also verify it by graphing the function,
 %
@@ -198,7 +211,7 @@ Hence, the function is **discontinuous at $x=4$**.
 $\example{4}$
 Find the point/s of discontinuity of the function $f(x)=\frac{2x}{x^2+x-6}$
 
-$\solution$ \\
+{% capture include_content %}
 Factor the denominator,
 
 $$
@@ -210,6 +223,10 @@ $$
 In this example, the denominator becomes 0 at $x=-3$ or $x=2$. And whenever the denominator is 0, the function is considered **undefined**.
 
 Hence, the function is **discontinuous at $x=-3$ and $x=2$**.
+
+{% endcapture %}
+{% include solution.html details = include_content %}
+
 
 
 

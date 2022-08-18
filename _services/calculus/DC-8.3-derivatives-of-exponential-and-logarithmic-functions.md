@@ -1,7 +1,7 @@
 ---
 title: "Derivatives of Exponential and Logarithmic Functions"
 prevcontenturl: ../DC-8.2-logarithmic-functions
-nextcontenturl: ../DC-8.3-derivatives-of-exponential-and-logarithmic-functions
+nextcontenturl: ../DC-9.1-angles
 ---
 
 
@@ -32,10 +32,10 @@ Just as algebraic functions, differentiating exponential and logarithmic functio
 $\example{1}$
 Find the derivative of the function $y = \log_5 (2x+3)$
 
-$\solution$ \\
+{% capture include_content %}
 $$
 \begin{align*}
-	\text{Let:}\quad a &= 5 \\
+	\text{Let:}\quad a &= 5  \hspace{100cm} \\
 	u &= 2x+3 & \\
 	du &= 2\,dx
 \end{align*}
@@ -51,15 +51,20 @@ $$
 \end{align*}
 $$
 
+{% endcapture %}
+{% include solution.html details = include_content %}
+
+
+
 
 ---
 $\example{2}$
 Find the derivative of the function $y = \log_e (5-2x)$
 
-$\solution$ \\
+{% capture include_content %}
 $$
 \begin{align*}
-	\text{Let:}\quad a &= e \\
+	\text{Let:}\quad a &= e \hspace{100cm} \\
 	u &= 5-2x & \\
 	du &= -2\,dx
 \end{align*}
@@ -83,6 +88,11 @@ $$
 \end{align*}
 $$
 
+{% endcapture %}
+{% include solution.html details = include_content %}
+
+
+
 
 
 
@@ -92,10 +102,10 @@ $$
 $\example{3}$
 Find the derivative of the function $y = \ln (5-2x)$
 
-$\solution$ \\
+{% capture include_content %}
 $$
 \begin{align*}
-	\text{Let:}\quad u &= 5-2x & \\
+	\text{Let:}\quad u &= 5-2x \hspace{100cm} \\
 	du &= -2\,dx
 \end{align*}
 $$
@@ -113,6 +123,11 @@ $$
 
 As you may have noticed, the answer is the same as the previous example. With this, we can verify that $\log_e u$ is equal to $\ln u$.
 
+{% endcapture %}
+{% include solution.html details = include_content %}
+
+
+
 
 
 
@@ -122,12 +137,12 @@ As you may have noticed, the answer is the same as the previous example. With th
 
 ---
 $\example{4}$ 
-$y = \ln\sqrt{2x^2-5x+3}$
+Differentiate the function $y = \ln\sqrt{2x^2-5x+3}$ with respect to $x$.
 
-$\solution$ \\
+{% capture include_content %}
 $$
 \begin{align*}
-	\text{Let:}\quad u &= \sqrt{2x^2-5x+3} & \\
+	\text{Let:}\quad u &= \sqrt{2x^2-5x+3} \hspace{100cm} \\
 	du &= d\br{\sqrt{2x^2-5x+3}} \\
 	&= d\br{(2x^2-5x+3)^{1/2}} \\
 	&= \frac12(2x^2-5x+3)^{-1/2}\cdot d(2x^2-5x+3) \\
@@ -149,6 +164,11 @@ $$
 \end{align*}
 $$
 
+{% endcapture %}
+{% include solution.html details = include_content %}
+
+
+
 
 
 
@@ -157,8 +177,8 @@ $$
 $\example{5}$ 
 Determine the differential of the function $y = 5e^{3x}$.
 
-$\solution$ \\
-To solve for the derivative of the function, use $\eref{eq:differential of Exponential Function e^u}$,
+{% capture include_content %}
+To solve for the differential of the function, use $\eref{eq:differential of Exponential Function e^u}$,
 
 $$
 \begin{align*}
@@ -169,12 +189,20 @@ $$
 \end{align*}
 $$
 
+{% endcapture %}
+{% include solution.html details = include_content %}
+
+
+
+
+
+
 
 ---
 $\example{6}$ 
 Find the derivative of the function with respect to $t$: $x = e^{3t}e^{2t^2}$.
 
-$\solution$ \\
+{% capture include_content %}
 To solve for the derivative of the function, use $\eref{eq:differential of Exponential Function e^u}$,
 
 $$
@@ -187,6 +215,13 @@ $$
 \end{align*}
 $$
 
+{% endcapture %}
+{% include solution.html details = include_content %}
+
+
+
+
+
 
 
 
@@ -195,8 +230,8 @@ $$
 $\example{7}$ 
 Determine the differential of the function $w = 125\br{5^{3v}}$.
 
-$\solution$ \\
-To solve for the derivative of the function, use $\eref{eq:differential of Exponential Function a^u}$,
+{% capture include_content %}
+To solve for the differential of the function, use $\eref{eq:differential of Exponential Function a^u}$,
 
 $$
 \begin{align*}
@@ -208,6 +243,11 @@ $$
 	&= 3\ln 5\cdot 5^{3+3v} \,dv 		\tagans
 \end{align*}
 $$
+
+{% endcapture %}
+{% include solution.html details = include_content %}
+
+
 
 
 
@@ -225,8 +265,9 @@ $\example{8}$
 Find the derivative of $y$ with respect to $x$ of the function
 $e^{\frac12 y} = x^2-1$.
 
-$\solution$ 
-<!-- In this example, the given equation is expressed as an [implicit function](../DC-4.4-implicit-differentiation). Hence, differentiate the given equation explicitly with respect to $x$. -->
+{% capture include_content %}
+In this example, the given equation is expressed as an [implicit function](../DC-4.4-implicit-differentiation). Hence, to determine its derivative, we can differentiate the given equation explicitly.
+ <!-- with respect to $x$. -->
 $$
 \begin{align*}
 	d\br{e^{\frac12 y}} &= d\br{x^2-1} \\
@@ -235,3 +276,6 @@ $$
 	\dydx &= \frac{4x}{e^{y/2}}		\tagans
 \end{align*}
 $$
+
+{% endcapture %}
+{% include solution.html details = include_content %}

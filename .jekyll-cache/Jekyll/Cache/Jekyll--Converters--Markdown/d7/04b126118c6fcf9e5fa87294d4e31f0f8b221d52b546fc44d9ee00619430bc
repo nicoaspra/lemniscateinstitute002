@@ -1,0 +1,10 @@
+I"$
+<p>Apply the General Power Rule,
+\(\begin{align*}
+	\ddx\br{y} &amp;= \ddx\brk{(7x^2+1)^5} \\
+	\dydx &amp;= 5(7x^2+1)^4 \cdot \ubraces{\ddx\br{7x^2+1}}{derivative of the}{inner function} \qquad \tcA{u=7x^2+1} \\
+	&amp;= 5(7x^2+1)^4 (14x) \\
+	&amp;= 70x(7x^2+1)^4		\tagans
+\end{align*}\)</p>
+
+:ET

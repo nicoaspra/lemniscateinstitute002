@@ -49,7 +49,7 @@ To illustrate this, let us attempt to solve a few problems.
 $\example{1}$
 Evaluate, $\lim\limits_{x \to 3}{(x-1)} $
 
-$\solution$ \\
+{% capture include_content %}
 In evaluating limits, it is best first to try to substitute the value of $a$ to the function. In this case, if we replace $x$ with 3, we end up with a value.
 
 $$
@@ -68,17 +68,20 @@ assigning values to $x$ that approaches $3$ from either sides:
     size= "350px"
 %}
 
-
 Graphing the function gives us,
-
 
 {% include images.html 
     url= "DC/DC-2.1.3.png" 
     size= "250px"
 %}
 
-
 As $x$ approaches 3 from either sides, the function approaches to 2, and when $x$ is equal to 3, the function is also equal to 2. But you might ask yourself "what is the use of limits if it just behaves the same as a function''. Yes, in this example $f(3)=2$, but this is not always the case, to further understand what a limit is, let us solve for the next problem.
+
+{% endcapture %}
+{% include solution.html details = include_content %}
+
+
+
 
 
 
@@ -87,7 +90,7 @@ As $x$ approaches 3 from either sides, the function approaches to 2, and when $x
 $\example{2}$
 Evaluate, $\lim_{x \to 2} \frac{x^2-4}{x-2} $
 
-$\solution$ \\
+{% capture include_content %}
 By substituting $x$ to the function with $2$, the result will be $\frac{4-4}{2-2}= \frac{0}{0} $, which is undefined. With this in mind, let us assign values to $x$ that approaches $2$ from either sides,
 	
 {% include images.html 
@@ -124,3 +127,6 @@ $$
 	&= 4    \tagans
 \end{align*}
 $$
+
+{% endcapture %}
+{% include solution.html details = include_content %}

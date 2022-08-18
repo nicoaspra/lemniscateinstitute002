@@ -30,7 +30,7 @@ Where $dy/du$ is the derivative of the outer function $y=f(u)$ and $du/dx$ is th
 $\example{1}$
 Differentiate the function $y = (x^2+x)^3$.
 
-$\solution$ \\
+{% capture include_content %}
 $$
 \begin{align*}
 	\text{Let: } u &= x^2+x & \\
@@ -71,6 +71,9 @@ $$
 	\dydx &= 3(x^2+x)^2 (2x+1)	\tagans
 \end{align*}
 $$
+
+{% endcapture %}
+{% include solution.html details = include_content %}
 
 
 
@@ -129,7 +132,7 @@ $$
 $\example{2}$
 Differentiate the function $y=(7x^2+1)^5$.
 
-$\solution$\\
+{% capture include_content %}
 Apply the General Power Rule,
 $$
 \begin{align*}
@@ -140,6 +143,8 @@ $$
 \end{align*}
 $$
 
+{% endcapture %}
+{% include solution.html details = include_content %}
 
 
 
@@ -151,7 +156,7 @@ $$
 $\example{3}$
 Differentiate the function $y=\br{5-\frac{x}{3}}^{-4}$.
 
-$\solution$ \\
+{% capture include_content %}
 Apply the General Power Rule,
 $$
 \begin{align*}
@@ -161,6 +166,9 @@ $$
 	&= \frac{4}{3 \br{5-\frac{x}{3}}^{5} }		\tagans
 \end{align*}
 $$
+
+{% endcapture %}
+{% include solution.html details = include_content %}
 
 <!-- \note{This can still be simplified} -->
 
@@ -172,7 +180,7 @@ $\example{4}$
 Differentiate the function $y = \frac{1}{(5x^2+1)^2}+(x^2+2)^{1/3}$.
 
 
-$\solution$ \\
+{% capture include_content %}
 Simplify the expression,
 
 $$
@@ -193,13 +201,20 @@ $$
 \end{align*}
 $$
 
+{% endcapture %}
+{% include solution.html details = include_content %}
+
+
+
+
+
 
 
 ---
 $\example{5}$
 Differentiate the function $x = \sqrt{5t^4-t^2+2t+7}$.
 
-$\solution$\\
+{% capture include_content %}
 Express the radical as a power of a rational exponent,
 
 $$
@@ -221,6 +236,12 @@ $$
 \end{align*}
 $$
 
+{% endcapture %}
+{% include solution.html details = include_content %}
+
+
+
+
 
 
 
@@ -228,7 +249,7 @@ $$
 $\example{6}$
 Find the slope at point $(1,9)$ of the curve $y = (2x-1)^3(x+2)^2$
 
-$\solution$\\
+{% capture include_content %}
 Apply the Product Rule along with the General Power Rule,
 $$
 \begin{align*}
@@ -249,12 +270,18 @@ $$
 \end{align*}
 $$
 
+{% endcapture %}
+{% include solution.html details = include_content %}
+
+
+
+
 
 ---
 $\example{7}$
 Differentiate the function $\textstyle{ y = \sqrt{1+\sqrt{x+1}} }$
 
-$\solution$\\
+{% capture include_content %}
 There are situations when we must use the chain rule multiple times to determine the derivative. This particular example is one of its instances. To start, let us first express the radical as a power of a rational exponent.
 
 $$
@@ -278,10 +305,5 @@ $$
 \end{align*}
 $$
 
-
-
-
-
-
-
-
+{% endcapture %}
+{% include solution.html details = include_content %}

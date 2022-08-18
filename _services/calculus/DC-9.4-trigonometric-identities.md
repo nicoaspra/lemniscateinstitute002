@@ -97,7 +97,7 @@ nextcontenturl: ../DC-9.5-derivatives-of-trigonometric-functions
 $\example{1}$
 Simplify the function $y = \frac{\sin 2x}{\cot x}$.
 
-$\solution$
+{% capture include_content %}
 
 $$
 \begin{align*}
@@ -108,6 +108,14 @@ $$
 \end{align*}
 $$
 
+{% endcapture %}
+{% include solution.html details = include_content %}
+
+
+
+
+
+
 
 
 
@@ -115,7 +123,7 @@ $$
 $\example{2}$
 Express the function $\tan x + \cot x$ in terms of sine and cosine.
 
-$\solution$
+{% capture include_content %}
 
 $$
 \begin{align*}
@@ -126,12 +134,19 @@ $$
 \end{align*}
 $$
 
+{% endcapture %}
+{% include solution.html details = include_content %}
+
+
+
+
+
 
 ---
 $\example{3}$
 Express the angle of the function as a single term $\cos 7x \cos x$.
 
-$\solution$ \\
+{% capture include_content %}
 Recall that the identity: $\cos\alpha \cos\beta = \frac{1}{2}\brk{\cos(\alpha+\beta)+\cos(\alpha-\beta)}$
 
 $$
@@ -141,13 +156,20 @@ $$
 \end{align*}
 $$
 
+{% endcapture %}
+{% include solution.html details = include_content %}
+
+
+
+
+
 
 
 ---
 $\example{4}$ 
 Prove the equation $\frac{\tan{x}\csc^2{x}}{1+\tan^2{x}}=\cot{x}$.
 
-$\solution$ \\
+{% capture include_content %}
 In proving identites, the first thing that we want to do is to choose one side of the equation that is more complicated. Then try to break it down in terms of sine and cosine to simplify the function.
 
 $$
@@ -162,12 +184,19 @@ $$
 \end{align*}
 $$
 
+{% endcapture %}
+{% include solution.html details = include_content %}
+
+
+
+
+
 
 ---
 $\example{5}$ 
 Prove the equation $1+2\sin\beta = (\sin\beta+\cos\beta)^2$.
 
-$\solution$ \\
+{% capture include_content %}
 In this example, the function is already expressed in terms of sine and cosine. So, what we can do now is we can first expand the binomial.
 
 $$
@@ -178,3 +207,6 @@ $$
 	&= 1 + 2\sin\beta	\tagans
 \end{align*}
 $$
+
+{% endcapture %}
+{% include solution.html details = include_content %}

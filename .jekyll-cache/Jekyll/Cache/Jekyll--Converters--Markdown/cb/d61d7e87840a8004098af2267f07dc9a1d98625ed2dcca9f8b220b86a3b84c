@@ -1,0 +1,16 @@
+I"º
+\[\begin{align*}
+	\text{Let:}\quad a &amp;= 5  \hspace{100cm} \\
+	u &amp;= 2x+3 &amp; \\
+	du &amp;= 2\,dx
+\end{align*}\]
+
+<p>To solve for the derivative of the function, use $\eref{eq:differential of the Logarithmic Funcion to Base a}$,</p>
+
+\[\begin{align*}
+	d(y) &amp;= d\br{\log_5 (2x+3)} \\
+	dy &amp;= \frac{2\,dx}{(2x+3)\ln 5} \qquad\tcA{d(\log_a u) = \frac{du}{u\,\ln a}} \\
+	\dydx &amp;= \frac{2}{(2x+3)\ln 5}	\tagans
+\end{align*}\]
+
+:ET

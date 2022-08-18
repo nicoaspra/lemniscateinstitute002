@@ -30,7 +30,7 @@ Point-slope Form, by the name suggests, can be used to determine the equation of
 $\example{1}$
 Find the equation of the tangent and normal lines to the curve $y=x^3+3x^2+1$ at point $(1,5)$.
 
-$\solution$ \\
+{% capture include_content %}
 To get the slope of the tangent, differentiate the function with respect to $x$,
 
 $$
@@ -83,12 +83,21 @@ $$
 
 Therefore, the equation of the tangent and normal lines are $9x-y = 4$ and $x+9y = 46$ respectively.
 
+{% endcapture %}
+{% include solution.html details = include_content %}
+
+
+
+
+
+
+
 
 ---
 $\example{2}$
 Find the equation of the tangent and normal lines to the curve $x^2+y^2+6x-8y=0$ at the origin.
 
-$\solution$  \\
+{% capture include_content %}
 In this example, since we are given an implicit function, the first step that we need to do is differentiate the given equation through Implicit Differentiation.
 
 $$
@@ -134,6 +143,11 @@ $$
 \end{align*}
 $$
 
+{% endcapture %}
+{% include solution.html details = include_content %}
+
+
+
 
 
 
@@ -143,18 +157,13 @@ $$
 $\example{3}$
 Find the equation of the tangent and normal lines to the curve $y=(x+4)^2$ at the point where the curve intersects the $y$-axis.
 
-$\solution$  \\
+{% capture include_content %}
 In this example, the coordinates of the point are not given. However, it is stated that the point is located where the curve intersects the $y$-axis. Thus, graphing the curve can give us a clearer picture of where it is located. 
-
-
-
 
 {% include images.html 
     url= "DC/DC-5.2.1.png" 
     size= "250px"
 %}
-
-
 
 Mathematically, we can solve the intersection point by equating the equation of the curve and the $y$-axis. If you can recall, the equation of the $y$-axis is $x=0$, since every point that lies on the $y$-axis has an $x$-coordinate of 0. Thus, replacing 0 to $y=(x+4)^2$ will give us the $y$-coordinate of the intersection point.
 
@@ -165,7 +174,6 @@ $$
 	  &= 16
 \end{align*}
 $$
-
 
 Hence, the point of intersection is at $(0,16)$
 
@@ -211,17 +219,15 @@ $$
 $$
 
 
-
-
 To visualize, we can graph the tangent and normal lines of the curve $y=(x+4)^2$ at $(0,16)$.
-
 
 {% include images.html 
     url= "DC/DC-5.2.2.png" 
     size= "250px"
 %}
 
-
+{% endcapture %}
+{% include solution.html details = include_content %}
 
 
 
@@ -232,7 +238,7 @@ To visualize, we can graph the tangent and normal lines of the curve $y=(x+4)^2$
 $\example{4}$
 Find the equation of the tangent and normal lines to the curve $a^2y-x^3=0$ at point $(a,a)$.
 
-$\solution$  \\
+{% capture include_content %}
 In this example, we can treat $a$ as a constant. Thus, 
 
 $$
@@ -276,6 +282,10 @@ $$
 \end{align*}
 $$
 
+{% endcapture %}
+{% include solution.html details = include_content %}
+
+
 
 
 
@@ -286,7 +296,7 @@ $$
 $\example{5}$
 Find the equation of the tangent and normal lines to the curve $x^2+4x-y-2=0$ where the slope of the tangent is 6.
 
-$\solution$  \\
+{% capture include_content %}
 In this example, instead of having a point as one of its given, we have the slope of the tangent. To solve for the point, we can first differentiate the function.
 
 $$
@@ -341,6 +351,11 @@ $$
 \end{align*}
 $$
 
+{% endcapture %}
+{% include solution.html details = include_content %}
+
+
+
 
 
 
@@ -349,7 +364,7 @@ $$
 $\example{6}$
 At point $(1,1)$, the tangent line to the curve $y = x^3$ intersects the $x$-axis at $x=$ ?
 
-$\solution$ \\
+{% capture include_content %}
 In this example, we need to find the $x$-coordinate of the tangent line were it intersects the $x$-axis. To visualize, let us first try to plot the given function.
 
 
@@ -398,3 +413,5 @@ $$
 \end{align*}
 $$
 
+{% endcapture %}
+{% include solution.html details = include_content %}

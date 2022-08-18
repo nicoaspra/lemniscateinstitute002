@@ -44,7 +44,7 @@ To illustrate this, let us have some examples.
 $\example{1}$
 Evaluate $\lim_{x\to 1} |x+5|$
 
-$\solution$ \\
+{% capture include_content %}
 In evaluating limits, we should always try to substitute the value for the function first before considering alternative solutions. Thus, in this case, substitute $x$ with 1,
 
 $$
@@ -57,13 +57,19 @@ $$
 
 Since we have arrived at a value, there is no reason for us to pursue alternative solutions. Hence, the limit of the function is 6. 
 
+{% endcapture %}
+{% include solution.html details = include_content %}
+
+
+
+
 
 
 ---
 $\example{2}$
 Evaluate $\lim_{x\to 0} \frac{|x|}{x}$
 
-$\solution$ \\
+{% capture include_content %}
 In this example, if we directly substitute 0 into the expression, we would get $\frac{0}{0}$ which is undefined. Thus, in this case, we need to resort to a different approach.
 
 The first method we'll attempt is to substitute values approaching zero from both sides.
@@ -90,9 +96,6 @@ $$
 	\lim_{x\to 0} \frac{|x|}{x} &= \mathrm{DNE}	\tagans
 \end{align*}
 $$
-
-
-
 
 
 
@@ -137,6 +140,12 @@ $$
 \end{align*}
 $$
 
+{% endcapture %}
+{% include solution.html details = include_content %}
+
+
+
+
 
 
 
@@ -145,7 +154,7 @@ $$
 $\example{3}$
 Evaluate $\lim_{x\to 3^+} \frac{|x-3|}{x-3}$
 
-$\solution$ \\
+{% capture include_content %}
 Break down the absolute value,
 
 $$
@@ -165,13 +174,19 @@ $$
 \end{align*}
 $$
 
+{% endcapture %}
+{% include solution.html details = include_content %}
+
+
+
+
 
 
 ---
 $\example{4}$
 Evaluate $\lim_{x\to 7} \frac{|7-x|}{7-x}$
 
-$\solution$ \\
+{% capture include_content %}
 Break down the absolute value,
 
 $$
@@ -209,6 +224,10 @@ $$
 \end{align*}
 $$
 
+{% endcapture %}
+{% include solution.html details = include_content %}
+
+
 
 
 
@@ -216,7 +235,7 @@ $$
 $\example{5}$
 Evaluate $\lim_{x\to -2^-} \frac{2x+4}{|x+2|}$
 
-$\solution$ \\
+{% capture include_content %}
 Factor the numerator,
 
 $$\lim_{x\to -2^-} \frac{2x+4}{|x+2|} = \lim_{x\to -2^-} \frac{2(x+2)}{|x+2|}$$
@@ -240,3 +259,6 @@ $$
 	&= -2		\tagans
 \end{align*}
 $$
+
+{% endcapture %}
+{% include solution.html details = include_content %}

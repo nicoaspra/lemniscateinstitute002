@@ -91,7 +91,7 @@ The limit of $\frac{ \sin \theta }{\theta}$ as $\theta$ approaches zero is equal
 $\example{1}$
 Evaluate: $ \lim_{x \to 2} \br{x^2+2x+3} $
 
-$\solution$ \\
+{% capture include_content %}
 $$
 \begin{align*}
 		\lim_{x \to 2} \br{x^2+2x+3} &=  \lim_{x \to 2} {x^2} +  \lim_{x \to 2} {2x} +  \lim_{x \to 2} {3} \\
@@ -101,13 +101,19 @@ $$
 \end{align*}
 $$
 
+{% endcapture %}
+{% include solution.html details = include_content %}
+
+
+
+
 
 
 ---
 $\example{2}$
 Evaluate: $ \lim_{t \to 3} \br{t^5+10-2t^2-5t^3} $
 
-$\solution$ \\
+{% capture include_content %}
 $$
 \begin{align*}
 	\lim_{t \to 3} \br{t^5+10-2t^2-5t^3} &=  \lim_{t \to 3} {t^5} +  \lim_{t \to 3} {10} - \lim_{t \to 3} {2t^2} - \lim_{t \to 3} {5t^3} \\
@@ -117,6 +123,12 @@ $$
 \end{align*}
 $$
 
+{% endcapture %}
+{% include solution.html details = include_content %}
+
+
+
+
 
 
 
@@ -124,7 +136,7 @@ $$
 $\example{3}$
 Evaluate: $ \lim_{x \to 1} \br{ \frac{3x^2-2}{x^3+2x^2-x+5} } $
 
-$\solution$ \\
+{% capture include_content %}
 $$
 \begin{align*}
 	\lim_{x \to 1} \br{ \frac{3x^2-2}{x^3+2x^2-x+5} }
@@ -134,6 +146,12 @@ $$
 \end{align*}
 $$
 
+{% endcapture %}
+{% include solution.html details = include_content %}
+
+
+
+
 
 
 
@@ -141,7 +159,7 @@ $$
 $\example{4}$
 Evaluate: $ \lim_{y \to 8} { \left[ \frac{5(2-y)^2}{y^2-4} \right] } $
 
-$\solution$ \\
+{% capture include_content %}
 By Theorem 05,
 $$
 \begin{align*}
@@ -152,6 +170,12 @@ $$
 \end{align*}
 $$
 
+{% endcapture %}
+{% include solution.html details = include_content %}
+
+
+
+
 
 
 
@@ -159,7 +183,7 @@ $$
 $\example{5}$
 Evaluate: $ \lim_{x \to 1} \br{ \frac{x^2-1}{x^2+3x-4} } $
 
-$\solution$ \\
+{% capture include_content %}
 Factor both the numerator and the denominator,
 
 $$
@@ -172,6 +196,12 @@ $$
 \end{align*}
 $$
 
+{% endcapture %}
+{% include solution.html details = include_content %}
+
+
+
+
 
 
 
@@ -179,7 +209,7 @@ $$
 $\example{6}$
 Evaluate: $ \lim_{y \to 2}{ \sqrt{ \frac{y^3-y^2-y-2}{2y^3-5y^2+5y-6} } } $
 
-$\solution$ \\
+{% capture include_content %}
 Factor both the numerator and the denominator,
 
 $$
@@ -192,6 +222,11 @@ $$
 \end{align*}
 $$
 
+{% endcapture %}
+{% include solution.html details = include_content %}
+
+
+
 
 
 
@@ -199,7 +234,7 @@ $$
 $\example{7}$
 Evaluate: $ \lim_{\phi \to 0}{\frac{ \sin 5\phi }{5\phi }} $
 
-$\solution$ \\
+{% capture include_content %}
 $\text{Let:} \, \theta = 5\phi $ \\
 $\text{If:} \, \phi = 0, \; \text{then,} \, \theta=0$
 
@@ -212,13 +247,18 @@ $$
 \end{align*}
 $$
 
+{% endcapture %}
+{% include solution.html details = include_content %}
+
+
+
 
 
 ---
 $\example{8}$
 Evaluate: $ \lim_{x \to 0}{\frac{ \tan x}{x}} $
 
-$\solution$ \\
+{% capture include_content %}
 $$
 \begin{align*}
     \lim_{x \to 0}{\frac{ \tan x}{x}} &= \lim_{x \to 0}{\frac{ \sin x}{x \cos x}} \\
@@ -228,3 +268,6 @@ $$
     &=1 \tagans
 \end{align*}
 $$
+
+{% endcapture %}
+{% include solution.html details = include_content %}

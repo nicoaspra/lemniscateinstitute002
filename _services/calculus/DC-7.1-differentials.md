@@ -60,7 +60,7 @@ $\example{1}$
 Determine the differential of the function:
 $y = 6x^4+5x^3-2x-1$
 
-$\solution$
+{% capture include_content %}
 
 $$
 \begin{align*}
@@ -71,13 +71,25 @@ $$
 \end{align*}
 $$
 
+{% endcapture %}
+{% include solution.html details = include_content %}
+
+
+
+
+
+
+
+
+
+
 
 ---
 $\example{2}$ 
 Determine $\frac{dx}{dy}$ of the function:
 $x = \frac15 y^4 - \frac{2}{y^2}+\sqrt{y}$
 
-$\solution$
+{% capture include_content %}
 
 $$
 \begin{align*}
@@ -89,16 +101,28 @@ $$
 \end{align*}
 $$
 
+{% endcapture %}
+{% include solution.html details = include_content %}
+
 <!-- % $z = \sqrt[3]{2-6x}$
 
 % $x = t^3(t^2-5)^{-1/3}$ -->
+
+
+
+
+
+
+
+
+
 
 ---
 $\example{3}$
 Solve for the derivative of the function $x^2+y^2 = 9$ with respect to $x$ using differentials.
 
 
-$\solution$ \\
+{% capture include_content %}
 In this example, the given equation is  expressed implicitly. 
 However, formulas for differentials can be used to obtain the derivative of a variable,
 
@@ -119,6 +143,13 @@ $$
 \end{align*}
 $$
 
+{% endcapture %}
+{% include solution.html details = include_content %}
+
+
+
+
+
 
 
 ---
@@ -126,7 +157,7 @@ $\example{4}$
 Determine the differential of the implicit function
 $x^3+2x^2y+3y = 1$
 
-$\solution$
+{% capture include_content %}
 
 $$
 \begin{align*}
@@ -145,5 +176,6 @@ $$
 \end{align*}
 $$
 
-
+{% endcapture %}
+{% include solution.html details = include_content %}
 
