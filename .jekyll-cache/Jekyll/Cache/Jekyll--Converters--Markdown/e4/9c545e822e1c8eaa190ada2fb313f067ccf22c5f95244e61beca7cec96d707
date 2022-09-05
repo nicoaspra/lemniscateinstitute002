@@ -1,0 +1,32 @@
+I"_
+<p>$\For{a}$ <br />
+\(\begin{align*}
+	\text{Length}&amp;=50 \un{m} \\
+			&amp;= 50 \un{m} \br{\frac{1 \un{k}}{10^3}}\\
+			&amp;= 0.05 \times \cancel{10^3} \un{m} \br{\frac{1 \un{k}}{\cancel{10^3}}}\\
+			&amp;= 0.05 \un{km}
+\end{align*}\)</p>
+
+<p>Hence, 50 m = 0.05 km</p>
+
+<p>$\For{b}$ <br />
+\(\begin{align*}
+	\text{Length}&amp;=50 \un{m} \\
+			&amp;= 50 \un{m} \br{\frac{1 \un{c}}{10^{-2}}}\\
+			&amp;= 5,000 \times \cancel{10^{-2}} \un{m} \br{\frac{1 \un{c}}{\cancel{10^{-2}}}}\\
+			&amp;= 5,000 \un{cm}
+\end{align*}\)</p>
+
+<p>Hence, 50 m = 5,000 cm</p>
+
+<p>$\For{c}$ <br />
+\(\begin{align*}
+	\text{Length}&amp;=50 \un{m} \\
+			&amp;= 50 \un{m} \br{\frac{1 \un{mm}}{10^{-3} \un{m}}}\\
+			&amp;= 50,000 \times \cancel{10^{-3} \un{m}} \br{\frac{1 \un{mm}}{\cancel{10^{-3} \un{m}}}}\\
+			&amp;= 50,000 \un{mm}
+\end{align*}\)</p>
+
+<p>Hence, 50 m = 50,000 mm</p>
+
+:ET

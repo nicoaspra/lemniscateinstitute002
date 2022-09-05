@@ -1,0 +1,21 @@
+I"è
+<p>There are situations when we must use the chain rule multiple times to determine the derivative. This particular example is one of its instances. To start, let us first express the radical as a power of a rational exponent.</p>
+
+\[\begin{align*}
+	y &amp;= \br{1+(x+1)^{1/2} }^{1/2} \\
+\end{align*}\]
+
+<p>Differentiate the function by applying the chain rule more than once,</p>
+
+\[\begin{align*}
+	\ddx\br{y} &amp;= \ddx\brk{ \br{1+(x+1)^{1/2} }^{1/2} } \\
+	\dydx &amp;= \frac{1}{2} \brk{1+(x+1)^{1/2} }^{1/2-1} \cdot\ddx\brk{1+(x+1)^{1/2} } \\
+	&amp;= \frac{1}{2} \brk{1+(x+1)^{1/2} }^{-1/2} \brk{0+\frac{1}{2}(x+1)^{1/2-1} \cdot \ddx\br{x+1} } \\
+	&amp;= \frac{1}{2} \brk{1+(x+1)^{1/2} }^{-1/2} \brk{\frac{1}{2}(x+1)^{-1/2} (1) } \\
+	&amp;= \frac{1}{4} \brk{1+(x+1)^{1/2} }^{-1/2} (x+1)^{-1/2} \\
+	&amp;= \frac{1}{4} \bbbrk{ \brk{ 1+(x+1)^{1/2} } (x+1) }^{-1/2} \\
+	&amp;= \frac{1}{4\brk{ (1+\sqrt{x+1})(x+1) }^{1/2}} \\
+	&amp;= \frac{1}{4\sqrt{ (1+\sqrt{x+1})(x+1) } }		\tagans
+\end{align*}\]
+
+:ET

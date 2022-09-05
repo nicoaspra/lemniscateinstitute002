@@ -1,0 +1,24 @@
+I"À
+\[\begin{align*}
+	\ln(x+6)+\ln(2-x) &amp;= \ln 15 \\
+	\ln[(x+6)(2-x)] &amp;= \ln{15} \\
+	\ln(-x^2-4x+12) &amp;= \ln{15} \\
+	e^{\ln(-x^2-4x+12)} &amp;= e^{\ln{15}} \\
+	-x^2-4x+12 &amp;= 15 \\
+	x^2+4x+3 &amp;= 0
+\end{align*}\]
+
+<p>Then factor the equation,</p>
+
+\[\begin{align*}
+	(x+3)(x+1) &amp;= 0
+\end{align*}\]
+
+<p>Thus,</p>
+
+\[\begin{align*}
+	x+3 &amp;= 0    &amp;   x+1 &amp;= 0 \\
+	x &amp;= -3 &amp;   x &amp;= -1     \tagans
+\end{align*}\]
+
+:ET

@@ -1,0 +1,21 @@
+I"S
+<p>Differentiate the function twice.</p>
+
+\[\begin{align*}
+	d(y) &amp;= d(A\cos kx+B\sin kx) \\
+	dy &amp;= A(-\sin kx) (k\,dx) + B\cos kx (k\,dx) \\
+	&amp;= \br{-Ak\sin kx + Bk\cos kx}\,dx \\
+	d(dy) &amp;= d\brk{\br{-Ak\sin kx + Bk\cos kx}\,dx} \\
+	d^2y &amp;= \brk{-Ak\cos kx (k\,dx) + Bk(-\cos kx)(k\,dx) } \,dx \\
+	&amp;= \br{-Ak^2\cos kx - Bk^2\cos kx } \,dx^2 \\
+	\frac{d^2y}{dx^2}&amp;= -Ak^2\cos kx - Bk^2\cos kx \\
+	&amp;= -k^2\br{Ak^2\cos kx + B\cos kx} \\
+\end{align*}\]
+
+<p>Since $y = A\cos kx+B\sin kx$,</p>
+
+\[\begin{align*}
+	\frac{d^2y}{dx^2}&amp;= -k^2y		\tagans
+\end{align*}\]
+
+:ET

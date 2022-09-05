@@ -1,0 +1,17 @@
+I"Ì
+<p>Substitute values to $x$ approaching 0 from both sides.</p>
+
+<figure style="text-align: center;">
+  <img src="/images/content/DC/DC-2.5.3.png" alt="my alt text" width="400px" />
+  <figcaption><em>
+</em></figcaption>
+</figure>
+
+<p>The left and right hand limits <strong>both approaches to infinity</strong> as $x$ approaches 0. Hence,</p>
+
+\[\begin{align*}
+%	\lim_{x\to 0^-} &amp;= \lim_{x\to 0^+} \\  
+	\lim_{x\to 0} &amp;= \infty		\tagans
+\end{align*}\]
+
+:ET

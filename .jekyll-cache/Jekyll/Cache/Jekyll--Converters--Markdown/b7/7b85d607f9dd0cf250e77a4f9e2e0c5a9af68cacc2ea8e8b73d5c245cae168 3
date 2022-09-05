@@ -1,0 +1,22 @@
+I"
+\[\begin{align*}
+	\text{Let:}\quad a &amp;= e \hspace{100cm} \\
+	u &amp;= 5-2x &amp; \\
+	du &amp;= -2\,dx
+\end{align*}\]
+
+<p>To solve for the derivative of the function, use $\eref{eq:differential of the Logarithmic Funcion to Base a}$,</p>
+
+\[\begin{align*}
+	d(y) &amp;= d\br{\log_e (5-2x)} \\
+	dy &amp;= \frac{-2\,dx}{(5-2x)\ln e}
+\end{align*}\]
+
+<p>But form the Properties of Natural Logarithms, $\ln e = 1$. Thus,</p>
+
+\[\begin{align*}
+	\dydx &amp;= -\frac{2}{(5-2x)(1)} \\
+	&amp;= -\frac{2}{5-2x}	\tagans
+\end{align*}\]
+
+:ET

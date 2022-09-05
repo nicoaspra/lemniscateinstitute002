@@ -1,0 +1,11 @@
+I"ã
+<p>Apply the Quotient Rule,
+\(\begin{align*}
+	\frac{d}{dw}(z) &amp;= \frac{d}{dw}\br{ \frac{w^3+2w}{3w-2} } \\
+	\frac{dz}{dw} &amp;= \frac{(3w-2) \cdot\dfrac{d}{dw}(w^3+2w)-(w^3+2w) \cdot\dfrac{d}{dw}(3w-2)}{(3w-2)^2}	\\ %\quad \tcA{\ddx\br{\frac{u}{v}} = \frac{v\dfrac{du}{dx} - u\dfrac{dv}{dx}}{v^2}} \\
+	&amp;= \frac{(3w-2)(3w^2+2)-(w^3+2w)(3)}{(3w-2)^2} \\
+	&amp;= \frac{(9w^3+6w-6w^2-4)-(3w^3+6w)}{(3w-2)^2} \\
+	&amp;= \frac{6w^3-6w^2-4}{(3w-2)^2}		\tagans
+\end{align*}\)</p>
+
+:ET

@@ -1,0 +1,26 @@
+I"Ê
+<figure style="text-align: center;">
+  <img src="/images/content/phys1/phys1-2.2.7.png" alt="my alt text" width="180px" />
+  <figcaption><em>
+</em></figcaption>
+</figure>
+
+<p>Since the two vectors form a <strong>right angle</strong> with each other, the resultant can be easily determined by using the <strong>Pythagorean Theorem</strong>,</p>
+
+\[\begin{align*}
+	R &amp;= \sqrt{(3 \text{ km})^2+(5 \text{ km})^2}\\
+	&amp;= \sqrt{34 \text{ km}^2} \\
+	&amp;= 5.83 \text{ km}     \tagans
+\end{align*}\]
+
+<p>And for the direction,</p>
+
+\[\begin{align*}
+	\tan\theta &amp;= \frac{\text{opposite}}{\text{adjacent}}=\frac{5\text{ km}}{3\text{ km}}\\
+	\theta &amp;= \tan^{-1} \br{ \frac{5\text{ km}}{3\text{ km}} } \\
+	&amp;= 59.04 ^{\circ}       \tagans
+\end{align*}\]
+
+<p>Since the angle is measured from east towards north, $\theta=59.04 ^{\circ}$ north of east. Hence the magnitude and direction of the resultant is <strong>5.83 km at $59.04 ^{\circ}$ N of E</strong>.</p>
+
+:ET

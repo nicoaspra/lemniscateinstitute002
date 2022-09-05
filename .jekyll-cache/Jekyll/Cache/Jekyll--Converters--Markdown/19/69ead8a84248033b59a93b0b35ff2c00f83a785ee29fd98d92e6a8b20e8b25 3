@@ -1,0 +1,32 @@
+I"æ
+<p>Differentiate $y$ with respect to $x$,</p>
+
+\[\begin{align*}
+	y+\Dy &amp;= 2(x+\Dx)-3 \\
+	\Dy &amp;= 2(x+\Dx)-3 - (2x-3) \\
+	&amp;= \cancel{2x}+2\Dx-\cancel{3} - (\cancel{2x}-\cancel{3}) \\
+	&amp;= 2\Dx
+\end{align*}\]
+
+<p>Divide both sides by $\Dx$,</p>
+
+\[\begin{align*}
+	\frac{\Dy}{\Dx} &amp;= \frac{2\cancel{\Dx}}{\cancel{\Dx}}
+\end{align*}\]
+
+<p>Thus,</p>
+
+\[\begin{align*}
+	\frac{dy}{dx} &amp;= \lim_{\Dx\to 0} 2 \\
+	&amp;= 2		\tagans
+\end{align*}\]
+
+<figure style="text-align: center;">
+  <img src="/images/content/DC/DC-3.3.3.png" alt="my alt text" width="250px" />
+  <figcaption><em>
+</em></figcaption>
+</figure>
+
+<p>Since the function represents a line, the slope remains constant which is equal to 2 anywhere on the curve.</p>
+
+:ET

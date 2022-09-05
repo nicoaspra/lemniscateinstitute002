@@ -1,0 +1,17 @@
+I"
+<p>Express all the terms as base of 2,</p>
+
+\[\begin{align*}
+	2^{2(3x-1)} &amp;= 2^{3x} 
+\end{align*}\]
+
+<p>Then equate its exponents,</p>
+
+\[\begin{align*}
+	2(3x-1) &amp;= 3x \\
+	6x-2 &amp;= 3x \\
+	3x &amp;= 2 \\
+	x &amp;= \frac{2}{3}		\tagans
+\end{align*}\]
+
+:ET

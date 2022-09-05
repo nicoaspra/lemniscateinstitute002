@@ -1,0 +1,13 @@
+I"å
+<p>Replace $x$ with 5 to the equation,</p>
+
+\[\begin{align*}
+	y &amp;= 2x+1 \\
+	   &amp;= 2(5)+1 \\
+	   &amp;= 10+1 \\
+	   &amp;= 11	\tagans
+\end{align*}\]
+
+<p>Hence, if the input is 5 then the output of the function is 11</p>
+
+:ET

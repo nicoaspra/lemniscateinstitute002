@@ -1,0 +1,11 @@
+I"
+
+<p>By Theorem 05,
+\(\begin{align*}
+	\lim_{y \to 8} { \left[ \frac{5(2-y)^2}{y^2-4} \right] }
+		&amp;=  \frac{ \lim_{y \to 8} { \left[ 5(2-y)^2 \right] } }{ \lim_{y \to 8} \br{y^2-4}  } \\
+		&amp;= \frac{5(2-8)^2}{(8)^2-4} \\
+		&amp;= 3		\tagans
+\end{align*}\)</p>
+
+:ET

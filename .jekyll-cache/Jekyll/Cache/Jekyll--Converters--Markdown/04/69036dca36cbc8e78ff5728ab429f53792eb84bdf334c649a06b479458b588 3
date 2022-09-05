@@ -1,0 +1,12 @@
+I"t
+<p>To solve for the derivative of the function, use $\eref{eq:differential of Exponential Function e^u}$,</p>
+
+\[\begin{align*}
+	d(x) &amp;= d\br{e^{3t}e^{2t^2}} \\
+	dx &amp;= d\br{e^{3t+2t^2}} \qquad\tcA{a^m+a^n = a^{m+n}} \\
+	&amp;= e^{3t+2t^2} \cdot d(3t+2t^2) \\
+	&amp;= e^{3t+2t^2} \cdot (3+4t)\,dt \\
+	\frac{dx}{dt} &amp;= (3+4t)e^{3t+2t^2}	\tagans
+\end{align*}\]
+
+:ET

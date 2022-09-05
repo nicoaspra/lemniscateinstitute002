@@ -1,0 +1,21 @@
+I"1
+<p>To determine the rate of change of the volume $V$ with respect to the radius $r$, differentiate $V$ with respect to $r$,</p>
+
+\[\begin{align*}
+	V+\D{V} &amp;= \frac{4}{3}\pi(r+\D{r})^3 \\
+	\D{V} &amp;= \frac{4}{3}\pi(r^3+3r^2\D{r}+3r\D{r}^2+\D{r}^3) - \frac{4}{3}\pi r^3 \\
+	&amp;= \cancel{\frac{4}{3}\pi r^3} +4\pi r^2\D{r}+4\pi r\D{r}^2+\frac{4}{3}\pi\D{r}^3 - \cancel{\frac{4}{3}\pi r^3} \\
+	\frac{\D V}{\D r} &amp;= \frac{\cancel{\D r}(4\pi r^2+4\pi r\D{r}+\frac{4}{3}\pi\D{r}^2)}{\cancel{\D r}} \\
+	\frac{dV}{dr} &amp;= \lim_{\D r\to 0} (4\pi r^2+4\pi r\D{r}+\frac{4}{3}\pi\D{r}^2) \\
+	&amp;= 4\pi r^2 
+\end{align*}\]
+
+<p>At $r=5\un{in}$,</p>
+
+\[\begin{align*}
+	&amp;= 4\pi (5\un{in})^2 \\
+    \frac{dV}{dr} &amp;= 100\pi\un{in^2} \qquad{\text{or}}\qquad 
+        100\pi\un{in^3/in}		\tagans
+\end{align*}\]
+
+:ET

@@ -1,0 +1,46 @@
+I"¯
+<p>In this example, instead of having a point as one of its given, we have the slope of the tangent. To solve for the point, we can first differentiate the function.</p>
+
+\[\begin{align*}
+	\ddx\br{x^2+4x-y-2} &amp;= \ddx\br{0} \\
+	2x+4-y' &amp;= 0 \\
+	y' &amp;= 2x+4
+\end{align*}\]
+
+<p>Since the tangent is equal to the derivative, we can use this parameter to solve for the $x$-coordinate of the point of tangency.</p>
+
+\[\begin{align*}
+	y' &amp;= 6 \\
+	2x+4 &amp;= 6 \\
+	x &amp;= \frac{6-4}{2} \\
+	  &amp;= 1
+\end{align*}\]
+
+<p>Then to solve for the $y$-coordinate, substitute the value of $x$ to the equation  of the curve.</p>
+
+\[\begin{align*}
+	x^2+4x-y-2 &amp;= 0 \\
+	y &amp;= (1)^2+4(1)-2 \\
+	y &amp;= 3
+\end{align*}\]
+
+<p>Hence, the point of tangency is at $(0,-2)$. With this, we can now solve for the equation of the tangent line.</p>
+
+\[\begin{align*}
+	y-y_1 &amp;= m_T (x-x_1) \\
+	y-3 &amp;= 6 (x-1) \\
+	y-3 &amp;= 6x-6 \\
+	6x-y &amp;= 3		\tagans
+\end{align*}\]
+
+<p>Then for the equation of the normal line,</p>
+
+\[\begin{align*}
+	y-y_1 &amp;= -\frac{1}{m_T} (x-x_1) \\
+	y-3 &amp;= -\frac16 (x-1) \\
+	6(y-3) &amp;= -x+1 \\
+	6y-18 &amp;= -x+1 \\
+	x+6y &amp;= 19		\tagans
+\end{align*}\]
+
+:ET

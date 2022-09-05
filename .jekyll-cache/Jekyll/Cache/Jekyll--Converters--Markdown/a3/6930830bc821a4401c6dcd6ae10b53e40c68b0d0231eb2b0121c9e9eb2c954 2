@@ -1,0 +1,71 @@
+I"
+<p>$\For{a}$ <br />
+Use Equation 1,</p>
+
+\[\begin{align*}
+	(f+g)(x) &amp;= f(x)+g(x)\\
+	&amp;= (x^2+2x)+(x+1)
+\end{align*}\]
+
+<p>Replace $x$ with 3,</p>
+
+\[\begin{align*}
+	(f+g)(3) &amp;= \left[ (3)^2+2(3) \right]+[(3)+1] \\
+	&amp;= 9+6+3+1\\
+	&amp;= 19	\tagans
+\end{align*}\]
+
+<p>$\For{b}$ <br />
+Replace $x$ with 5,</p>
+
+\[\begin{align*}
+	(f-g)(5) &amp;=  f(5)-g(5) \\
+	&amp;= \left[ (5)^2+2(5) \right]-[(5)+1] \\
+	&amp;= 25+10-5-1\\
+	&amp;= 29	\tagans
+\end{align*}\]
+
+<p>$\For{c}$ <br />
+Replace $x$ with $-2$,</p>
+
+\[\begin{align*}
+	(g-f)(-2) &amp;=  g(-2)-f(-2) \\
+	&amp;= [(-2)+1] - \left[ (-2)^2+2(-2) \right] \\
+	&amp;= -2+1-(4-4)\\
+	&amp;= -1	\tagans
+\end{align*}\]
+
+<p>$\For{d}$ <br />
+Replace $x$ with $\frac13$,</p>
+
+\[\begin{align*}
+	(f \cdot g)\br{ \frac{1}{3} } &amp;=  f\br{ \frac{1}{3} } \cdot g\br{ \frac{1}{3} } \\
+	&amp;= \left[ \br{ \frac{1}{3} }^2+2\br{ \frac{1}{3} } \right]  \left[ \br{ \frac{1}{3} }+1 \right] \\
+	&amp;= \br{ \frac{1}{9}+\frac{2}{3} } \br{ \frac{1}{3}+\frac{3}{3} }\\
+	&amp;= \br{ \frac{1}{9}+\frac{6}{9} } \br{ \frac{1}{3}+\frac{3}{3} }\\
+	&amp;= \br{ \frac{7}{9} } \br{ \frac{4}{3} }\\
+ 	&amp;= \frac{28}{27}	\tagans
+\end{align*}\]
+
+<p>$\For{c}$ <br />
+Replace $x$ with $4$,</p>
+
+\[\begin{align*}
+	\br{ \frac{f}{g} } (4) &amp;=  \frac{f(4)}{g(4)} \\
+	&amp;= \frac{(4)^2+2(4)}{(4)+1} \\
+	&amp;= \frac{24}{5}
+\end{align*}\]
+
+<p>$\For{c}$ <br />
+Replace $x$ with $-\frac12$,</p>
+
+\[\begin{align*}
+	\br{ \frac{g}{f} } \! \br{ -\frac{1}{2} } &amp;=  \frac{g\br{ -\frac{1}{2} }}{f\br{ -\frac{1}{2} }} \\
+	&amp;= \frac{ \br{ -\frac{1}{2} }+1}{ \br{ -\frac{1}{2} }^2+2\br{ -\frac{1}{2} } } \\
+	&amp;= \frac{\frac{1}{2}}{\frac{1}{4}-1} \\
+	&amp;= \frac{\frac{1}{2}}{-\frac{3}{4}} \\
+	&amp;= \br{ \frac{1}{2} } \br{ -\frac{4}{3} } \\
+	&amp;= -\frac{2}{3}		\tagans
+\end{align*}\]
+
+:ET

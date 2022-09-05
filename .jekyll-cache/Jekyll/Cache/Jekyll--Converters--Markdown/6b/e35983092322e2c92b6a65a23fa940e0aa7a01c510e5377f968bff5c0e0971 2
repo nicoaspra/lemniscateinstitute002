@@ -1,0 +1,37 @@
+I"Æ
+<p>$\For{a}$ <br />
+\(\begin{align*}
+	(f \circ g)(x) &amp;=  f(g(x)) \\ 
+	f(x) &amp;= x^2 \\
+	f(g(x)) &amp;=	[g(x)]^2 \\
+	&amp;= (x+1)^2 \\
+	&amp;= x^2+2x+1		\tagans
+\end{align*}\)</p>
+
+<p>$\For{b}$ <br />
+\(\begin{align*}
+	(g \circ f)(x) &amp;=  g(f(x)) \\
+	g(x) &amp;= x+1 \\
+	g(f(x)) &amp;= f(x)+1\\
+	&amp;= x^2+1			\tagans
+\end{align*}\)</p>
+
+<p>$\For{c}$ <br />
+\(\begin{align*}
+	(f \circ f)(x) &amp;=  f(f(x)) \\
+	f(x) &amp;= x^2 \\
+	f(f(x)) &amp;= [f(x)]^2 \\
+	&amp;= (x^2)^2 \\
+	&amp;= x^4			\tagans
+\end{align*}\)</p>
+
+<p>$\For{d}$ <br />
+\(\begin{align*}
+	(g \circ g)(x) &amp;=  g(g(x)) \\
+	g(x) &amp;= x+1 \\
+	g(g(x)) &amp;= [g(x)]+1 \\
+	&amp;= (x+1)+1 \\
+	&amp;= x+2			\tagans
+\end{align*}\)</p>
+
+:ET

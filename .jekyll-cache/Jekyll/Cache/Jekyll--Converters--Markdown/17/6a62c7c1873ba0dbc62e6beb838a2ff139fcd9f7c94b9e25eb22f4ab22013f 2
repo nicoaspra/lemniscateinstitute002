@@ -1,0 +1,9 @@
+I"
+<p>Apply the Power Rule. Multiply the term by the exponent 3, then subtract 1 to the exponent,
+\(\begin{align*}
+	\ddx{(y)} &amp;= \ddx\br{ 7x^3 } \\
+	\dydx &amp;= 3\cdot 7x^{3-1}   \quad \tcA{\ddx (x^n) = n\cdot x^{n-1}} \\
+	&amp;= 21x^2		\tagans
+\end{align*}\)</p>
+
+:ET

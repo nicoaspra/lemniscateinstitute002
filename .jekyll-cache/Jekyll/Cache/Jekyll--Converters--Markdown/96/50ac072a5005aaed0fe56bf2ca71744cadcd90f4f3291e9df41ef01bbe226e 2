@@ -1,0 +1,39 @@
+I"½
+<p>In this example, since we are given an implicit function, the first step that we need to do is differentiate the given equation through Implicit Differentiation.</p>
+
+\[\begin{align*}
+	\ddx\br{x^2+y^2+6x-8y} &amp;= \ddx\br{0} \\
+	2x+2y y' + 6 - 8 y' &amp;= 0 \\
+	(2y-8) y' &amp;= -2x-6 \\
+	y' &amp;= \frac{-2x-6}{2y-8} \\
+		  &amp;= \frac{-x-3}{y-4}
+\end{align*}\]
+
+<p>To determine the slope of the tangent line at the origin, which has a coordinates of $(0,0)$, substitute the variables of the derivative with the respective values of the coordinates.</p>
+
+\[\begin{align*}
+	m_T &amp;= y' = \frac{-0-3}{0-4} \\
+	      &amp;= \frac34 
+\end{align*}\]
+
+<p>Solving for the equation of the tangent line using the Point-Slope Form ($\eref{eq:pt-slope of a line}$) gives us,</p>
+
+\[\begin{align*}
+	y-y_1 &amp;= m_T (x-x_1) \\
+	y-0 &amp;= \frac34[x-0] \\
+	y &amp;= \frac34x \\
+	4y &amp;= 3x \\
+	4y-3x &amp;= 0			\tagans
+\end{align*}\]
+
+<p>Then for the equation of the normal line, we can directly plug the slope to the Point-Slope Form,</p>
+
+\[\begin{align*}
+	y-y_1 &amp;= m_N (x-x_1) \\
+	y-y_1 &amp;= -\frac{1}{m_T} (x-x_1) \\
+	y-0 &amp;= -\frac43 (x-0) \\
+	3y &amp;= -4x \\
+	4x+3y &amp;= 0	\tagans
+\end{align*}\]
+
+:ET

@@ -1,0 +1,11 @@
+I"x
+<p>The average velocity is defined as the total total displacement divided by the total time it took to reach its final destination. Thus,</p>
+
+\[\begin{align*}
+	\overline{\vv{v}} &amp;= \frac{\Delta \vv{s}}{\Delta t} \\
+	&amp;= \frac{ 100\un{km}+165\un{km} }{ 2\un{hrs}+3\un{hrs} } \\
+	&amp;= \frac{ 265\un{km} }{ 5\un{hrs} } \\
+	&amp;= 53\un{km/hr}	\tagans
+\end{align*}\]
+
+:ET

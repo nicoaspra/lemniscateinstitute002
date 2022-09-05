@@ -1,0 +1,24 @@
+I"h
+<p>$\For{a}$<br />
+Factor the expression,</p>
+
+\[\begin{align*}
+	\lim\limits_{x\to\infty}\frac{7}{x} &amp;= \lim\limits_{x\to\infty} \br{ 7 \cdot \frac{1}{x} } \\
+	&amp;= 7 \cdot \lim\limits_{x\to\infty}\frac{1}{x}  \\
+\end{align*}\]
+
+<p>Since $\lim\limits_{x \to\infty}\frac{1}{x}=0$,</p>
+
+\[\begin{align*}
+	&amp;= 7(0) \\
+	&amp;= 0	\tagans
+\end{align*}\]
+
+<p>$\For{b}$<br />
+Since, $\lim\limits_{x \to\pm\infty}\frac{1}{x}=0$. Whether $x$ approaches to infinity or negative infinity, the answer would still be the same.</p>
+
+\[\begin{align*}
+	\lim\limits_{x\to-\infty}\frac{7}{x} &amp;= 0	\tagans
+\end{align*}\]
+
+:ET
