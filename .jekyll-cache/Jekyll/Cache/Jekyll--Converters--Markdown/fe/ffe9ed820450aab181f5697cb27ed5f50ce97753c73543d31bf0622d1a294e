@@ -1,4 +1,4 @@
-I"c)<h1 id="introduction">Introduction</h1>
+I"9*<h1 id="introduction">Introduction</h1>
 <p>In this lesson, we will try to establish the fundamental notions of derivatives. But before we begin, let us review some of the concepts necessary to adequately comprehend derivatives, as this concept distinguishes Differential Calculus from other branches of mathematics that you may have studied in your earlier years.</p>
 
 <h2 id="increments">Increments</h2>
@@ -113,6 +113,12 @@ margin:5px;">
 	\label{eq:the derivative delta notation}
     \end{align}$$
 </p>
+
+<div class="youtube-wrapper">
+    <iframe src="https://www.youtube.com/embed/5cucs3LFbMs" allowfullscreen=""></iframe>
+  </div>
+
+<p><!-- https://www.chunkhang.com/blog/responsive-youtube-video-with-jekyll --></p>
 
 <hr />
 <p>$\example{1}$
