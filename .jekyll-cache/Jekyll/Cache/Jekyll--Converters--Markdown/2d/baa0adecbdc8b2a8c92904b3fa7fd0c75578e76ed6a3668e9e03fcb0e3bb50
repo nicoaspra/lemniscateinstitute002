@@ -1,4 +1,10 @@
-I"π#<p>Differentiation is the process of solving for the derivative of a function. In the <a href="../DC-3.1-introduction-to-derivatives">previous chapter</a>, we have differentiated functions by the <em>definition of the derivative</em>. It is a long and tedious process, and it is easy to make mistakes. However, there are available rules that we could follow so that we can simplify the process and differentiate functions without having to apply the definition of the derivative every time. Moreover, this method will also drastically reduce the amount of time evaluating problems that involve derivatives.</p>
+I"è$<p>Differentiation is the process of solving for the derivative of a function. In the <a href="../DC-3.1-introduction-to-derivatives">previous chapter</a>, we have differentiated functions by the <em>definition of the derivative</em>. It is a long and tedious process, and it is easy to make mistakes. However, there are available rules that we could follow so that we can simplify the process and differentiate functions without having to apply the definition of the derivative every time. Moreover, this method will also drastically reduce the amount of time evaluating problems that involve derivatives.</p>
+
+<div class="youtube-wrapper">
+    <iframe src="https://www.youtube.com/embed/njmatKZGn0o" allowfullscreen=""></iframe>
+  </div>
+
+<p><!-- https://www.chunkhang.com/blog/responsive-youtube-video-with-jekyll --></p>
 
 <h2 id="differentiation-rules-for-algebraic-functions">Differentiation Rules for Algebraic Functions</h2>
 <p>For the following rules of differentiation, let $c$ be as any constant, $x$ as a variable, and $u$ and $v$ be as a function of $x$.</p>

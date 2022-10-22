@@ -8,6 +8,9 @@ nextcontenturl: ../DC-4.2-higher-order-derivatives
 Differentiation is the process of solving for the derivative of a function. In the [previous chapter](../DC-3.1-introduction-to-derivatives), we have differentiated functions by the *definition of the derivative*. It is a long and tedious process, and it is easy to make mistakes. However, there are available rules that we could follow so that we can simplify the process and differentiate functions without having to apply the definition of the derivative every time. Moreover, this method will also drastically reduce the amount of time evaluating problems that involve derivatives.
 
 
+{% include youtube.html 
+    id="njmatKZGn0o" 
+%}
 
 
 ## Differentiation Rules for Algebraic Functions
