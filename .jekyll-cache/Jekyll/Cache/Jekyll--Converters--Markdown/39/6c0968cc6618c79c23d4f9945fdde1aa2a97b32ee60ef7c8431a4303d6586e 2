@@ -1,0 +1,9 @@
+I"Ç
+\[\begin{align*}
+	d\br{y} &amp;= d(6x^4+5x^3-2x-1) \\
+	dy &amp; = d(6x^4)+d(5x^3)-d(2x)-d(1) \\
+	   &amp;= 24x^3\,dx+15x^2\,dx-2\,dx +0 \\
+    dy &amp;= (24x^3+15x^2-2)\,dx		\tagans
+\end{align*}\]
+
+:ET

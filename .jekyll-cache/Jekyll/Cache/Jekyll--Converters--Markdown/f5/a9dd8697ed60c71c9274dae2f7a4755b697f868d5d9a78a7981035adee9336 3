@@ -1,0 +1,19 @@
+I"4
+<p>Express the radical as a power of a rational exponent,</p>
+
+\[\begin{align*}
+	x &amp;= \br{5t^4-t^2+2t+7}^{1/2} \\
+\end{align*}\]
+
+<p>Then differentiate the function,</p>
+
+\[\begin{align*}
+	\ddt\br{x} &amp;= \ddt\brk{\br{5t^4-t^2+2t+7}^{1/2}} \\
+	\frac{dx}{dt} &amp;= \frac{1}{2}\br{5t^4-t^2+2t+7}^{\frac{1}{2}-1} 
+		\cdot \ddt\br{5t^4-t^2+2t+7} \\
+	&amp;= \frac{1}{2}\br{5t^4-t^2+2t+7}^{-1/2} \br{20x^3-2t+2} \\
+	&amp;= \frac{\cancel{2} (10x^3-t+1)}{\cancel{2} (5t^4-t^2+2t+7)^{1/2}} \\
+	&amp;= \frac{10x^3-t+1}{\sqrt{5t^4-t^2+2t+7}}		\tagans
+\end{align*}\]
+
+:ET

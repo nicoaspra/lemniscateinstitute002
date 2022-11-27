@@ -1,0 +1,18 @@
+I"o
+<p>Replace $x$ with $-x$,</p>
+
+\[\begin{align*}
+	F(-x) &amp;= \frac{8}{(-x)^2+3} \\
+		&amp;= \frac{8}{x^2+3} \\
+	F(-x) &amp;= F(x)
+\end{align*}\]
+
+<p>Hence, the function is <strong>Even</strong></p>
+
+<figure style="text-align: center;">
+  <img src="/images/content/DC/DC-1.9.5.png" alt="my alt text" width="250px" />
+  <figcaption><em>
+</em></figcaption>
+</figure>
+
+:ET

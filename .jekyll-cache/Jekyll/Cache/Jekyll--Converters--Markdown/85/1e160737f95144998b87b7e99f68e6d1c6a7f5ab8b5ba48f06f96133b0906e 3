@@ -1,0 +1,36 @@
+I"
+<p>$\For{a}$<br />
+To evaluate the <strong>left-hand limit</strong> of the function as $x$ approaches $1^-$, trace the graph from the <strong>left side</strong> of $x=1$. Then determine the corresponding output value, which in this case is $-1$. Hence,</p>
+
+\[\begin{align*}
+	\lim_{x \to 1^-}f(x)=-1	\tagans
+\end{align*}\]
+
+<figure style="text-align: center;">
+  <img src="/images/content/DC/DC-2.4.7.png" alt="my alt text" width="220px" />
+  <figcaption><em>
+</em></figcaption>
+</figure>
+
+<p>$\For{b}$<br />
+To evaluate the <strong>right-hand limit</strong> of the function as $x$ approaches $1^+$, trace the graph from the <strong>right side</strong> of $x=1$. Then determine the corresponding output value, which in this case is 2. Hence,</p>
+
+\[\begin{align*}
+	\lim_{x \to 1^+}f(x)=2	\tagans
+\end{align*}\]
+
+<figure style="text-align: center;">
+  <img src="/images/content/DC/DC-2.4.8.png" alt="my alt text" width="220px" />
+  <figcaption><em>
+</em></figcaption>
+</figure>
+
+<p>$\For{c}$ <br />
+Since the left and the right hand limits approaches to different values, the limit of the function as $x$ approaches 1 <strong>does not exist</strong> (DNE).</p>
+
+\[\begin{align*}
+	\lim_{x \to 1^-}f(x) &amp;\neq \lim_{x \to 1^+}f(x) \\
+	\lim_{x \to 1}f(x) &amp;= \mathrm{DNE}	\tagans
+\end{align*}\]
+
+:ET

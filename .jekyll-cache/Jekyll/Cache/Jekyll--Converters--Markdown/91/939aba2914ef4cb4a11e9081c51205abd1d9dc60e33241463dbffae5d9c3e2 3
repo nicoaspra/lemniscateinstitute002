@@ -1,0 +1,12 @@
+I"0
+<p>To solve for the derivative of the function, use $\tcAal{Equations \ref{eq:differential of sec} and \ref{eq:differential of tan}}$,</p>
+
+\[\begin{align*}
+	d\br{x} &amp;= d\br{\sec{2\theta}+\tan{3\theta}} \\
+	dx &amp;= \tan{2\theta}\sec{2\theta}\cdot d(2\theta) + \sec^2{3\theta}\cdot d(3\theta) \\
+	&amp;= \tan{2\theta}\sec{2\theta}\cdot 2\,d\theta + \sec^2{3\theta}\cdot 3\,d\theta \\
+	&amp;= \br{2\tan{2\theta}\sec{2\theta} + 3\sec^2{3\theta}}\,d\theta \\
+	\frac{dx}{d\theta}&amp;= 2\tan{2\theta}\sec{2\theta} + 3\sec^2{3\theta}		\tagans
+\end{align*}\]
+
+:ET

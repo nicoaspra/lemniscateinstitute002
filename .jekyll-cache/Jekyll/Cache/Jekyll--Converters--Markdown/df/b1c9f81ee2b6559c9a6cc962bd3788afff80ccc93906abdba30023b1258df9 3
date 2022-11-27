@@ -1,0 +1,13 @@
+I"t
+<p>To solve for the differential of the function, use $\eref{eq:differential of Exponential Function a^u}$,</p>
+
+\[\begin{align*}
+	d(w) &amp;= d\br{125\br{5^{3v}}} \\
+	dw &amp;= d\br{5^3\cdot 5^{3v}} \\
+	&amp;= d\br{5^{3+3v}} \\
+	&amp;= 5^{3+3v} \ln 5 \cdot d\br{3+3v} \\
+	&amp;= 5^{3+3v} \ln 5 \cdot 3 \,dv \\
+	&amp;= 3\ln 5\cdot 5^{3+3v} \,dv 		\tagans
+\end{align*}\]
+
+:ET

@@ -1,0 +1,21 @@
+I"D
+<figure style="text-align: center;">
+  <img src="/images/content/phys1/phys1-3.1.3.png" alt="my alt text" width="350px" />
+  <figcaption><em>
+</em></figcaption>
+</figure>
+
+<p>Since the two given displacements are opposite in direction, we can reverse the direction of one displacement to match the other so that we can add the two.</p>
+
+\[\begin{align*}
+	25 \text{ m to the left} &amp;= -25 \text{ m to the right} \\
+\end{align*}\]
+
+<p>Hence,</p>
+
+\[\begin{align*}
+	\Delta \vv{s} &amp;= 100\un{m}+(-25\un{m}) \\
+	&amp;= 75\text{ m to the $\tcBal{right}$}	\tagans
+\end{align*}\]
+
+:ET

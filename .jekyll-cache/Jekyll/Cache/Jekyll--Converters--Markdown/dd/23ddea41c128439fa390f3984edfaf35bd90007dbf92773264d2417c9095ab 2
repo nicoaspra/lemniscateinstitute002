@@ -1,0 +1,34 @@
+I"ô
+<p>From the previous lesson, we have already differentiated the same problem using the <a href="../DC-4.3-the-chain-rule">Chain Rule</a>. However, we can further simplify our solution through Implicit Differentiation. In this case, what makes the problem a bit challenging to solve are the radicals. Therefore, to alleviate the situation, let us first eliminate the radicals by squaring the equation.</p>
+
+\[\begin{align*}
+	y^2 &amp;= \br{ \sqrt{1+\sqrt{x+1}} }^2 \\
+	y^2 &amp;= 1+\sqrt{x+1} \\
+	(y^2-1)^2 &amp;= \br{ \sqrt{x+1} }^2 \\
+	(y^2-1)^2 &amp;= x+1 \\
+\end{align*}\]
+
+<p>Then differentiate the equation with respect to $x$,</p>
+
+\[\begin{align*}
+	\ddx\brk{(y^2-1)^2} &amp;= \ddx\br{x+1} \\
+	2(y^2-1) \cdot \ddx\br{y^2-1} &amp;= 1 \\
+	2(y^2-1)(2y\,y') &amp;= 1 \\
+	4y\,y' (y^2-1) &amp;= 1 \\
+	y' &amp;= \frac{1}{4y(y^2-1)}		\tagans
+\end{align*}\]
+
+<p>As you may have noticed, the final answer does not match the answer from our <a href="../DC-4.3-the-chain-rule">previous lesson</a>. It is because we have differentiated it implicitly. Thus, having a final answer of an implicit function. If, however, you want to express the final answer explicitly as a function of $x$, we can replace the value of $y$ with $\sqrt{1+\sqrt{x+1}}$.</p>
+
+\[\begin{align*}
+    y' &amp;= \frac{1}{4y(y^2-1)} \\
+       &amp;= \frac{1}{4\sqrt{1+\sqrt{x+1}}\brk{\br{\sqrt{1+\sqrt{x+1}}}^2-1}} \\
+       &amp;= \frac{1}{4\sqrt{1+\sqrt{x+1}}\brk{\cancel{1}+\sqrt{x+1}-\cancel{1}}} \\
+       &amp;= \frac{1}{4\sqrt{\br{1+\sqrt{x+1}}(x+1)}}      \tagans
+\end{align*}\]
+
+<p>As a result, the final answer can be expressed in any of the two ways. It will ultimately come down to personal preference or to what is required.</p>
+
+\[y' = \frac{1}{4y(y^2-1)} = \frac{1}{4\sqrt{\br{1+\sqrt{x+1}}(x+1)}}\]
+
+:ET

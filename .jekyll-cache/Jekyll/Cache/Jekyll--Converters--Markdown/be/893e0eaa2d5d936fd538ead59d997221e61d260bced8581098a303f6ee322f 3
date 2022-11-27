@@ -1,0 +1,28 @@
+I"7
+<p>Add $\Delta x$ and $\Delta y$ to $x$ and $y$ respectively,</p>
+
+\[\begin{align*}
+	x+\Dx &amp;= \frac{(y+\Dy)-2}{2(y+\Dy)+5} \\
+	\Dx &amp;= \frac{y+\Dy-2}{2y+2\Dy+5} - \frac{y-2}{2y+5} \\
+	&amp;=\frac{(y+\Dy-2)(2y+5)-(y-2)(2y+2\Dy+5)}{(2y+2\Dy+5)(2y+5)} \\
+	&amp;=\frac{(2y^2+2y\Dy-4y+5y+5\Dy-10)-(2y^2+2y\Dy+5y-4y-4\Dy-10)}{(2y+2\Dy+5)(2y+5)} \\
+	&amp;=\frac{5\Dy+4\Dy}{(2y+2\Dy+5)(2y+5)} \\
+	&amp;=\frac{9\Dy}{(2y+2\Dy+5)(2y+5)} 
+\end{align*}\]
+
+<p>Divide both sides by $\D y$,</p>
+
+\[\begin{align*}
+	&amp;=\frac{9\cancel{\Dy}}{(2y+2\Dy+5)(2y+5)} \cdot \frac{1}{\cancel{\Dy}} 
+\end{align*}\]
+
+<p>Thus,</p>
+
+\[\begin{align*}
+	\frac{dx}{dy} &amp;= \lim_{\Dy\to 0} \frac{9}{(2y+2\Dy+5)(2y+5)} \\
+	&amp;= \frac{9}{(2y+2(0)+5)(2y+5)}	\\
+	&amp;= \frac{9}{(2y+5)(2y+5)} \\
+	&amp;= \frac{9}{(2y+5)^2}		\tagans
+\end{align*}\]
+
+:ET

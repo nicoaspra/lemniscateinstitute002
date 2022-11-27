@@ -1,0 +1,12 @@
+I"
+<p>Combine the terms that contains logarithms,</p>
+
+\[\begin{align*}
+    \log_{5}(x+3)+\log_{5}5 &amp;= 2 \\
+    \log_{5}[5(x+3)] &amp;= 2	\quad \tcA{\log(xy)=\log{x} + \log{y}} \\
+    5(x+3) &amp;= 5^2 \\
+    5x + 15 &amp;= 25 \\
+    x &amp;= 2	\tagans
+\end{align*}\]
+
+:ET

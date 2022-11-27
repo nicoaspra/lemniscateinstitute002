@@ -1,0 +1,10 @@
+I"à
+\[\begin{align*}
+	\ln{x} &amp;- 2\ln{3} - \ln{e} \\
+	&amp;= \ln{3^2}-\ln{e}		\quad\tcA{\ln{x^n} = n\ln x} \\
+	&amp;= \ln\frac{3^2}{e} \\
+	e^{\ln x} &amp;= e^{\ln\frac{9}{e}} \\
+	x &amp;= \frac{9}{e} \tagans
+\end{align*}\]
+
+:ET

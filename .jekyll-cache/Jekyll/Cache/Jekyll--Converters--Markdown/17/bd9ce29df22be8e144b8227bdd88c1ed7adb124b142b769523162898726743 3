@@ -1,0 +1,21 @@
+I"‹
+<p>The function is continuous at $x=a$ if $\lim_{x\to a} f(x)=f(a)$.</p>
+
+<p>For $\lim_{x\to a} f(x)$,</p>
+
+\[\begin{align*}
+	\lim_{x\to 2} (2x^{2}-1) &amp;= 2(2)^2-1 \\
+	&amp;= 2(4)-1 \\
+	&amp;= 7
+\end{align*}\]
+
+<p>And for $f(a)$,</p>
+
+\[\begin{align*}
+	f(2) &amp;= 2(2)^{2}-1 \\
+	&amp;= 7
+\end{align*}\]
+
+<p>Since $\lim_{x\to 2} f(x)=f(2)$, the function is <strong>continuous</strong>.</p>
+
+:ET

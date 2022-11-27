@@ -1,0 +1,11 @@
+I"
+<p>To evaluate this example, use the chain rule.</p>
+
+\[\begin{align*}
+	d(s) &amp;= d(\sec(\sin t)) \\
+	ds &amp;= \tan(\sin t)\sec(\sin t) \cdot d(\sin t) \\
+	&amp;= \tan(\sin t)\sec(\sin t)\cos t \,dt \\
+	\frac{ds}{dt} &amp;= \tan(\sin t)\sec(\sin t)\cos t		\tagans
+\end{align*}\]
+
+:ET

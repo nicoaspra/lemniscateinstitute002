@@ -149,7 +149,8 @@ $$
 	\ddx{(y)} &= \ddx\br{ x^3+7x^{-6}-2x^5+\frac{\pi}{3} } \\
 	\dydx &= \ddx(x^3)+\ddx(7x^{-6})-\ddx(2x^5)+\ddx\br{ \frac{\pi}{3} } \\%\quad \text{\tcA{$\pi$ is a constant}}\\
 	&= 3x^{3-1}+(-6)7x^{-6-1}-(5)2x^{5-1}+0 \\
-	&= 3x^2-42x^{-7}-10x^4		\tagans
+	&= 3x^2-42x^{-7}-10x^4 \\
+	&= 3x^2-\frac{42}{x^7}-10x^4		\tagans
 \end{align*}
 $$
 
