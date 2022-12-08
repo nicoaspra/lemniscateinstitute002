@@ -154,6 +154,7 @@ $$
 \end{align*}
 $$
 
+
 {% endcapture %}
 {% include solution.html details = include_content %}
 
