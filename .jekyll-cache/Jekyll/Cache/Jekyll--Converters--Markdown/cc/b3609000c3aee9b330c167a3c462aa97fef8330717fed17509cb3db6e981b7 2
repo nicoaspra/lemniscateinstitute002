@@ -1,9 +1,0 @@
-I"
-<p>Recall that the identity: $\cos\alpha \cos\beta = \frac{1}{2}\brk{\cos(\alpha+\beta)+\cos(\alpha-\beta)}$</p>
-
-\[\begin{align*}
-	\cos 7x \cos x &amp;= \frac{1}{2} \brk{ \cos(7x+x)+\cos(7x-x) }\\
-		&amp;= \frac{1}{2} \brk{ \cos(8x)+\cos(6x) } \tagans
-\end{align*}\]
-
-:ET

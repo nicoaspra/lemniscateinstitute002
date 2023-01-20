@@ -67,7 +67,7 @@ defaults:
       path: ""
     values:
       title: Untitled
-      author: Engr. Nico O. Aspra, ME, RMP
+      author: Engr. Nico O. Aspra, M.Eng., RMP, LPT
       authornum: 1
       weight: 2
       layout: content

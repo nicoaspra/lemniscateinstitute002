@@ -1,7 +1,7 @@
 ---
 title: "Area Under a Curve"
 authornum: 2
-author: Engr. Nico O. Aspra, ME, RMP  <br> Engr. Pee Jay N. Gealone
+author: Engr. Nico O. Aspra, M.Eng., RMP, LPT  <br> Engr. Pee Jay N. Gealone
 prevcontenturl: ../IC-6.1-introduction-to-plane-areas
 nextcontenturl: ../IC-6.3-area-between-curves
 ---

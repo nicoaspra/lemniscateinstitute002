@@ -2,7 +2,7 @@
 title: "The Essence of Integral Calculus"
 authornum: 2
 featured: yes
-author: Engr. Nico O. Aspra, ME, RMP  <br> Engr. Pee Jay N. Gealone
+author: Engr. Nico O. Aspra, M.Eng., RMP, LPT  <br> Engr. Pee Jay N. Gealone
 prevcontenturl: ../IC-1.1-introduction-and-history-of-integral-calculus
 nextcontenturl: ../IC-1.3-definite-and-indefinite-integrals
 ---

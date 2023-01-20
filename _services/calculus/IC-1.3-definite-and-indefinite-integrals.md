@@ -1,7 +1,7 @@
 ---
 title: "Definite and Indefinite Integrals"
 authornum: 2
-author: Engr. Nico O. Aspra, ME, RMP  <br> Engr. Pee Jay N. Gealone
+author: Engr. Nico O. Aspra, M.Eng., RMP, LPT  <br> Engr. Pee Jay N. Gealone
 weight: 2
 layout: content
 prevcontenturl: ../IC-1.2-the-essence-of-integral-calculus
