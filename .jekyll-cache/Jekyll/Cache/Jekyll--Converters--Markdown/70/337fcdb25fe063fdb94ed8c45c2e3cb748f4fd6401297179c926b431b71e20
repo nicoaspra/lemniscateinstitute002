@@ -1,4 +1,4 @@
-I"´<p>From the previous sections we have already learned about electric charges and atoms. We also have learned that all objects are made up of atoms with its sub atomic particles. Since atoms consist of charged particles, by knowing the number of particles we can compute for the charge of a body using the equation,</p>
+I"±<p>From the previous sections we have already learned about electric charges and atoms. We also have learned that all objects are made up of atoms with its sub atomic particles. Since atoms consist of charged particles, by knowing the number of particles we can compute for the charge of a body using the equation,</p>
 
 <p align="center" style="background-color:rgba(64, 130, 110, 0.07);
 border: 3px solid rgba(64, 130, 110, 0.9);
@@ -24,7 +24,7 @@ Determine the number of protons if it has a charge of $1 \un{C}$.</p>
 
 <p>$\given$<br />
 \(\begin{align*}
-	q &amp;= -1\un{C} &amp; \\
+	q &amp;= 1\un{C} &amp; \\
 	e &amp;= 1.602\x 10^{-19}\un{C}
 \end{align*}\)</p>
 
@@ -34,7 +34,7 @@ To determine the number of protons, use $\eref{eq:number of electrons and charge
 \[\begin{align*}
 	q &amp;= Ne \\
 	N &amp;= \frac{q}{e} \\
-	&amp;= \NDcancel{-1}{C}{-1.602\x 10^{-19}}{C} \\
+	&amp;= \NDcancel{1}{C}{1.602\x 10^{-19}}{C} \\
 	&amp;= 6.242\x 10^{18}	\tagans
 \end{align*}\]
 

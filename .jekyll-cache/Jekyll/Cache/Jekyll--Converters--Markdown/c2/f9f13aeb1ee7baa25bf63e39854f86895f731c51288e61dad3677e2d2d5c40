@@ -1,4 +1,4 @@
-I"<<p>From our previous lesson on Resistance, we have used the $\rho$ as a proportionality constant. However, resistivity has a  Resistivity is a measure of the natural property of the material of a given size to resist current. Since it is a natural property, it varies from material to material. The table below shows the resistivity of some common materials.</p>
+I"O<p>From our previous lesson on Resistance, we have used the $\rho$ as a proportionality constant. However, resistivity has a  Resistivity is a measure of the natural property of the material of a given size to resist current. Since it is a natural property, it varies from material to material. The table below shows the resistivity of some common materials.</p>
 
 <center><p><em>Table 1: Values of Resistivity, $\rho$ at Room Temperature $20\degg{C}$</em></p></center>
 
@@ -6,7 +6,7 @@
   <thead>
     <tr>
       <th style="text-align: center">Material</th>
-      <th style="text-align: center">$\rho\,[\un{\ohm\cdot m}]$</th>
+      <th style="text-align: center">$\textcolor{white}{\rho\,[\un{\ohm\cdot m}]}$</th>
     </tr>
   </thead>
   <tbody>
