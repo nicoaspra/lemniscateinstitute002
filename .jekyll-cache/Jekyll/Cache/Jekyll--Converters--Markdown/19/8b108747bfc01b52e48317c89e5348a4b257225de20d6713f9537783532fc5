@@ -1,4 +1,4 @@
-I"A<h1 id="atoms">Atoms</h1>
+I"†<h1 id="atoms">Atoms</h1>
 
 <p>To comprehend how objects can generate a positive or negative charge, it is necessary first to understand the particles that comprise these objects. Atoms are the basic building blocks of matter and consist of three (3) basic particles: <strong>protons</strong>, <strong>neutrons</strong>, and <strong>electrons</strong>. Of these three, protons and electrons carry a charge, while neutrons, on the other hand, is neutral, which means it has no net charge.</p>
 
@@ -50,17 +50,21 @@ border-radius:7px;
 padding:10px;
 margin:5px;">
     $$\begin{align}
-        e = 1.602 \times 10^{-19} \un{C}
+        e &amp;= 1.602 \times 10^{-19} \un{C/proton} \\
+        e &amp;= -1.602 \times 10^{-19} \un{C/electron}
     \end{align}$$
 </p>
 
-\[\begin{align*}
-    e &amp;= 1.602 \times 10^{-19} \un{C} \\
-    \frac{e}{1.602 \times 10^{-19}} &amp;= \frac{\cancel{1.602 \times 10^{-19}} \un{C}}{\cancel{1.602 \times 10^{-19}}} \\
-    6.24\x10^{18} \un{e} &amp;= 1\un{C}
-\end{align*}\]
+<!-- $$
+\begin{align*}
+    e &= 1.602 \times 10^{-19} \un{C} \\
+    \frac{e}{1.602 \times 10^{-19}} &= \frac{\cancel{1.602 \times 10^{-19}} \un{C}}{\cancel{1.602 \times 10^{-19}}} \\
+    6.24\x10^{18} \un{e} &= 1\un{C}
+\end{align*}
+$$
 
-<p align="center" style="background-color:rgba(64, 130, 110, 0.07);
+
+<p align=center style="background-color:rgba(64, 130, 110, 0.07);
 border: 3px solid rgba(64, 130, 110, 0.9);
 border-radius:7px;
 padding:10px;
@@ -68,7 +72,7 @@ margin:5px;">
     $$\begin{align}
         1 \un{C} = 6.24\times 10^{18} \,e
     \end{align}$$
-</p>
+</p> -->
 
 <p>The mass of an atom is concentrated at the nucleus since the mass of a proton and a neutron is relatively larger compared to the mass of an electron. The mass of each particles are:</p>
 

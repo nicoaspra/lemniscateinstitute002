@@ -140,7 +140,7 @@ Determine the number of protons if it has a charge of $1 \un{C}$.</p>
 <p>$\given$<br />
 \(\begin{align*}
 	q &amp;= 1\un{C} &amp; \\
-	e &amp;= 1.602\x 10^{-19}\un{C}
+	e &amp;= 1.602\x 10^{-19}\un{C/proton}
 \end{align*}\)</p>
 
 <p>$\solution$<br />
@@ -149,8 +149,8 @@ To determine the number of protons, use $\eref{eq:number of electrons and charge
 \[\begin{align*}
 	q &amp;= Ne \\
 	N &amp;= \frac{q}{e} \\
-	&amp;= \NDcancel{1}{C}{1.602\x 10^{-19}}{C} \\
-	&amp;= 6.242\x 10^{18}	\tagans
+	&amp;= \frac{1\un{\cancel{C}}}{1.602\x 10^{-19}\un{\frac{\cancel{C}}{proton}}} \\
+	&amp;= 6.242\x 10^{18} \un{protons}	\tagans
 \end{align*}\]
 
 <p>Hence, the number of electrons $N$ is $6.242\x 10^{18}$.</p>
@@ -162,8 +162,8 @@ How many electrons must be removed from an electrically neutral silver coin to g
 <p>$\given$<br />
 \(\begin{align*}
 	q_f &amp;= 2.4\un{\mu C} = 2.4\x10^{-6}\un{C} &amp; \\
-	- e &amp;= 1.602\x 10^{-19}\un{C} \quad (\text{charge of an electron})\\
-	e &amp;= -1.602\x 10^{-19}\un{C}
+	% - e &amp;= 1.602\x 10^{-19}\un{C} \quad (\text{charge of an electron})\\
+	e &amp;= -1.602\x 10^{-19}\un{C/electron}  \quad (\text{charge of an electron})
 \end{align*}\)</p>
 
 <p>$\solution$<br />
@@ -181,7 +181,8 @@ The final charge of the silver coin is $q_f = 2.4\x10^{-6}\un{C}$ after removing
 \[\begin{align*}
 	q_e &amp;= Ne \\
 	N &amp;= \frac{q_e}{e} \\
-	&amp;= \NDcancel{- 2.4\x10^{-6}}{C}{-1.602\x 10^{-19}}{C} \\
+	% &amp;= \NDcancel{-2.4\x10^{-6}}{C}{-1.602\x 10^{-19}}{C} \\
+	&amp;= \frac{-2.4\x10^{-6}\un{\cancel{C}}}{-1.602\x 10^{-19}\un{\frac{\cancel{C}}{electron}}} \\
 	&amp;= 1.498\x 10^{13} \un{electrons}		\tagans
 \end{align*}\]
 
