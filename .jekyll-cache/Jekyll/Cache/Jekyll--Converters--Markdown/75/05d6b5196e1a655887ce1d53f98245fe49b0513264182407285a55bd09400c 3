@@ -1,0 +1,18 @@
+I"G
+<p>$\For{a}$<br />
+Factor the expression,</p>
+
+\[\begin{align*}
+	\lim\limits_{x\to\infty}\frac{25}{3x^3} &amp;= \lim\limits_{x\to\infty} \br{ \frac{25}{3} \cdot \frac{1}{x} \cdot \frac{1}{x} \cdot \frac{1}{x} } \\
+	&amp;= \frac{25}{3}(0)(0)(0) \\
+	&amp;= 0	\tagans
+\end{align*}\]
+
+<p>$\For{b}$<br />
+As you have noticed, as long as $x$ or any multiple of $x$ is the denominator of the function, its limit as $x$ approaches to either positive or negative infinity is always zero. Thus,</p>
+
+\[\begin{align*}
+	\lim\limits_{x\to-\infty}\frac{25}{3x^3} &amp;= 0	\tagans
+\end{align*}\]
+
+:ET

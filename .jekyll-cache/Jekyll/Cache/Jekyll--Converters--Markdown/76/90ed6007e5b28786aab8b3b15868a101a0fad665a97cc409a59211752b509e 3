@@ -1,0 +1,12 @@
+I"g
+<p>Factor the denominator,</p>
+
+\[\begin{align*}
+	\frac{2x}{x^2+x-6} &amp;= \frac{2x}{(x+3)(x-2)}
+\end{align*}\]
+
+<p>In this example, the denominator becomes 0 at $x=-3$ or $x=2$. And whenever the denominator is 0, the function is considered <strong>undefined</strong>.</p>
+
+<p>Hence, the function is <strong>discontinuous at $x=-3$ and $x=2$</strong>.</p>
+
+:ET

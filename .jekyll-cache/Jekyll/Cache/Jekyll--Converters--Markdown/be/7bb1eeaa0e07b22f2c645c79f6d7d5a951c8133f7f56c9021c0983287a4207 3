@@ -1,0 +1,30 @@
+I"f
+<p>To solve for the derivative of the function, use $\eref{eq:differential of tan}$,</p>
+
+\[\begin{align*}
+	d(y) &amp;= d(\tan x-x) \\
+	dy &amp;= \sec^2x\,dx-dx \\
+	&amp;= (\sec^2x-1)\,dx \\
+\end{align*}\]
+
+<p>From the <a href="../DC-9.4-trigonometric-identities">Pythagorean Identities</a>,</p>
+
+\[\begin{align*}
+	\tan^2{x}+1 &amp;= \sec^2{x} \\
+	\sec^2{x}-1 &amp;= \tan^2{x}
+\end{align*}\]
+
+<p>Substituting this to the soultion,</p>
+
+\[\begin{align*}
+	dy &amp;= \tan^2{x}\,dx \\
+\end{align*}\]
+
+<p>Hence,</p>
+
+\[\begin{align*}
+	\frac{dx}{dy} &amp;= \frac{1}{\tan^2x} \\
+	&amp;= \cot^2x		\tagans
+\end{align*}\]
+
+:ET

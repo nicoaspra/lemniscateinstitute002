@@ -1,0 +1,38 @@
+I"»
+<p>When a ball is thrown upward, it will eventually stop rising at its peak. And the instantaneous velocity of the ball when it reaches its peak is zero.</p>
+
+<figure style="text-align: center;">
+  <img src="/images/content/DC/DC-3.5.2.png" alt="my alt text" width="250px" />
+  <figcaption><em>
+</em></figcaption>
+</figure>
+
+<p>Differentiate $s$ with respect to $t$,</p>
+
+\[\begin{align*}
+	s+\D{s} &amp;= 160(t+\D t)-16(t+\D t)^2 \\
+	\D{s} &amp;= \cancel{160t}+160\D t-\cancel{16t^2}-32t\D{t}-16\D{t}^2 - (\cancel{160t}-\cancel{16t^2}) \\
+	&amp;= 160\D{t}-32t\D{t}-16\D{t}^2 \\
+	\frac{\D s}{\D t} &amp;= \frac{\cancel{\D t} (160-32t-16\D{t})}{\cancel{\D t}} \\
+	\frac{ds}{dt} &amp;= \lim_{\D t\to 0} (160-32t-16\D{t}) \\
+	&amp;= 160-32t
+\end{align*}\]
+
+<p>At the peak of flight of the ball, $\frac{ds}{dt}=0$,</p>
+
+\[\begin{align*}
+	0 &amp;= 160-32t \\
+	t &amp;= \frac{160}{32} \\
+	&amp;= 5
+\end{align*}\]
+
+<p>Thus, it takes 5 sec for the ball to reach the peak. So, substitute $t=5$ to the function,</p>
+
+\[\begin{align*}
+	s &amp;= 160(5)-16(5)^2 \\
+	&amp;= 400\un{ft} 		\tagans
+\end{align*}\]
+
+<p>Hence, the ball <strong>will stop rising</strong> after it reaches the height of <strong>400 ft</strong>.</p>
+
+:ET

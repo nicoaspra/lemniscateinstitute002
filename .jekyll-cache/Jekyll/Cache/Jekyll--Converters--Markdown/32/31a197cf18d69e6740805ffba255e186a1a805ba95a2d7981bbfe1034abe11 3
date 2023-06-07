@@ -1,0 +1,27 @@
+I"Œ
+<p>$\text{Let: } V = \text{volume of the cube} $ <br />
+$\phantom{\text{Let: }} x = \text{length of an edge of the cube}$</p>
+
+<p>Hence, the equation for the volume of a cube is,</p>
+
+\[\begin{align*}
+	V &amp;= x^3 	\tagans
+\end{align*}\]
+
+<p>Assign values to $x$, then tabulate the result,</p>
+
+\[\begin{array}{c|ccccc}
+	x    &amp; 0 &amp; 1 &amp; 2 &amp; 3 &amp; 4\\
+	\hline
+	V &amp; 0 &amp; 1 &amp; 8 &amp; 27 &amp; 64
+\end{array}\]
+
+<p>Plot the points on the cartesian plane,</p>
+
+<figure style="text-align: center;">
+  <img src="/images/content/DC/DC-1.6.3.png" alt="my alt text" width="250px" />
+  <figcaption><em>
+</em></figcaption>
+</figure>
+
+:ET

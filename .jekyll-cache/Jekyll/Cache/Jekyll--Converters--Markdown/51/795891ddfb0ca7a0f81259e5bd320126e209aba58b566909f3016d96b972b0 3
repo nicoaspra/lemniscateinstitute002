@@ -1,0 +1,18 @@
+I"u
+<p>Simplify the expression,</p>
+
+\[\begin{align*}
+	y &amp;= (5x^2+1)^{-2}+(x^2+2)^{1/3} \\
+\end{align*}\]
+
+<p>Then differentiate the function by applying the Sum Rule along with the General Power Rule,</p>
+
+\[\begin{align*}
+	\ddx\br{y} &amp;= \ddx\brk{(5x^2+1)^{-2}+(x^2+2)^{1/3}} \\
+	\dydx &amp;= \ubrace{ -2(5x^2+1)^{-3} \cdot \ddx\br{5x^2+1} }{derivative of $(5x^2+1)^{-2}$} + 
+		\ubrace{ \frac{1}{3}(x^2+2)^{\frac{1}{3}-1} \cdot \ddx\br{x^2+2} }{derivative of $(x^2+2)^{1/3}$} \\
+	&amp;= -2(5x^2+1)^{-3} (10x) + \frac{1}{3}(x^2+2)^{-2/3} (2x) \\
+	&amp;= -\frac{20x}{(5x^2+1)^{3}} + \frac{2x}{3(x^2+2)^{2/3}}
+\end{align*}\]
+
+:ET

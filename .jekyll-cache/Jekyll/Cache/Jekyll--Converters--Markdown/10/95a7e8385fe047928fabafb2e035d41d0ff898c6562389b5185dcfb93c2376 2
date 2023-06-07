@@ -1,0 +1,16 @@
+I"
+<p>In this example, we are only asked to determine the <strong>left-hand limit</strong> of the function. So, substitute values to $x$ approaching $-3$ from the left.</p>
+
+<figure style="text-align: center;">
+  <img src="/images/content/DC/DC-2.5.5.png" alt="my alt text" width="400px" />
+  <figcaption><em>
+</em></figcaption>
+</figure>
+
+<p>Since the function is getting larger and larger as $x$ approaches $-3$ from the left,</p>
+
+\[\begin{align*}
+	\lim_{x\to -3^-} \br{ 5-\frac{1}{x+3} } &amp;= \infty	\tagans
+\end{align*}\]
+
+:ET

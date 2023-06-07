@@ -1,0 +1,35 @@
+I")
+<p>$\given$ <br />
+\(\begin{align*}
+	v_i &amp;= 15\un{m/s} \text{ (upward)} &amp; \\
+	g &amp;= 9.81\un{m/s^2} \text{ (downward)}
+\end{align*}\)</p>
+
+<p>The initial velocity has an upward direction, which is opposite to the direction of the gravitational acceleration. Thus, the object is decelerating ($a=-g$). And note that at the peak of flight, the object has an instantaneous velocity of 0 m/s. From the given parameters, we can simply solve the problem using $\eref{eq:kinematic eqn gravity 1}$,</p>
+
+<figure style="text-align: center;">
+  <img src="/images/content/phys1/phys1-3.4.2.png" alt="my alt text" width="250px" />
+  <figcaption><em>
+</em></figcaption>
+</figure>
+
+\[\begin{align*}
+	v_f &amp;= v_i+gt
+\end{align*}\]
+
+<p>Since the ball is decelerating, $g$ must be negative. Thus,</p>
+
+\[\begin{align*}
+	v_2 &amp;= v_1+(-g)t \\
+	v_2 &amp;= v_1-gt \\
+\end{align*}\]
+
+<p>Rearranging the equation gives us,</p>
+
+\[\begin{align*}
+	t &amp;= \frac{v_2-v_1}{-g} \\
+	&amp;= \frac{0-15\un{m/s}}{-9.81 \un{m/s^2}} \\
+	&amp;= 1.53 \un{s}		\tagans
+\end{align*}\]
+
+:ET

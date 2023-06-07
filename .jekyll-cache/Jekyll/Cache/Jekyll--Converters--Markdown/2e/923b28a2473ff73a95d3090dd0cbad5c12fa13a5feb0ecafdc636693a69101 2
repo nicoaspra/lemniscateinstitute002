@@ -1,0 +1,63 @@
+I"V
+<p>$\For{a}$ <br />
+Use Equation 1,</p>
+
+\[\begin{align*}
+	(f+g)(x) &amp;=  f(x)+g(x) \\
+	&amp;= (x+2)+(x-1) \\
+	&amp;= x+2+x-1 \\
+	&amp;= 2x+1		\tagans
+\end{align*}\]
+
+<p>$\For{b}$ <br />
+Use Equation 2,</p>
+
+\[\begin{align*}
+	(f-g)(x) &amp;=  f(x)-g(x) \\
+	&amp;= (x+2)-(x-1) \\
+	&amp;= x+2-x+1 \\
+	&amp;= 3		\tagans
+\end{align*}\]
+
+<p>$\For{c}$ <br />
+Use Equation 2,</p>
+
+\[\begin{align*}
+	(g-f)(x) &amp;=  g(x)-f(x) \\
+	&amp;= (x-1)-(x+2) \\
+	&amp;= x-1-x-2 \\
+	&amp;= -3	\tagans
+\end{align*}\]
+
+<p>$\For{d}$ <br />
+Use Equation 3,</p>
+
+\[\begin{align*}
+	(f \cdot g)(x) &amp;=  f(x) \cdot g(x) \\
+	&amp;= (x+2) (x-1) \\
+\end{align*}\]
+
+<p>Multiply the two binomials using the ``FOIL Method’’</p>
+
+\[\begin{align*}
+	&amp;= x^2-x+2x-2 \\
+	&amp;= x^2+x-2	\tagans
+\end{align*}\]
+
+<p>$\For{e}$ <br />
+Use Equation 4,</p>
+
+\[\begin{align*}
+	\br{ \frac{f}{g} } \! (x) &amp;=  \frac{f(x)}{g(x)} \\
+	&amp;= \frac{x+2}{x-1}	\tagans
+\end{align*}\]
+
+<p>$\For{f}$ <br />
+Use Equation 4,</p>
+
+\[\begin{align*}
+	\br{ \frac{g}{f} } \! (x) &amp;=  \frac{g(x)}{f(x)} \\
+	&amp;= \frac{x-1}{x+2}	\tagans
+\end{align*}\]
+
+:ET

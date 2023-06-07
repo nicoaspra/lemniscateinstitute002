@@ -1,0 +1,22 @@
+I"Â
+<p>$\For{a}$<br />
+In this example, the leading term is $-x^3$ since its exponent has the highest power. With this, all the other terms would become insignificant. Hence, we can focus our attention to this term.</p>
+
+\[\begin{align*}
+	\lim\limits_{x\to\infty} (7x+2-x^3) &amp;= \lim\limits_{x\to\infty} (\cancel{7x}+\cancel{2}-x^3) \\
+	&amp;= \lim\limits_{x\to\infty} (-x^3)\\
+	&amp;= -(\infty)^3 \\
+	&amp;= -\infty	\tagans
+\end{align*}\]
+
+<p>$\For{b}$</p>
+
+\[\begin{align*}
+	\lim\limits_{x\to-\infty} (7x+2-x^3) &amp;= \lim\limits_{x\to\infty} (\cancel{7x}+\cancel{2}-x^3) \\
+	&amp;= \lim\limits_{x\to-\infty} (-x^3)\\
+	&amp;= -(-\infty)^3 \\
+	&amp;= -(-\infty) \\
+	&amp;= \infty	\tagans
+\end{align*}\]
+
+:ET

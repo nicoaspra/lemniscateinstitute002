@@ -1,0 +1,11 @@
+I"
+<p>To solve for the derivative of the function, use $\eref{eq:derivative of sin}$,</p>
+
+\[\begin{align*}
+	\ddx\br{y} &amp;= \ddx\br{\sin 5x} \\
+	\dydx &amp;= \cos{5x}\cdot \ddx\br{5x} \\
+	&amp;= \cos{5x}\cdot 5 \\
+	&amp;= 5\cos{5x}	\tagans
+\end{align*}\]
+
+:ET

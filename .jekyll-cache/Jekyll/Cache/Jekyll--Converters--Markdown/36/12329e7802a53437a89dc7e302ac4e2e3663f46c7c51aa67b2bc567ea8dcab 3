@@ -1,0 +1,13 @@
+I"M
+<p>Get the natural logarithm of both sides of the equation,</p>
+
+\[\begin{align*}
+	3^{5x} &amp;= 4^{2x+1} \\
+	\ln(3^{5x}) &amp;= \ln(4^{2x+1}) \\
+	5x \ln{3} &amp;= (2x+1)\ln{4} \\
+	5x \ln{3} &amp;= 2x \ln{4} + \ln{4} \\
+	x( 5 \ln{3} - 2 \ln{4} ) &amp;= \ln{4} \\
+	x &amp;= \frac{\ln{4}}{5 \ln{3} - 2 \ln{4}} \tagans
+\end{align*}\]
+
+:ET

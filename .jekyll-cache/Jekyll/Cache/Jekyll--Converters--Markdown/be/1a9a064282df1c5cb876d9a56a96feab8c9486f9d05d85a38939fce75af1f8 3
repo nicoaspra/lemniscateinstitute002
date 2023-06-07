@@ -1,0 +1,21 @@
+I"þ
+\[\begin{align*}
+	\text{Let:}\quad u &amp;= \sqrt{2x^2-5x+3} \hspace{100cm} \\
+	du &amp;= d\br{\sqrt{2x^2-5x+3}} \\
+	&amp;= d\br{(2x^2-5x+3)^{1/2}} \\
+	&amp;= \frac12(2x^2-5x+3)^{-1/2}\cdot d(2x^2-5x+3) \\
+	&amp;= \frac{1}{2\sqrt{2x^2-5x+3}} \cdot (4x-5) \,dx \\
+	&amp;= \frac{4x-5}{2\sqrt{2x^2-5x+3}} \,dx \\
+\end{align*}\]
+
+<p>To solve for the derivative of the function, use $\eref{eq:differential of Natural Logarithmic Function},$</p>
+
+\[\begin{align*}
+	d(y) &amp;= d\br{\ln\sqrt{2x^2-5x+3}} \\
+	dy &amp;= \frac{\frac{4x-5}{2\sqrt{2x^2-5x+3}} \,dx}{\sqrt{2x^2-5x+3}} \\
+	dy &amp;= \frac{4x-5}{2\sqrt{2x^2-5x+3} \cdot \sqrt{2x^2-5x+3}} \,dx \\
+	\dydx &amp;= \frac{4x-5}{2\br{\sqrt{2x^2-5x+3}}^2} \\
+	&amp;= \frac{4x-5}{2\br{2x^2-5x+3}} 	\tagans
+\end{align*}\]
+
+:ET

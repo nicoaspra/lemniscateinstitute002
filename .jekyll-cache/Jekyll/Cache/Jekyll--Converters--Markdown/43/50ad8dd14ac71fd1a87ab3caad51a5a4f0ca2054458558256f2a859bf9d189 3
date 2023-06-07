@@ -1,0 +1,24 @@
+I"Ú
+<p>Replace $x$ with $-x$,</p>
+
+\[\begin{align*}
+	\phi(-x) &amp;= -2(-x)^5+2(-x)^3 \\
+		     &amp;= 2x^5-2x^3  \\
+		     &amp;= -(-2x^5+2x^3) \\
+\end{align*}\]
+
+<p>Since $\phi(x)=-2x^5+2x^3$,</p>
+
+\[\begin{align*}
+	\phi(-x) &amp;= -\phi(x)
+\end{align*}\]
+
+<p>Hence, the function is <strong>Odd</strong></p>
+
+<figure style="text-align: center;">
+  <img src="/images/content/DC/DC-1.9.4.png" alt="my alt text" width="250px" />
+  <figcaption><em>
+</em></figcaption>
+</figure>
+
+:ET

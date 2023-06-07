@@ -1,0 +1,17 @@
+I"‚
+<p>Start by dividing both the numerator and the denominator by the variable with the highest power, which in this case is $x^4$</p>
+
+\[\begin{align*}
+	\lim\limits_{x\to\infty} \frac{3x^4+4x-2}{7+x^4} &amp;= \lim\limits_{x\to\infty} \frac{(3x^4/x^4)+(4x/x^4)-(2/x^4)}{(7/x^4)+(2x^4/x^4)} \\
+	&amp;= \lim\limits_{x\to\infty} \frac{3+(4/x^3)-(2/x^4)}{(7/x^4)+2} \\
+\end{align*}\]
+
+<p>Since, $\lim\limits_{x\to\pm\infty} \frac{1}{x}=0$</p>
+
+\[\begin{align*}
+	&amp;= \lim\limits_{x\to\infty} \frac{3+\cancelto{0}{(4/x^3)}-\cancelto{0}{(2/x^4)}}{\cancelto{0}{(7/x^4)}+2} \\
+	&amp;= \frac{3+0-0}{0+2} \\
+	&amp;= \frac{3}{2}	\tagans
+\end{align*}\]
+
+:ET

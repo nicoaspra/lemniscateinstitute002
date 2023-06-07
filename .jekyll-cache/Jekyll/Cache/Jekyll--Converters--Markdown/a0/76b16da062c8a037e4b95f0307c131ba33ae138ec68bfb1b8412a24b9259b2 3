@@ -1,0 +1,18 @@
+I"Ä
+<p>Replace $x$ with $-x$,</p>
+
+\[\begin{align*}
+    h(-x) &amp;= 2x^3-x^2-5x+2 \\
+        &amp;= 2(-x)^3-(-x)^2-5(-x)+2  \\
+        &amp;= -2x^3-x^2+5x+2 
+\end{align*}\]
+
+<p>$h(-x) \neq h(x)$   and  $h(-x) \neq -h(x)$  hence, the function is <strong>neither odd nor even</strong></p>
+
+<figure style="text-align: center;">
+  <img src="/images/content/DC/DC-1.9.6.png" alt="my alt text" width="250px" />
+  <figcaption><em>
+</em></figcaption>
+</figure>
+
+:ET

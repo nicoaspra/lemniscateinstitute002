@@ -1,0 +1,12 @@
+I"‚
+<p>In this example, we can recall that $\sec^2\br{\frac{x}{6}}$ can also be expressed as $\brk{\sec\br{\frac{x}{6}}}^2$. With this in mind, we can use the power rule to differentiate the function.</p>
+
+\[\begin{align*}
+	d(v) &amp;= d\brk{\brk{\sec\br{\frac{x}{6}}}^2} \\
+	&amp;= 2\sec\br{\frac{x}{6}} \cdot d\brk{\sec\br{\frac{x}{6}}} \\
+	&amp;= 2\sec\br{\frac{x}{6}} \cdot \brk{\tan\br{\frac{x}{6}}\sec\br{\frac{x}{6}} \cdot d\br{\frac{x}{6}}} \\
+	&amp;= 2\sec\br{\frac{x}{6}} \cdot \brk{\tan\br{\frac{x}{6}}\sec\br{\frac{x}{6}} \cdot \frac{1}{6}\, dx} \\
+	&amp;= \frac{1}{3} \tan\br{\frac{x}{6}}\sec^2\br{\frac{x}{6}} \,dx
+\end{align*}\]
+
+:ET

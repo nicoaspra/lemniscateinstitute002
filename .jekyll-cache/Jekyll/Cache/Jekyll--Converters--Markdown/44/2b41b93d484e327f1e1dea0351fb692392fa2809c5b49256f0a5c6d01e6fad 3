@@ -1,0 +1,11 @@
+I"ï
+<p>Express the logarithmic function in an exponential form,</p>
+
+\[\begin{align*}
+	\log_4(x+3) &amp;= 2 \\
+	x+3 &amp;= 4^2 	\quad\quad \tcA{\log_b x = y \;\tcB{\Rightarrow}\; x=b^y} \\
+	x &amp;= 16-3 \\
+	&amp;= 13	\tagans
+\end{align*}\]
+
+:ET
