@@ -3,7 +3,7 @@ title: "Engr. Nico O. Aspra, M.Eng., RMP, LPT"
 date: 2018-11-19T10:47:58+10:00
 draft: false
 image: "images/team/nico-aspra-photo.png"
-jobtitle: "Director"
+jobtitle: "Author"
 # linkedinurl: "https://www.linkedin.com/"
 promoted: true
 weight: 1

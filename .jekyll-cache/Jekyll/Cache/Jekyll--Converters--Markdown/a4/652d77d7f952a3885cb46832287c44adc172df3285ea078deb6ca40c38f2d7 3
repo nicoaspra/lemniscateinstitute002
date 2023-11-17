@@ -1,0 +1,15 @@
+I"I
+<p>From the <a href="../1.2-metric-system-and-SI-prefixes">SI prefixes</a>, $1\un{kg} = 10^3 \un{g}$ and $1 \un{cm} = 10^{-2}\un{m}$. Hence,</p>
+
+\[\begin{align*}
+	\rho &amp;= 19.3 \frac{\cancel{\un{g}}}{\un{cm^3}}
+		\br{ \frac{1 \un{kg}}{10^3\cancel{\un{g}}} }
+		\br{ \frac{1\un{cm}}{10^{-2}\un{m}} }^3 \\
+	&amp;= 19.3 \frac{\un{kg}}{\cancel{\un{cm^3}}}
+		\br{ \frac{1}{10^3} } 
+		\br{ \frac{1 \cancel{ \un{cm^3}}}{10^{-6}\un{m}^3} } \\
+	&amp;= (19.3)\br{ \frac{1}{10^3} } (10^6) \frac{\un{kg}}{\un{m}^3} \\
+	&amp;= 19.3 \times 10^3 \frac{\un{kg}}{\un{m}^3}		\tagans
+\end{align*}\]
+
+:ET

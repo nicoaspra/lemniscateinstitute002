@@ -1,0 +1,48 @@
+I"6
+<p>In this example, since we will be subtracting vectors, the first step the we need to do is reverse the direction of the negative vector. In this case,</p>
+
+\[\begin{align*}
+	R &amp;= \vv{A}-\vv{B} \\
+	  &amp;= \vv{A}+(-\vv{B})
+\end{align*}\]
+
+<figure style="text-align: center;">
+  <img src="/images/content/phys1/phys1-2.2.9.png" alt="my alt text" width="300px" />
+  <figcaption><em>
+</em></figcaption>
+</figure>
+
+<p>Then Solving for the magnitude of the resultant gives us,</p>
+
+\[\begin{align*}
+	R &amp;= \sqrt{(-7 \un{m})^2+(-10 \un{m})^2}\\
+	&amp;= \sqrt{149 \un{m}^2} \\
+	&amp;= 12.21 \un{m}		\tagans
+\end{align*}\]
+
+<p>And for the direction,</p>
+
+\[\begin{align*}
+	\tan\theta &amp;=\frac{-10\un{m}}{-7\un{m}}\\
+	\theta &amp;= \tan^{-1} \br{ \frac{-10\un{m}}{-7\un{m}} } \\
+	&amp;= 55.01 ^{\circ}
+\end{align*}\]
+
+<p>However, keep in mind that in a Cartesian Plane, angles are often measured from the positive $x$-axis. Thus, we should add $180\degg$ to the solved angle.</p>
+
+\[\begin{align*}
+	\theta &amp;= 180\degg + 55.01\degg \\
+		   &amp;= 235.01 \degg		\tagans
+\end{align*}\]
+
+<figure style="text-align: center;">
+  <img src="/images/content/phys1/phys1-2.2.10.png" alt="my alt text" width="300px" />
+  <figcaption><em>
+</em></figcaption>
+</figure>
+
+<p>Suppose you’re still wondering why we adjusted the angle and whether it had an effect on the value of the final answer. The answer is, of course, no! Try solving for the values of $\tan(55.01\degg)$ and $\tan(235.01\degg)$. Just make sure that your calculator is set in <strong>degrees mode</strong>. As you may have seen, the output of the two functions is identical. Hence, adjusting our angle from 55.01 to 235.01 degrees will not affect the value of our final answer.</p>
+
+<p>Therefore, the resultant of $\vv{A}-\vv{B} = 12.21 \un{m}$ with an angle of $235.01\degg$</p>
+
+:ET

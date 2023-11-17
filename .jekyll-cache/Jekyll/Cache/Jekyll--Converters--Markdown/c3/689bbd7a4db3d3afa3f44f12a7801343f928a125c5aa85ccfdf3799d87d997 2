@@ -1,0 +1,44 @@
+I"è
+<p>$\text{Let: } A = \text{area} $ <br />
+$\phantom{\text{Let: }} a = \text{altitude}$ <br />
+$\phantom{\text{Let: }} b = \text{base}$ <br />
+$\phantom{\text{Let: }} c = \text{hypotenuse}$</p>
+
+<figure style="text-align: center;">
+  <img src="/images/content/DC/DC-1.6.5.png" alt="my alt text" width="200px" />
+  <figcaption><em>
+</em></figcaption>
+</figure>
+<p>We can solve for the altitude $a$ of the triangle using the Pythagorean theorem,</p>
+
+\[\begin{align*}
+	c^2 &amp;= a^2 + b^2 \\
+	a^2 &amp;= c^2 -b^2 \\
+	a &amp;= \sqrt{5^2-b^2} \\
+	   &amp;= \sqrt{25-b^2} 
+\end{align*}\]
+
+<p>Solving for the area will give us,</p>
+
+\[\begin{align*}
+	A &amp;= \frac{1}{2} ab \\
+	A &amp;= \frac{1}{2} b\sqrt{25-b^2} 	\tagans
+\end{align*}\]
+
+<p>Assign values to $b$, then tabulate the result,</p>
+
+\[\begin{array}{c|cccccc}
+	b &amp; 0 &amp; 1 &amp; 2 &amp; 3 &amp; 4 &amp; 5\\
+	\hline
+	A    &amp; 0 &amp; 2.45 &amp; 4.58 &amp; 6 &amp; 6 &amp; 0
+\end{array}\]
+
+<p>Plot the points on the cartesian plane,</p>
+
+<figure style="text-align: center;">
+  <img src="/images/content/DC/DC-1.6.6.png" alt="my alt text" width="250px" />
+  <figcaption><em>
+</em></figcaption>
+</figure>
+
+:ET

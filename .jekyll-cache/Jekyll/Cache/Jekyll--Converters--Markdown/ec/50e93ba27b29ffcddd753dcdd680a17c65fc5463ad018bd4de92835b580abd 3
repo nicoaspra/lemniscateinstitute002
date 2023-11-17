@@ -1,0 +1,17 @@
+I"{
+<figure style="text-align: center;">
+  <img src="/images/content/phys1/phys1-2.3.7.png" alt="my alt text" width="300px" />
+  <figcaption><em>
+</em></figcaption>
+</figure>
+
+<p>Since we’re required to find the vector $\vv{A}$ (hypotenuse), with a given $x$-component $\vv{A_x}$ (adjacent) and the angle $\theta$, we can use the cosine function,</p>
+
+\[\begin{align*}
+	\cos\theta &amp;= \frac{A_x}{A} \\
+	A &amp;= \frac{A_x}{\cos\theta} \\
+	&amp;= \frac{32.0 \text{ m}}{\cos 19\degg} &amp; &amp;&amp;= \frac{-32.0 \text{ m}}{\cos 161\degg} \\
+	&amp;= 30.25 \text{ m}  &amp;\text{or}&amp;	&amp;= 30.25 \text{ m}	\tagans
+\end{align*}\]
+
+:ET

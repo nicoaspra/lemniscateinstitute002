@@ -1,0 +1,12 @@
+I"D
+<p>From Table 1, 1 mile = 5,280 ft and 1 ft = 12 in</p>
+
+\[\begin{align*}
+	\un{Length of road} &amp;= 5 \un{ \cancel{miles}} 
+		\br{ \frac{5,280\un{ \cancel{ft}}}{1\un{ \cancel{mile}}} }
+		\br{ \frac{12 \un{ in} }{1\un{ \cancel{ft}}} } \\
+	&amp;= (5)(5,280)(12\un{ in}) \\
+	&amp;= 316,800 \un{ in}		\tagans
+\end{align*}\]
+
+:ET

@@ -3,7 +3,7 @@ title: "Engr. Pee Jay N. Gealone"
 date: 2018-11-19T10:47:58+10:00
 draft: false
 image: "images/team/pee-jay-gealone.png"
-jobtitle: "Senior Partner"
+jobtitle: "Author"
 # linkedinurl: "https://www.linkedin.com/example2"
 promoted: true
 weight: 2

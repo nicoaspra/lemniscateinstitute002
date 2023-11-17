@@ -1,0 +1,33 @@
+I"f
+<p>Add $\Delta x$ and $\Delta y$ to $x$ and $y$ respectively,</p>
+
+\[\begin{align*}
+%	y+\Dy &amp;= f(x+\Dx) \\
+	y+\Dy &amp;= 5(x+\Dx)+2 \\
+	&amp;= 5x+5\Dx+2 \\
+	\Dy &amp;= 5x+5\Dx+2 -y 
+\end{align*}\]
+
+<p>Since $y=5x+2$,</p>
+
+\[\begin{align*}
+	\Dy &amp;= 5x+5\Dx+2 -(5x+2) \\
+	&amp;= \cancel{5x}+5\Dx+\cancel{2} -\cancel{5x}-\cancel{2} \\
+	&amp;= 5\Dx 
+\end{align*}\]
+
+<p>Divide both sides by $\Dx$,</p>
+
+\[\begin{align*}
+	\frac{\Dy}{\Dx} &amp;= \frac{5\cancel{\Dx} }{\cancel{\Dx}} \\
+	&amp;= 5 
+\end{align*}\]
+
+<p>Thus,</p>
+
+\[\begin{align*}
+	\dydx &amp;= \lim_{\Dx\to 0} 5 \\
+	&amp;= 5		\tagans
+\end{align*}\]
+
+:ET

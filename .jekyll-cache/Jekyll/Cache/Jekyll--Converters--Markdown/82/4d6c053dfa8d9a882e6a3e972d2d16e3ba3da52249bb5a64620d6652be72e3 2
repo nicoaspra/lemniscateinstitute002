@@ -1,0 +1,25 @@
+I":
+<p>$\For{a}$ <br />
+Differentiate the function with respect to time $t$,</p>
+
+\[\begin{align*}
+	\frac{d}{dt}\br{s} &amp;= \frac{d}{dt}\br{5t-0.18t^2} \\
+	\frac{ds}{dt} &amp;= 5-0.36t
+\end{align*}\]
+
+<p>At $t=7\un{s}$,</p>
+
+\[\begin{align*}
+	v &amp;= 5-0.36(7) \\
+	&amp;= 2.48 \un{m/s}	\tagans
+\end{align*}\]
+
+<p>$\For{b}$<br />
+Then differentiating again gives us the acceleration of the rock.
+\(\begin{align*}
+	\frac{d}{dt}\br{\frac{ds}{dt}} &amp;= \frac{d}{dt}\br{5-0.36t} \\
+	\frac{d^2s}{dt^2} &amp;= -0.36 \\
+	a &amp;= -0.36 \un{m/s^2}		\tagans
+\end{align*}\)</p>
+
+:ET

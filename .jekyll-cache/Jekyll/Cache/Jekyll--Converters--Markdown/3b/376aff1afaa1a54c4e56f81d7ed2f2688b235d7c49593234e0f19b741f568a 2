@@ -1,0 +1,60 @@
+I"ò
+<p>$\For{a}$ <br />
+To evaluate the <strong>left-hand limit</strong> of the function as $x$ approaches $-2^-$, trace the graph from the <strong>left side</strong> of $x=-2$. In this case, the function is approaching to positive infinity. Hence,</p>
+
+\[\begin{align*}
+	\lim_{x \to -2^-}f(x)=\infty	\tagans
+\end{align*}\]
+
+<figure style="text-align: center;">
+  <img src="/images/content/DC/DC-2.4.10.png" alt="my alt text" width="220px" />
+  <figcaption><em>
+</em></figcaption>
+</figure>
+
+<p>$\For{b}$ <br />
+Tracing the graph from the right side of $x=-2$ also leads to positive infinity. Hence,</p>
+
+\[\begin{align*}
+	\lim_{x \to -2^+}f(x)=\infty	\tagans
+\end{align*}\]
+
+<figure style="text-align: center;">
+  <img src="/images/content/DC/DC-2.4.11.png" alt="my alt text" width="220px" />
+  <figcaption><em>
+</em></figcaption>
+</figure>
+
+<p>$\For{c}$ <br />
+Since both the left and right hand limits approaches to the same value as  $x$ approaches $-2$,</p>
+
+\[\begin{align*}
+	\lim_{x\to -2^-}{f(x)} &amp;= \lim_{x\to -2^+}{f(x)}=\infty \\
+	\lim_{x\to -2}f(x) &amp;= \infty \tagans 
+\end{align*}\]
+
+<p>$\For{d}$ <br />
+Tracing the graph from the left side of $x=3$ leads to negative infinity.
+Hence,</p>
+
+\[\begin{align*}
+	\lim_{x \to 3^-}f(x) = -\infty	\tagans
+\end{align*}\]
+
+<p>$\For{e}$<br />
+Tracing the graph from the right side of $x=3$ leads to positive infinity.
+Hence,</p>
+
+\[\begin{align*}
+	\lim_{x \to 3^+}f(x) = \infty	\tagans
+\end{align*}\]
+
+<p>$\For{f}$ <br />
+Since the left and the right hand limits approaches to different values, the limit of the function as $x$ approaches 3 <strong>does not exist</strong> (DNE).</p>
+
+\[\begin{align*}
+	\lim_{x \to 3^-}f(x) &amp;\neq \lim_{x \to 3^+}f(x) \\
+	\lim_{x \to 3}f(x) &amp;= \mathrm{DNE}	\tagans
+\end{align*}\]
+
+:ET

@@ -1,0 +1,23 @@
+I"à
+<p>$\For{a}$<br />
+For cases that the degree of the denominator is greater than the numerator, divide the numerator and the denominator by the variable with the highest power found on the denominator, which in this case is $x^2$</p>
+
+\[\begin{align*}
+	\lim\limits_{x\to\infty} \frac{x^3-2x}{5x^2+1} &amp;= \lim\limits_{x\to\infty} \frac{(x^3/x^2)-(2x/x^2)}{(5x^2/x^2)+(1/x^2)} \\
+	&amp;= \lim\limits_{x\to\infty} \frac{(x)-(2/x)}{(5)+(1/x^2)} \\
+	&amp;= \lim\limits_{x\to\infty} \frac{(x)-\cancelto{0}{(2/x)}}{(5)+\cancelto{0}{(1/x^2)}} \\
+	&amp;= \lim\limits_{x\to\infty} \frac{x}{5} \\
+	&amp;= \frac{1}{5}(\infty) \\
+	&amp;= \infty	\tagans
+\end{align*}\]
+
+<p>$\For{b}$</p>
+
+\[\begin{align*}
+	\lim\limits_{x\to-\infty} \frac{x^3-2x}{5x^2+1} &amp;= \lim\limits_{x\to-\infty} \frac{(x^3/x^2)-(2x/x^2)}{(5x^2/x^2)+(1/x^2)} \\
+	&amp;= \lim\limits_{x\to-\infty} \frac{(x)-\cancelto{0}{(2/x)}}{(5)+\cancelto{0}{(1/x^2)}} \\
+	&amp;= \frac{1}{5}(-\infty) \\
+	&amp;= -\infty	\tagans
+\end{align*}\]
+
+:ET
