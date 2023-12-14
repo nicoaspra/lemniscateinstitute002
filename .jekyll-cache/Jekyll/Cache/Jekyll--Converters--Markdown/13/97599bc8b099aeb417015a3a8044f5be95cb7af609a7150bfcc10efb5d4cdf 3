@@ -1,9 +1,0 @@
-I"Z
-\[\begin{align*}
-	\lim_{t \to 3} \br{t^5+10-2t^2-5t^3} &amp;=  \lim_{t \to 3} {t^5} +  \lim_{t \to 3} {10} - \lim_{t \to 3} {2t^2} - \lim_{t \to 3} {5t^3} \\
-		&amp;=  \br{ \,\lim_{t \to 3} {t}}^5 + 10 - 2 \br{ \,\lim_{t \to 3} {t} }^2 - 5 \br{ \,\lim_{t\to 3} {t} }^3 \\
-		&amp;= (3)^5+10+2(3)^2+5(3)^3 \\
-		&amp;= 100		\tagans
-\end{align*}\]
-
-:ET

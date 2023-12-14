@@ -1,9 +1,0 @@
-I"ì
-\[\begin{align*}
-    y &amp;= \frac{\sin 2x}{\cot x} \\
-    &amp;= \frac{2\sin x \cos x}{\br{\dfrac{\cos x}{\sin x}}} \\
-    &amp;= \frac{2\sin x \cancel{\cos x} \sin x}{\cancel{\cos x}} \\
-    &amp;= 2\sin^2 x	\tagans
-\end{align*}\]
-
-:ET

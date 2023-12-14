@@ -1075,4 +1075,52 @@ html { scroll-behavior: smooth; }
 
 .circle-image img { width: 100%; height: 100%; object-fit: cover; }
 
+.slick-carousel { height: 600px; /* Set your desired height */ background-color: #000000; /* Set your desired background color */ }
+
+.slick-carousel img { height: 600px; /* Set your desired height */ }
+
+/* Center the Carousel Container */
+.slick-carousel { display: flex; justify-content: center; align-items: center; margin-bottom: 0px; }
+
+/* Center Individual Slides */
+.slick-slide { display: flex !important; /* Use !important to override Slick's default styles */ justify-content: center; align-items: center; }
+
+/* Adjust the position of Slick Carousel dots */
+.slick-carousel .slick-dots { position: absolute; top: 10px; /* Adjust the top position as needed */ left: 50%; transform: translateX(-50%); z-index: 2; /* Ensure the dots appear above the image */ }
+
+/* Override Slick Carousel styles for dots */
+.slick-carousel .slick-dots .slick-active button:before, .slick-carousel .slick-dots button:before { font-size: 15px !important; /* Set your desired font size */ color: #bbb !important; /* Set your desired color */ }
+
+/* Container for the hover overlay and text */
+.slick-carousel .hover-overlay { position: absolute; width: 100%; height: 150px; bottom: 0px; background-color: rgba(0, 0, 0, 0.1); border-radius: 4px; opacity: 0; transition: opacity 0.3s ease; cursor: pointer; display: flex; justify-content: center; align-items: center; pointer-events: none; color: #ffffff; text-align: center; white-space: normal !important; /* Adding !important to ensure it takes precedence */ }
+
+/* Show the hover overlay when the carousel container is hovered */
+.slick-carousel:hover .hover-overlay { opacity: 1; pointer-events: auto; /* Enable pointer events when the overlay is visible */ }
+
+.slick-carousel .hover-overlay .hover-link { color: #fff; text-decoration: none; transition: color 0.3s ease; pointer-events: auto; /* Ensure pointer events are enabled */ position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); z-index: 1; /* Ensure the link is above other elements */ }
+
+/* Banner Styles */
+.banner { text-align: left; padding: 50px; padding-left: 0px; background-color: #d02f5d; /* Choose your desired background color */ color: #fff6f8; /* Choose your desired text color */ margin-top: 0px; margin-bottom: 0px; }
+
+.banner2 { text-align: left; padding: 50px; padding-left: 0px; background-color: #fff6f8; /* Choose your desired background color */ color: #d02f5d; /* Choose your desired text color */ margin-top: 0px; margin-bottom: 0px; }
+
+.banner-thin { text-align: left; padding: 10px; padding-left: 0px; background-color: #d02f5d; /* Choose your desired background color */ color: #fff6f8; /* Choose your desired text color */ margin-top: 0px; margin-bottom: 0px; }
+
+/* Banner Heading */
+.banner h1 { font-size: 36px; /* Choose your desired font size */ margin-bottom: 10px; }
+
+/* Banner Subtitle */
+.banner p { font-size: 18px; /* Choose your desired font size */ margin: 0; }
+
+/* Style for the container holding logo and text */
+.logo-with-text { display: flex; align-items: center; width: max-content; /* Ensures the container takes only as much width as needed */ }
+
+/* Style for the logo image */
+.logo-with-text img { width: 70px; /* Adjust the width of the logo as needed */ height: auto; /* Maintain the aspect ratio */ margin-right: 50px; /* Adjust the margin between logo and text */ }
+
+/* Style for the text */
+.logo-with-text p { margin: 0; /* Remove default margin to ensure alignment */ }
+
+.wraptext { word-wrap: break-word; }
+
 /*# sourceMappingURL=style.css.map */
