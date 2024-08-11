@@ -1,0 +1,142 @@
+I"�<p>In every mathematical course, or any course in general especially the advanced ones, there is always some particular concept the we first need to cover before we can confidently start the course. In calculus, the basic notion that we first need to fully grasp are functions. Functions have been present from algebra to analytic geometry. Almost all basic mathematics have already incorporated functions even without knowing what functions really are. Hence, starting our lesson with functions and grasping its concept will not be that complicated.</p>
+
+<p>A function is a special relationship between an input and an output, where the value of the output depends on the value of the input, given that <em>for every input there can only be one output</em>. Imagine the function as a juicer, if you use it on an apple you cannot expect a different type of juice other than an apple juice (Figure 1). With this in mind, replacing the fruit will result to a different juice.</p>
+
+<figure style="text-align: center;">
+  <img src="/images/content/DC/DC-1.1.1.png" alt="my alt text" width="350px" />
+  <figcaption><em><p>Figure 1: Relating a function as a fruit juicer</p>
+</em></figcaption>
+</figure>
+
+<p>Functions can be expressed in various ways, including symbolic representations, equations, tabular representations, graphs, and even phrases. Figure 1 is an example of a symbolic representation of a function, relating this to an equation, for example $y = 2x + 1$. The variable $x$ is our apple (input), $y$ is the apple juice (output) and $2x+1$ is the juicer (function). The function tells us what to do to our input in order to end up with the resulting output. As a result, we get a value for $y$ for every value we replace $x$ with.</p>
+
+<hr />
+<p>$\example{1}$ 
+Solve for $y=2x+1$, if $x=5$.</p>
+
+<details style="text-align:left;">
+    <summary style="text-align:left;">$\solution$
+    </summary>
+    <br />
+    
+<p>Replace $x$ with 5 to the equation,</p>
+
+\[\begin{align*}
+	y &amp;= 2x+1 \\
+	   &amp;= 2(5)+1 \\
+	   &amp;= 10+1 \\
+	   &amp;= 11	\tagans
+\end{align*}\]
+
+<p>Hence, if the input is 5 then the output of the function is 11</p>
+
+
+</details>
+
+<hr />
+
+<p>Phrases are another way of representing functions.  For instance, “there are two oranges for every apple,” Another way to express this is to use a tabular representation of a function by assigning values to the input and solving for the values of the output (see Table 1).</p>
+
+<p><em>Table 1: Number of oranges with respect to the number of apples</em></p>
+
+\[\begin{array}{cc}
+	\hline
+	\text{apple }(x) &amp; \text{orange }(y) \\
+	\hline
+	1 &amp; 2 \\
+	2 &amp; 4 \\
+	3 &amp; 6 \\
+	4 &amp; 8 \\
+	5 &amp; 10 \\
+	\hline
+\end{array}\]
+
+<p>Furthermore, we can still extend this and visualize the function by plotting it in a graph (Figure 2).</p>
+
+<figure style="text-align: center;">
+  <img src="/images/content/DC/DC-1.1.2.png" alt="my alt text" width="250px" />
+  <figcaption><em><p>Figure 2: Graphical representation of Table 1</p>
+</em></figcaption>
+</figure>
+
+<p>Nonetheless, we can represent it in an equation form by assigning variables to both the orange and the apple, say $x$ and $y$, respectively.</p>
+
+\[\begin{align*}
+	\text{orange} &amp;= 2(\text{apple}) \\
+	y &amp;= 2x
+\end{align*}\]
+
+<p>As you may have noticed, <strong>functions can appear in several forms</strong>. Despite these varied representations, their primary purpose remains the same: to describe the relationships between different factors. In calculus, we will focus primarily on expressing these relationships using <strong>equations</strong> and, to a significant extent, their <strong>graphical representations</strong>.</p>
+
+<div class="youtube-wrapper">
+    <iframe src="https://www.youtube.com/embed/bCnNitHO7DQ" allowfullscreen=""></iframe>
+  </div>
+
+<p><!-- https://www.chunkhang.com/blog/responsive-youtube-video-with-jekyll --></p>
+
+<h2 id="dependent-and-independent-variables">Dependent and Independent Variables</h2>
+<p>Variables are symbols or letters used to represent an unknown value. The dependent variable on a function represents a quantity that depends on the value given to the independent variable. The symbol “$x$” is usually used to describe the independent variable (input) and “$y$” for the dependent variable (output).</p>
+
+<p>Determining the dependent and the independent variable of an equation is crucial since choosing the other way around may result in an equation that does not represent a function. Furthermore, this is highly useful, especially in applications such as Optimization and some Physics notions. For instance, in kinematics, an equation is given that describes the position “$s$” of an object at a given time “$t$”. Since the position $s$ varies with respect to time $t$, not the other way around, then $t$ must be the independent variable and $s$ the dependent variable. Moreover, it is good to note that if time is one of the variables, it is most likely to be the independent variable since time is consistent.</p>
+
+<p>In graphing a function, the independent variable is placed at the horizontal axis and the dependent variable on the vertical axis.</p>
+
+<figure style="text-align: center;">
+  <img src="/images/content/DC/DC-1.1.3.png" alt="my alt text" width="250px" />
+  <figcaption><em><p>Figure 3: Placement of the dependent and the independent variable in a graph</p>
+</em></figcaption>
+</figure>
+
+<div class="youtube-wrapper">
+    <iframe src="https://www.youtube.com/embed/MXt7plKEezQ" allowfullscreen=""></iframe>
+  </div>
+
+<p><!-- https://www.chunkhang.com/blog/responsive-youtube-video-with-jekyll --></p>
+
+<h2 id="determining-if-an-equation-represents-a-function-or-not">Determining if an Equation Represents a Function or Not</h2>
+<p>here are several ways to determine if an equation represents a function. However, in our case, we can use the definition of a function to determine whether or not an equation represents a function. One of the simplest methods is the Substitution Method, where we substitute a value for the independent variable and see if it produces a single output value. Since each input can only have one output in a function, having two or more solutions for the same input indicates that the equation does not represent a function. To understand this, let’s look at some examples.</p>
+
+<div class="youtube-wrapper">
+    <iframe src="https://www.youtube.com/embed/6z_hPcwd8DQ" allowfullscreen=""></iframe>
+  </div>
+
+<p><!-- https://www.chunkhang.com/blog/responsive-youtube-video-with-jekyll --></p>
+
+<hr />
+<p>$\example{2}$
+Determine if the following equations represent a function: <br />
+a. $y=2x^2+1$         <br />
+b. $y=\sqrt{x+3}$        <br />
+c. $y^2=x+3$</p>
+
+<details style="text-align:left;">
+    <summary style="text-align:left;">$\solution$
+    </summary>
+    <br />
+    
+<p>$\For{a}$ <br />
+For an equation to be considered a function, there must only be one output for every input. So for instance, if we replace $x$ with 1,</p>
+
+\[\begin{align*}
+	y &amp;= 2x^2+1 \\
+	&amp;= 2(1)^2+1 \\
+	&amp;= 3
+\end{align*}\]
+
+<p>The output is 3. And even if we replace $x$ with any value, there is only one possible output, therefore $y=2x^2+1$ is a <strong>function</strong>.</p>
+
+<p>$\For{b}$ <br />
+In testing if an equation is a function, we can substitute any value for the independent variable. However, it is crucial to replace it with a value that we can easily simplify. Otherwise, it will utterly complicate the solution. For this example, let’s try substituting $x$ with 6:</p>
+
+\[\begin{align*}
+	y &amp;= \sqrt{x+3} \\
+	&amp;= \sqrt{(6)+3} \\
+	&amp;= \sqrt{9} \\
+	&amp;= 3
+\end{align*}\]
+
+<p>When we replace $x$ with 6, we get a single value $y = 3$. This is likely true if we replace $x$ with any value within the range where the square root is defined ($y$  has a real value). For the function to give a valid value of  $y$, the result of the expression inside the square root must be non-negative (i.e.,  $x \geq -3$). Nonetheless, $y = \sqrt{x+3}$ is considered a <strong>function</strong>.</p>
+
+
+</details>
+:ET

@@ -6,7 +6,7 @@ image: "images/team/john-raymond-barajas.png"
 jobtitle: "Team Leader"
 # linkedinurl: "https://www.linkedin.com/example2"
 promoted: true
-weight: 4
+weight: 6
 layout: team
 permalink: /authors/engr-john-raymond-barajas
 ---

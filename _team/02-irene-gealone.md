@@ -5,7 +5,7 @@ draft: false
 image: "images/team/irene-gealone.jpg"
 jobtitle: "Team Leader"
 # linkedinurl: "https://www.linkedin.com/example2"
-promoted: true
+promoted: 
 weight: 2
 layout: team
 permalink: /authors/irene-b-gealone

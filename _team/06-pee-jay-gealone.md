@@ -6,7 +6,7 @@ image: "images/team/pee-jay-gealone.png"
 jobtitle: "Affiliate Consultant"
 # linkedinurl: "https://www.linkedin.com/example2"
 promoted: true
-weight: 6
+weight: 5
 layout: team
 permalink: /authors/engr-pee-jay-n-gealone
 ---
