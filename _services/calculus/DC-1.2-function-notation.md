@@ -5,13 +5,13 @@ nextcontenturl: ../DC-1.3-combining-functions
 ---
 
 
-Function Notation is just another way of writing a function in an equation form. Instead of writing the dependent variable $y$, in this notation $f(x)$ is used, and denoted as “$y = f(x)$” which is read as “$y$ is a function of $x$”. 
+Function notation is just another way of writing a function that is represented in equation form. Instead of writing the dependent variable $y$, this notation uses $f(x)$, and is denoted as $y = f(x)$, which is read as "$y$ is a function of $x$."
 {% include tcolorbox.html 
     details= "
         y=f(x)
         "
 %} 
-For instance $y = 3x^2-5$ can be written as $f(x) = 3x^2-5$. All we have to do to evaluate the function when $x = 2$ is replace all the “$x$” with $2$. 
+For instance, $y = 3x^2 - 5$  can be written as  $f(x) = 3x^2 - 5$. To evaluate the function at a specific value, for example when $x = 2$, we replace all instances of $x$ with 2:
 
 $$
 \begin{align*}
@@ -22,7 +22,7 @@ $$
 \end{align*}
 $$
 
-A significant advantage in utilizing this notation is that we can quickly identify the $\tcxA{input}$ and the $\tcxB{output}$ of the function by just looking at the final equation, where the input is the value inside the parenthesis and the output is the value at the other side of the equation.
+A significant advantage of utilizing this notation is that we can quickly identify the $\tcA{input}$ and the $\tcB{output}$ of the function by just looking at the final equation. The input is the value inside the parenthesis, and the output is the value on the other side of the equation.
 
 
 
@@ -209,7 +209,7 @@ $$
 \end{align*}
 $$
 
-Since $v(t)=19$, we can susbstitute $v(t)$ with 19,
+Since $v(t)=19$, we can substitute $v(t)$ with 19,
 
 $$
 \begin{align*}

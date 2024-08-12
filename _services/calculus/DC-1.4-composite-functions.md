@@ -4,7 +4,9 @@ prevcontenturl: ../DC-1.3-combining-functions
 nextcontenturl: ../DC-1.6-graph-of-functions
 ---
 
-Another method of combining functions is by **composition**, where a function contains another function. To visualize this, let's say you want again an apple juice, but this time you want to pack it in a can, so you'll need an additional canning machine. Let's name the juicer $g$, the canning machine $f$, and the apple $x$. If we place the apple to the juicer, we'll get an apple juice $g(x)$, and further placing this in the canning machine, we would get a canned apple juice $f(g(x))$. 
+Another method of combining functions is by **composition**, where *a function contains another function*. To understand this, let's say you want apple juice, but this time, instead of just juicing it, you also want to put it in a can. So, you'll need an additional stage where the juice will go through a canning machine.
+
+In representing this, let's name the juicer $g$, the canning machine $f$, and the freshly picked apple $x$. If we place the apple into the juicer, we'll get apple juice, represented as $g(x)$. Continuing the process and placing the apple juice through the canning machine, we get the final output of canned apple juice, represented as $f(g(x))$.
 
 
 
@@ -25,7 +27,7 @@ If $f$ and $g$ are both functions of $x$, where $f$ is the outer function and $g
 %}
 
 
-For example, given two functions $f(x)=2x+5$ and $g(x)=3x-4$, determine $(f \circ g)(x)$
+For example, given two functions $\tcA{f(x)=2x+5}$ and $\tcB{g(x)=3x-4}$, determine $(f \circ g)(x)$
 
 $$
 \begin{align*}
@@ -33,19 +35,19 @@ $$
 \end{align*}
 $$
 
-Start with the outer function $f$,
+Start with the outer function $f(x)$,
 
 $$
 \begin{align*}
-	f( {\tcB{x}} ) &= 2{\tcB{x}}+5 \\
+	\tcA{f(x)} &\tcA{= 2x+5}
 \end{align*}
 $$
 
-Then replace $x$ with $g(x)$,
+Then substitute all instances of $x$ with $g(x)$,
 
 $$
 \begin{align*}
-	f( {\tcB{g(x)}} ) &= 2({\tcB{g(x)}}) + 5
+	\tcA{f(}\tcB{g(x)}\tcA{)} &= \tcA{2(}\tcB{g(x)}\tcA{) + 5} 
 \end{align*}
 $$
 
@@ -53,7 +55,7 @@ Since $g(x)=3x-4$,
 
 $$
 \begin{align*}
-	f({\tcB{g(x)}}) &= 2({\tcB{3x-4}}) + 5 \\
+	\tcA{f(}\tcB{g(x)}\tcA{)} &= \tcA{2(}\tcB{3x-4}\tcA{) + 5} \\
 	&= 6x-8+5 \\
 	&= 6x-3
 \end{align*}

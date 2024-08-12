@@ -1,11 +1,11 @@
-I"&
+I"%
 <p>In this example, the output of the function is given, and the input $t$ is required,</p>
 
 \[\begin{align*}
 	v(t) &amp;= 3t+7
 \end{align*}\]
 
-<p>Since $v(t)=19$, we can susbstitute $v(t)$ with 19,</p>
+<p>Since $v(t)=19$, we can substitute $v(t)$ with 19,</p>
 
 \[\begin{align*}
 	19 &amp;= 3t+7 \\

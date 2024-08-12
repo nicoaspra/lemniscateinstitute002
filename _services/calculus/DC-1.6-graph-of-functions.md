@@ -9,7 +9,9 @@ layout: content
 
 <!-- <iframe src="https://www.desmos.com/calculator/g7izucn6nn" width="100%" style="min-height:400px"></iframe> -->
 
-From the past lessons, we have already established a clear understanding of what a function is. But aside from equations and tables, functions can also be represented in the form of graphs. For example, a function of $f(x)=x^2$, can be tabulated by assigning values to $x$.
+This topic may have been covered in previous prerequisite courses, specifically in Analytic Geometry. As you may have already learned, there are numerous methods for plotting a graph from an equation. However, if you have forgotten how to do so, we will utilize the **simplest method**, which is by *plotting multiple points on a Cartesian plane and then tracing them to form a line or a curve*. While this method might not be convenient for graphs that you are already familiar with (e.g., lines and conic sections), it can be particularly useful for more complicated functions. The downside of this method is that it can be a bit time-consuming, especially for complex graphs.
+
+To demonstrate this, let's start with what we have already established previously. We have a clear notion that functions can be represented in different forms, such as equations, graphs, and even tables. So, if we have a function $f(x) = x^2$, we can first tabulate it by assigning values to $x$ and solving the value of $y$.
 
 $$
 \begin{array}{c|rrrrrrr}
@@ -20,7 +22,7 @@ $$
 $$
 
 
-Moreover, this can be plotted on a cartesian plane, with your input (independent variable) lying on the horizontal axis and the output (dependent variable) on the vertical axis.
+These tabulated values can now be plotted on a Cartesian plane, where the **input** (independent variable) lying on the *horizontal axis* and the **output** (dependent variable) on the *vertical axis*. Hence, connecting the points will then form the curve, which represents the graphical form of the function $f(x) = x^2$.
 
 
 
@@ -32,10 +34,6 @@ Moreover, this can be plotted on a cartesian plane, with your input (independent
 %}
 
 
-
-
-
-This topic may have been covered in previous prerequisite courses. However, to refresh your memory, consider the following examples.
 
 
 ---

@@ -120,7 +120,9 @@ $$
 
           <!-- <div class="deskContent">Content for desktop</div> -->
         <div class="content">
-          <p>Another method of combining functions is by <strong>composition</strong>, where a function contains another function. To visualize this, let’s say you want again an apple juice, but this time you want to pack it in a can, so you’ll need an additional canning machine. Let’s name the juicer $g$, the canning machine $f$, and the apple $x$. If we place the apple to the juicer, we’ll get an apple juice $g(x)$, and further placing this in the canning machine, we would get a canned apple juice $f(g(x))$.</p>
+          <p>Another method of combining functions is by <strong>composition</strong>, where <em>a function contains another function</em>. To understand this, let’s say you want apple juice, but this time, instead of just juicing it, you also want to put it in a can. So, you’ll need an additional stage where the juice will go through a canning machine.</p>
+
+<p>In representing this, let’s name the juicer $g$, the canning machine $f$, and the freshly picked apple $x$. If we place the apple into the juicer, we’ll get apple juice, represented as $g(x)$. Continuing the process and placing the apple juice through the canning machine, we get the final output of canned apple juice, represented as $f(g(x))$.</p>
 
 <figure style="text-align: center;">
   <img src="/images/content/DC/DC-1.4.1.png" alt="my alt text" width="500px" />
@@ -140,28 +142,28 @@ margin:5px;">
     \end{align}$$
 </p>
 
-<p>For example, given two functions $f(x)=2x+5$ and $g(x)=3x-4$, determine $(f \circ g)(x)$</p>
+<p>For example, given two functions $\tcA{f(x)=2x+5}$ and $\tcB{g(x)=3x-4}$, determine $(f \circ g)(x)$</p>
 
 \[\begin{align*}
 	(f \circ g)(x) &amp;= f(g(x))
 \end{align*}\]
 
-<p>Start with the outer function $f$,</p>
+<p>Start with the outer function $f(x)$,</p>
 
 \[\begin{align*}
-	f( {\tcB{x}} ) &amp;= 2{\tcB{x}}+5 \\
+	\tcA{f(x)} &amp;\tcA{= 2x+5}
 \end{align*}\]
 
-<p>Then replace $x$ with $g(x)$,</p>
+<p>Then substitute all instances of $x$ with $g(x)$,</p>
 
 \[\begin{align*}
-	f( {\tcB{g(x)}} ) &amp;= 2({\tcB{g(x)}}) + 5
+	\tcA{f(}\tcB{g(x)}\tcA{)} &amp;= \tcA{2(}\tcB{g(x)}\tcA{) + 5} 
 \end{align*}\]
 
 <p>Since $g(x)=3x-4$,</p>
 
 \[\begin{align*}
-	f({\tcB{g(x)}}) &amp;= 2({\tcB{3x-4}}) + 5 \\
+	\tcA{f(}\tcB{g(x)}\tcA{)} &amp;= \tcA{2(}\tcB{3x-4}\tcA{) + 5} \\
 	&amp;= 6x-8+5 \\
 	&amp;= 6x-3
 \end{align*}\]

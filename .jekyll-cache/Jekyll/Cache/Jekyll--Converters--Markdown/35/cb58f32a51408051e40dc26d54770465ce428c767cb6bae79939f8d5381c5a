@@ -1,4 +1,4 @@
-I".<p>Function Notation is just another way of writing a function in an equation form. Instead of writing the dependent variable $y$, in this notation $f(x)$ is used, and denoted as “$y = f(x)$” which is read as “$y$ is a function of $x$”.</p>
+I"G<p>Function notation is just another way of writing a function that is represented in equation form. Instead of writing the dependent variable $y$, this notation uses $f(x)$, and is denoted as $y = f(x)$, which is read as “$y$ is a function of $x$.”</p>
 <p align="center" style="background-color:rgba(64, 130, 110, 0.07);
 border: 3px solid rgba(64, 130, 110, 0.9);
 border-radius:7px;
@@ -8,7 +8,7 @@ margin:5px;">
         y=f(x)
         \end{align}$$
 </p>
-<p>For instance $y = 3x^2-5$ can be written as $f(x) = 3x^2-5$. All we have to do to evaluate the function when $x = 2$ is replace all the “$x$” with $2$.</p>
+<p>For instance, $y = 3x^2 - 5$  can be written as  $f(x) = 3x^2 - 5$. To evaluate the function at a specific value, for example when $x = 2$, we replace all instances of $x$ with 2:</p>
 
 \[\begin{align*}
 	f(x) &amp;= 3x^2-5 \\
@@ -17,7 +17,7 @@ margin:5px;">
 	f(\tcA{2}) &amp;= \tcB{7} \tagans
 \end{align*}\]
 
-<p>A significant advantage in utilizing this notation is that we can quickly identify the $\tcxA{input}$ and the $\tcxB{output}$ of the function by just looking at the final equation, where the input is the value inside the parenthesis and the output is the value at the other side of the equation.</p>
+<p>A significant advantage of utilizing this notation is that we can quickly identify the $\tcA{input}$ and the $\tcB{output}$ of the function by just looking at the final equation. The input is the value inside the parenthesis, and the output is the value on the other side of the equation.</p>
 
 <div class="youtube-wrapper">
     <iframe src="https://www.youtube.com/embed/fxL8wD_4HCw" allowfullscreen=""></iframe>
@@ -192,7 +192,7 @@ If $v(t)=3t+7$ and $v(t)=19$, find $t$</p>
 	v(t) &amp;= 3t+7
 \end{align*}\]
 
-<p>Since $v(t)=19$, we can susbstitute $v(t)$ with 19,</p>
+<p>Since $v(t)=19$, we can substitute $v(t)$ with 19,</p>
 
 \[\begin{align*}
 	19 &amp;= 3t+7 \\

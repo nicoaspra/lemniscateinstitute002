@@ -5,7 +5,7 @@ nextcontenturl: ../DC-1.9-odd-and-even-functions
 ---
 
 
-We can evaluate functions by interpreting its graph. From our past lesson, we already have learned about [Function Notation](../DC-1.2-function-notation) as well as the placement of each variable on the Cartesian Plane. To review, the input can be located inside the parenthesis in Function Notation or the Horizontal Axis on the Cartesian Plane. On the other hand, the output is on the other side of the equation in Function Notation or on the Vertical Axis on the Cartesian Plane.
+In analyzing functions represented in a graphical form, we can apply our previous understanding of functions, as we have emphasized the importance of distinguishing between dependent and independent variables. To recall, in [Function Notation](../DC-1.2-function-notation), the independent variable is located inside the parenthesis, while the dependent variable is on the other side of the equation. Translating this to a [graphical form](../DC-1.6-graph-of-functions), the independent variable corresponds to the horizontal position, and the dependent variable determines the vertical position. With this in mind, interpreting functions from a graph becomes more intuitive. To solidify this understanding, let's consider some examples.
 
 ---
 $\example{1}$

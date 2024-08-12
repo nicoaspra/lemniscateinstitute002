@@ -7,7 +7,7 @@ nextcontenturl: ../DC-1.4-composite-functions
 
 Functions expressed in equation form should behave similarly to equations and algebraic expressions. As with equations, functions can also be combined to form new functions by performing basic arithmetic operations such as addition, subtraction, multiplication, and division.
 
-In this section, since we will be combining multiple functions, the notation of functions will be instrumental. By naming functions, we can keep track of the functions we are currently working on.
+In this section, since we will be dealing with multiple functions, utilizing the notation of functions will be instrumental. By naming each function uniquely, we can keep track of the functions we are currently working on.
 
 
 The sum, difference, product and quotient of two functions $f(x)$ and $g(x)$ are:
