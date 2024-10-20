@@ -1,4 +1,4 @@
-I"˜5<h1 id="general-equation-of-a-plane-area">General Equation of a Plane Area</h1>
+I"È5<h1 id="general-equation-of-a-plane-area">General Equation of a Plane Area</h1>
 
 <p>In solving for the area, there are two methods that can be taken into consideration. We can use a <strong>horizontal strip</strong> or a <strong>vertical strip</strong>, either of these will yield the same result. However, there are some problems that are preferably solved using one method than the other since it is much simpler. 
 In order for us to determine what method to use, we fist need to learn the formulas of each method and how it is used.</p>
@@ -168,7 +168,7 @@ Using the horizontal strip, we cannot directly input the given parameters to the
 
 <hr />
 <p>$\example{3}$ 
-Find the area of the region bounded by the function $x=y^2-2y-3$ and the axes at the third quadrant.</p>
+Find the area of the region bounded by the function $x=y^2-2y-3$ and the axes at the second quadrant.</p>
 
 <p>$\solution$ <br />
 Graphing the bounded area gives us,</p>
@@ -217,9 +217,10 @@ Graphing the bounded area gives us,</p>
 
 \[\begin{align*}
 	A &amp;= \int_{y_1}^{y^2} x\,dy \\
-	  &amp;= \int_{0}^{3} \brk{(y^2-2y-3)-0}\,dy \\
-	  &amp;= \brk{\frac{x^3}{3}-\frac{2y^2}{2}-3x}_0^3 \\
-	  &amp;= \brk{\frac{3^3}{3}-\frac{2(3)^2}{2}-3(3)} - \cancel{\brk{\frac{0^3}{3}-\frac{2(0)^2}{2}-3(0)}} \\
+	  &amp;= \int_{y_1}^{y^2} (x_2-x_1)\,dy \\
+	  &amp;= \int_{0}^{3} \brk{0-(y^2-2y-3)}\,dy \\
+	  &amp;= \brk{-\frac{y^3}{3}+\frac{2y^2}{2}+3y}_0^3 \\
+	  &amp;= \brk{-\frac{3^3}{3}+\frac{2(3)^2}{2}+3(3)} - \cancel{\brk{-\frac{0^3}{3}+\frac{2(0)^2}{2}+3(0)}} \\
 	  &amp;= -9\un{units^2}		\tagans
 \end{align*}\]
 

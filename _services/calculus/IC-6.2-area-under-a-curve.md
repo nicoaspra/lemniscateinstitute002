@@ -230,7 +230,7 @@ $$
 
 ---
 $\example{3}$ 
-Find the area of the region bounded by the function $x=y^2-2y-3$ and the axes at the third quadrant.
+Find the area of the region bounded by the function $x=y^2-2y-3$ and the axes at the second quadrant.
 
 $\solution$ \\
 Graphing the bounded area gives us,
@@ -290,10 +290,11 @@ Since the curves intersect at two points, it is expected that we will have two r
 $$
 \begin{align*}
 	A &= \int_{y_1}^{y^2} x\,dy \\
-	  &= \int_{0}^{3} \brk{(y^2-2y-3)-0}\,dy \\
-	  &= \brk{\frac{x^3}{3}-\frac{2y^2}{2}-3x}_0^3 \\
-	  &= \brk{\frac{3^3}{3}-\frac{2(3)^2}{2}-3(3)} - \cancel{\brk{\frac{0^3}{3}-\frac{2(0)^2}{2}-3(0)}} \\
-	  &= -9\un{units^2}		\tagans
+	  &= \int_{y_1}^{y^2} [x_2-x_1]\,dy \\
+	  &= \int_{0}^{3} \brk{0-(y^2-2y-3)}\,dy \\
+	  &= \brk{-\frac{y^3}{3}+\frac{2y^2}{2}+3y}_0^3 \\
+	  &= \brk{-\frac{3^3}{3}+\frac{2(3)^2}{2}+3(3)} - \cancel{\brk{-\frac{(0)^3}{3}+\frac{2(0)^2}{2}+3(0)}} \\
+	  &= 9\un{units^2}		\tagans
 \end{align*}
 $$
 
