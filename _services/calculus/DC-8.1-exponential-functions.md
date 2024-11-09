@@ -1,6 +1,6 @@
 ---
 title: "Exponential Functions"
-prevcontenturl: ../DC-8.1-exponential-functions
+prevcontenturl: ../DC-7.1-differentials
 nextcontenturl: ../DC-8.2-logarithmic-functions
 ---
 

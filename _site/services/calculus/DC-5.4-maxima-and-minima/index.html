@@ -120,7 +120,67 @@ $$
 
           <!-- <div class="deskContent">Content for desktop</div> -->
         <div class="content">
-          
+          <p>Maxima and Minima are the <strong>critical points</strong> found on a polynomial curve, collectively known as <strong>extremes</strong>. Moreover, since critical points can occur multiple times on a curve, we can classify the points by either <em>relative</em> or <em>absolute</em>.</p>
+
+<p><strong>Relative maximum</strong> are points that are higher relative to its neighboring points, while <strong>relative minimum</strong> are points that are lower relative to its neighboring points $(\fref{1})$. In contrast, <strong>absolute maximum</strong> and <strong>absolute minimum</strong> are the largest and smallest valued extremes in the function’s entire domain $(\fref{2})$.</p>
+
+<figure style="text-align: center;">
+  <img src="/images/content/DC/DC-5.4.1.jpg" alt="my alt text" width="350px" />
+  <figcaption><em><p>Figure 1: Points $B$, $D$, and $F$ are relative maximum. And points $A$, $C$, and $E$ are relative minimum</p>
+</em></figcaption>
+</figure>
+
+<figure style="text-align: center;">
+  <img src="/images/content/DC/DC-5.4.2.jpg" alt="my alt text" width="350px" />
+  <figcaption><em><p>Figure 2: Points $C$ and $F$ are the absolute minimum and maximum points respectively</p>
+</em></figcaption>
+</figure>
+
+<p>What’s interesting about these critical points is that both maxima and minima are found at the peaks of the curve, where the slopes of the tangent lines are parallel to the $x$-axis, thus having a slope equal to zero $(\fref{3})$. Understanding where these critical points lie is essential since they indicate where a function reaches its extreme values, which is invaluable in many real-world applications that we will cover in the next chapter. In this section, however, we will first focus our attention on locating these points on the curve.</p>
+
+<figure style="text-align: center;">
+  <img src="/images/content/DC/DC-5.4.3.jpg" alt="my alt text" width="350px" />
+  <figcaption><em><p>Figure 3: For every critical point, it has a slope of $\dydx = 0$</p>
+</em></figcaption>
+</figure>
+
+<hr />
+<p>$\example{1}$
+Locate the critical point/s of the curve, $y = 3x^2-6x+9$</p>
+
+<details style="text-align:left;">
+    <summary style="text-align:left;">$\solution$
+    </summary>
+    <br />
+    
+<p>To determine the critical point(s) of the curve, we know that points lying at the peaks of the curve have a slope of zero. With this in mind, we can first differentiate the function to find the slope at any point:</p>
+
+\[\begin{align*}
+	\ddx\br{y} &amp;= \ddx\br{3x^2-6x+9} \\
+	\dydx &amp;= 6x-6
+\end{align*}\]
+
+<p>At the critical point(s), the slope is $\dydx = 0$. Thus,</p>
+
+\[\begin{align*}
+	0 &amp;= 6x-6 \\
+	6x &amp;= 6 \\
+	x &amp;= 1 \\
+\end{align*}\]
+
+<p>To determine the $y$-coordinate of the critical point, we can substitute this value of $x$ to the given function.</p>
+
+\[\begin{align*}
+	y &amp;= 3(1)^2-6(1)+9 \\
+	&amp;= 6
+\end{align*}\]
+
+<p>Hence, the coordinate of the critical point of the function $y = 3x^2-6x+9$ is at $(1,6)$.</p>
+
+<p>This method only tells you where the critical point is, but it cannot determine whether it is a maximum or a minimum. To determine the nature of the critical point, we can utilize a simple test known as the second derivative test.</p>
+
+
+</details>
 
         </div>
       </div>
@@ -275,21 +335,21 @@ $$
     <a class="prev" href="/services/calculus/DC-5.3-increasing-and-decreasing-functions/">&laquo; Increasing and Decreasing Functions</a>
   
   
-    <a class="next" href="/services/calculus/DC-7.1-differentials/">Differentials &raquo;</a>
+    <a class="next" href="/services/calculus/DC-5.5-concavity-and-the-second-derivative-test/">Concavity and the Second Derivative Test &raquo;</a>
   
 </div> -->
 
 
 
 <!-- <div class="PageNavigation">
-    <a class="prev" href="../DC-5.3-increasing-and-decreasing-functions">&laquo; </a> <a class="next" href="../DC-5.4-maxima-and-minima"> &raquo;</a>
+    <a class="prev" href="../DC-5.3-increasing-and-decreasing-functions">&laquo; </a> <a class="next" href="../DC-5.5-concavity-and-the-second-derivative-test"> &raquo;</a>
 </div> -->
 
 
 
 <div class="PageNavigation">
   <a class="prev" href="../DC-5.3-increasing-and-decreasing-functions">&laquo; Previous</a> 
-  <a class="next" href="../DC-5.4-maxima-and-minima">Next &raquo;</a>
+  <a class="next" href="../DC-5.5-concavity-and-the-second-derivative-test">Next &raquo;</a>
 </div>
 
 

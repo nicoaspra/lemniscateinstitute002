@@ -1,11 +1,0 @@
-I"
-<p>Simplify the expression,</p>
-
-\[\begin{align*}
-	\lim\limits_{x\to\infty} \frac{20x-6}{x} &amp;= \lim\limits_{x\to\infty} \br{ \frac{20x}{x}-\frac{6}{x} } \\
-	&amp;= \lim\limits_{x\to\infty} \br{ 20-\frac{6}{x} } \\
-	&amp;= 20-0\\
-	&amp;=20 \tagans
-\end{align*}\]
-
-:ET

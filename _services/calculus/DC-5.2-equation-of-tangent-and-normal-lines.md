@@ -4,9 +4,9 @@ prevcontenturl: ../DC-5.1-tangents-and-normals-to-plane-curves
 nextcontenturl: ../DC-5.3-increasing-and-decreasing-functions
 ---
 
-From the previous section, we have already learned how we can determine the slope of either a tangent or a normal line through differentiation, or in the case of normal lines, getting the negative reciprocal of the slope of the tangent line. In this section, we will learn how to utilize their slopes to find the general equation of such lines.
+From the previous section, we have learned how we can determine the slope of either a tangent or a normal line through differentiation, or in the case of normal lines, it can be easily determined by getting the negative reciprocal of the slope of the tangent line. In this section, we will learn how to utilize their slopes to find the general equation of such lines.
 
-In determining the equation of a line, there are different methods available. However in our case, since we can easily determine the slope of the line by differentiation and the point will most likely be available, we can specifically use the Point-Slope Form ($$\eref{eq:pt-slope of a line}$$) .
+In determining the equation of a line, there are different methods available. However in our case, since we can easily determine the slope of the line by differentiation and the coordinates of a point on the line will most likely be available, we can specifically use the Point-Slope Form ($$\eref{eq:pt-slope of a line}$$) .
 
 {% include tcolorbox.html
     details = "

@@ -1,7 +1,7 @@
 ---
 title: "Differentials"
-prevcontenturl: ../DC-5.4-maxima-and-minima
-nextcontenturl: ../DC-7.1-differentials
+prevcontenturl: ../DC-6.3-ralated-rates
+nextcontenturl: ../DC-8.1-exponential-functions
 ---
 
 

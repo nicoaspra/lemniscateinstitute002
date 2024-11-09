@@ -1,9 +1,0 @@
-I"
-\[\begin{align*}
-    \tan x + \cot x &amp;= \frac{\sin x}{\cos x} + \frac{\cos x}{\sin x} \\
-    &amp;= \frac{(\sin x) (\sin x) + (\cos x) (\ cos x)}{\sin x \cos x} \\
-    &amp;= \frac{\sin^2 x + \cos^2 x}{\sin x \cos x} \\
-    &amp;= \frac{1}{\sin x \cos x}		\tagans
-\end{align*}\]
-
-:ET

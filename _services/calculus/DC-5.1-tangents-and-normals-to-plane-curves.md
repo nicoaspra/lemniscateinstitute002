@@ -8,7 +8,7 @@ nextcontenturl: ../DC-5.2-equation-of-tangent-and-normal-lines
 
 From the previous chapters, we have already learned how to graph functions and have a strong understanding of how the slope of a curve works. Therefore, in this section, we will use the concepts we have previously learned to solve for the tangent and normal lines of a curve.
 
-In our lesson in the "introduction to derivatives" and the "slope of a curve," we have well established how the derivative is related to the slope of a tangent line on the curve. In this lesson, we will use the slope to define and compose an equation for both the tangent and normal lines of a curve.
+In our lesson in the "introduction to derivatives" and the "slope of a curve," we have well established how the derivative is related to the **slope of a tangent line** on the curve. In this section, we will use the slope to define and compose an equation for both the tangent and normal lines of a curve.
 To start, let us first understand what tangent and normal lines are.
 
 ## Tangent to a Curve
@@ -21,7 +21,7 @@ The point where the line and the curve intersects is what we call the **point of
     caption = "Figure 1: A point of tangency is the intersection of a curve and its tangent line at a point where both have equal slopes"
 %}
 
-If you are wondering in $\fref{2}$, how about the other point intersecting the curve at Point B?. Since the slope of both the line and the curve at Point B does not match, we cannot call it a point of tangency; it is merely an intersection point between the line and the curve. 
+If you are wondering in $\fref{2}$, how about the other point intersecting the curve at Point $B$?. Since the slope of the line and the curve at Point $B$ does not match, we cannot call it a point of tangency; it is merely an intersection point between the line and the curve. 
 
 
 {% include images.html 

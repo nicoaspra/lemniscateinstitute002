@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>Equation of Tangent and Normal Lines</title>
+  <title>Related Rates</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link rel="icon" type="image/png" href="/images/favicon-32x32.svg">
   <link rel="apple-touch-icon" sizes="120x120" href="/images/favicon-32x32.svg">
@@ -101,7 +101,7 @@
   <div class="row justify-content-start">
     <div class="col-12 col-md-8">
       <div class="service service-single">
-        <h1 class="title">Equation of Tangent and Normal Lines</h1>
+        <h1 class="title">Related Rates</h1>
           
             <p style="color:#d02f5d"></pstyle>
               <a href="/team">
@@ -120,348 +120,225 @@ $$
 
           <!-- <div class="deskContent">Content for desktop</div> -->
         <div class="content">
-          <p>From the previous section, we have learned how we can determine the slope of either a tangent or a normal line through differentiation, or in the case of normal lines, it can be easily determined by getting the negative reciprocal of the slope of the tangent line. In this section, we will learn how to utilize their slopes to find the general equation of such lines.</p>
+          <p>Another application of derivatives is related rates. It deals with situations on how two or more variables change in relation to each other with respect to time. The main idea is that using calculus we can deduce or calculate the rate of change of one quantity by observing the rate of change of a related quantity that can be observed more easily. This is anchored on the fact that, in everyday life, many phenomena involve quantities that are interdependent and changing, i.e., when one variable changes, it often triggers a change in another.</p>
 
-<p>In determining the equation of a line, there are different methods available. However in our case, since we can easily determine the slope of the line by differentiation and the coordinates of a point on the line will most likely be available, we can specifically use the Point-Slope Form (\(\eref{eq:pt-slope of a line}\)) .</p>
+<p>For instance, how does the area of a circle change as its radius expands over time? If water is being poured into a conical tank, how does the water level rise as the volume increases? By understanding the relationships between the rates at which variables change, we can analyze and predict the behavior of dynamic systems.</p>
 
-<p align="center" style="background-color:rgba(64, 130, 110, 0.07);
-border: 3px solid rgba(64, 130, 110, 0.9);
-border-radius:7px;
-padding:10px;
-margin:5px;">
-    $$\begin{align}
-        y-y_1=m(x-x_1)
-        \label{eq:pt-slope of a line}
-    \end{align}$$
-</p>
+<p>The related rates problems are solved using derivatives, specifically by applying implicit differentiation with respect to time.</p>
 
-<p>Point-slope Form, by the name suggests, can be used to determine the equation of a line by using two parameters, namely: a point, and a slope of a line. To understand more how we can use this form, it is best to solve some problems.</p>
+<h2 id="general-steps-in-solving-optimization-problems">General Steps in Solving Optimization Problems</h2>
+<p>Before diving into the examples, it would be best to outline first the general steps involved in solving optimization problems:</p>
+<ol>
+  <li><strong>Understand the problem.</strong> Read the problems carefully and identify the quantities involved, how they are related and their rates of change. It often requires you to have strong background of formula on how these quantities relate to each other, e.g., velocity, volume, area, and others.</li>
+  <li><strong>Draw a diagram.</strong> Draw a diagram whenever applicable. This helps you visualize the relationships between the different quantities, and establish the variables needed. In this step, you can also write the known and unknown values stated in the problem.</li>
+  <li><strong>Write an equation that relates the quantities.</strong> This is typically a geometric or algebraic relationship between the variables (e.g., the Pythagorean theorem, volume formulas, etc.).</li>
+  <li><strong>Differentiate the equation with respect to time.</strong> Use implicit differentiation to find the rate of change of one variable concerning time. Remember to apply the chain rule.</li>
+  <li><strong>Substitute the known values.</strong> Plug in the given rates and other known values from the problem into the differentiated equation.</li>
+  <li><strong>Solve for the unknown rate.</strong> Isolate the desired rate of change and solve.</li>
+</ol>
 
 <hr />
 <p>$\example{1}$
-Find the equation of the tangent and normal lines to the curve $y=x^3+3x^2+1$ at point $(1,5)$.</p>
+A 10-meter long ladder is leaning against a vertical wall. The bottom of the ladder is sliding away from the wall at a rate of 2 meter per second. How fast is the top of the ladder sliding down the wall when the bottom of the ladder is 6 meters from the wall?</p>
 
 <details style="text-align:left;">
     <summary style="text-align:left;">$\solution$
     </summary>
     <br />
     
-<p>To get the slope of the tangent, differentiate the function with respect to $x$,</p>
+<p>Let $x$ be the distance from the bottom of the ladder to the wall, and $y$ be the height of the top of the ladder above the ground. With this, we can represent the rate of sliding from the wall as $\frac{dx}{dt}$ (which we already have a value of 2 m/s), and the rate of the ladder sliding down as $\frac{dy}{dt}$ (which is required).</p>
+
+<figure style="text-align: center;">
+  <img src="/images/content/DC/DC-6.3.1.jpg" alt="my alt text" width="230px" />
+  <figcaption><em>
+</em></figcaption>
+</figure>
+
+<p>After sketching the figure, notice that the ladder forms a right triangle with the wall and the ground, so by the Pythagorean theorem:</p>
 
 \[\begin{align*}
-	\ddx\br{y} &amp;= \ddx\br{x^3+3x^2+1} \\
-	\dydx &amp;= 3x^2+6x \\
+	x^2+y^2 &amp;= 10^2 \\
+	x^2+y^2 &amp;= 100 \\
 \end{align*}\]
 
-<p>Then to find the slope of the tangent line at point $(1,5)$, replace the independent variable $x$ with 1.</p>
+<p>Differentiating the function with respect to time gives us:</p>
 
 \[\begin{align*}
-	y-y_1 &amp;= m_T (x-x_1) \\
-	m_T &amp;= \dydx = 3(1)^2+6(1) \\
-	&amp;= 9
+	\ddt\br{x^2+y^2} &amp;= \ddt\br{100} \\
+	2x\frac{dx}{dt}+2y\frac{dy}{dt} &amp;= 0 \\
+	2y\frac{dy}{dt} &amp;= -2x\frac{dx}{dt}\\
+	\frac{dy}{dt} &amp;= -\frac{x}{y}\frac{dx}{dt}	\tag{eq.1}
 \end{align*}\]
 
-<p>Thus, the equation of the tangent line at point $(1,5)$ with a slope of 9 can be determined by using the Poin-Slope Form ($\eref{eq:pt-slope of a line}$)</p>
+<p>Applying the Pythagorean theorem again to solve for the height of the ladder when $x = 6$.</p>
 
 \[\begin{align*}
-	y-(5) &amp;= 9[x-(1)] \\
-	y-5 &amp;= 9x -9 \\
-	9x-y &amp;= 4	\tagans
+	y^2 &amp;= 100-y^2 \\
+	y &amp;= \sqrt{100-6^2} \\
+	&amp;= 8
 \end{align*}\]
 
-<p>And for the slope of the normal line, get the negative reciprocal of the slope of the tangent,</p>
+<p>Now, substitute these values into the eq.1 to get the rate of the ladder sliding down the wall $\frac{dy}{dt}$.</p>
 
 \[\begin{align*}
-	m_N &amp;= -\frac{1}{m_T} \\
-	&amp;= -\frac{1}{9} 
+	\frac{dy}{dt} &amp;= -\frac{6}{8}(2) \\
+	\frac{dy}{dt} &amp;= -\frac32\un{m/s} \\
+	&amp;= -1.5\un{m/s}
 \end{align*}\]
 
-<p>Hence, the equation of the normal line at point $(1,5)$ with a slope of $-\frac{1}{9}$ is,</p>
-
-\[\begin{align*}
-	y-y_1 &amp;= m_N (x-x_1) \\
-	y-(5) &amp;= -\frac{1}{9}[x-(1)] \\
-	9y-45 &amp;= -x+1 \\
-	x+9y &amp;= 46 	\tagans
-\end{align*}\]
-
-<p>Therefore, the equation of the tangent and normal lines are $9x-y = 4$ and $x+9y = 46$ respectively.</p>
+<p>The negative sign denotes the direction of the motion, which in this case, it is going down, therefore, we can say that the ladder is “sliding down” at the rate of 1.5 m/s.</p>
 
 
 </details>
 
 <hr />
 <p>$\example{2}$
-Find the equation of the tangent and normal lines to the curve $x^2+y^2+6x-8y=0$ at the origin.</p>
+Air is being pumped into a spherical balloon so that its volume increases at a rate of 50 cubic centimeters per second. How fast is the radius of the balloon increasing when the radius is 5 centimeters?</p>
 
 <details style="text-align:left;">
     <summary style="text-align:left;">$\solution$
     </summary>
     <br />
     
-<p>In this example, since we are given an implicit function, the first step that we need to do is differentiate the given equation through Implicit Differentiation.</p>
+<p>Recall that the volume of a sphere is given by the equation:</p>
 
 \[\begin{align*}
-	\ddx\br{x^2+y^2+6x-8y} &amp;= \ddx\br{0} \\
-	2x+2y y' + 6 - 8 y' &amp;= 0 \\
-	(2y-8) y' &amp;= -2x-6 \\
-	y' &amp;= \frac{-2x-6}{2y-8} \\
-		  &amp;= \frac{-x-3}{y-4}
+	V &amp;= \frac43\pi r^3 
 \end{align*}\]
 
-<p>To determine the slope of the tangent line at the origin, which has a coordinates of $(0,0)$, substitute the variables of the derivative with the respective values of the coordinates.</p>
+<p>In this equation, we see the relationship between the volume and the radius of the sphere. The question is how to relate the rate of change of the volume, $\frac{dV}{dt}$, to the rate of change of the radius, $\frac{dr}{dt}$. To find this relationship, we differentiate the volume equation with respect to time.</p>
 
 \[\begin{align*}
-	m_T &amp;= y' = \frac{-0-3}{0-4} \\
-	      &amp;= \frac34 
+	\ddt\br{V} &amp;= \ddt\br{\frac43\pi r^3} \\
+	\frac{dV}{dt} &amp;= 4\pi r^2 \frac{dr}{dt} \\
 \end{align*}\]
 
-<p>Solving for the equation of the tangent line using the Point-Slope Form ($\eref{eq:pt-slope of a line}$) gives us,</p>
+<p>In the given problem, $\frac{dV}{dt}$ is provided as $50\un{cm^3/s}$, and we want to determine $\frac{dr}{dt}$.</p>
 
 \[\begin{align*}
-	y-y_1 &amp;= m_T (x-x_1) \\
-	y-0 &amp;= \frac34[x-0] \\
-	y &amp;= \frac34x \\
-	4y &amp;= 3x \\
-	4y-3x &amp;= 0			\tagans
+	\frac{dr}{dt} &amp;= \frac{dV/dt}{4\pi r^2}
 \end{align*}\]
 
-<p>Then for the equation of the normal line, we can directly plug the slope to the Point-Slope Form,</p>
+<p>Substituting the known values to the equation gives us:</p>
 
 \[\begin{align*}
-	y-y_1 &amp;= m_N (x-x_1) \\
-	y-y_1 &amp;= -\frac{1}{m_T} (x-x_1) \\
-	y-0 &amp;= -\frac43 (x-0) \\
-	3y &amp;= -4x \\
-	4x+3y &amp;= 0	\tagans
+	\frac{dr}{dt} &amp;= \frac{50}{4\pi (5)^2} \\
+	 &amp;= \frac{50}{100\pi} \\
+	 &amp;= \frac{1}{2\pi}\un{cm/s}
 \end{align*}\]
+
+<p>The positive sign indicates that the radius is increasing; therefore, the radius of the balloon is increasing at a rate of $\frac{1}{2\pi}\un{cm/s}$.</p>
 
 
 </details>
 
 <hr />
 <p>$\example{3}$
-Find the equation of the tangent and normal lines to the curve $y=(x+4)^2$ at the point where the curve intersects the $y$-axis.</p>
+A car is traveling north at 40 km/h, while another car is traveling east at 50 km/h. How fast is the distance between the cars increasing when the car traveling north is 75 km from the intersection, and the car traveling east is 100 km from the intersection?</p>
 
 <details style="text-align:left;">
     <summary style="text-align:left;">$\solution$
     </summary>
     <br />
     
-<p>In this example, the coordinates of the point are not given. However, it is stated that the point is located where the curve intersects the $y$-axis. Thus, graphing the curve can give us a clearer picture of where it is located.</p>
+<p>rom the given problem, the rate of the car traveling north is $\frac{dy}{dt} = 40\un{km/h}$, with a current distance from the intersection of $y = 75\un{km}$. For the car traveling east, $\frac{dx}{dt} = 50\un{km/h}$, with a current distance from the intersection of $x = 100\un{km}$. We can represent the distance between the two cars as $z$.</p>
 
 <figure style="text-align: center;">
-  <img src="/images/content/DC/DC-5.2.1.png" alt="my alt text" width="250px" />
+  <img src="/images/content/DC/DC-6.3.2.jpg" alt="my alt text" width="350px" />
   <figcaption><em>
 </em></figcaption>
 </figure>
 
-<p>Mathematically, we can solve the intersection point by equating the equation of the curve and the $y$-axis. If you can recall, the equation of the $y$-axis is $x=0$, since every point that lies on the $y$-axis has an $x$-coordinate of 0. Thus, replacing 0 to $y=(x+4)^2$ will give us the $y$-coordinate of the intersection point.</p>
+<p>The relationship between the distances can be expressed using the Pythagorean theorem:</p>
 
 \[\begin{align*}
-	y &amp;= (x+4)^2 \\
-	  &amp;= (0+4)^2 \\
-	  &amp;= 16
+	z^2 &amp;= x^2+y^2
 \end{align*}\]
 
-<p>Hence, the point of intersection is at $(0,16)$</p>
-
-<p>Since we already have the coordinates of the point, we can now solve the problem by the same method as our previous examples. To start, differentiate the equation of the curve with respect to $x$.</p>
+<p>Differentiate both sides of the equation with respect to time $t$:</p>
 
 \[\begin{align*}
-	\ddx\br{y} &amp;= \ddx\brk{(x+4)^2} \\
-	y' &amp;= 2(x+4)
+	2z\frac{dz}{dt} &amp;= 2x\frac{dx}{dt}+2y\frac{dy}{dt} \\
+	z\frac{dz}{dt} &amp;= x\frac{dx}{dt}+y\frac{dy}{dt} \\
+	\frac{dz}{dt} &amp;= \frac{x\frac{dx}{dt}+y\frac{dy}{dt}}{z} \tag{eq.1}
 \end{align*}\]
 
-<p>At $(0,16)$,</p>
+<p>Use the Pythagorean theorem again to calculate the value of $z$ when $x = 100\un{km}$ and $y = 75\un{km}$,</p>
 
 \[\begin{align*}
-	m_T &amp;= y' = 2(0+4) \\
-	    &amp;= 8
+	z &amp;= \sqrt{100^2+75^2} \\
+	&amp;= 125\un{km}
 \end{align*}\]
 
-<p>Solving for the equation of the tangent line using the Point-Slope Form ($\eref{eq:pt-slope of a line}$) gives us,</p>
+<p>Substitute the known values to eq.1:</p>
 
 \[\begin{align*}
-	y-y_1 &amp;= m_T (x-x_1) \\
-	y-16 &amp;= 8[x-0] \\
-	y-16 &amp;= 8x \\
-	8x-y &amp;= -16		\tagans
+	\frac{dz}{dt} &amp;= \frac{100(50)+75(40)}{125} \\
+	&amp;= 64\un{km/hr}
 \end{align*}\]
 
-<p>Then for the equation of the normal line,</p>
-
-\[\begin{align*}
-	y-y_1 &amp;= -\frac{1}{m_T} (x-x_1) \\
-	y-16 &amp;= -\frac18 (x-0) \\
-	8(y-16) &amp;= -x \\
-	8y-128 &amp;= -x \\
-	x+8y &amp;= 128			\tagans
-\end{align*}\]
-
-<p>To visualize, we can graph the tangent and normal lines of the curve $y=(x+4)^2$ at $(0,16)$.</p>
-
-<figure style="text-align: center;">
-  <img src="/images/content/DC/DC-5.2.2.png" alt="my alt text" width="250px" />
-  <figcaption><em>
-</em></figcaption>
-</figure>
+<p>Therefore, the distance between the two cars is increasing by a rate of 64 km/hr.</p>
 
 
 </details>
 
 <hr />
 <p>$\example{4}$
-Find the equation of the tangent and normal lines to the curve $a^2y-x^3=0$ at point $(a,a)$.</p>
+A conical tank with a height of 10 meters and a base radius of 4 meters is being filled with water at a rate of 2 cubic meters per minute. How fast is the water level rising when the water is 5 meters deep?</p>
 
 <details style="text-align:left;">
     <summary style="text-align:left;">$\solution$
     </summary>
     <br />
     
-<p>In this example, we can treat $a$ as a constant. Thus,</p>
+<p>The volume $V$ of water in a cone is given by:</p>
 
 \[\begin{align*}
-	\ddx\br{a^2y-x^3} &amp;= \ddx\br{0} \\
-	a^2 y'-3x^2 &amp;= 0 \\
-	y' &amp;= \frac{3x^2}{a^2}
+	V &amp;= \frac13\pi r^2h
 \end{align*}\]
 
-<p>To solve for the slope at $(a,a)$, we can replace $x$ and $y$ with $a$. However, in this case, we only have the variable $x$. Thus,</p>
+<p>Since the radius $r$ of the water surface changes as the height $h$ changes, we need to express $r$ in terms of $h$ using the geometry of the cone. From the given problem, the radius of the cone at its full height (10 m) is 4 m. So, the radius and height of the water form similar triangles with the full cone. Thus, the ratio of radius to height is constant:</p>
 
 \[\begin{align*}
-	m_T &amp;= y' = \frac{3\cancel{a^2}}{\cancel{a^2}} \\
-	   &amp;= 3
+	\frac{r}{h} &amp;= \frac{4}{10} \\
+	r &amp;= \frac{4}{10}h \\
+	r &amp;= \frac25h
 \end{align*}\]
 
-<p>Solving for the equation of the tangent line gives us,</p>
+<p>Substituting this into the original equation, we get:</p>
 
 \[\begin{align*}
-	y-y_1 &amp;= m_T (x-x_1) \\
-	y-a &amp;= 3(x-a) \\
-	y-a &amp;= 3x-3a \\
-	3x-y &amp;= -a+3a \\
-	3x-y &amp;= 2a		\tagans
+	V &amp;= \frac13\pi \br{\frac25h}^2h \\
+	V &amp;= \frac13\pi \br{\frac{4}{25}h^2}h \\
+	V &amp;= \frac{4\pi}{75}h^3
 \end{align*}\]
 
-<p>Then for the equation of the normal line,</p>
+<p>Differentiating this with respect to time,</p>
 
 \[\begin{align*}
-	y-y_1 &amp;= -\frac{1}{m_T} (x-x_1) \\
-	y-a &amp;= -\frac13 (x-a) \\
-	3(y-a) &amp;= -x+a \\
-	3y-3a &amp;= -x+a \\
-	x+3y &amp;= 4a			\tagans
+	\ddt\br{V} &amp;= \ddt\br{\frac{4\pi}{75}h^3} \\
+	\frac{dV}{dt} &amp;= \frac{4\pi}{75}\cdot3h^2\frac{dh}{dt} \\
+	\frac{dV}{dt} &amp;= \frac{4\pi}{25}h^2\frac{dh}{dt}
 \end{align*}\]
+
+<p>Isolating $\frac{dh}{dt}$:</p>
+
+\[\begin{align*}
+	\frac{dh}{dt} &amp;= \frac{25}{4\pi h^2}\frac{dV}{dt}
+\end{align*}\]
+
+<p>Substituting the known values,</p>
+
+\[\begin{align*}
+	\frac{dh}{dt} &amp;= \frac{25}{4\pi (5)^2}(2) \\
+	&amp;= \frac{1}{2\pi}\un{m/min}
+\end{align*}\]
+
+<p>Hence, at a water level of 5 m, the rate of the water level rising is $\frac{1}{2\pi}\un{m/min}$.</p>
 
 
 </details>
 
-<hr />
-<p>$\example{5}$
-Find the equation of the tangent and normal lines to the curve $x^2+4x-y-2=0$ where the slope of the tangent is 6.</p>
-
-<details style="text-align:left;">
-    <summary style="text-align:left;">$\solution$
-    </summary>
-    <br />
-    
-<p>In this example, instead of having a point as one of its given, we have the slope of the tangent. To solve for the point, we can first differentiate the function.</p>
-
-\[\begin{align*}
-	\ddx\br{x^2+4x-y-2} &amp;= \ddx\br{0} \\
-	2x+4-y' &amp;= 0 \\
-	y' &amp;= 2x+4
-\end{align*}\]
-
-<p>Since the tangent is equal to the derivative, we can use this parameter to solve for the $x$-coordinate of the point of tangency.</p>
-
-\[\begin{align*}
-	y' &amp;= 6 \\
-	2x+4 &amp;= 6 \\
-	x &amp;= \frac{6-4}{2} \\
-	  &amp;= 1
-\end{align*}\]
-
-<p>Then to solve for the $y$-coordinate, substitute the value of $x$ to the equation  of the curve.</p>
-
-\[\begin{align*}
-	x^2+4x-y-2 &amp;= 0 \\
-	y &amp;= (1)^2+4(1)-2 \\
-	y &amp;= 3
-\end{align*}\]
-
-<p>Hence, the point of tangency is at $(0,-2)$. With this, we can now solve for the equation of the tangent line.</p>
-
-\[\begin{align*}
-	y-y_1 &amp;= m_T (x-x_1) \\
-	y-3 &amp;= 6 (x-1) \\
-	y-3 &amp;= 6x-6 \\
-	6x-y &amp;= 3		\tagans
-\end{align*}\]
-
-<p>Then for the equation of the normal line,</p>
-
-\[\begin{align*}
-	y-y_1 &amp;= -\frac{1}{m_T} (x-x_1) \\
-	y-3 &amp;= -\frac16 (x-1) \\
-	6(y-3) &amp;= -x+1 \\
-	6y-18 &amp;= -x+1 \\
-	x+6y &amp;= 19		\tagans
-\end{align*}\]
-
-
-</details>
-
-<hr />
-<p>$\example{6}$
-At point $(1,1)$, the tangent line to the curve $y = x^3$ intersects the $x$-axis at $x=$ ?</p>
-
-<details style="text-align:left;">
-    <summary style="text-align:left;">$\solution$
-    </summary>
-    <br />
-    
-<p>In this example, we need to find the $x$-coordinate of the tangent line were it intersects the $x$-axis. To visualize, let us first try to plot the given function.</p>
-
-<figure style="text-align: center;">
-  <img src="/images/content/DC/DC-5.2.3.png" alt="my alt text" width="250px" />
-  <figcaption><em>
-</em></figcaption>
-</figure>
-
-<p>We can start by first differentiating the equation of the curve to determine its slope.</p>
-
-\[\begin{align*}
-	\ddx\br{y} &amp;= \ddx\br{x^3} \\
-	y' &amp;= 3x^2
-\end{align*}\]
-
-<p>At $(1,1)$,</p>
-
-\[\begin{align*}
-	m_T &amp;= y' = 3(1)^2 \\
-	   &amp;= 3
-\end{align*}\]
-
-<p>Then we can now use the slope to solve for the equation of the tangent line,</p>
-
-\[\begin{align*}
-	y-y_1 &amp;= m_T (x-x_1) \\
-	y-1 &amp;= 3(x-1) \\
-	y-1 &amp;= 3x-3 \\
-	3x-y &amp;= 2
-\end{align*}\]
-
-<p>Since all points tha lie on the $x$-axis have a $y$-coordinate of 0, we can substitute this to the equation of the line to get its $x$-coordinate where it intersects the $x$-axis.</p>
-
-\[\begin{align*}
-	3x-(0) &amp;= 2 \\
-	x &amp;= \frac23	\tagans
-\end{align*}\]
-
-
-</details>
 
         </div>
       </div>
@@ -613,24 +490,24 @@ At point $(1,1)$, the tangent line to the curve $y = x^3$ intersects the $x$-axi
 
 <!-- <div class="PageNavigation">
   
-    <a class="prev" href="/services/calculus/DC-5.1-tangents-and-normals-to-plane-curves/">&laquo; Tangents and Normals to Plane Curves</a>
+    <a class="prev" href="/services/calculus/DC-6.2-optimization/">&laquo; Optimization</a>
   
   
-    <a class="next" href="/services/calculus/DC-5.3-increasing-and-decreasing-functions/">Increasing and Decreasing Functions &raquo;</a>
+    <a class="next" href="/services/calculus/DC-7.1-differentials/">Differentials &raquo;</a>
   
 </div> -->
 
 
 
 <!-- <div class="PageNavigation">
-    <a class="prev" href="../DC-5.1-tangents-and-normals-to-plane-curves">&laquo; </a> <a class="next" href="../DC-5.3-increasing-and-decreasing-functions"> &raquo;</a>
+    <a class="prev" href="../DC-6.2-optimization">&laquo; </a> <a class="next" href="../DC-7.1-differentials"> &raquo;</a>
 </div> -->
 
 
 
 <div class="PageNavigation">
-  <a class="prev" href="../DC-5.1-tangents-and-normals-to-plane-curves">&laquo; Previous</a> 
-  <a class="next" href="../DC-5.3-increasing-and-decreasing-functions">Next &raquo;</a>
+  <a class="prev" href="../DC-6.2-optimization">&laquo; Previous</a> 
+  <a class="next" href="../DC-7.1-differentials">Next &raquo;</a>
 </div>
 
 
