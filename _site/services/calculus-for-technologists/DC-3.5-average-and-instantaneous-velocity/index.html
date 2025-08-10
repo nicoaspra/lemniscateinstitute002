@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>Introduction to Differential Calculus</title>
+  <title>Average and Instantaneous Velocity</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link rel="icon" type="image/png" href="/images/favicon-32x32.svg">
   <link rel="apple-touch-icon" sizes="120x120" href="/images/favicon-32x32.svg">
@@ -101,7 +101,7 @@
   <div class="row justify-content-start">
     <div class="col-12 col-md-8">
       <div class="service service-single">
-        <h1 class="title">Introduction to Differential Calculus</h1>
+        <h1 class="title">Average and Instantaneous Velocity</h1>
           
             <p style="color:#d02f5d"></pstyle>
               <a href="/team">
@@ -120,23 +120,123 @@ $$
 
           <!-- <div class="deskContent">Content for desktop</div> -->
         <div class="content">
-          <p>Calculus, has a reputation of being one of the most dreaded subjects in college. The fear and apprehension probably came from the lack of appreciation of the potential of calculus in many applications in and outside of the engineering field. It is our hope that you will learn from the course as well as develop a sense of appreciation for calculus. The succeeding discussions are intended for those with an introductory background in Calculus. Assuming so, you should be able to understand the mathematics involved easily.</p>
+          <p>A well-known application of the rate of change is when it involves motion. Moreover, in <a href="../../physics/3.2-speed-and-velocity">physics</a>, velocity is a fundamental concept that must be learned at the start of the course.</p>
 
-<p>In most modern Calculus courses, the history behind the beneficial mathematical results is often left ignored. It is our belief that without the fundamental understanding of the origins of its methods, the student is left to apply memorized techniques, often lacking an understanding of why those techniques work rather than operating from a strong sense of the concepts. So, it is best that we first cover some of the historical paths of Calculus so that we can comprehend why it was developed in the first place.</p>
+<p>To understand the difference between Average and Instantaneous Velocity, consider Figure 1, which represents a <strong>position vs. time graph</strong>, where the vertical axis represents the <strong>object’s position</strong> $s$ and the horizontal axis (independent variable) represents the <strong>time</strong> $t$.</p>
 
-<p>Calculus is divided into two major parts, the <strong>Differential Calculus</strong>, and the <strong>Integral Calculus</strong>. These two are fundamentally different concepts and applications that <em>complements each other</em>, completing the whole concept of calculus. The differential calculus is concerned chiefly with the study of the rate of change of functions with respect to a variable especially using derivatives and differentials. This means that differential calculus focuses on the concept of “part-of-a-whole” that is used to study the behavior of the whole. One major application of differential calculus is “Optimization”, it uses the concept of maxima and minima to calculate the best possible scenario or condition that we might be interested in. This notion revolutionized the engineering and economic world.</p>
+<figure style="text-align: center;">
+  <img src="/images/content/DC/DC-3.5.1.png" alt="my alt text" width="600px" />
+  <figcaption><em><p>Figure 1: Graphical representation of average and instantaneous velocities</p>
+</em></figcaption>
+</figure>
 
-<p>However, in this course we will be focusing on one branch of calculus, which is the Differential Calculus. In this chapter, we will explore its definition, history, and general concept.</p>
+<p><strong>Average velocity</strong> is defined as the change of the displacement $\D{s}$ of an object divided by the time interval $\D{t}$. Graphically, the average velocity can be expressed as the slope of the secant line connecting the two positions (Figure 1a).</p>
 
-<h2 id="brief-history-of-calculus">Brief History of Calculus</h2>
+<p align="center" style="background-color:rgba(64, 130, 110, 0.07);
+border: 3px solid rgba(64, 130, 110, 0.9);
+border-radius:7px;
+padding:10px;
+margin:5px;">
+    $$\begin{align}
+	 	\overline{v}=\frac{\Delta s}{\Delta t}
+	\end{align}$$
+</p>
 
-<p>The present-day calculus was introduced during the mid-17th Century by both Sir Isaac Newton and Gottfried Wilhelm Leibniz. It is now believed that both men developed Calculus independent of each other, however, records shows that Newton discovered it 8 years earlier than Leibniz. One of the trivias worth noting is that Newton discovered Calculus at the age of 22.</p>
+<p><strong>Instantaneous velocity</strong>, on the other hand, is the velocity of the object at a specific instant. To understand this, let us have a simple example.</p>
 
-<p>In Newton’s time, he had developed calculus when he was at a dead end in one of his other works that soon have revolutionized physics since at that time there was no present available method to solve such problem. With this in mind, in order to fill that gap he had founded a new whole branch of mathematics, which is now known as calculus. The same man that have pushed a needle into his eye just to suffice his curiosity on how light affects the perception. However, this is another story for another day.</p>
+<p>Suppose a stray dog chased a student, his initial instinct tells him to run as fast as possible, say he is running at a rate of 10 m/s, but as time passed by, he starts slowing down to a rate of 4 m/s, then somehow realized that the dog already stopped chasing him, so he then stopped running.</p>
 
-<p>Leibniz on the other hand have independently developed calculus for another reason, he was more concerned with with the slopes of curves that represents visually the rate of change, as well as new methods for solving maxima and minima. Furthermore, one of his greatest contribution in Calculus is his notation. Until this day his notation is still in use, actually the majority on our lessons, we will be using the Leibniz’s Notation.</p>
+<p><strong>Instantaneous velocity</strong>, is the <em>velocity at a certain instant</em>, so at the time he hit his velocity at 10 m/s that was his <em>instantaneous velocity at that certain moment</em>. And at the time he stopped, he has an instantaneous velocity of 0 m/s. Hence, instantaneous velocity is denoted as,</p>
 
-<p>At this juncture, it is now our turn to re-discover calculus and learn its importance and application in the field of engineering and technology. We will begin our adventure by exploring the concept of <a href="DC-1.1-introduction-to-functions">Functions</a>.</p>
+<p align="center" style="background-color:rgba(64, 130, 110, 0.07);
+border: 3px solid rgba(64, 130, 110, 0.9);
+border-radius:7px;
+padding:10px;
+margin:5px;">
+    $$\begin{align}
+ 	v = \frac{ds}{dt} = \lim_{\Delta t \to 0} \frac{\Delta{s}}{\Delta{t}}
+ \end{align}$$
+</p>
+
+<p>Instantaneous velocity can be represented as the derivative of the function at a specific point. Graphically, the instantaneous velocity is the slope of the tangent line at a particular time (Figure 1b).</p>
+
+<hr />
+<p>$\example{1}$
+What is the instantaneous velocity of a car at $t= 5$ sec if its displacement is defined by the equation: $s=2t^2+3t-5$ meters.</p>
+
+<details style="text-align:left;">
+    <summary style="text-align:left;">$\solution$
+    </summary>
+    <br />
+    
+<p>From the given equation, the displacement is a function of its time. To determine the instantaneous velocity of the car at a specific instant, differentiate the function with respect to time,</p>
+
+\[\begin{align*}
+	s+\D{s} &amp;= 2(t+\D{t})^2+3(t+\D{t})-5 \\
+	\D{s} &amp;= \cancel{2t^2}+4t\D{t}+2\D{t}^2+\cancel{3t}+3\D{t}-\cancel{5} - (\cancel{2t^2}+\cancel{3t}-\cancel{5}) \\
+	&amp;= 4t\D{t}+2\D{t}^2+3\D{t} \\
+	\frac{\D s}{\D t} &amp;= \frac{\cancel{\D t}(4t+2\D{t}+3)}{\cancel{\D t}} \\
+	\frac{ds}{dt} &amp;= \lim_{\D t\to 0} (4t+2\D{t}+3) \\
+	&amp;= 4t+3
+\end{align*}\]
+
+<p>At $t=5\un{sec}$,</p>
+
+\[\begin{align*}
+	&amp;= 4(5)+3 \\
+	&amp;= 23 \un{m/s}		\tagans
+\end{align*}\]
+
+
+</details>
+
+<hr />
+<p>$\example{2}$
+A ball is thrown vertically upward with the displacement from its initial point defined by the equation: $s=160t-16t^2$ ft, what is the height of the ball in ft. at the moment it stopped rising?</p>
+
+<details style="text-align:left;">
+    <summary style="text-align:left;">$\solution$
+    </summary>
+    <br />
+    
+<p>When a ball is thrown upward, it will eventually stop rising at its peak. And the instantaneous velocity of the ball when it reaches its peak is zero.</p>
+
+<figure style="text-align: center;">
+  <img src="/images/content/DC/DC-3.5.2.png" alt="my alt text" width="250px" />
+  <figcaption><em>
+</em></figcaption>
+</figure>
+
+<p>Differentiate $s$ with respect to $t$,</p>
+
+\[\begin{align*}
+	s+\D{s} &amp;= 160(t+\D t)-16(t+\D t)^2 \\
+	\D{s} &amp;= \cancel{160t}+160\D t-\cancel{16t^2}-32t\D{t}-16\D{t}^2 - (\cancel{160t}-\cancel{16t^2}) \\
+	&amp;= 160\D{t}-32t\D{t}-16\D{t}^2 \\
+	\frac{\D s}{\D t} &amp;= \frac{\cancel{\D t} (160-32t-16\D{t})}{\cancel{\D t}} \\
+	\frac{ds}{dt} &amp;= \lim_{\D t\to 0} (160-32t-16\D{t}) \\
+	&amp;= 160-32t
+\end{align*}\]
+
+<p>At the peak of flight of the ball, $\frac{ds}{dt}=0$,</p>
+
+\[\begin{align*}
+	0 &amp;= 160-32t \\
+	t &amp;= \frac{160}{32} \\
+	&amp;= 5
+\end{align*}\]
+
+<p>Thus, it takes 5 sec for the ball to reach the peak. So, substitute $t=5$ to the function,</p>
+
+\[\begin{align*}
+	s &amp;= 160(5)-16(5)^2 \\
+	&amp;= 400\un{ft} 		\tagans
+\end{align*}\]
+
+<p>Hence, the ball <strong>will stop rising</strong> after it reaches the height of <strong>400 ft</strong>.</p>
+
+
+</details>
 
         </div>
       </div>
@@ -288,24 +388,24 @@ $$
 
 <!-- <div class="PageNavigation">
   
-    <a class="prev" href="/services/calculus-for-technologists/IC-6.3-area-between-curves/">&laquo; Area Between Curves</a>
+    <a class="prev" href="/services/calculus-for-technologists/DC-3.4-rate-of-change/">&laquo; Rate of Change</a>
   
   
-    <a class="next" href="/services/calculus/DC-1.1-introduction-to-functions/">Introduction to Functions &raquo;</a>
+    <a class="next" href="/services/calculus-for-technologists/DC-4.1-differentiation-and-its-rules-for-algebraic-functions/">Differentiation and its Rules for Algebraic Functions &raquo;</a>
   
 </div> -->
 
 
 
 <!-- <div class="PageNavigation">
-    <a class="prev" href="../../differential-calculus">&laquo; </a> <a class="next" href="../DC-1.1-introduction-to-functions"> &raquo;</a>
+    <a class="prev" href="../DC-3.4-rate-of-change">&laquo; </a> <a class="next" href="../DC-4.1-differentiation-and-its-rules-for-algebraic-functions"> &raquo;</a>
 </div> -->
 
 
 
 <div class="PageNavigation">
-  <a class="prev" href="../../differential-calculus">&laquo; Previous</a> 
-  <a class="next" href="../DC-1.1-introduction-to-functions">Next &raquo;</a>
+  <a class="prev" href="../DC-3.4-rate-of-change">&laquo; Previous</a> 
+  <a class="next" href="../DC-4.1-differentiation-and-its-rules-for-algebraic-functions">Next &raquo;</a>
 </div>
 
 

@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>Introduction to Differential Calculus</title>
+  <title>Introduction to Definite Integrals</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link rel="icon" type="image/png" href="/images/favicon-32x32.svg">
   <link rel="apple-touch-icon" sizes="120x120" href="/images/favicon-32x32.svg">
@@ -101,11 +101,11 @@
   <div class="row justify-content-start">
     <div class="col-12 col-md-8">
       <div class="service service-single">
-        <h1 class="title">Introduction to Differential Calculus</h1>
+        <h1 class="title">Introduction to Definite Integrals</h1>
           
             <p style="color:#d02f5d"></pstyle>
               <a href="/team">
-                Author | Engr. Nico O. Aspra, M.Eng., RMP, LPT
+                Authors | <br> Engr. Nico O. Aspra, M.Eng., RMP, LPT  <br> Engr. Pee Jay N. Gealone
               </a>
             </p>
           
@@ -114,29 +114,109 @@
   <!-- \definecolor{colorA}{rgb}{0.25, 0.51, 0.43}	
   \definecolor{colorB}{rgb}{0.89, 0.04, 0.36}	 -->
 $$
-          <!-- <p style="color:#d02f5d"></pstyle>Author | Engr. Nico O. Aspra, M.Eng., RMP, LPT</p> -->
-          <!-- <a href="">Engr. Nico O. Aspra, M.Eng., RMP, LPT</a> -->
+          <!-- <p style="color:#d02f5d"></pstyle>Author | Engr. Nico O. Aspra, M.Eng., RMP, LPT  <br> Engr. Pee Jay N. Gealone</p> -->
+          <!-- <a href="">Engr. Nico O. Aspra, M.Eng., RMP, LPT  <br> Engr. Pee Jay N. Gealone</a> -->
           <!-- <br> -->
 
           <!-- <div class="deskContent">Content for desktop</div> -->
         <div class="content">
-          <p>Calculus, has a reputation of being one of the most dreaded subjects in college. The fear and apprehension probably came from the lack of appreciation of the potential of calculus in many applications in and outside of the engineering field. It is our hope that you will learn from the course as well as develop a sense of appreciation for calculus. The succeeding discussions are intended for those with an introductory background in Calculus. Assuming so, you should be able to understand the mathematics involved easily.</p>
+          <p>Definite integrals are integrals that have a start and end values which are called the upper and lower limits. There are many applications of definite integrals, including: the computation of the area under a curve, the volume of the solid of revolution, the length of an arc, the surface area of a revolved arc, centroids, first and second moment of area, as well as other physics problems such as work and static pressures.</p>
 
-<p>In most modern Calculus courses, the history behind the beneficial mathematical results is often left ignored. It is our belief that without the fundamental understanding of the origins of its methods, the student is left to apply memorized techniques, often lacking an understanding of why those techniques work rather than operating from a strong sense of the concepts. So, it is best that we first cover some of the historical paths of Calculus so that we can comprehend why it was developed in the first place.</p>
+<p>Definite Integrals can be easily understood and visualized using the concept of area under a curve. Consider the figure,</p>
 
-<p>Calculus is divided into two major parts, the <strong>Differential Calculus</strong>, and the <strong>Integral Calculus</strong>. These two are fundamentally different concepts and applications that <em>complements each other</em>, completing the whole concept of calculus. The differential calculus is concerned chiefly with the study of the rate of change of functions with respect to a variable especially using derivatives and differentials. This means that differential calculus focuses on the concept of “part-of-a-whole” that is used to study the behavior of the whole. One major application of differential calculus is “Optimization”, it uses the concept of maxima and minima to calculate the best possible scenario or condition that we might be interested in. This notion revolutionized the engineering and economic world.</p>
+<figure style="text-align: center;">
+  <img src="/images/content/IC/IC-4.1.1.png" alt="my alt text" width="450px" />
+  <figcaption><em><p>Figure 1: The area under a curve bounded by the upper and lower limits $a$ and $b$ respectively, the $x$-axis, and the curve itself.</p>
+</em></figcaption>
+</figure>
 
-<p>However, in this course we will be focusing on one branch of calculus, which is the Differential Calculus. In this chapter, we will explore its definition, history, and general concept.</p>
+<p>The area bounded under the curve $f(x)$, the $x$-axis, the lower limit $a$, and the upper limit $b$ can be more complex to solve, since the area created has an irregular shape. However, it can be approximated by dividing the area into strips of rectangles ($\fref{1}$), and solving for the sum of the area of those rectangular strips.</p>
 
-<h2 id="brief-history-of-calculus">Brief History of Calculus</h2>
+<figure style="text-align: center;">
+  <img src="/images/content/IC/IC-4.1.2.png" alt="my alt text" width="250px" />
+  <figcaption><em><p>Figure 2: Dividing the area into rectangular strips to approximate the area</p>
+</em></figcaption>
+</figure>
 
-<p>The present-day calculus was introduced during the mid-17th Century by both Sir Isaac Newton and Gottfried Wilhelm Leibniz. It is now believed that both men developed Calculus independent of each other, however, records shows that Newton discovered it 8 years earlier than Leibniz. One of the trivias worth noting is that Newton discovered Calculus at the age of 22.</p>
+<p>To analyze the steps we need to undergo, we need to isolate the rectangular strips from each other. Moreover, we can substitute the lower limit $a$ with $x_0$ and the upper limit $b$ with $x_n$, where $n$ repesents the number of rectangular strips the area is divided into.</p>
 
-<p>In Newton’s time, he had developed calculus when he was at a dead end in one of his other works that soon have revolutionized physics since at that time there was no present available method to solve such problem. With this in mind, in order to fill that gap he had founded a new whole branch of mathematics, which is now known as calculus. The same man that have pushed a needle into his eye just to suffice his curiosity on how light affects the perception. However, this is another story for another day.</p>
+<figure style="text-align: center;">
+  <img src="/images/content/IC/IC-4.1.3.png" alt="my alt text" width="400px" />
+  <figcaption><em><p>Figure 3: Isolating the first rectangular strip to give emphasis to its parts, $b=\Delta x$ and $h=f(x)$</p>
+</em></figcaption>
+</figure>
 
-<p>Leibniz on the other hand have independently developed calculus for another reason, he was more concerned with with the slopes of curves that represents visually the rate of change, as well as new methods for solving maxima and minima. Furthermore, one of his greatest contribution in Calculus is his notation. Until this day his notation is still in use, actually the majority on our lessons, we will be using the Leibniz’s Notation.</p>
+<p>We can derive the area of one rectangular strip $A_i$,</p>
 
-<p>At this juncture, it is now our turn to re-discover calculus and learn its importance and application in the field of engineering and technology. We will begin our adventure by exploring the concept of <a href="DC-1.1-introduction-to-functions">Functions</a>.</p>
+\[\begin{align*}
+	A &amp;= bh \\
+	A_i &amp;= [\Delta x_i][f(x_i)] \\
+	&amp;= f(x_i)\Delta x_i
+\end{align*}\]
+
+<p>Hence, the bounded area is equal to the sum of all the rectangular strips,</p>
+
+\[\begin{align*}
+	A &amp;= f(x_1)\Delta x_1 + f(x_2)\Delta x_2 + f(x_3)\Delta x_3 + \cdots f(x_n)\Delta x_n \\
+\end{align*}\]
+
+<p>Expressing the function as a Reimann Sum,</p>
+
+\[\begin{align*}
+	A &amp;= \sum_{i=1}^{n} f(x_i)\Delta x_i
+\end{align*}\]
+
+<p>However, we can still improve the equation by increasing the number of the rectangular strips. But as the number of strips $n$ increases, the thickness of each strip $\Delta x$ gets thinner, thus $n$ and $x$ are inversely proportional.</p>
+
+<figure style="text-align: center;">
+  <img src="/images/content/IC/IC-4.1.4.png" alt="my alt text" width="600px" />
+  <figcaption><em><p>Figure 4: Increasing the number of rectangles infinitely to increase the accuracy of approximation of the area under the curve</p>
+</em></figcaption>
+</figure>
+
+<p>If we increase the number of strips to infinity, we can get a relatively good approximation of the area. However, we cannot directly set $n$ to infinity $\infty$, thus, in order for us to evaluate the function, we can approach $n$ to infinity. 
+We have already established that $n$ is inversely proportional to $\Delta x$, hence, as $n$ approaches to infinity, $\Delta x$ approaches 0. Thus, expressing the function as a limit, where $\Delta x$ approaches to 0 gives us,</p>
+
+\[\begin{align*}
+	A &amp;= \lim_{\Delta x \to 0} \sum_{i=1}^{n} f(x_i)\Delta x_i
+\end{align*}\]
+
+<p>This equation can then be further simplified by introducing a the <strong>Definite Integral</strong> symbol,</p>
+
+<p align="center" style="background-color:rgba(64, 130, 110, 0.07);
+border: 3px solid rgba(64, 130, 110, 0.9);
+border-radius:7px;
+padding:10px;
+margin:5px;">
+    $$\begin{align}
+        A = \int_a^b f(x)\,dx
+    \end{align}$$
+</p>
+<p><br />
+\(\begin{align*}
+	\text{Where:}\quad a &amp;= \text{lower limit} &amp; \\
+	b &amp;= \text{upper limit} \\
+	f(x) &amp;= \text{integrand} \\
+	dx &amp;= \text{variable of integration}
+\end{align*}\)</p>
+
+<h2 id="evaluating-definite-integrals">Evaluating Definite Integrals</h2>
+<p>Evaluating definite integrals has similar steps as evaluating an indefinite integral. However, in definite integrals, we no longer need the constant of integration $C$, because we will end up with a specific value since this integral already defines specific boundaries.</p>
+
+<p>Definite Integral is evaluated by integrating first the function, then getting the difference of the integral as a function of the upper limit subtracted
+by the same integral but as a function of the lower limit.</p>
+
+<p align="center" style="background-color:rgba(64, 130, 110, 0.07);
+border: 3px solid rgba(64, 130, 110, 0.9);
+border-radius:7px;
+padding:10px;
+margin:5px;">
+    $$\begin{align}
+        \int_a^b f(x)\,dx &amp;= \Bigl[F(x)\Bigr]_a^b = F(b)-F(a)
+        \label{eq:evaluation of definite integrals}
+    \end{align}$$
+</p>
+
 
         </div>
       </div>
@@ -288,24 +368,24 @@ $$
 
 <!-- <div class="PageNavigation">
   
-    <a class="prev" href="/services/calculus-for-technologists/IC-6.3-area-between-curves/">&laquo; Area Between Curves</a>
+    <a class="prev" href="/services/calculus-for-technologists/IC-3.5-tabular-integration-by-parts/">&laquo; Tabular Integration by Parts</a>
   
   
-    <a class="next" href="/services/calculus/DC-1.1-introduction-to-functions/">Introduction to Functions &raquo;</a>
+    <a class="next" href="/services/calculus-for-technologists/IC-4.2-properties-of-definite-integrals/">Properties of Definite Integrals &raquo;</a>
   
 </div> -->
 
 
 
 <!-- <div class="PageNavigation">
-    <a class="prev" href="../../differential-calculus">&laquo; </a> <a class="next" href="../DC-1.1-introduction-to-functions"> &raquo;</a>
+    <a class="prev" href="../IC-3.5-tabular-integration-by-parts">&laquo; </a> <a class="next" href="../IC-4.2-properties-of-definite-integrals"> &raquo;</a>
 </div> -->
 
 
 
 <div class="PageNavigation">
-  <a class="prev" href="../../differential-calculus">&laquo; Previous</a> 
-  <a class="next" href="../DC-1.1-introduction-to-functions">Next &raquo;</a>
+  <a class="prev" href="../IC-3.5-tabular-integration-by-parts">&laquo; Previous</a> 
+  <a class="next" href="../IC-4.2-properties-of-definite-integrals">Next &raquo;</a>
 </div>
 
 

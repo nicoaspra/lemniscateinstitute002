@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>Introduction to Differential Calculus</title>
+  <title>Higher Order Derivatives</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link rel="icon" type="image/png" href="/images/favicon-32x32.svg">
   <link rel="apple-touch-icon" sizes="120x120" href="/images/favicon-32x32.svg">
@@ -101,7 +101,7 @@
   <div class="row justify-content-start">
     <div class="col-12 col-md-8">
       <div class="service service-single">
-        <h1 class="title">Introduction to Differential Calculus</h1>
+        <h1 class="title">Higher Order Derivatives</h1>
           
             <p style="color:#d02f5d"></pstyle>
               <a href="/team">
@@ -120,23 +120,221 @@ $$
 
           <!-- <div class="deskContent">Content for desktop</div> -->
         <div class="content">
-          <p>Calculus, has a reputation of being one of the most dreaded subjects in college. The fear and apprehension probably came from the lack of appreciation of the potential of calculus in many applications in and outside of the engineering field. It is our hope that you will learn from the course as well as develop a sense of appreciation for calculus. The succeeding discussions are intended for those with an introductory background in Calculus. Assuming so, you should be able to understand the mathematics involved easily.</p>
+          <p>Differentiation of previously differentiated functions is still possible. The process of successively differentiating a function is referred to as <strong>Successive Differentiation</strong>. For instance, the second derivative of a function is achieved by differentiating the first derivative, and differentiating it again yields the third derivative, provided that it is still differentiable. Thus, through Successive Differentiation, <strong>Higher-Order Derivatives</strong> are obtained.</p>
 
-<p>In most modern Calculus courses, the history behind the beneficial mathematical results is often left ignored. It is our belief that without the fundamental understanding of the origins of its methods, the student is left to apply memorized techniques, often lacking an understanding of why those techniques work rather than operating from a strong sense of the concepts. So, it is best that we first cover some of the historical paths of Calculus so that we can comprehend why it was developed in the first place.</p>
+<p>Higher-Order Derivatives can be interpreted differently in various applications; for instance, in Physics, the second derivative of an object’s displacement with respect to time is referred to as acceleration. In Polynomial Curves, on the other hand, the second derivative of a function is utilized to determine the polynomial’s points of inflection. 
+However, before applying this concept to various fields, let us first familiarize ourselves with its notations and solve some fundamental problems.</p>
 
-<p>Calculus is divided into two major parts, the <strong>Differential Calculus</strong>, and the <strong>Integral Calculus</strong>. These two are fundamentally different concepts and applications that <em>complements each other</em>, completing the whole concept of calculus. The differential calculus is concerned chiefly with the study of the rate of change of functions with respect to a variable especially using derivatives and differentials. This means that differential calculus focuses on the concept of “part-of-a-whole” that is used to study the behavior of the whole. One major application of differential calculus is “Optimization”, it uses the concept of maxima and minima to calculate the best possible scenario or condition that we might be interested in. This notion revolutionized the engineering and economic world.</p>
+<h2 id="notation-of-higher-order-derivatives">Notation of Higher Order Derivatives</h2>
 
-<p>However, in this course we will be focusing on one branch of calculus, which is the Differential Calculus. In this chapter, we will explore its definition, history, and general concept.</p>
+<p align="center" style="background-color:rgba(64, 130, 110, 0.07);
+border: 3px solid rgba(118, 165, 151, 0.9);
+border-radius:0px;
+padding:10px;
+margin:5px;">
+    
+    $\tcBal{Leibniz's Notation}$ 
+    $$
+    \begin{align}
+        \frac{d^2y}{dx^2} &amp;=\frac{d}{dx}\br{\dydx}  &amp; \text{second derivative}      
+            \nonumber\\
+		\frac{d^3y}{dx^3} &amp;=\frac{d}{dx}\br{\frac{d^{2}y}{dx^2}} &amp; \text{third derivative}		
+            \nonumber\\
+		 &amp;\cdots  
+            \nonumber\\
+		\frac{d^ny}{dx^n} &amp;=\frac{d}{dx}\br{ \frac{d^{n-1}y}{dx^{n-1}} } &amp; \phantom{asdssssssss}\text{$n^{\text{th}}$ derivative} 
+            \nonumber\\
+    \end{align}
+    $$
+    $\tcBal{Lagrange's Notation}$ 
+    $$
+    \begin{align}
+	 	y'' &amp;= f''(x) = \frac{d}{dx}\br{\dydx}  &amp; \text{second derivative} 
+            \nonumber\\
+		y''' &amp;= f'''(x) = \frac{d}{dx}\br{\frac{d^{2}y}{dx^2}} &amp; \text{third derivative}		
+            \nonumber\\
+		&amp;\cdots  
+            \nonumber\\
+		y^n &amp;= f^n(x) = \frac{d}{dx}\br{ \frac{d^{n-1}y}{dx^{n-1}} } &amp; \text{$n^{\text{th}}$ derivative} 
+            \nonumber
+    \end{align}
+    $$
+    
+</p>
 
-<h2 id="brief-history-of-calculus">Brief History of Calculus</h2>
+<hr />
+<p>$\example{1}$
+Find the second derivative of the function $y = x^3+3x+2$.</p>
 
-<p>The present-day calculus was introduced during the mid-17th Century by both Sir Isaac Newton and Gottfried Wilhelm Leibniz. It is now believed that both men developed Calculus independent of each other, however, records shows that Newton discovered it 8 years earlier than Leibniz. One of the trivias worth noting is that Newton discovered Calculus at the age of 22.</p>
+<details style="text-align:left;">
+    <summary style="text-align:left;">$\solution$
+    </summary>
+    <br />
+    
+<p>Differentiate the function,</p>
 
-<p>In Newton’s time, he had developed calculus when he was at a dead end in one of his other works that soon have revolutionized physics since at that time there was no present available method to solve such problem. With this in mind, in order to fill that gap he had founded a new whole branch of mathematics, which is now known as calculus. The same man that have pushed a needle into his eye just to suffice his curiosity on how light affects the perception. However, this is another story for another day.</p>
+\[\begin{align*}
+	\ddx\br{y} &amp;= \ddx\br{x^3+3x+2} \\
+	\dydx &amp;= 3x^2+3
+\end{align*}\]
 
-<p>Leibniz on the other hand have independently developed calculus for another reason, he was more concerned with with the slopes of curves that represents visually the rate of change, as well as new methods for solving maxima and minima. Furthermore, one of his greatest contribution in Calculus is his notation. Until this day his notation is still in use, actually the majority on our lessons, we will be using the Leibniz’s Notation.</p>
+<p>Then differentiate again,</p>
 
-<p>At this juncture, it is now our turn to re-discover calculus and learn its importance and application in the field of engineering and technology. We will begin our adventure by exploring the concept of <a href="DC-1.1-introduction-to-functions">Functions</a>.</p>
+\[\begin{align*}
+	\ddx\br{\dydx} &amp;= \ddx\br{3x^2+3} \\
+	\frac{d^2y}{dx^2} &amp;= 6x		\tagans
+\end{align*}\]
+
+
+</details>
+
+<hr />
+<p>$\example{2}$
+Find $\frac{d^4y}{dx^4}$ of the function $y = x^5-3x^4+7x^2+5$.</p>
+
+<details style="text-align:left;">
+    <summary style="text-align:left;">$\solution$
+    </summary>
+    <br />
+    
+<p>Differentiate the function four (4) times,
+\(\begin{align*}
+	\ddx\br{y} &amp;= \ddx\br{x^5-3x^4+7x^2+5} \\
+	\dydx &amp;= 5x^4-12x^3+14x \\
+	\ddx\br{\dydx} &amp;= \ddx\br{5x^4-12x^3+14x} \\
+	\frac{d^2y}{dx^2} &amp;= 20x^3-36x^2+14 \\
+	\ddx\br{\frac{d^2y}{dx^2}} &amp;= \ddx\br{20x^3-36x^2+14} \\
+	\frac{d^3y}{dx^3} &amp;= 60x^2-72x \\
+	\ddx\br{\frac{d^3y}{dx^3}} &amp;= \ddx\br{60x^2-72x} \\
+	\frac{d^4y}{dx^4} &amp;= 120x-72		\tagans
+\end{align*}\)</p>
+
+
+</details>
+
+<hr />
+<p>$\example{3}$
+Find $f’’‘(x)$ of the function $f(x)=\frac{5}{a\sqrt{x}}-\frac{1}{x^3}$, where $a$ is a constant.</p>
+
+<details style="text-align:left;">
+    <summary style="text-align:left;">$\solution$
+    </summary>
+    <br />
+    
+<p>Express the radical as a power with a rational exponent,</p>
+
+\[\begin{align*}
+	f(x) &amp;= \frac{5}{a\sqrt{x}}-\frac{1}{x^3} \\
+	&amp;= \frac{5}{a}x^{-\frac{1}{2}} - x^{-3} 
+\end{align*}\]
+
+<p>Differentiate the function three (3) times,</p>
+
+\[\begin{align*}
+	f'(x) &amp;= \ddx\br{\frac{5}{a}x^{-\frac{1}{2}} - x^{-3}} \\
+	&amp;= \br{-\frac{1}{2}} \frac{5}{a} x^{-\frac{1}{2}-1}-(-3)x^{-3-1} \\
+	&amp;= -\frac{5}{2a}x^{-\frac{3}{2}}+3x^{-4} \\
+	f''(x) &amp;= \ddx\br{-\frac{5}{2a}x^{-\frac{3}{2}}+3x^{-4}} \\
+	&amp;= \frac{15}{4a}x^{-\frac{5}{2}}-12x^{-5} \\
+	f'''(x) &amp;= \ddx\br{\frac{15}{4a}x^{-\frac{5}{2}}-12x^{-5}} \\
+	&amp;= -\frac{75}{8a}x^{-\frac{7}{2}} + 60x^{-6} \\
+	&amp;= \frac{60}{x^6} - \frac{75}{8ax^{\frac{7}{2}}}	\tagans
+\end{align*}\]
+
+
+</details>
+
+<hr />
+<p>$\example{4}$
+Determine on what $n^{th}$ derivative of $y=5x^3-x^2+7$ will have a value of zero. ($y^n = 0$)</p>
+
+<details style="text-align:left;">
+    <summary style="text-align:left;">$\solution$
+    </summary>
+    <br />
+    
+<p>Differentiate the function until its value becomes zero.</p>
+
+\[\begin{align*}
+	\ddx\br{y} &amp;= \ddx\br{5x^3-x^2+7} \\
+	y' &amp;= 15x^2-2x \\
+	\ddx\br{y'} &amp;= \ddx\br{15x^2-2x} \\
+	y'' &amp;= 10x-2 \\
+	\ddx\br{y''} &amp;= \ddx\br{10x-2} \\
+	y''' &amp;= 10 \\
+	\ddx\br{y'''} &amp;= \ddx\br{10} \\
+	y^{(4)} &amp;= 0
+\end{align*}\]
+
+<p>Therefore, the value will become zero at the 4$\nth$ derivative.</p>
+
+
+</details>
+
+<hr />
+
+<h2 id="acceleration">Acceleration</h2>
+<p>Acceleration is an important concept when it comes to motion. To better understand how acceleration works, let’s have an example.</p>
+
+<p>If you are travelling at a rate of 50 m/s, then after a second your rate increases to 60 m/s, and 70 m/s after the next second. This indicates that you are increasing your pace as time passes or that you are “accelerating.’’ According to our example, you are accelerating at a rate of 10 m/s per second, which is expressed as 10 m/s/s or 10 $\mathrm{m/s^2}$. With this, we can now define acceleration mathematically. It is the change in velocity with respect to time. Thus, acceleration can be denoted as,</p>
+
+<!-- Say you are traveling at a rate of 50 m/s, then after a second, your rate becomes 60 m/s, and 70 m/s after the next second. The increase in velocity means you are speeding up as the time passes by, or we could say, "you are accelerating.'' From our example, you are accelerating 10 m/s for every second or 10 m/s/s or 10 $\mathrm{m/s^2}$. With this, we can now define what acceleration is, its the rate of change in velocity with respect to time, -->
+
+\[a=\frac{dv}{dt}\]
+
+<p>However, since velocity is the rate of change of displacement with respect to time ${ v=\frac{ds}{dt} }$, we can also represent acceleration as the second derivative of displacement with respect to time,</p>
+
+\[a=\frac{d}{dt}v=\frac{d}{dt} \br{ \frac{ds}{dt} } =\frac{d^2s}{dt^2}\]
+
+<p align="center" style="background-color:rgba(64, 130, 110, 0.07);
+border: 3px solid rgba(64, 130, 110, 0.9);
+border-radius:7px;
+padding:10px;
+margin:5px;">
+    $$\begin{align}
+        a = \frac{dv}{dt} = \frac{d^2s}{dt^2}
+    \end{align}$$
+</p>
+
+<hr />
+<p>$\example{5}$
+An astronaut on the moon throws a rock vertically upward with a velocity of 5 m/s and catches it at the same position where it was thrown. 
+<!-- How long did it take to be caught? ($g_{moon} = 1.62 \un{m/s^2}$) -->
+The displacement of the rock is defined by the equation $s = 5t-0.18t^2 \un{m}$.
+Determine the rock’s
+(a) velocity after 7 s, and
+(b) its acceleration in $\mathrm{m/s^2}$.</p>
+
+<details style="text-align:left;">
+    <summary style="text-align:left;">$\solution$
+    </summary>
+    <br />
+    
+<p>$\For{a}$ <br />
+Differentiate the function with respect to time $t$,</p>
+
+\[\begin{align*}
+	\frac{d}{dt}\br{s} &amp;= \frac{d}{dt}\br{5t-0.18t^2} \\
+	\frac{ds}{dt} &amp;= 5-0.36t
+\end{align*}\]
+
+<p>At $t=7\un{s}$,</p>
+
+\[\begin{align*}
+	v &amp;= 5-0.36(7) \\
+	&amp;= 2.48 \un{m/s}	\tagans
+\end{align*}\]
+
+<p>$\For{b}$<br />
+Then differentiating again gives us the acceleration of the rock.
+\(\begin{align*}
+	\frac{d}{dt}\br{\frac{ds}{dt}} &amp;= \frac{d}{dt}\br{5-0.36t} \\
+	\frac{d^2s}{dt^2} &amp;= -0.36 \\
+	a &amp;= -0.36 \un{m/s^2}		\tagans
+\end{align*}\)</p>
+
+
+</details>
 
         </div>
       </div>
@@ -288,24 +486,24 @@ $$
 
 <!-- <div class="PageNavigation">
   
-    <a class="prev" href="/services/calculus-for-technologists/IC-6.3-area-between-curves/">&laquo; Area Between Curves</a>
+    <a class="prev" href="/services/calculus-for-technologists/DC-4.1-differentiation-and-its-rules-for-algebraic-functions/">&laquo; Differentiation and its Rules for Algebraic Functions</a>
   
   
-    <a class="next" href="/services/calculus/DC-1.1-introduction-to-functions/">Introduction to Functions &raquo;</a>
+    <a class="next" href="/services/calculus-for-technologists/DC-4.3-the-chain-rule/">The Chain Rule &raquo;</a>
   
 </div> -->
 
 
 
 <!-- <div class="PageNavigation">
-    <a class="prev" href="../../differential-calculus">&laquo; </a> <a class="next" href="../DC-1.1-introduction-to-functions"> &raquo;</a>
+    <a class="prev" href="../DC-4.1-differentiation-and-its-rules-for-algebraic-functions">&laquo; </a> <a class="next" href="../DC-4.3-the-chain-rule"> &raquo;</a>
 </div> -->
 
 
 
 <div class="PageNavigation">
-  <a class="prev" href="../../differential-calculus">&laquo; Previous</a> 
-  <a class="next" href="../DC-1.1-introduction-to-functions">Next &raquo;</a>
+  <a class="prev" href="../DC-4.1-differentiation-and-its-rules-for-algebraic-functions">&laquo; Previous</a> 
+  <a class="next" href="../DC-4.3-the-chain-rule">Next &raquo;</a>
 </div>
 
 

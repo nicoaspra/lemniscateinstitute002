@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>Introduction to Differential Calculus</title>
+  <title>Graph of Functions</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link rel="icon" type="image/png" href="/images/favicon-32x32.svg">
   <link rel="apple-touch-icon" sizes="120x120" href="/images/favicon-32x32.svg">
@@ -101,7 +101,7 @@
   <div class="row justify-content-start">
     <div class="col-12 col-md-8">
       <div class="service service-single">
-        <h1 class="title">Introduction to Differential Calculus</h1>
+        <h1 class="title">Graph of Functions</h1>
           
             <p style="color:#d02f5d"></pstyle>
               <a href="/team">
@@ -120,23 +120,182 @@ $$
 
           <!-- <div class="deskContent">Content for desktop</div> -->
         <div class="content">
-          <p>Calculus, has a reputation of being one of the most dreaded subjects in college. The fear and apprehension probably came from the lack of appreciation of the potential of calculus in many applications in and outside of the engineering field. It is our hope that you will learn from the course as well as develop a sense of appreciation for calculus. The succeeding discussions are intended for those with an introductory background in Calculus. Assuming so, you should be able to understand the mathematics involved easily.</p>
+          <!-- <iframe src="https://www.desmos.com/calculator/g7izucn6nn" width="100%" style="min-height:400px"></iframe> -->
 
-<p>In most modern Calculus courses, the history behind the beneficial mathematical results is often left ignored. It is our belief that without the fundamental understanding of the origins of its methods, the student is left to apply memorized techniques, often lacking an understanding of why those techniques work rather than operating from a strong sense of the concepts. So, it is best that we first cover some of the historical paths of Calculus so that we can comprehend why it was developed in the first place.</p>
+<p>This topic may have been covered in previous prerequisite courses, specifically in Analytic Geometry. As you may have already learned, there are numerous methods for plotting a graph from an equation. However, if you have forgotten how to do so, we will utilize the <strong>simplest method</strong>, which is by <em>plotting multiple points on a Cartesian plane and then tracing them to form a line or a curve</em>. While this method might not be convenient for graphs that you are already familiar with (e.g., lines and conic sections), it can be particularly useful for more complicated functions. The downside of this method is that it can be a bit time-consuming, especially for complex graphs.</p>
 
-<p>Calculus is divided into two major parts, the <strong>Differential Calculus</strong>, and the <strong>Integral Calculus</strong>. These two are fundamentally different concepts and applications that <em>complements each other</em>, completing the whole concept of calculus. The differential calculus is concerned chiefly with the study of the rate of change of functions with respect to a variable especially using derivatives and differentials. This means that differential calculus focuses on the concept of “part-of-a-whole” that is used to study the behavior of the whole. One major application of differential calculus is “Optimization”, it uses the concept of maxima and minima to calculate the best possible scenario or condition that we might be interested in. This notion revolutionized the engineering and economic world.</p>
+<p>To demonstrate this, let’s start with what we have already established previously. We have a clear notion that functions can be represented in different forms, such as equations, graphs, and even tables. So, if we have a function $f(x) = x^2$, we can first tabulate it by assigning values to $x$ and solving the value of $y$.</p>
 
-<p>However, in this course we will be focusing on one branch of calculus, which is the Differential Calculus. In this chapter, we will explore its definition, history, and general concept.</p>
+\[\begin{array}{c|rrrrrrr}
+	x &amp; -3 &amp; -2 &amp; -1 &amp; 0 &amp; 1 &amp;2 &amp;3 \\
+	\hline
+	f(x) &amp; 9 &amp; 4 &amp; 1 &amp; 0 &amp; 1 &amp; 4 &amp; 9 
+\end{array}\]
 
-<h2 id="brief-history-of-calculus">Brief History of Calculus</h2>
+<p>These tabulated values can now be plotted on a Cartesian plane, where the <strong>input</strong> (independent variable) lying on the <em>horizontal axis</em> and the <strong>output</strong> (dependent variable) on the <em>vertical axis</em>. Hence, connecting the points will then form the curve, which represents the graphical form of the function $f(x) = x^2$.</p>
 
-<p>The present-day calculus was introduced during the mid-17th Century by both Sir Isaac Newton and Gottfried Wilhelm Leibniz. It is now believed that both men developed Calculus independent of each other, however, records shows that Newton discovered it 8 years earlier than Leibniz. One of the trivias worth noting is that Newton discovered Calculus at the age of 22.</p>
+<figure style="text-align: center;">
+  <img src="/images/content/DC/DC-1.6.1.png" alt="my alt text" width="300px" />
+  <figcaption><em><p>Figure 1: Graphical representation of $f(x)=x^2$</p>
+</em></figcaption>
+</figure>
 
-<p>In Newton’s time, he had developed calculus when he was at a dead end in one of his other works that soon have revolutionized physics since at that time there was no present available method to solve such problem. With this in mind, in order to fill that gap he had founded a new whole branch of mathematics, which is now known as calculus. The same man that have pushed a needle into his eye just to suffice his curiosity on how light affects the perception. However, this is another story for another day.</p>
+<hr />
+<p>$\example{1}$
+Graph the equation of the line $y=-x+3$</p>
 
-<p>Leibniz on the other hand have independently developed calculus for another reason, he was more concerned with with the slopes of curves that represents visually the rate of change, as well as new methods for solving maxima and minima. Furthermore, one of his greatest contribution in Calculus is his notation. Until this day his notation is still in use, actually the majority on our lessons, we will be using the Leibniz’s Notation.</p>
+<details style="text-align:left;">
+    <summary style="text-align:left;">$\solution$
+    </summary>
+    <br />
+    
+<p>There are a lot of ways of plotting a graph in a cartesian plane, but one of the simplest method is by assigning values to the independent variable, which in this case is $x$,</p>
 
-<p>At this juncture, it is now our turn to re-discover calculus and learn its importance and application in the field of engineering and technology. We will begin our adventure by exploring the concept of <a href="DC-1.1-introduction-to-functions">Functions</a>.</p>
+\[\begin{array}{c|cccc}
+	x    &amp; 0 &amp; 1 &amp; 2 &amp; 3 \\
+	\hline
+	y &amp; 3 &amp; 2 &amp; 1 &amp; 0
+\end{array}\]
+
+<p>Trace the points on the cartesian plane after plotting them.</p>
+
+<figure style="text-align: center;">
+  <img src="/images/content/DC/DC-1.6.2.png" alt="my alt text" width="250px" />
+  <figcaption><em>
+</em></figcaption>
+</figure>
+
+
+</details>
+
+<hr />
+<p>$\example{2}$
+Express the volume of a cube as a function of the length of its edge. Graph the function.</p>
+
+<details style="text-align:left;">
+    <summary style="text-align:left;">$\solution$
+    </summary>
+    <br />
+    
+<p>$\text{Let: } V = \text{volume of the cube} $ <br />
+$\phantom{\text{Let: }} x = \text{length of an edge of the cube}$</p>
+
+<p>Hence, the equation for the volume of a cube is,</p>
+
+\[\begin{align*}
+	V &amp;= x^3 	\tagans
+\end{align*}\]
+
+<p>Assign values to $x$, then tabulate the result,</p>
+
+\[\begin{array}{c|ccccc}
+	x    &amp; 0 &amp; 1 &amp; 2 &amp; 3 &amp; 4\\
+	\hline
+	V &amp; 0 &amp; 1 &amp; 8 &amp; 27 &amp; 64
+\end{array}\]
+
+<p>Plot the points on the cartesian plane,</p>
+
+<figure style="text-align: center;">
+  <img src="/images/content/DC/DC-1.6.3.png" alt="my alt text" width="250px" />
+  <figcaption><em>
+</em></figcaption>
+</figure>
+
+
+</details>
+
+<hr />
+<p>$\example{3}$
+Express the length of the edge of a cube as a function of its volume. Graph the function.</p>
+
+<details style="text-align:left;">
+    <summary style="text-align:left;">$\solution$
+    </summary>
+    <br />
+    
+<p>$\text{Let: } V = \text{volume of the cube} $ <br />
+$\phantom{\text{Let: }} x = \text{length of an edge of the cube}$</p>
+
+<p>Hence, the equation for the volume of a cube is,</p>
+
+\[V = x^3\]
+
+<p>Then express the length of the edge as a function of its volume,
+\(x = V^{1/3} 		\tagans\)</p>
+
+<p>Assign values to $V$, then tabulate the result,</p>
+
+\[\begin{array}{c|ccccc}
+	V &amp; 0 &amp; 1 &amp; 8 &amp; 27 &amp; 64\\
+	\hline
+	x    &amp; 0 &amp; 1 &amp; 2 &amp; 3 &amp; 4
+\end{array}\]
+
+<p>Plot the points on the cartesian plane,</p>
+
+<figure style="text-align: center;">
+  <img src="/images/content/DC/DC-1.6.4.png" alt="my alt text" width="250px" />
+  <figcaption><em>
+</em></figcaption>
+</figure>
+
+
+</details>
+
+<hr />
+<p>$\example{4}$
+A right triangle has a hypotenuse of 5 cm. Express its area as a function of its base. Graph the function.</p>
+
+<details style="text-align:left;">
+    <summary style="text-align:left;">$\solution$
+    </summary>
+    <br />
+    
+<p>$\text{Let: } A = \text{area} $ <br />
+$\phantom{\text{Let: }} a = \text{altitude}$ <br />
+$\phantom{\text{Let: }} b = \text{base}$ <br />
+$\phantom{\text{Let: }} c = \text{hypotenuse}$</p>
+
+<figure style="text-align: center;">
+  <img src="/images/content/DC/DC-1.6.5.png" alt="my alt text" width="200px" />
+  <figcaption><em>
+</em></figcaption>
+</figure>
+<p>We can solve for the altitude $a$ of the triangle using the Pythagorean theorem,</p>
+
+\[\begin{align*}
+	c^2 &amp;= a^2 + b^2 \\
+	a^2 &amp;= c^2 -b^2 \\
+	a &amp;= \sqrt{5^2-b^2} \\
+	   &amp;= \sqrt{25-b^2} 
+\end{align*}\]
+
+<p>Solving for the area will give us,</p>
+
+\[\begin{align*}
+	A &amp;= \frac{1}{2} ab \\
+	A &amp;= \frac{1}{2} b\sqrt{25-b^2} 	\tagans
+\end{align*}\]
+
+<p>Assign values to $b$, then tabulate the result,</p>
+
+\[\begin{array}{c|cccccc}
+	b &amp; 0 &amp; 1 &amp; 2 &amp; 3 &amp; 4 &amp; 5\\
+	\hline
+	A    &amp; 0 &amp; 2.45 &amp; 4.58 &amp; 6 &amp; 6 &amp; 0
+\end{array}\]
+
+<p>Plot the points on the cartesian plane,</p>
+
+<figure style="text-align: center;">
+  <img src="/images/content/DC/DC-1.6.6.png" alt="my alt text" width="250px" />
+  <figcaption><em>
+</em></figcaption>
+</figure>
+
+
+</details>
 
         </div>
       </div>
@@ -288,24 +447,24 @@ $$
 
 <!-- <div class="PageNavigation">
   
-    <a class="prev" href="/services/calculus-for-technologists/IC-6.3-area-between-curves/">&laquo; Area Between Curves</a>
+    <a class="prev" href="/services/calculus-for-technologists/DC-1.4-composite-functions/">&laquo; Composite Functions</a>
   
   
-    <a class="next" href="/services/calculus/DC-1.1-introduction-to-functions/">Introduction to Functions &raquo;</a>
+    <a class="next" href="/services/calculus-for-technologists/DC-1.7-vertical-line-test/">Verical Line Test &raquo;</a>
   
 </div> -->
 
 
 
 <!-- <div class="PageNavigation">
-    <a class="prev" href="../../differential-calculus">&laquo; </a> <a class="next" href="../DC-1.1-introduction-to-functions"> &raquo;</a>
+    <a class="prev" href="../DC-1.4-composite-functions">&laquo; </a> <a class="next" href="../DC-1.7-vertical-line-test"> &raquo;</a>
 </div> -->
 
 
 
 <div class="PageNavigation">
-  <a class="prev" href="../../differential-calculus">&laquo; Previous</a> 
-  <a class="next" href="../DC-1.1-introduction-to-functions">Next &raquo;</a>
+  <a class="prev" href="../DC-1.4-composite-functions">&laquo; Previous</a> 
+  <a class="next" href="../DC-1.7-vertical-line-test">Next &raquo;</a>
 </div>
 
 

@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Optimization</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="icon" type="image/png" href="/images/favicon-32x32.svg">
+  <link rel="apple-touch-icon" sizes="120x120" href="/images/favicon-32x32.svg">
+  <link rel="apple-touch-icon" href="/images/logo/logo.ico" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+  <link href="/assets/css/style.css" rel="stylesheet">
+  
+  <meta property="og:title" content="" />
+  <meta property="og:type" content="" />
+  <meta property="og:url" content="" />
+  <meta property="og:image" content="" />
+  <meta property="og:description" content="" />
+  <meta name="twitter:card" content="" />
+  <meta name="twitter:site" content="" />
+  <meta name="twitter:creator" content="" />
+
+   <!-- Add Slick Carousel CSS -->
+   <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+
+   <!-- Add Slick Carousel theme CSS (optional) -->
+   <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+
+</head>
+<body class='page '>
+  <div id="main-menu-mobile" class="main-menu-mobile">
+  
+  <ul>
+    
+    <li class="">
+      <a href="/">Home</a>
+    </li>
+    
+    <li class="">
+      <a href="/services/">Courses</a>
+    </li>
+    
+    <li class="">
+      <a href="/team/">Team</a>
+    </li>
+    
+    <li class="">
+      <a href="/about/">About</a>
+    </li>
+    
+  </ul>
+</div>
+
+  <div id="wrapper" class="wrapper">
+    <div class='header'>
+  <div class="container">
+    <div class="logo">
+      <a href="/"><img height="36px" alt="Lemniscate Institute" src="/images/logo/logo.svg" /></a>
+      <!-- <a href="/"><img height="36px" alt="Lemniscate Institute" src="/images/logo/logo.svg" /></a> -->
+    </div>
+    <div class="logo-mobile">
+      <a href="/"><img alt="Lemniscate Institute" src="/images/logo/logo-mobile.svg" /></a>
+      <!-- <a href="/"><img alt="Lemniscate Institute" src="/images/logo/logo-mobile.svg" /></a> -->
+    </div>
+    <div id="main-menu" class="main-menu">
+  
+  <ul>
+    
+    <li class="">
+      <a href="/">Home</a>
+    </li>
+    
+    <li class="">
+      <a href="/services/">Courses</a>
+    </li>
+    
+    <li class="">
+      <a href="/team/">Team</a>
+    </li>
+    
+    <li class="">
+      <a href="/about/">About</a>
+    </li>
+    
+  </ul>
+</div>
+
+    <button id="toggle-main-menu-mobile" class="hamburger hamburger--slider" type="button" aria-label="Mobile Menu">
+  <span class="hamburger-box">
+    <span class="hamburger-inner"></span>
+  </span>
+</button>
+  </div>
+</div>
+    <div class="phoneContent">
+    <div class="phoneContent-header">
+            <b>Mobile Notice</b>
+    </div>
+        It seems that you are on your mobile phone, which means that the <b>screen's width is narrow</b> for some equations. For the best viewing experience, you can view this website in <b>landscape mode</b>.
+</div>  
+<div class="container pb-6 pt-6 pt-md-10 pb-md-10">
+  <div class="row justify-content-start">
+    <div class="col-12 col-md-8">
+      <div class="service service-single">
+        <h1 class="title">Optimization</h1>
+          
+            <p style="color:#d02f5d"></pstyle>
+              <a href="/team">
+                Author | Engr. Nico O. Aspra, M.Eng., RMP, LPT
+              </a>
+            </p>
+          
+
+          $$
+  <!-- \definecolor{colorA}{rgb}{0.25, 0.51, 0.43}	
+  \definecolor{colorB}{rgb}{0.89, 0.04, 0.36}	 -->
+$$
+          <!-- <p style="color:#d02f5d"></pstyle>Author | Engr. Nico O. Aspra, M.Eng., RMP, LPT</p> -->
+          <!-- <a href="">Engr. Nico O. Aspra, M.Eng., RMP, LPT</a> -->
+          <!-- <br> -->
+
+          <!-- <div class="deskContent">Content for desktop</div> -->
+        <div class="content">
+          <p>Optimization involves finding the best solution under a given set of constraints. It answers critical questions like: What dimensions should a container have to maximize its volume while using the least amount of material? or How can a company minimize costs while maximizing profits? By using derivatives, we can find the maximum and minimum values of functions, enabling us to make optimal decisions in various contexts.</p>
+
+<p>In the chapter “Polynomial Curves,” we discussed how to find the maximum and minimum points of a specific function, which are points that occur where the slope of the curve is zero. This property is at the heart of optimization. As long as we can express a specific problem as a function, we can analyze how the system behaves and determine optimal solutions.</p>
+
+<p>In optimization problems, the usual goal is to find the value of the independent variable that results in the dependent variable being either at a maximum or a minimum. To understand this, let’s explore the general steps involved in solving optimization problems and then look at some examples.</p>
+
+<h2 id="general-steps-in-solving-optimization-problems">General Steps in Solving Optimization Problems</h2>
+<p>Before diving into the examples, it would be best to outline first the general steps involved in solving optimization problems:</p>
+<ol>
+  <li><strong>Understand the Problem.</strong> Carefully read the problem to determine what quantity needs to be optimized (maximized or minimized) and identify the variables involved.</li>
+  <li><strong>Formulate the Function.</strong> Express the quantity you need to optimize as a function of the variable you want to optimize. For instance, if we want to maximize the area, then the area should be isolated on one side of the equation.</li>
+  <li><strong>Identify the Relationships.</strong> Use any given relationships or constraints to eliminate variables and write the function in terms of a single variable.</li>
+  <li><strong>Find the Critical Points.</strong> Apply the concept of maxima and minima to determine the value of the independent variable.</li>
+  <li><strong>Test the Critical Points.</strong> Use the second derivative test to determine if the critical point corresponds to a maximum or a minimum.</li>
+  <li><strong>Answer the Question.</strong> Provide the final answer, ensuring it addresses what is required in the problem.</li>
+</ol>
+
+<hr />
+<p>$\example{1}$
+Determine the values of two numbers if their sum is 8, and the product of one number and the cube of the other is maximized.</p>
+
+<details style="text-align:left;">
+    <summary style="text-align:left;">$\solution$
+    </summary>
+    <br />
+    
+<p>In this example, we want to maximize the product of one number and the cube of the other. We can set the first number to be $x$, and the other to be $y$. Thus:</p>
+
+\[\begin{align*}
+	M &amp;= xy^3	\tag{eq.1}
+\end{align*}\]
+
+<p>We can use another relationship, $x + y = 8$, to reduce the number of variables to only one. In our case, it would be easier to replace the value of $x$ to simplify the solution. Hence, we can isolate $x$:</p>
+
+\[\begin{align*}
+	x &amp;= 8 - y	\tag{eq.2}
+\end{align*}\]
+
+<p>Substitute this into equation (eq.1):</p>
+
+\[\begin{align*}
+	M &amp;= (8 - y) y^3 \\
+	&amp;= 8y^3-y^4
+\end{align*}\]
+
+<p>To maximize the value of $M$, differentiate the function with respect to the independent variable $y$.</p>
+
+\[\begin{align*}
+	\ddx\br{M} &amp;= \ddx{8y^3-y^4} \\
+	\frac{dM}{dy} &amp;= 24y^2-4y^3 \\
+\end{align*}\]
+
+<p>To determine the critical value, set $\frac{dM}{dy} = 0$.</p>
+
+\[\begin{align*}
+	0 &amp;= 24y^2-4y^3 \\
+	0 &amp;= 4y^2(6-y) \\
+	\implies 0 &amp;= 4y^2 \qquad;\quad 0 = 6-y  \\
+	y &amp;= 0 \quad\qquad;\quad y = 6
+\end{align*}\]
+
+<p>In this case, 0 cannot be possible since it will make the value of  M  to be zero, which most probably not be maximized. Thus, $y = 6$. With this, we can now substitute the value into equation (eq.2) to solve for the other number.</p>
+
+\[\begin{align*}
+	x &amp;= 8 - y \\
+	&amp;= 8 - 6 \\
+	&amp;= 2
+\end{align*}\]
+
+<p>Hence, the values of the two numbers are <strong>6 and 2</strong> that satisfies the problem.</p>
+
+
+</details>
+
+<hr />
+<p>$\example{2}$
+A homeowner only has 10 meters of fencing to build a rectangular garden, using two existing perpendicular walls as two sides of the rectangle. What dimensions will maximize the area of the garden?</p>
+
+<details style="text-align:left;">
+    <summary style="text-align:left;">$\solution$
+    </summary>
+    <br />
+    
+<p>In this type of problem, it is helpful to start by drawing a simple sketch to clearly represent the situation. The sketch should include all given values and any necessary variables for unknown values that will help in solving the problem. In this case, we want to maximize the total area of the garden, so we need to express the area in terms of the dimensions of the rectangle.</p>
+
+<figure style="text-align: center;">
+  <img src="/images/content/DC/DC-6.2.1.jpg" alt="my alt text" width="250px" />
+  <figcaption><em>
+</em></figcaption>
+</figure>
+
+\[\begin{align*}
+	A &amp;= xy
+\end{align*}\]
+
+<p>Given that we have 10 meters of fencing material and only two sides of the garden need to be fenced (since the other two sides are formed by the walls), we can reduce the number of variables. We express one variable in terms of the other. In this case, let $y = 10 - x$.</p>
+
+\[\begin{align*}
+	A &amp;= x(10-x) \\
+\end{align*}\]
+
+<p>Since we want to maximize the area and now have $A$ expressed as a function of one variable $x$, we can differentiate the function with respect to $x$.</p>
+
+\[\begin{align*}
+	\ddx\br{A} &amp;= \ddx\brk{x(10-x)} \\
+	\frac{dA}{dx} &amp;= x(-1)+(10-x) \\
+	&amp;= 10-2x 
+\end{align*}\]
+
+<p>To find the critical point, set $\frac{dA}{dx} = 0$:</p>
+
+\[\begin{align*}
+	0 &amp;= 10-2x \\
+	x &amp;= 5	\tagans
+\end{align*}\]
+
+<p>Now, substituting the value of $x$ back into $y = 10 - x$, we get $y = 0$</p>
+
+<p>Hence, to maximize the area of the garden with the given material, the dimensions should be $10\un{m} \x 10\un{m}$, resulting in a total area of $100\un{m^2}$</p>
+
+
+</details>
+
+<hr />
+<p>$\example{3}$
+Two poles, one 18 meters high and the other 12 meters high, stand 40 meters apart. They are to be supported by wires attached to a single anchor point on the ground between them, with wires running from the tops of the poles to the anchor point. Where should the anchor point be placed along the line between the poles to use the least amount of wire?</p>
+
+<details style="text-align:left;">
+    <summary style="text-align:left;">$\solution$
+    </summary>
+    <br />
+    
+<p>In this case, we want to minimize the total length of the wire, so we need to express the total wire length as a function of the position of the anchor point, which we represent as $x$ along the line between the poles.</p>
+
+<figure style="text-align: center;">
+  <img src="/images/content/DC/DC-6.2.2.jpg" alt="my alt text" width="400px" />
+  <figcaption><em>
+</em></figcaption>
+</figure>
+
+<p>To derive an equation for the total length of the wire, we can assume that the poles are perpendicular to the ground. Using the Pythagorean theorem, we can calculate the length of each wire as the hypotenuse of a right triangle. Thus, the total length of the wire is the sum of the two hypotenuses formed by these triangles.</p>
+
+\[\begin{align*}
+	L &amp;= L_1+L_2 \\
+	L &amp;= \sqrt{18^2+x^2}+\sqrt{12^2+\br{40-x}^2} \\
+	L &amp;= \br{324+x^2}^{\frac12}+\brk{144+\br{40-x}^2}^{\frac12}
+\end{align*}\]
+
+<p>Since we want to minimize the total wire length, and now have $L$ expressed as a function of the position of the anchor point $x$, we can proceed by differentiating the function with respect to $x$.</p>
+
+\[\begin{align*}
+	\ddx\br{L} &amp;= \ddx\brk{\br{324+x^2}^{\frac12}+\brk{144+\br{40-x}^2}^{\frac12}} \\
+	\frac{dL}{dx} &amp;= \frac12(324+x^2)^{-\frac12}(2x)+\frac12\brk{144+\br{40-x}^2}^{-\frac12}\bbrk{2(40-x)(-1)} \\
+	\frac{dL}{dx} &amp;= \frac{2x}{2(324+x^2)^{-\frac12}}+\frac{2(40-x)(-1)}{2\brk{144+\br{40-x}^2}^{-\frac12}}
+\end{align*}\]
+
+<p>To find the extreme point, we set $\frac{dL}{dx} = 0$.</p>
+
+\[\begin{align*}
+	0 &amp;= \frac{x}{\sqrt{324 + x^2}} - \frac{(40 - x)}{\sqrt{144 + (40 - x)^2}} \\
+	\frac{x}{\sqrt{324 + x^2}} &amp;= \frac{(40 - x)}{\sqrt{144 + (40 - x)^2}} \\
+	\brk{x{\sqrt{144 + (40 - x)^2}}}^2 &amp;= \brk{(40 - x){\sqrt{324 + x^2}}}^2 \\
+	x^2\br{144 + (40 - x)^2} &amp;= (40 - x)^2\br{324 + x^2} \\
+	144x^2 + \cancel{x^2(40 - x)^2} &amp;= 324(40 - x)^2 + \cancel{x^2(40 - x)^2} \\
+	144x^2 &amp;= 324(1600-80x+x^2) \\
+	4x^2 &amp;= 9(1600-80x+x^2) \\
+	0 &amp;= 14,\,400-720x+5x^2 \\
+	0 &amp;= x^2-144x+2880 \\
+	0 &amp;= (x-24)(x-120) \\
+	\implies x &amp;= 24	\quad;\quad x=120
+\end{align*}\]
+
+<p>Since the value of $x$ must be less than 40, the only logical solution is  $x = 24$. This means that the anchor point is located 24 meters from the 18-meter pole, resulting in the least amount of wire being used.</p>
+
+
+</details>
+
+<hr />
+<p>$\example{4}$
+Determine the diameter of a closed cylindrical can that can hold $500\un{cm^3}$ of milk, such that the least amount of material is used to manufacture it.</p>
+
+<details style="text-align:left;">
+    <summary style="text-align:left;">$\solution$
+    </summary>
+    <br />
+    
+<p>We need to determine the diameter of the cylinder that minimizes the surface area $A$. To do this, we need to express $A$ as a function of the diameter $D$. To start, we analyze the equation for the surface area $A$ of a closed cylinder (including the top and bottom).</p>
+
+<figure style="text-align: center;">
+  <img src="/images/content/DC/DC-6.2.3.jpg" alt="my alt text" width="130px" />
+  <figcaption><em>
+</em></figcaption>
+</figure>
+
+\[\begin{align*}
+	A &amp;= 2\pi r^2 + 2\pi r h \tag{eq.1}
+\end{align*}\]
+
+<p>In this equation, there are two variables, the radius $r$ and the height $h$. Since we want to express  A  as a function of the diameter $D$, and the radius is half of the diameter, our focus shifts to expressing $h$ in terms of $r$. We can use the given volume to find an expression for $h$.</p>
+
+\[\begin{align*}
+	V &amp;= \pi r^2h \\
+	h &amp;= \frac{V}{r^2}
+\end{align*}\]
+
+<p>Given that the volume is fixed at $500\un{cm^3}$, substituting this into the equation gives us:</p>
+
+\[\begin{align*}
+	h &amp;= \frac{500}{r^2}  \tag{eq.2}
+\end{align*}\]
+
+<p>Subtitute this value to eq.1.</p>
+
+\[\begin{align*}
+	A &amp;= 2\pi r^2 + 2\pi r \br{\frac{500}{r^2}} \\
+	&amp;= 2\pi r^2 + \frac{1000}{r}
+\end{align*}\]
+
+<p>Next, to express the surface area as a function of $D$, we replace $r$ with $\frac{D}{2}$:</p>
+
+\[\begin{align*}
+	&amp;= 2\pi\br{\frac{D}{2}}^2 + \frac{1000(2)}{D} \\
+	&amp;= \frac{\pi D^2}{2} + \frac{2000}{D} \\
+\end{align*}\]
+
+<p>We can now differentiate the function with respect to the diameter $D$.</p>
+
+\[\begin{align*}
+	\frac{d}{dD}\br{A} &amp;= \frac{dA}{dD}\br{\frac{\pi D^2}{2} + 2000D^{-1}} \\
+	\frac{dA}{dD} &amp;= \frac{2\pi D}{2} - 2000D^{-2} \\
+	&amp;= \pi D - \frac{2000}{D^{2}}
+\end{align*}\]
+
+<p>To find the extreme point, we set $\frac{dA}{dD} = 0$.</p>
+
+\[\begin{align*}
+	0 &amp;= \pi D - \frac{2000}{D^{2}} \\
+	\pi D &amp;= \frac{2000}{D^{2}} \\
+	D &amp;= \sqrt[3]{\frac{2000}{\pi}}\un{cm} \\
+	&amp;\approx 8.6\un{cm}
+\end{align*}\]
+
+<p>Hence, the can that can hold a volume of  $500\un{cm}^3$  using the least amount of material has a diameter of $\sqrt[3]{\frac{2000}{\pi}}\un{cm}$, or approximately  8.6 cm.</p>
+
+
+</details>
+
+
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+<!-- Displaystyle -->
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Register.StartupHook("TeX Jax Ready",function () {
+  var TEX = MathJax.InputJax.TeX;
+  var PREFILTER = TEX.prefilterMath;
+  TEX.Augment({
+  prefilterMath: function (math,displaymode,script) {
+  math = "\\displaystyle{"+math+"}";
+  return PREFILTER.call(TEX,math,displaymode,script);
+  }
+  });
+  });
+</script>
+
+
+<script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+
+<!-- //assets/js/MathJax.js -->
+<!-- <script src="http://localhost:4000/assets/js/MathJax.js"> -->
+<!-- <script type="text/javascript" src="../../assets/js/MathJax.js"> -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS_HTML">
+  MathJax.Hub.Config({
+    "HTML-CSS": {
+      availableFonts: ["TeX"],
+      styles: {".MathJax": {color: "#5C5A5A"}} 
+    },
+    tex2jax: {
+      inlineMath: [['$','$'],["\\(","\\)"]]},
+      displayMath: [ ['$$','$$'], ['\[','\]'] ],
+    TeX: {
+      extensions: ["AMSmath.js", "AMSsymbols.js", "color.js", "autoload-all.js"],
+      equationNumbers: {
+        autoNumber: "AMS"
+      }
+    },
+    showProcessingMessages: false,
+    messageStyle: "none",
+    imageFont: null,
+    "AssistiveMML": { disabled: true }
+  });
+</script>
+
+<!-- <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML-full"></script> -->
+
+
+
+
+
+
+
+
+
+<!-- <div style="display:none">
+  \(
+    \newcommand{\CC}{\mathbf{C}}
+  \)
+</div> -->
+
+
+
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    TeX: {
+      Macros: {
+        CC: '{\\bf R}',
+        un: ['\\;\\mathrm{#1}',1],
+        x:  '{\\times}',
+        ohm: '{\\Omega}',
+        st:['{^{\\text{st}}}'],
+        nd:['{^{\\text{nd}}}'],
+        rd:['{^{\\text{rd}}}'],
+        nth:['{^{\\text{th}}}'],
+
+        br: ['\\left(#1\\right)',1],
+        brk: ['\\left[#1\\right]',1],
+        bbrk: ['\\Bigl[#1\\Bigr]',1],
+        bbrk: ['\\Bigl[#1\\Bigr]',1],
+        bbbrk: ['\\Biggl[#1\\Biggr]',1],
+        brv: ['\\left|#1\\right|',1],
+        brc: ['\\left\\{#1\\right\\}',1],
+
+        Dy: '{\\Delta y}',
+        Dx: '{\\Delta x}',
+        D: '{\\Delta}',
+        dydx: '{\\frac{dy}{dx}}',
+        ddx: '{\\frac{d}{dx}}',
+        ddu: '{\\frac{d}{du}}',
+        ddy: '{\\frac{d}{dy}}',
+        ddw: '{\\frac{d}{dw}}',
+        ddt: '{\\frac{d}{dt}}',
+        pd: ['\\frac{\\partial#1}{\\partial#2}',2],
+        ufrac: ['\\frac{\\text{#1}}{\\text{#2}}',2],
+        Ncancel: ['\\frac{#1 \\cancel{\\mathrm{#2}}}{#3 \\un{#4}}',4],
+        Dcancel: ['\\frac{#1 \\un{#2}}{#3 \\cancel{\\mathrm{#4}}}',4],
+        NDcancel: ['\\frac{#1 \\cancel{\\mathrm{#2}}}{#3 \\cancel{\\mathrm{#4}}}',4],
+        
+        degg: '{^{\\circ}}',
+        degC: '{^{\\circ}\\mathrm{C}}',
+        degF: '{^{\\circ}\\mathrm{F}}',
+        tagans: '{\\tag{ans.}}',
+        tcA: ['\\color{colorA}{#1}',1],
+        tcB: ['\\color{colorB}{#1}',1],
+        tcAal: ['\\tcA{\\text{#1}}',1],
+        tcBal: ['\\tcB{\\text{#1}}',1],
+        typB: ['\\tcB{\\text{#1}}',1],
+        tcxA: ['\\tcA{\\text{#1}}',1],
+        tcxB: ['\\tcB{\\text{#1}}',1],
+        example: ['\\tcA{\\text{Example #1:}}',1],
+        For: ['\\tcB{\\text{For (#1):}}',1],
+        solution:  '\\tcB{\\textit{Solution:}}',
+        required:  '\\tcB{\\textit{Required:}}',
+        case: ['\\tcB{\\text{Case #1:}}',1],
+        rule: ['\\tcB{\\textbf{Rule #1:}\\text{ #2}}',2],
+        ubrace: ['\\underbrace{#1}_{\\tcAal{#2}}',2],
+        ubraces: ['\\underbrace{#1}_{\\substack{\\tcAal{#2} \\\\ \\tcAal{#3}}}',3],
+        given: '\\tcB{\\textit{Given:}}',
+        thrm: ['\\tcB{\\text{#1}}',1],
+        vv: ['\\overrightarrow{#1}',1],
+        eref: ['\\tcAal{Equation}\\,\\ref{#1}',1],
+        fref: ['\\tcAal{Figure}\\,#1',1],
+        tref: ['\\tcAal{Table}\\,#1',1],
+      }
+    }
+  });
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <div class="PageNavigation">
+  
+    <a class="prev" href="/services/calculus-for-technologists/DC-6.1-introduction-to-applications-of-derivatives/">&laquo; Introduction to Applications of Derivatives</a>
+  
+  
+    <a class="next" href="/services/calculus-for-technologists/DC-6.3-ralated-rates/">Related Rates &raquo;</a>
+  
+</div> -->
+
+
+
+<!-- <div class="PageNavigation">
+    <a class="prev" href="../DC-6.1-introduction-to-applications-of-derivatives">&laquo; </a> <a class="next" href="../DC-6.3-ralated-rates"> &raquo;</a>
+</div> -->
+
+
+
+<div class="PageNavigation">
+  <a class="prev" href="../DC-6.1-introduction-to-applications-of-derivatives">&laquo; Previous</a> 
+  <a class="next" href="../DC-6.3-ralated-rates">Next &raquo;</a>
+</div>
+
+
+  </div>
+  <div class="footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="footer-inner">
+          <h5 class="footer-title">&copy 2022 Lemniscate Institute</h5>
+          <!-- <h5 class="footer-title">Lemniscate Institute</h5> -->
+          <ul>
+            
+            
+            <li class="">
+              <a href="/">Home</a>
+            </li>
+            
+            <li class="">
+              <a href="/services/">Courses</a>
+            </li>
+            
+            <!-- <li class="">
+              &copy 2021 Lemniscate Institute -->
+            </li> 
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+  <script type="text/javascript" src="/assets/js/scripts.js"></script>
+  
+</body>
+</html>
+
+
+
+
+
+

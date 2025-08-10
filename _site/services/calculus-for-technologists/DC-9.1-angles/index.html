@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>Introduction to Differential Calculus</title>
+  <title>Angles</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link rel="icon" type="image/png" href="/images/favicon-32x32.svg">
   <link rel="apple-touch-icon" sizes="120x120" href="/images/favicon-32x32.svg">
@@ -101,7 +101,7 @@
   <div class="row justify-content-start">
     <div class="col-12 col-md-8">
       <div class="service service-single">
-        <h1 class="title">Introduction to Differential Calculus</h1>
+        <h1 class="title">Angles</h1>
           
             <p style="color:#d02f5d"></pstyle>
               <a href="/team">
@@ -120,23 +120,62 @@ $$
 
           <!-- <div class="deskContent">Content for desktop</div> -->
         <div class="content">
-          <p>Calculus, has a reputation of being one of the most dreaded subjects in college. The fear and apprehension probably came from the lack of appreciation of the potential of calculus in many applications in and outside of the engineering field. It is our hope that you will learn from the course as well as develop a sense of appreciation for calculus. The succeeding discussions are intended for those with an introductory background in Calculus. Assuming so, you should be able to understand the mathematics involved easily.</p>
+          <p>Angle measures the amount of turn between two lines that have a common point, which is called the vertex.</p>
 
-<p>In most modern Calculus courses, the history behind the beneficial mathematical results is often left ignored. It is our belief that without the fundamental understanding of the origins of its methods, the student is left to apply memorized techniques, often lacking an understanding of why those techniques work rather than operating from a strong sense of the concepts. So, it is best that we first cover some of the historical paths of Calculus so that we can comprehend why it was developed in the first place.</p>
+<p>Various symbols can denote Angles, but Greek symbols most frequently represent them. And the most commonly used symbol for an angle is theta, $\theta$.</p>
 
-<p>Calculus is divided into two major parts, the <strong>Differential Calculus</strong>, and the <strong>Integral Calculus</strong>. These two are fundamentally different concepts and applications that <em>complements each other</em>, completing the whole concept of calculus. The differential calculus is concerned chiefly with the study of the rate of change of functions with respect to a variable especially using derivatives and differentials. This means that differential calculus focuses on the concept of “part-of-a-whole” that is used to study the behavior of the whole. One major application of differential calculus is “Optimization”, it uses the concept of maxima and minima to calculate the best possible scenario or condition that we might be interested in. This notion revolutionized the engineering and economic world.</p>
+<p>There are many units that can be used to describe an angle such as degrees, radians, gradians, and mils.</p>
 
-<p>However, in this course we will be focusing on one branch of calculus, which is the Differential Calculus. In this chapter, we will explore its definition, history, and general concept.</p>
+<p>But in calculus, it is more practical to use radians to simplify the calculations, in later chapters we will understand why radians is more desirable to use than other units.</p>
 
-<h2 id="brief-history-of-calculus">Brief History of Calculus</h2>
+<figure style="text-align: center;">
+  <img src="/images/content/DC/DC-9.1.1.png" alt="my alt text" width="200px" />
+  <figcaption><em><p>Figure 1: Angle denoted by the greek symbol theta, $\theta$</p>
+</em></figcaption>
+</figure>
 
-<p>The present-day calculus was introduced during the mid-17th Century by both Sir Isaac Newton and Gottfried Wilhelm Leibniz. It is now believed that both men developed Calculus independent of each other, however, records shows that Newton discovered it 8 years earlier than Leibniz. One of the trivias worth noting is that Newton discovered Calculus at the age of 22.</p>
+<h2 id="radian">Radian</h2>
+<p>Radian is a unit of angle that uses the radius of the circle to describe the angle. To elaborate this, consider $\fref{2}$, if the radius of a circle is laid along its circumference, the angle formed $\theta$ measures to 1 radian.</p>
 
-<p>In Newton’s time, he had developed calculus when he was at a dead end in one of his other works that soon have revolutionized physics since at that time there was no present available method to solve such problem. With this in mind, in order to fill that gap he had founded a new whole branch of mathematics, which is now known as calculus. The same man that have pushed a needle into his eye just to suffice his curiosity on how light affects the perception. However, this is another story for another day.</p>
+<figure style="text-align: center;">
+  <img src="/images/content/DC/DC-9.1.2.png" alt="my alt text" width="200px" />
+  <figcaption><em><p>Figure 2: When the length of the arc is equal to the length of the radius, $\theta = 1\un{rad}$</p>
+</em></figcaption>
+</figure>
 
-<p>Leibniz on the other hand have independently developed calculus for another reason, he was more concerned with with the slopes of curves that represents visually the rate of change, as well as new methods for solving maxima and minima. Furthermore, one of his greatest contribution in Calculus is his notation. Until this day his notation is still in use, actually the majority on our lessons, we will be using the Leibniz’s Notation.</p>
+<p>We can also figure out the relationship of radians to other units of angle by fully wraping the circumference of the circle using the length of the radius ($\fref{3}$). Since the circumference of a circle is $C=2\pi r$, then the number of times the radius will be laid to fully wrap the circumference is $2\pi$ times or approximately 6.28 times.</p>
 
-<p>At this juncture, it is now our turn to re-discover calculus and learn its importance and application in the field of engineering and technology. We will begin our adventure by exploring the concept of <a href="DC-1.1-introduction-to-functions">Functions</a>.</p>
+<figure style="text-align: center;">
+  <img src="/images/content/DC/DC-9.1.3.png" alt="my alt text" width="250px" />
+  <figcaption><em><p>Figure 3: $1\un{revolution} = 2\pi\un{radians}$</p>
+</em></figcaption>
+</figure>
+
+<p>Hence, one revolution in terms of radian is $2\pi$ rad.</p>
+
+\[\begin{align*}
+	1 \un{rev} &amp;= 2\pi \un{rad}
+\end{align*}\]
+
+<p>Since, $360^{\circ}$ is also equal to one revolution,</p>
+
+\[\begin{align*}
+	1 \un{rev} &amp;= 360^{\circ} \\
+	2\pi \un{rad} &amp;= 360^{\circ} \\
+	1\un{rad} &amp;= \frac{360\degg}{2\pi}
+\end{align*}\]
+
+<p align="center" style="background-color:rgba(64, 130, 110, 0.07);
+border: 3px solid rgba(64, 130, 110, 0.9);
+border-radius:7px;
+padding:10px;
+margin:5px;">
+    $$\begin{align}
+        1 \un{rad} =\frac{180^{\circ} }{\pi}
+    \end{align}$$
+</p>
+
+<p>The unit “rad’’ after the angle is usually used to represent a radian, but this is sometimes omitted since radian is the ratio of the length of the arc to its radius, which cancels out the unit resulting to a <strong>pure number</strong>.</p>
 
         </div>
       </div>
@@ -288,24 +327,24 @@ $$
 
 <!-- <div class="PageNavigation">
   
-    <a class="prev" href="/services/calculus-for-technologists/IC-6.3-area-between-curves/">&laquo; Area Between Curves</a>
+    <a class="prev" href="/services/calculus-for-technologists/DC-8.3-derivatives-of-exponential-and-logarithmic-functions/">&laquo; Derivatives of Exponential and Logarithmic Functions</a>
   
   
-    <a class="next" href="/services/calculus/DC-1.1-introduction-to-functions/">Introduction to Functions &raquo;</a>
+    <a class="next" href="/services/calculus-for-technologists/DC-9.2-basic-trigonometric-identities/">Basic Trigonometric Identities &raquo;</a>
   
 </div> -->
 
 
 
 <!-- <div class="PageNavigation">
-    <a class="prev" href="../../differential-calculus">&laquo; </a> <a class="next" href="../DC-1.1-introduction-to-functions"> &raquo;</a>
+    <a class="prev" href="../DC-8.3-derivatives-of-exponential-and-logarithmic-functions">&laquo; </a> <a class="next" href="../DC-9.2-basic-trigonometric-identities"> &raquo;</a>
 </div> -->
 
 
 
 <div class="PageNavigation">
-  <a class="prev" href="../../differential-calculus">&laquo; Previous</a> 
-  <a class="next" href="../DC-1.1-introduction-to-functions">Next &raquo;</a>
+  <a class="prev" href="../DC-8.3-derivatives-of-exponential-and-logarithmic-functions">&laquo; Previous</a> 
+  <a class="next" href="../DC-9.2-basic-trigonometric-identities">Next &raquo;</a>
 </div>
 
 

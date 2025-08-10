@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Related Rates</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="icon" type="image/png" href="/images/favicon-32x32.svg">
+  <link rel="apple-touch-icon" sizes="120x120" href="/images/favicon-32x32.svg">
+  <link rel="apple-touch-icon" href="/images/logo/logo.ico" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+  <link href="/assets/css/style.css" rel="stylesheet">
+  
+  <meta property="og:title" content="" />
+  <meta property="og:type" content="" />
+  <meta property="og:url" content="" />
+  <meta property="og:image" content="" />
+  <meta property="og:description" content="" />
+  <meta name="twitter:card" content="" />
+  <meta name="twitter:site" content="" />
+  <meta name="twitter:creator" content="" />
+
+   <!-- Add Slick Carousel CSS -->
+   <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+
+   <!-- Add Slick Carousel theme CSS (optional) -->
+   <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+
+</head>
+<body class='page '>
+  <div id="main-menu-mobile" class="main-menu-mobile">
+  
+  <ul>
+    
+    <li class="">
+      <a href="/">Home</a>
+    </li>
+    
+    <li class="">
+      <a href="/services/">Courses</a>
+    </li>
+    
+    <li class="">
+      <a href="/team/">Team</a>
+    </li>
+    
+    <li class="">
+      <a href="/about/">About</a>
+    </li>
+    
+  </ul>
+</div>
+
+  <div id="wrapper" class="wrapper">
+    <div class='header'>
+  <div class="container">
+    <div class="logo">
+      <a href="/"><img height="36px" alt="Lemniscate Institute" src="/images/logo/logo.svg" /></a>
+      <!-- <a href="/"><img height="36px" alt="Lemniscate Institute" src="/images/logo/logo.svg" /></a> -->
+    </div>
+    <div class="logo-mobile">
+      <a href="/"><img alt="Lemniscate Institute" src="/images/logo/logo-mobile.svg" /></a>
+      <!-- <a href="/"><img alt="Lemniscate Institute" src="/images/logo/logo-mobile.svg" /></a> -->
+    </div>
+    <div id="main-menu" class="main-menu">
+  
+  <ul>
+    
+    <li class="">
+      <a href="/">Home</a>
+    </li>
+    
+    <li class="">
+      <a href="/services/">Courses</a>
+    </li>
+    
+    <li class="">
+      <a href="/team/">Team</a>
+    </li>
+    
+    <li class="">
+      <a href="/about/">About</a>
+    </li>
+    
+  </ul>
+</div>
+
+    <button id="toggle-main-menu-mobile" class="hamburger hamburger--slider" type="button" aria-label="Mobile Menu">
+  <span class="hamburger-box">
+    <span class="hamburger-inner"></span>
+  </span>
+</button>
+  </div>
+</div>
+    <div class="phoneContent">
+    <div class="phoneContent-header">
+            <b>Mobile Notice</b>
+    </div>
+        It seems that you are on your mobile phone, which means that the <b>screen's width is narrow</b> for some equations. For the best viewing experience, you can view this website in <b>landscape mode</b>.
+</div>  
+<div class="container pb-6 pt-6 pt-md-10 pb-md-10">
+  <div class="row justify-content-start">
+    <div class="col-12 col-md-8">
+      <div class="service service-single">
+        <h1 class="title">Related Rates</h1>
+          
+            <p style="color:#d02f5d"></pstyle>
+              <a href="/team">
+                Author | Engr. Nico O. Aspra, M.Eng., RMP, LPT
+              </a>
+            </p>
+          
+
+          $$
+  <!-- \definecolor{colorA}{rgb}{0.25, 0.51, 0.43}	
+  \definecolor{colorB}{rgb}{0.89, 0.04, 0.36}	 -->
+$$
+          <!-- <p style="color:#d02f5d"></pstyle>Author | Engr. Nico O. Aspra, M.Eng., RMP, LPT</p> -->
+          <!-- <a href="">Engr. Nico O. Aspra, M.Eng., RMP, LPT</a> -->
+          <!-- <br> -->
+
+          <!-- <div class="deskContent">Content for desktop</div> -->
+        <div class="content">
+          <p>Another application of derivatives is related rates. It deals with situations on how two or more variables change in relation to each other with respect to time. The main idea is that using calculus we can deduce or calculate the rate of change of one quantity by observing the rate of change of a related quantity that can be observed more easily. This is anchored on the fact that, in everyday life, many phenomena involve quantities that are interdependent and changing, i.e., when one variable changes, it often triggers a change in another.</p>
+
+<p>For instance, how does the area of a circle change as its radius expands over time? If water is being poured into a conical tank, how does the water level rise as the volume increases? By understanding the relationships between the rates at which variables change, we can analyze and predict the behavior of dynamic systems.</p>
+
+<p>The related rates problems are solved using derivatives, specifically by applying implicit differentiation with respect to time.</p>
+
+<h2 id="general-steps-in-solving-optimization-problems">General Steps in Solving Optimization Problems</h2>
+<p>Before diving into the examples, it would be best to outline first the general steps involved in solving optimization problems:</p>
+<ol>
+  <li><strong>Understand the problem.</strong> Read the problems carefully and identify the quantities involved, how they are related and their rates of change. It often requires you to have strong background of formula on how these quantities relate to each other, e.g., velocity, volume, area, and others.</li>
+  <li><strong>Draw a diagram.</strong> Draw a diagram whenever applicable. This helps you visualize the relationships between the different quantities, and establish the variables needed. In this step, you can also write the known and unknown values stated in the problem.</li>
+  <li><strong>Write an equation that relates the quantities.</strong> This is typically a geometric or algebraic relationship between the variables (e.g., the Pythagorean theorem, volume formulas, etc.).</li>
+  <li><strong>Differentiate the equation with respect to time.</strong> Use implicit differentiation to find the rate of change of one variable concerning time. Remember to apply the chain rule.</li>
+  <li><strong>Substitute the known values.</strong> Plug in the given rates and other known values from the problem into the differentiated equation.</li>
+  <li><strong>Solve for the unknown rate.</strong> Isolate the desired rate of change and solve.</li>
+</ol>
+
+<hr />
+<p>$\example{1}$
+A 10-meter long ladder is leaning against a vertical wall. The bottom of the ladder is sliding away from the wall at a rate of 2 meter per second. How fast is the top of the ladder sliding down the wall when the bottom of the ladder is 6 meters from the wall?</p>
+
+<details style="text-align:left;">
+    <summary style="text-align:left;">$\solution$
+    </summary>
+    <br />
+    
+<p>Let $x$ be the distance from the bottom of the ladder to the wall, and $y$ be the height of the top of the ladder above the ground. With this, we can represent the rate of sliding from the wall as $\frac{dx}{dt}$ (which we already have a value of 2 m/s), and the rate of the ladder sliding down as $\frac{dy}{dt}$ (which is required).</p>
+
+<figure style="text-align: center;">
+  <img src="/images/content/DC/DC-6.3.1.jpg" alt="my alt text" width="230px" />
+  <figcaption><em>
+</em></figcaption>
+</figure>
+
+<p>After sketching the figure, notice that the ladder forms a right triangle with the wall and the ground, so by the Pythagorean theorem:</p>
+
+\[\begin{align*}
+	x^2+y^2 &amp;= 10^2 \\
+	x^2+y^2 &amp;= 100 \\
+\end{align*}\]
+
+<p>Differentiating the function with respect to time gives us:</p>
+
+\[\begin{align*}
+	\ddt\br{x^2+y^2} &amp;= \ddt\br{100} \\
+	2x\frac{dx}{dt}+2y\frac{dy}{dt} &amp;= 0 \\
+	2y\frac{dy}{dt} &amp;= -2x\frac{dx}{dt}\\
+	\frac{dy}{dt} &amp;= -\frac{x}{y}\frac{dx}{dt}	\tag{eq.1}
+\end{align*}\]
+
+<p>Applying the Pythagorean theorem again to solve for the height of the ladder when $x = 6$.</p>
+
+\[\begin{align*}
+	y^2 &amp;= 100-y^2 \\
+	y &amp;= \sqrt{100-6^2} \\
+	&amp;= 8
+\end{align*}\]
+
+<p>Now, substitute these values into the eq.1 to get the rate of the ladder sliding down the wall $\frac{dy}{dt}$.</p>
+
+\[\begin{align*}
+	\frac{dy}{dt} &amp;= -\frac{6}{8}(2) \\
+	\frac{dy}{dt} &amp;= -\frac32\un{m/s} \\
+	&amp;= -1.5\un{m/s}
+\end{align*}\]
+
+<p>The negative sign denotes the direction of the motion, which in this case, it is going down, therefore, we can say that the ladder is “sliding down” at the rate of 1.5 m/s.</p>
+
+
+</details>
+
+<hr />
+<p>$\example{2}$
+Air is being pumped into a spherical balloon so that its volume increases at a rate of 50 cubic centimeters per second. How fast is the radius of the balloon increasing when the radius is 5 centimeters?</p>
+
+<details style="text-align:left;">
+    <summary style="text-align:left;">$\solution$
+    </summary>
+    <br />
+    
+<p>Recall that the volume of a sphere is given by the equation:</p>
+
+\[\begin{align*}
+	V &amp;= \frac43\pi r^3 
+\end{align*}\]
+
+<p>In this equation, we see the relationship between the volume and the radius of the sphere. The question is how to relate the rate of change of the volume, $\frac{dV}{dt}$, to the rate of change of the radius, $\frac{dr}{dt}$. To find this relationship, we differentiate the volume equation with respect to time.</p>
+
+\[\begin{align*}
+	\ddt\br{V} &amp;= \ddt\br{\frac43\pi r^3} \\
+	\frac{dV}{dt} &amp;= 4\pi r^2 \frac{dr}{dt} \\
+\end{align*}\]
+
+<p>In the given problem, $\frac{dV}{dt}$ is provided as $50\un{cm^3/s}$, and we want to determine $\frac{dr}{dt}$.</p>
+
+\[\begin{align*}
+	\frac{dr}{dt} &amp;= \frac{dV/dt}{4\pi r^2}
+\end{align*}\]
+
+<p>Substituting the known values to the equation gives us:</p>
+
+\[\begin{align*}
+	\frac{dr}{dt} &amp;= \frac{50}{4\pi (5)^2} \\
+	 &amp;= \frac{50}{100\pi} \\
+	 &amp;= \frac{1}{2\pi}\un{cm/s}
+\end{align*}\]
+
+<p>The positive sign indicates that the radius is increasing; therefore, the radius of the balloon is increasing at a rate of $\frac{1}{2\pi}\un{cm/s}$.</p>
+
+
+</details>
+
+<hr />
+<p>$\example{3}$
+A car is traveling north at 40 km/h, while another car is traveling east at 50 km/h. How fast is the distance between the cars increasing when the car traveling north is 75 km from the intersection, and the car traveling east is 100 km from the intersection?</p>
+
+<details style="text-align:left;">
+    <summary style="text-align:left;">$\solution$
+    </summary>
+    <br />
+    
+<p>rom the given problem, the rate of the car traveling north is $\frac{dy}{dt} = 40\un{km/h}$, with a current distance from the intersection of $y = 75\un{km}$. For the car traveling east, $\frac{dx}{dt} = 50\un{km/h}$, with a current distance from the intersection of $x = 100\un{km}$. We can represent the distance between the two cars as $z$.</p>
+
+<figure style="text-align: center;">
+  <img src="/images/content/DC/DC-6.3.2.jpg" alt="my alt text" width="350px" />
+  <figcaption><em>
+</em></figcaption>
+</figure>
+
+<p>The relationship between the distances can be expressed using the Pythagorean theorem:</p>
+
+\[\begin{align*}
+	z^2 &amp;= x^2+y^2
+\end{align*}\]
+
+<p>Differentiate both sides of the equation with respect to time $t$:</p>
+
+\[\begin{align*}
+	2z\frac{dz}{dt} &amp;= 2x\frac{dx}{dt}+2y\frac{dy}{dt} \\
+	z\frac{dz}{dt} &amp;= x\frac{dx}{dt}+y\frac{dy}{dt} \\
+	\frac{dz}{dt} &amp;= \frac{x\frac{dx}{dt}+y\frac{dy}{dt}}{z} \tag{eq.1}
+\end{align*}\]
+
+<p>Use the Pythagorean theorem again to calculate the value of $z$ when $x = 100\un{km}$ and $y = 75\un{km}$,</p>
+
+\[\begin{align*}
+	z &amp;= \sqrt{100^2+75^2} \\
+	&amp;= 125\un{km}
+\end{align*}\]
+
+<p>Substitute the known values to eq.1:</p>
+
+\[\begin{align*}
+	\frac{dz}{dt} &amp;= \frac{100(50)+75(40)}{125} \\
+	&amp;= 64\un{km/hr}
+\end{align*}\]
+
+<p>Therefore, the distance between the two cars is increasing by a rate of 64 km/hr.</p>
+
+
+</details>
+
+<hr />
+<p>$\example{4}$
+A conical tank with a height of 10 meters and a base radius of 4 meters is being filled with water at a rate of 2 cubic meters per minute. How fast is the water level rising when the water is 5 meters deep?</p>
+
+<details style="text-align:left;">
+    <summary style="text-align:left;">$\solution$
+    </summary>
+    <br />
+    
+<p>The volume $V$ of water in a cone is given by:</p>
+
+\[\begin{align*}
+	V &amp;= \frac13\pi r^2h
+\end{align*}\]
+
+<p>Since the radius $r$ of the water surface changes as the height $h$ changes, we need to express $r$ in terms of $h$ using the geometry of the cone. From the given problem, the radius of the cone at its full height (10 m) is 4 m. So, the radius and height of the water form similar triangles with the full cone. Thus, the ratio of radius to height is constant:</p>
+
+\[\begin{align*}
+	\frac{r}{h} &amp;= \frac{4}{10} \\
+	r &amp;= \frac{4}{10}h \\
+	r &amp;= \frac25h
+\end{align*}\]
+
+<p>Substituting this into the original equation, we get:</p>
+
+\[\begin{align*}
+	V &amp;= \frac13\pi \br{\frac25h}^2h \\
+	V &amp;= \frac13\pi \br{\frac{4}{25}h^2}h \\
+	V &amp;= \frac{4\pi}{75}h^3
+\end{align*}\]
+
+<p>Differentiating this with respect to time,</p>
+
+\[\begin{align*}
+	\ddt\br{V} &amp;= \ddt\br{\frac{4\pi}{75}h^3} \\
+	\frac{dV}{dt} &amp;= \frac{4\pi}{75}\cdot3h^2\frac{dh}{dt} \\
+	\frac{dV}{dt} &amp;= \frac{4\pi}{25}h^2\frac{dh}{dt}
+\end{align*}\]
+
+<p>Isolating $\frac{dh}{dt}$:</p>
+
+\[\begin{align*}
+	\frac{dh}{dt} &amp;= \frac{25}{4\pi h^2}\frac{dV}{dt}
+\end{align*}\]
+
+<p>Substituting the known values,</p>
+
+\[\begin{align*}
+	\frac{dh}{dt} &amp;= \frac{25}{4\pi (5)^2}(2) \\
+	&amp;= \frac{1}{2\pi}\un{m/min}
+\end{align*}\]
+
+<p>Hence, at a water level of 5 m, the rate of the water level rising is $\frac{1}{2\pi}\un{m/min}$.</p>
+
+
+</details>
+
+
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+<!-- Displaystyle -->
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Register.StartupHook("TeX Jax Ready",function () {
+  var TEX = MathJax.InputJax.TeX;
+  var PREFILTER = TEX.prefilterMath;
+  TEX.Augment({
+  prefilterMath: function (math,displaymode,script) {
+  math = "\\displaystyle{"+math+"}";
+  return PREFILTER.call(TEX,math,displaymode,script);
+  }
+  });
+  });
+</script>
+
+
+<script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+
+<!-- //assets/js/MathJax.js -->
+<!-- <script src="http://localhost:4000/assets/js/MathJax.js"> -->
+<!-- <script type="text/javascript" src="../../assets/js/MathJax.js"> -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS_HTML">
+  MathJax.Hub.Config({
+    "HTML-CSS": {
+      availableFonts: ["TeX"],
+      styles: {".MathJax": {color: "#5C5A5A"}} 
+    },
+    tex2jax: {
+      inlineMath: [['$','$'],["\\(","\\)"]]},
+      displayMath: [ ['$$','$$'], ['\[','\]'] ],
+    TeX: {
+      extensions: ["AMSmath.js", "AMSsymbols.js", "color.js", "autoload-all.js"],
+      equationNumbers: {
+        autoNumber: "AMS"
+      }
+    },
+    showProcessingMessages: false,
+    messageStyle: "none",
+    imageFont: null,
+    "AssistiveMML": { disabled: true }
+  });
+</script>
+
+<!-- <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML-full"></script> -->
+
+
+
+
+
+
+
+
+
+<!-- <div style="display:none">
+  \(
+    \newcommand{\CC}{\mathbf{C}}
+  \)
+</div> -->
+
+
+
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    TeX: {
+      Macros: {
+        CC: '{\\bf R}',
+        un: ['\\;\\mathrm{#1}',1],
+        x:  '{\\times}',
+        ohm: '{\\Omega}',
+        st:['{^{\\text{st}}}'],
+        nd:['{^{\\text{nd}}}'],
+        rd:['{^{\\text{rd}}}'],
+        nth:['{^{\\text{th}}}'],
+
+        br: ['\\left(#1\\right)',1],
+        brk: ['\\left[#1\\right]',1],
+        bbrk: ['\\Bigl[#1\\Bigr]',1],
+        bbrk: ['\\Bigl[#1\\Bigr]',1],
+        bbbrk: ['\\Biggl[#1\\Biggr]',1],
+        brv: ['\\left|#1\\right|',1],
+        brc: ['\\left\\{#1\\right\\}',1],
+
+        Dy: '{\\Delta y}',
+        Dx: '{\\Delta x}',
+        D: '{\\Delta}',
+        dydx: '{\\frac{dy}{dx}}',
+        ddx: '{\\frac{d}{dx}}',
+        ddu: '{\\frac{d}{du}}',
+        ddy: '{\\frac{d}{dy}}',
+        ddw: '{\\frac{d}{dw}}',
+        ddt: '{\\frac{d}{dt}}',
+        pd: ['\\frac{\\partial#1}{\\partial#2}',2],
+        ufrac: ['\\frac{\\text{#1}}{\\text{#2}}',2],
+        Ncancel: ['\\frac{#1 \\cancel{\\mathrm{#2}}}{#3 \\un{#4}}',4],
+        Dcancel: ['\\frac{#1 \\un{#2}}{#3 \\cancel{\\mathrm{#4}}}',4],
+        NDcancel: ['\\frac{#1 \\cancel{\\mathrm{#2}}}{#3 \\cancel{\\mathrm{#4}}}',4],
+        
+        degg: '{^{\\circ}}',
+        degC: '{^{\\circ}\\mathrm{C}}',
+        degF: '{^{\\circ}\\mathrm{F}}',
+        tagans: '{\\tag{ans.}}',
+        tcA: ['\\color{colorA}{#1}',1],
+        tcB: ['\\color{colorB}{#1}',1],
+        tcAal: ['\\tcA{\\text{#1}}',1],
+        tcBal: ['\\tcB{\\text{#1}}',1],
+        typB: ['\\tcB{\\text{#1}}',1],
+        tcxA: ['\\tcA{\\text{#1}}',1],
+        tcxB: ['\\tcB{\\text{#1}}',1],
+        example: ['\\tcA{\\text{Example #1:}}',1],
+        For: ['\\tcB{\\text{For (#1):}}',1],
+        solution:  '\\tcB{\\textit{Solution:}}',
+        required:  '\\tcB{\\textit{Required:}}',
+        case: ['\\tcB{\\text{Case #1:}}',1],
+        rule: ['\\tcB{\\textbf{Rule #1:}\\text{ #2}}',2],
+        ubrace: ['\\underbrace{#1}_{\\tcAal{#2}}',2],
+        ubraces: ['\\underbrace{#1}_{\\substack{\\tcAal{#2} \\\\ \\tcAal{#3}}}',3],
+        given: '\\tcB{\\textit{Given:}}',
+        thrm: ['\\tcB{\\text{#1}}',1],
+        vv: ['\\overrightarrow{#1}',1],
+        eref: ['\\tcAal{Equation}\\,\\ref{#1}',1],
+        fref: ['\\tcAal{Figure}\\,#1',1],
+        tref: ['\\tcAal{Table}\\,#1',1],
+      }
+    }
+  });
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <div class="PageNavigation">
+  
+    <a class="prev" href="/services/calculus-for-technologists/DC-6.2-optimization/">&laquo; Optimization</a>
+  
+  
+    <a class="next" href="/services/calculus-for-technologists/DC-7.1-differentials/">Differentials &raquo;</a>
+  
+</div> -->
+
+
+
+<!-- <div class="PageNavigation">
+    <a class="prev" href="../DC-6.2-optimization">&laquo; </a> <a class="next" href="../DC-7.1-differentials"> &raquo;</a>
+</div> -->
+
+
+
+<div class="PageNavigation">
+  <a class="prev" href="../DC-6.2-optimization">&laquo; Previous</a> 
+  <a class="next" href="../DC-7.1-differentials">Next &raquo;</a>
+</div>
+
+
+  </div>
+  <div class="footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="footer-inner">
+          <h5 class="footer-title">&copy 2022 Lemniscate Institute</h5>
+          <!-- <h5 class="footer-title">Lemniscate Institute</h5> -->
+          <ul>
+            
+            
+            <li class="">
+              <a href="/">Home</a>
+            </li>
+            
+            <li class="">
+              <a href="/services/">Courses</a>
+            </li>
+            
+            <!-- <li class="">
+              &copy 2021 Lemniscate Institute -->
+            </li> 
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+  <script type="text/javascript" src="/assets/js/scripts.js"></script>
+  
+</body>
+</html>
+
+
+
+
+
+

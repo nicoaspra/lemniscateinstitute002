@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>Introduction to Differential Calculus</title>
+  <title>Properties of Limits</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link rel="icon" type="image/png" href="/images/favicon-32x32.svg">
   <link rel="apple-touch-icon" sizes="120x120" href="/images/favicon-32x32.svg">
@@ -101,7 +101,7 @@
   <div class="row justify-content-start">
     <div class="col-12 col-md-8">
       <div class="service service-single">
-        <h1 class="title">Introduction to Differential Calculus</h1>
+        <h1 class="title">Properties of Limits</h1>
           
             <p style="color:#d02f5d"></pstyle>
               <a href="/team">
@@ -120,23 +120,274 @@ $$
 
           <!-- <div class="deskContent">Content for desktop</div> -->
         <div class="content">
-          <p>Calculus, has a reputation of being one of the most dreaded subjects in college. The fear and apprehension probably came from the lack of appreciation of the potential of calculus in many applications in and outside of the engineering field. It is our hope that you will learn from the course as well as develop a sense of appreciation for calculus. The succeeding discussions are intended for those with an introductory background in Calculus. Assuming so, you should be able to understand the mathematics involved easily.</p>
+          <p>In this lesson, we will now be solving for limits. However, in order for us to simplify the solutions, we must first look at the different basic properties of limits. Below are some of the commonly used properties.</p>
 
-<p>In most modern Calculus courses, the history behind the beneficial mathematical results is often left ignored. It is our belief that without the fundamental understanding of the origins of its methods, the student is left to apply memorized techniques, often lacking an understanding of why those techniques work rather than operating from a strong sense of the concepts. So, it is best that we first cover some of the historical paths of Calculus so that we can comprehend why it was developed in the first place.</p>
+<p>$\thrm{Property 1:}$
+The limit of any <strong>constant</strong> is equal to the constant.</p>
 
-<p>Calculus is divided into two major parts, the <strong>Differential Calculus</strong>, and the <strong>Integral Calculus</strong>. These two are fundamentally different concepts and applications that <em>complements each other</em>, completing the whole concept of calculus. The differential calculus is concerned chiefly with the study of the rate of change of functions with respect to a variable especially using derivatives and differentials. This means that differential calculus focuses on the concept of “part-of-a-whole” that is used to study the behavior of the whole. One major application of differential calculus is “Optimization”, it uses the concept of maxima and minima to calculate the best possible scenario or condition that we might be interested in. This notion revolutionized the engineering and economic world.</p>
+<p align="center" style="background-color:rgba(64, 130, 110, 0.07);
+border: 3px solid rgba(64, 130, 110, 0.9);
+border-radius:7px;
+padding:10px;
+margin:5px;">
+    $$\begin{align}
+		\lim_{x \to a} {c} = c
+    \end{align}$$
+</p>
 
-<p>However, in this course we will be focusing on one branch of calculus, which is the Differential Calculus. In this chapter, we will explore its definition, history, and general concept.</p>
+<p>$\thrm{Property 2:}$
+The limit of the <strong>product of a constant and a function</strong> is equal to the product of the constant and the limit of the function.</p>
 
-<h2 id="brief-history-of-calculus">Brief History of Calculus</h2>
+<p align="center" style="background-color:rgba(64, 130, 110, 0.07);
+border: 3px solid rgba(64, 130, 110, 0.9);
+border-radius:7px;
+padding:10px;
+margin:5px;">
+    $$\begin{align}
+		\lim_{x \to a} {c \,f(x)}= c \lim_{x \to a} f(x)
+    \end{align}$$
+</p>
 
-<p>The present-day calculus was introduced during the mid-17th Century by both Sir Isaac Newton and Gottfried Wilhelm Leibniz. It is now believed that both men developed Calculus independent of each other, however, records shows that Newton discovered it 8 years earlier than Leibniz. One of the trivias worth noting is that Newton discovered Calculus at the age of 22.</p>
+<p>$\thrm{Property 3:}$
+The limit of the <strong>sum or difference</strong> of two or more functions is equal to the sum or difference of their limits.</p>
 
-<p>In Newton’s time, he had developed calculus when he was at a dead end in one of his other works that soon have revolutionized physics since at that time there was no present available method to solve such problem. With this in mind, in order to fill that gap he had founded a new whole branch of mathematics, which is now known as calculus. The same man that have pushed a needle into his eye just to suffice his curiosity on how light affects the perception. However, this is another story for another day.</p>
+<p align="center" style="background-color:rgba(64, 130, 110, 0.07);
+border: 3px solid rgba(64, 130, 110, 0.9);
+border-radius:7px;
+padding:10px;
+margin:5px;">
+    $$\begin{align}
+		\lim_{x \to a} \left[ f(x) + g(x) \right] = \lim_{x \to a} f(x) + \lim_{x \to a}g(x)
+    \end{align}$$
+</p>
 
-<p>Leibniz on the other hand have independently developed calculus for another reason, he was more concerned with with the slopes of curves that represents visually the rate of change, as well as new methods for solving maxima and minima. Furthermore, one of his greatest contribution in Calculus is his notation. Until this day his notation is still in use, actually the majority on our lessons, we will be using the Leibniz’s Notation.</p>
+<p>$\thrm{Property 4:}$
+The limit of the <strong>product of two or more functions</strong> is equal to the product of their limits.</p>
 
-<p>At this juncture, it is now our turn to re-discover calculus and learn its importance and application in the field of engineering and technology. We will begin our adventure by exploring the concept of <a href="DC-1.1-introduction-to-functions">Functions</a>.</p>
+<p align="center" style="background-color:rgba(64, 130, 110, 0.07);
+border: 3px solid rgba(64, 130, 110, 0.9);
+border-radius:7px;
+padding:10px;
+margin:5px;">
+    $$\begin{align}
+		\lim_{x \to a} \left[ f(x) \cdot g(x) \right] = \lim_{x \to a}{f(x)} \cdot \lim_{x \to a}{g(x)} 
+    \end{align}$$
+</p>
+
+<p>$\thrm{Property 5:}$
+The limit of the <strong>quotient of two or more functions</strong> is equal to the quotient of their limits, provided the limit of the devisor is not zero.</p>
+
+<p align="center" style="background-color:rgba(64, 130, 110, 0.07);
+border: 3px solid rgba(64, 130, 110, 0.9);
+border-radius:7px;
+padding:10px;
+margin:5px;">
+    $$\begin{align}
+		\lim_{x \to a} \frac{f(x)}{g(x)} = \frac{\lim_{x \to a} f(x) }{ \lim_{x \to a} g(x) }  , \hspace{10pt} where: \,   \lim_{x \to a} g(x) \neq 0
+    \end{align}$$
+</p>
+
+<p>$\thrm{Property 6:}$
+The limit of a <strong>power of a function</strong> is equal to the power of the limit.</p>
+
+<p align="center" style="background-color:rgba(64, 130, 110, 0.07);
+border: 3px solid rgba(64, 130, 110, 0.9);
+border-radius:7px;
+padding:10px;
+margin:5px;">
+    $$\begin{align}
+		\lim_{x \to a} \left[ f(x) \right] ^n =\left[ \lim_{x \to a} f(x) \right]^n
+    \end{align}$$
+</p>
+
+<p>$\thrm{Property 7:}$
+The limit of the <strong>root of a function</strong> is equal to the root of their limits.</p>
+
+<p align="center" style="background-color:rgba(64, 130, 110, 0.07);
+border: 3px solid rgba(64, 130, 110, 0.9);
+border-radius:7px;
+padding:10px;
+margin:5px;">
+    $$\begin{align}
+		\lim_{x \to a}{ \sqrt[n]{f(x)} } = \sqrt[n]{ \lim_{x \to a} {f(x)} }
+    \end{align}$$
+</p>
+
+<p>$\thrm{Property 8:}$
+The limit of $\frac{ \sin \theta }{\theta}$ as $\theta$ approaches zero is equal to 1, given that the angle $\theta$ is in radians.</p>
+
+<p align="center" style="background-color:rgba(64, 130, 110, 0.07);
+border: 3px solid rgba(64, 130, 110, 0.9);
+border-radius:7px;
+padding:10px;
+margin:5px;">
+    $$\begin{align}
+		\lim_{\theta \to 0}{\frac{ \sin \theta }{\theta}} =1 , \hspace{10pt} where: \theta \; \text{is in radians}
+    \end{align}$$
+</p>
+
+<hr />
+<p>$\example{1}$
+Evaluate: $ \lim_{x \to 2} \br{x^2+2x+3} $</p>
+
+<details style="text-align:left;">
+    <summary style="text-align:left;">$\solution$
+    </summary>
+    <br />
+    
+\[\begin{align*}
+		\lim_{x \to 2} \br{x^2+2x+3} &amp;=  \lim_{x \to 2} {x^2} +  \lim_{x \to 2} {2x} +  \lim_{x \to 2} {3} \\
+		&amp;=  \br{ \,\lim_{x \to 2} {x}}^2 +  2 \br{ \,\lim_{x \to 2} {x} } + 3 \\
+		&amp;= (2)^2+2(2)+3 \\
+		&amp;= 11		\tagans
+\end{align*}\]
+
+
+</details>
+
+<hr />
+<p>$\example{2}$
+Evaluate: $ \lim_{t \to 3} \br{t^5+10-2t^2-5t^3} $</p>
+
+<details style="text-align:left;">
+    <summary style="text-align:left;">$\solution$
+    </summary>
+    <br />
+    
+\[\begin{align*}
+	\lim_{t \to 3} \br{t^5+10-2t^2-5t^3} &amp;=  \lim_{t \to 3} {t^5} +  \lim_{t \to 3} {10} - \lim_{t \to 3} {2t^2} - \lim_{t \to 3} {5t^3} \\
+		&amp;=  \br{ \,\lim_{t \to 3} {t}}^5 + 10 - 2 \br{ \,\lim_{t \to 3} {t} }^2 - 5 \br{ \,\lim_{t\to 3} {t} }^3 \\
+		&amp;= (3)^5+10+2(3)^2+5(3)^3 \\
+		&amp;= 100		\tagans
+\end{align*}\]
+
+
+</details>
+
+<hr />
+<p>$\example{3}$
+Evaluate: $ \lim_{x \to 1} \br{ \frac{3x^2-2}{x^3+2x^2-x+5} } $</p>
+
+<details style="text-align:left;">
+    <summary style="text-align:left;">$\solution$
+    </summary>
+    <br />
+    
+\[\begin{align*}
+	\lim_{x \to 1} \br{ \frac{3x^2-2}{x^3+2x^2-x+5} }
+		&amp;=  \frac{ \lim_{x \to 1} \br{3x^2-2} }{ \lim_{x \to 1} \br{x^3+2x^2-x+5}  } \\
+		&amp;= \frac{3(1)^2-2}{(1)^3+2(1)^2-(1)+5} \\
+		&amp;= \frac{1}{7}		\tagans
+\end{align*}\]
+
+
+</details>
+
+<hr />
+<p>$\example{4}$
+Evaluate: $ \lim_{y \to 8} { \left[ \frac{5(2-y)^2}{y^2-4} \right] } $</p>
+
+<details style="text-align:left;">
+    <summary style="text-align:left;">$\solution$
+    </summary>
+    <br />
+    
+<p>By Theorem 05,
+\(\begin{align*}
+	\lim_{y \to 8} { \left[ \frac{5(2-y)^2}{y^2-4} \right] }
+		&amp;=  \frac{ \lim_{y \to 8} { \left[ 5(2-y)^2 \right] } }{ \lim_{y \to 8} \br{y^2-4}  } \\
+		&amp;= \frac{5(2-8)^2}{(8)^2-4} \\
+		&amp;= 3		\tagans
+\end{align*}\)</p>
+
+
+</details>
+
+<hr />
+<p>$\example{5}$
+Evaluate: $ \lim_{x \to 1} \br{ \frac{x^2-1}{x^2+3x-4} } $</p>
+
+<details style="text-align:left;">
+    <summary style="text-align:left;">$\solution$
+    </summary>
+    <br />
+    
+<p>Factor both the numerator and the denominator,</p>
+
+\[\begin{align*}
+	\lim_{x \to 1} \br{ \frac{x^2-1}{x^2+3x-4} } 
+		&amp;=  \lim_{x \to 1} { \left[ \frac{ \cancel{(x-1)}(x+1)}{ \cancel{(x-1)}(x+4)} \right] }  \\
+		&amp;= \lim_{x \to 1} \br{ \frac{x+1}{x+4} }  \\
+		&amp;= \frac{1+1}{1+4} \\
+		&amp;= \frac{2}{5}		\tagans
+\end{align*}\]
+
+
+</details>
+
+<hr />
+<p>$\example{6}$
+Evaluate: $ \lim_{y \to 2}{ \sqrt{ \frac{y^3-y^2-y-2}{2y^3-5y^2+5y-6} } } $</p>
+
+<details style="text-align:left;">
+    <summary style="text-align:left;">$\solution$
+    </summary>
+    <br />
+    
+<p>Factor both the numerator and the denominator,</p>
+
+\[\begin{align*}
+	\lim_{y \to 2}{ \sqrt{ \frac{y^3-y^2-y-2}{2y^3-5y^2+5y-6} } }
+		&amp;=  \lim_{y \to 2}{ \sqrt{ \frac{ \cancel{(y-2)}(y^2+y+1)}{ \cancel{(y-2)}(2y^2-y+3)} } }  \\
+		&amp;=  \sqrt{ \frac{(2)^2+2+1}{2(2)^2-2+3} } \\
+		&amp;= \sqrt{ \frac{7}{9} } \\
+		&amp;= \frac{ \sqrt{7} }{3}		\tagans
+\end{align*}\]
+
+
+</details>
+
+<hr />
+<p>$\example{7}$
+Evaluate: $ \lim_{\phi \to 0}{\frac{ \sin 5\phi }{5\phi }} $</p>
+
+<details style="text-align:left;">
+    <summary style="text-align:left;">$\solution$
+    </summary>
+    <br />
+    
+<p>$\text{Let:} \, \theta = 5\phi $ <br />
+$\text{If:} \, \phi = 0, \; \text{then,} \, \theta=0$</p>
+
+<p>Thus,</p>
+
+\[\begin{align*}
+        \lim_{\phi \to 0}{\frac{ \sin 5\phi }{5\phi }} &amp;= \lim_{\theta \to 0}{\frac{ \sin \theta}{\theta }} \\
+        &amp;=1 \tagans
+\end{align*}\]
+
+
+</details>
+
+<hr />
+<p>$\example{8}$
+Evaluate: $ \lim_{x \to 0}{\frac{ \tan x}{x}} $</p>
+
+<details style="text-align:left;">
+    <summary style="text-align:left;">$\solution$
+    </summary>
+    <br />
+    
+\[\begin{align*}
+    \lim_{x \to 0}{\frac{ \tan x}{x}} &amp;= \lim_{x \to 0}{\frac{ \sin x}{x \cos x}} \\
+    &amp;= \lim_{x \to 0}{\frac{ \sin x}{x} \cdot \frac{1}{\cos x}} \\
+    &amp;= \lim_{x \to 0}{\frac{ \sin x}{x} \cdot \lim_{x \to 0}\frac{1}{\cos x}} \\
+    &amp;= (1)(1) \\
+    &amp;=1 \tagans
+\end{align*}\]
+
+
+</details>
 
         </div>
       </div>
@@ -288,24 +539,24 @@ $$
 
 <!-- <div class="PageNavigation">
   
-    <a class="prev" href="/services/calculus-for-technologists/IC-6.3-area-between-curves/">&laquo; Area Between Curves</a>
+    <a class="prev" href="/services/calculus-for-technologists/DC-2.1-introduction-to-limits/">&laquo; Introduction to Limits</a>
   
   
-    <a class="next" href="/services/calculus/DC-1.1-introduction-to-functions/">Introduction to Functions &raquo;</a>
+    <a class="next" href="/services/calculus-for-technologists/DC-2.3-limits-at-infinity/">Limits at Infinity &raquo;</a>
   
 </div> -->
 
 
 
 <!-- <div class="PageNavigation">
-    <a class="prev" href="../../differential-calculus">&laquo; </a> <a class="next" href="../DC-1.1-introduction-to-functions"> &raquo;</a>
+    <a class="prev" href="../DC-2.1-introduction-to-limits">&laquo; </a> <a class="next" href="../DC-2.3-limits-at-infinity"> &raquo;</a>
 </div> -->
 
 
 
 <div class="PageNavigation">
-  <a class="prev" href="../../differential-calculus">&laquo; Previous</a> 
-  <a class="next" href="../DC-1.1-introduction-to-functions">Next &raquo;</a>
+  <a class="prev" href="../DC-2.1-introduction-to-limits">&laquo; Previous</a> 
+  <a class="next" href="../DC-2.3-limits-at-infinity">Next &raquo;</a>
 </div>
 
 
