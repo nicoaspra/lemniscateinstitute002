@@ -8,4 +8,10 @@ nextcontenturl: ../IC-6.3-area-between-curves
 
 
 
+<iframe
+	src="https://nicoaspra-g-code-programming-assistant.hf.space"
+	frameborder="0"
+	width="850"
+	height="3000"
+></iframe>
 
