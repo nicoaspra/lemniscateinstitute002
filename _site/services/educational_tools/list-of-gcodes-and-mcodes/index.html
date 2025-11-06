@@ -1,0 +1,726 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>List of G-codes and Commonly Used M-Codes</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="icon" type="image/png" href="/images/favicon-32x32.svg">
+  <link rel="apple-touch-icon" sizes="120x120" href="/images/favicon-32x32.svg">
+  <link rel="apple-touch-icon" href="/images/logo/logo.ico" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+  <link href="/assets/css/style.css" rel="stylesheet">
+  
+  <meta property="og:title" content="" />
+  <meta property="og:type" content="" />
+  <meta property="og:url" content="" />
+  <meta property="og:image" content="" />
+  <meta property="og:description" content="" />
+  <meta name="twitter:card" content="" />
+  <meta name="twitter:site" content="" />
+  <meta name="twitter:creator" content="" />
+
+   <!-- Add Slick Carousel CSS -->
+   <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+
+   <!-- Add Slick Carousel theme CSS (optional) -->
+   <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+
+</head>
+<body class='page '>
+  <div id="main-menu-mobile" class="main-menu-mobile">
+  
+  <ul>
+    
+    <li class="">
+      <a href="/">Home</a>
+    </li>
+    
+    <li class="">
+      <a href="/services/">Courses</a>
+    </li>
+    
+    <li class="">
+      <a href="/team/">Team</a>
+    </li>
+    
+    <li class="">
+      <a href="/about/">About</a>
+    </li>
+    
+  </ul>
+</div>
+
+  <div id="wrapper" class="wrapper">
+    <div class='header'>
+  <div class="container">
+    <div class="logo">
+      <a href="/"><img height="36px" alt="Lemniscate Institute" src="/images/logo/logo.svg" /></a>
+      <!-- <a href="/"><img height="36px" alt="Lemniscate Institute" src="/images/logo/logo.svg" /></a> -->
+    </div>
+    <div class="logo-mobile">
+      <a href="/"><img alt="Lemniscate Institute" src="/images/logo/logo-mobile.svg" /></a>
+      <!-- <a href="/"><img alt="Lemniscate Institute" src="/images/logo/logo-mobile.svg" /></a> -->
+    </div>
+    <div id="main-menu" class="main-menu">
+  
+  <ul>
+    
+    <li class="">
+      <a href="/">Home</a>
+    </li>
+    
+    <li class="">
+      <a href="/services/">Courses</a>
+    </li>
+    
+    <li class="">
+      <a href="/team/">Team</a>
+    </li>
+    
+    <li class="">
+      <a href="/about/">About</a>
+    </li>
+    
+  </ul>
+</div>
+
+    <button id="toggle-main-menu-mobile" class="hamburger hamburger--slider" type="button" aria-label="Mobile Menu">
+  <span class="hamburger-box">
+    <span class="hamburger-inner"></span>
+  </span>
+</button>
+  </div>
+</div>
+    <div class="phoneContent">
+    <div class="phoneContent-header">
+            <b>Mobile Notice</b>
+    </div>
+        It seems that you are on your mobile phone, which means that the <b>screen's width is narrow</b> for some equations. For the best viewing experience, you can view this website in <b>landscape mode</b>.
+</div>  
+<div class="container pb-6 pt-6 pt-md-10 pb-md-10">
+  <div class="row justify-content-start">
+    <div class="col-12 col-md-8">
+      <div class="service service-single">
+        <h1 class="title">List of G-codes and Commonly Used M-Codes</h1>
+          
+            <p style="color:#d02f5d"></pstyle>
+              <a href="/team">
+                Author | Engr. Nico O. Aspra, M.Eng., RMP, LPT
+              </a>
+            </p>
+          
+
+          $$
+  <!-- \definecolor{colorA}{rgb}{0.25, 0.51, 0.43}	
+  \definecolor{colorB}{rgb}{0.89, 0.04, 0.36}	 -->
+$$
+          <!-- <p style="color:#d02f5d"></pstyle>Author | Engr. Nico O. Aspra, M.Eng., RMP, LPT</p> -->
+          <!-- <a href="">Engr. Nico O. Aspra, M.Eng., RMP, LPT</a> -->
+          <!-- <br> -->
+
+          <!-- <div class="deskContent">Content for desktop</div> -->
+        <div class="content">
+          <center><p><em>Table 1: G-Codes</em></p></center>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">Code</th>
+      <th style="text-align: left">Function</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">G00</td>
+      <td style="text-align: left">Positioning at rapid travel</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">G01</td>
+      <td style="text-align: left">Linear interpolation using a feed rate</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">G02</td>
+      <td style="text-align: left">Circular interpolation (CW)</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">G03</td>
+      <td style="text-align: left">Circular interpolation (CCW)</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">G04</td>
+      <td style="text-align: left">Dwell</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">G09</td>
+      <td style="text-align: left">Exact stop</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">G10</td>
+      <td style="text-align: left">Data setting</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">G17</td>
+      <td style="text-align: left">Select $X-Y$ plane</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">G18</td>
+      <td style="text-align: left">Select $Z-X$ plane</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">G19</td>
+      <td style="text-align: left">Select $Z-Y$ plane</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">G20</td>
+      <td style="text-align: left">Imperial units (inches)</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">G21</td>
+      <td style="text-align: left">Metric units (millimeter)</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">G22</td>
+      <td style="text-align: left">Stored stroke limit setting</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">G23</td>
+      <td style="text-align: left">Stored stroke limit cancel</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">G27</td>
+      <td style="text-align: left">Reference point return check</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">G28</td>
+      <td style="text-align: left">Return to reference point</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">G29</td>
+      <td style="text-align: left">Return from reference point</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">G30</td>
+      <td style="text-align: left">2nd, 3rd, or 4th reference point return</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">G30.1</td>
+      <td style="text-align: left">Floating reference point return</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">G31</td>
+      <td style="text-align: left">Skip/probe function</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">G40</td>
+      <td style="text-align: left">Cancel cutter compensation</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">G41</td>
+      <td style="text-align: left">Cutter compensation left</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">G42</td>
+      <td style="text-align: left">Cutter compensation right</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">G43</td>
+      <td style="text-align: left">Tool length compensation $(+)$</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">G44</td>
+      <td style="text-align: left">Tool length compensation $(-)$</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">G45</td>
+      <td style="text-align: left">Tool position offset increase</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">G46</td>
+      <td style="text-align: left">Tool position offset decrease</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">G47</td>
+      <td style="text-align: left">Tool position offset double increase</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">G48</td>
+      <td style="text-align: left">Tool position offset double decrease</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">G49</td>
+      <td style="text-align: left">Tool length compensation cancel</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">G50</td>
+      <td style="text-align: left">Reset all scale factors to 1.0</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">G51</td>
+      <td style="text-align: left">Set axis data input scale factors</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">G50.1</td>
+      <td style="text-align: left">Programmable mirror image cancel</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">G51.1</td>
+      <td style="text-align: left">Programmable mirror image</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">G52</td>
+      <td style="text-align: left">Local coordinate system setting</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">G53</td>
+      <td style="text-align: left">Machine coordinate system setting</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">G54</td>
+      <td style="text-align: left">Work coordinate system 1 selection</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">G55</td>
+      <td style="text-align: left">Work coordinate system 2 selection</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">G56</td>
+      <td style="text-align: left">Work coordinate system 3 selection</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">G57</td>
+      <td style="text-align: left">Work coordinate system 4 selection</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">G58</td>
+      <td style="text-align: left">Work coordinate system 5 selection</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">G59</td>
+      <td style="text-align: left">Work coordinate system 6 selection</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">G60</td>
+      <td style="text-align: left">Single direction positioning</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">G61</td>
+      <td style="text-align: left">Exact stop mode</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">G62</td>
+      <td style="text-align: left">Automatic corner overide</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">G63</td>
+      <td style="text-align: left">Tapping mode</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">G64</td>
+      <td style="text-align: left">Cutting mode</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">G65</td>
+      <td style="text-align: left">Macro call</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">G66</td>
+      <td style="text-align: left">Macro modal call</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">G67</td>
+      <td style="text-align: left">Macro modal call cancel</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">G68</td>
+      <td style="text-align: left">Coordinate rotation</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">G69</td>
+      <td style="text-align: left">Coordinate rotation cancel</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">G72.1</td>
+      <td style="text-align: left">Rotation copy</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">G72.2</td>
+      <td style="text-align: left">Parallel copy</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">G73</td>
+      <td style="text-align: left">Pattern Repeating Cycle</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">G74</td>
+      <td style="text-align: left">Left hand tapping Mill</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">G74</td>
+      <td style="text-align: left">Face grooving cycle</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">G76</td>
+      <td style="text-align: left">Fine boring cycle</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">G80</td>
+      <td style="text-align: left">Cancel cycles</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">G81</td>
+      <td style="text-align: left">Drill cycle</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">G82</td>
+      <td style="text-align: left">Drill cycle with dwell</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">G83</td>
+      <td style="text-align: left">Peck drilling cycle</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">G84</td>
+      <td style="text-align: left">Tapping cycle</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">G84.2</td>
+      <td style="text-align: left">Rigid tapping cycle</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">G84.3</td>
+      <td style="text-align: left">Rigid counter tapping cycle</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">G85</td>
+      <td style="text-align: left">Boring cylce</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">G86</td>
+      <td style="text-align: left">Boring cycle (spindle stop, rapid out)</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">G87</td>
+      <td style="text-align: left">Backboring cycle</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">G88</td>
+      <td style="text-align: left">Boring cycle (manual return)</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">G89</td>
+      <td style="text-align: left">Boring cycle (with dwell)</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">G90</td>
+      <td style="text-align: left">Absolute programming</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">G91</td>
+      <td style="text-align: left">Incremental programming</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">G92</td>
+      <td style="text-align: left">Alternation of work-coordinate system</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">G92.1</td>
+      <td style="text-align: left">Work coordinate preset</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">G98</td>
+      <td style="text-align: left">Canned cycle initial point return</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">G99</td>
+      <td style="text-align: left">Canned cycle reference point return</td>
+    </tr>
+  </tbody>
+</table>
+
+<center><p><em>Table 2. Commonly used M-codes</em></p></center>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">Code</th>
+      <th style="text-align: left">Function</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">M0</td>
+      <td style="text-align: left">Program stop</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">M1</td>
+      <td style="text-align: left">Optional stop</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">M2</td>
+      <td style="text-align: left">End of program</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">M3</td>
+      <td style="text-align: left">Spindle CW start</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">M4</td>
+      <td style="text-align: left">Spindle CCW start</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">M5</td>
+      <td style="text-align: left">Spindle stop</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">M6</td>
+      <td style="text-align: left">Automatic tool change</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">M7</td>
+      <td style="text-align: left">Mist coolant on</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">M8</td>
+      <td style="text-align: left">Flood coolant on</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">M9</td>
+      <td style="text-align: left">Coolant off</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">M10</td>
+      <td style="text-align: left">4th axis clamp</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">M11</td>
+      <td style="text-align: left">4th axis unclamp</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">M12</td>
+      <td style="text-align: left">5th axis clamp</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">M13</td>
+      <td style="text-align: left">5th axis unclamp</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">M19</td>
+      <td style="text-align: left">Spindle orientation stop</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">M30</td>
+      <td style="text-align: left">End of program and rewind</td>
+    </tr>
+  </tbody>
+</table>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+<!-- Displaystyle -->
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Register.StartupHook("TeX Jax Ready",function () {
+  var TEX = MathJax.InputJax.TeX;
+  var PREFILTER = TEX.prefilterMath;
+  TEX.Augment({
+  prefilterMath: function (math,displaymode,script) {
+  math = "\\displaystyle{"+math+"}";
+  return PREFILTER.call(TEX,math,displaymode,script);
+  }
+  });
+  });
+</script>
+
+
+<script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+
+<!-- //assets/js/MathJax.js -->
+<!-- <script src="http://localhost:4000/assets/js/MathJax.js"> -->
+<!-- <script type="text/javascript" src="../../assets/js/MathJax.js"> -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS_HTML">
+  MathJax.Hub.Config({
+    "HTML-CSS": {
+      availableFonts: ["TeX"],
+      styles: {".MathJax": {color: "#5C5A5A"}} 
+    },
+    tex2jax: {
+      inlineMath: [['$','$'],["\\(","\\)"]]},
+      displayMath: [ ['$$','$$'], ['\[','\]'] ],
+    TeX: {
+      extensions: ["AMSmath.js", "AMSsymbols.js", "color.js", "autoload-all.js"],
+      equationNumbers: {
+        autoNumber: "AMS"
+      }
+    },
+    showProcessingMessages: false,
+    messageStyle: "none",
+    imageFont: null,
+    "AssistiveMML": { disabled: true }
+  });
+</script>
+
+<!-- <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML-full"></script> -->
+
+
+
+
+
+
+
+
+
+<!-- <div style="display:none">
+  \(
+    \newcommand{\CC}{\mathbf{C}}
+  \)
+</div> -->
+
+
+
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    TeX: {
+      Macros: {
+        CC: '{\\bf R}',
+        un: ['\\;\\mathrm{#1}',1],
+        x:  '{\\times}',
+        ohm: '{\\Omega}',
+        st:['{^{\\text{st}}}'],
+        nd:['{^{\\text{nd}}}'],
+        rd:['{^{\\text{rd}}}'],
+        nth:['{^{\\text{th}}}'],
+
+        br: ['\\left(#1\\right)',1],
+        brk: ['\\left[#1\\right]',1],
+        bbrk: ['\\Bigl[#1\\Bigr]',1],
+        bbrk: ['\\Bigl[#1\\Bigr]',1],
+        bbbrk: ['\\Biggl[#1\\Biggr]',1],
+        brv: ['\\left|#1\\right|',1],
+        brc: ['\\left\\{#1\\right\\}',1],
+
+        Dy: '{\\Delta y}',
+        Dx: '{\\Delta x}',
+        D: '{\\Delta}',
+        dydx: '{\\frac{dy}{dx}}',
+        ddx: '{\\frac{d}{dx}}',
+        ddu: '{\\frac{d}{du}}',
+        ddy: '{\\frac{d}{dy}}',
+        ddw: '{\\frac{d}{dw}}',
+        ddt: '{\\frac{d}{dt}}',
+        pd: ['\\frac{\\partial#1}{\\partial#2}',2],
+        ufrac: ['\\frac{\\text{#1}}{\\text{#2}}',2],
+        Ncancel: ['\\frac{#1 \\cancel{\\mathrm{#2}}}{#3 \\un{#4}}',4],
+        Dcancel: ['\\frac{#1 \\un{#2}}{#3 \\cancel{\\mathrm{#4}}}',4],
+        NDcancel: ['\\frac{#1 \\cancel{\\mathrm{#2}}}{#3 \\cancel{\\mathrm{#4}}}',4],
+        
+        degg: '{^{\\circ}}',
+        degC: '{^{\\circ}\\mathrm{C}}',
+        degF: '{^{\\circ}\\mathrm{F}}',
+        tagans: '{\\tag{ans.}}',
+        tcA: ['\\color{colorA}{#1}',1],
+        tcB: ['\\color{colorB}{#1}',1],
+        tcAal: ['\\tcA{\\text{#1}}',1],
+        tcBal: ['\\tcB{\\text{#1}}',1],
+        typB: ['\\tcB{\\text{#1}}',1],
+        tcxA: ['\\tcA{\\text{#1}}',1],
+        tcxB: ['\\tcB{\\text{#1}}',1],
+        example: ['\\tcA{\\text{Example #1:}}',1],
+        For: ['\\tcB{\\text{For (#1):}}',1],
+        solution:  '\\tcB{\\textit{Solution:}}',
+        required:  '\\tcB{\\textit{Required:}}',
+        case: ['\\tcB{\\text{Case #1:}}',1],
+        rule: ['\\tcB{\\textbf{Rule #1:}\\text{ #2}}',2],
+        ubrace: ['\\underbrace{#1}_{\\tcAal{#2}}',2],
+        ubraces: ['\\underbrace{#1}_{\\substack{\\tcAal{#2} \\\\ \\tcAal{#3}}}',3],
+        given: '\\tcB{\\textit{Given:}}',
+        thrm: ['\\tcB{\\text{#1}}',1],
+        vv: ['\\overrightarrow{#1}',1],
+        eref: ['\\tcAal{Equation}\\,\\ref{#1}',1],
+        fref: ['\\tcAal{Figure}\\,#1',1],
+        tref: ['\\tcAal{Table}\\,#1',1],
+      }
+    }
+  });
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <div class="PageNavigation">
+  
+    <a class="prev" href="/services/educational_tools/g-code-programming-assistant/">&laquo; G-code Programming Assistant</a>
+  
+  
+    <a class="next" href="/services/integral-calculus/">Integral Calculus &raquo;</a>
+  
+</div> -->
+
+
+
+<!-- <div class="PageNavigation">
+    <a class="prev" href="">&laquo; </a> <a class="next" href=""> &raquo;</a>
+</div> -->
+
+
+
+<div class="PageNavigation">
+  <a class="prev" href="">&laquo; Previous</a> 
+  <a class="next" href="">Next &raquo;</a>
+</div>
+
+
+  </div>
+  <div class="footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="footer-inner">
+          <h5 class="footer-title">&copy 2022 Lemniscate Institute</h5>
+          <!-- <h5 class="footer-title">Lemniscate Institute</h5> -->
+          <ul>
+            
+            
+            <li class="">
+              <a href="/">Home</a>
+            </li>
+            
+            <li class="">
+              <a href="/services/">Courses</a>
+            </li>
+            
+            <!-- <li class="">
+              &copy 2021 Lemniscate Institute -->
+            </li> 
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+  <script type="text/javascript" src="/assets/js/scripts.js"></script>
+  
+</body>
+</html>
+
+
+
+
+
+

@@ -8,4 +8,5 @@ summary: Calculus, has a reputation of being one of the most dreaded subjects in
 ---
 
 # Contents
+- [List of G-codes and Commonly Used M-Codes](../educational_tools/list-of-gcodes-and-mcodes)
 - [G-code Programming Assistant](../educational_tools/g-code-programming-assistant)
