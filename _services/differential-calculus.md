@@ -4,7 +4,7 @@ date: 2021-01-01
 featured: true
 weight: 1
 layout: course
-summary: Calculus, has a reputation of being one of the most dreaded subjects in college. The fear and apprehension probably came from the lack of appreciation of the potential of calculus in many applications in and outside of the engineering field. It is our hope that you will learn from the course as well as develop a sense of appreciation for calculus. The succeeding discussions are intended for those with an introductory background in Calculus. Assuming so, you should be able to understand the mathematics involved easily.
+summary: Change is a fundamental feature of the natural and mathematical world. From how quantities vary to how relationships evolve, understanding change requires more than static formulas. Differential Calculus provides the mathematical framework for describing and analyzing these variations with precision and clarity. This course introduces the concepts of limits, continuity, and derivatives, focusing on how functions behave and how rates of change are quantified. Emphasis is placed on conceptual understanding, graphical interpretation, and problem solving, allowing students to see differentiation as more than a procedural skill. By developing these ideas, students are guided toward a deeper appreciation of differential calculus as a powerful tool for analyzing patterns and interpreting real-world phenomena.
 ---
 
 # Contents
