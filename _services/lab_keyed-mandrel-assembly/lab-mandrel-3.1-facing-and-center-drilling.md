@@ -2,8 +2,8 @@
 title: "Facing and Center Drilling"
 weight: 2
 layout: content
-prevcontenturl: ../../calculus-for-technologists
-nextcontenturl: ../DC-1.1-introduction-to-functions
+prevcontenturl: ../../lab_keyed-mandrel-assembly
+nextcontenturl: ../lab-mandrel-4.1-turning-to-dimension-with-center-to-center
 ---
 
 
@@ -58,7 +58,7 @@ The following materials and tools are essential for successfully completing this
 	<li>Use the power feed select lever to switch from longitudinal carriage feed to <strong>cross slide feed</strong>.</li>
 	<li>Test the power feed by turning on the lathe with the feed clutch initially disengaged and away from the workpiece. <strong>Ensure it operates correctly and moves in the correct direction before making a cut</strong>.</li>
 	<li>Once the feed is operating correctly, proceed with finer cuts using the automatic feed. Make <strong>small adjustments with the compound rest</strong> and <strong>adjust the spindle speed and feed rate</strong> to achieve a smooth surface finish.</li>
-	<li><strong>Record the spindle speed, depth of cut (compound rest increment), and feed rate</strong> used during the facing process in SI units (see Table 3.1 on the Laboratory Worksheet). Analyze how these parameters affect the surface finish quality.</li>
+	<li><strong>Record the spindle speed, depth of cut (compound rest increment), and feed rate</strong> used during the facing process in SI units (see Table 3.1 in the Laboratory Worksheet). Analyze how these parameters affect the surface finish quality.</li>
 </ol>
 
 
@@ -77,7 +77,7 @@ The following materials and tools are essential for successfully completing this
 ## Final Measurements
 <ol start="17">
 	<li>Use a Vernier caliper to <strong>measure and verify the final dimensions</strong> of the workpiece.</li>
-	<li>Record the final dimensions and <strong>compare them with the project specifications</strong> (see Table 3.2 on the Laboratory Worksheet).</li>
+	<li>Record the final dimensions and <strong>compare them with the project specifications</strong> (see Table 3.2 in the Laboratory Worksheet).</li>
 </ol>
 
 
@@ -87,7 +87,3 @@ The following materials and tools are essential for successfully completing this
 <a href="{{ '/assets/downloads/lab-mandrel/worksheet-03.pdf' | relative_url }}" download>
   Download Laboratory Worksheet 03
 </a>
-
-
-
-

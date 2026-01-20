@@ -9,7 +9,7 @@ summary: Machining is best learned through direct experience, where understandin
 
 # Contents
 - Assembly Drawing
-- Lathe Dial Movements and Backlash
+- [Lathe Dial Movements and Backlash](../lab_keyed-mandrel-assembly/lab-mandrel-2.1-lathe-dial-movements-and-backlash)
 - [Facing and Center Drilling](../lab_keyed-mandrel-assembly/lab-mandrel-3.1-facing-and-center-drilling)
 - Turning to Dimension with Center to Center
 - External Thread Cutting
