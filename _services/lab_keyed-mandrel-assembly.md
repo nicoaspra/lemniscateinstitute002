@@ -8,7 +8,7 @@ summary: Machining is best learned through direct experience, where understandin
 ---
 
 # Contents
-- Assembly Drawing
+- [Assembly Drawing](../lab_keyed-mandrel-assembly/lab-mandrel-1.1-assembly-drawing)
 - [Lathe Dial Movements and Backlash](../lab_keyed-mandrel-assembly/lab-mandrel-2.1-lathe-dial-movements-and-backlash)
 - [Facing and Center Drilling](../lab_keyed-mandrel-assembly/lab-mandrel-3.1-facing-and-center-drilling)
 - [Turning to Dimension with Center to Center](../lab_keyed-mandrel-assembly/lab-mandrel-4.1-turning-to-dimension-with-center-to-center)
@@ -24,13 +24,3 @@ summary: Machining is best learned through direct experience, where understandin
 
 
 
-
-lab-mandrel-4.1-turning-to-dimension-with-center-to-center
-lab-mandrel-5.1-external-thread-cutting
-lab-mandrel-6.1-testing-of-thread-with-the-three-wire-method
-lab-mandrel-7.1-drilling-boring-and-facing-of-the-flange
-lab-mandrel-8.1-turning-and-chamfering-of-the-flange-to-final-dimensions
-lab-mandrel-9.1-keyway-cutting-on-the-flange
-lab-mandrel-10.1-keyway-cutting-on-the-shaft
-lab-mandrel-11.1-key-shaping
-lab-mandrel-12.1-test-fitting-and-assembly
