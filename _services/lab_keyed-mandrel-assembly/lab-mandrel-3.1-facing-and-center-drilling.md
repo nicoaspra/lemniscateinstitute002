@@ -14,7 +14,7 @@ This activity aims to perform facing and center drilling operations on a cylindr
 # Materials and Equipment
 The following materials and tools are essential for successfully completing this activity. Ensure they are available, complete, and in proper working condition before starting.
 - Assembly Drawing
-- Workpiece (AISI 1020, CRS $\varnothing$25.4 mm $\times$ 150mm)
+- Workpiece (AISI 1020, CRS $\varnothing$25.4 mm $\times$ 150 mm)
 - HSS or Carbide Facing Tool
 - 220 Grit Sandpaper
 - \#3 Center Drill

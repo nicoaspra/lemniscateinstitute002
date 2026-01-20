@@ -11,12 +11,26 @@ summary: Machining is best learned through direct experience, where understandin
 - Assembly Drawing
 - [Lathe Dial Movements and Backlash](../lab_keyed-mandrel-assembly/lab-mandrel-2.1-lathe-dial-movements-and-backlash)
 - [Facing and Center Drilling](../lab_keyed-mandrel-assembly/lab-mandrel-3.1-facing-and-center-drilling)
-- Turning to Dimension with Center to Center
-- External Thread Cutting
-- Testing of Thread with Three-Wire Method
-- Drilling, Boring, and Facing of the Flange
-- Turning and Chamfering of the Flange to Dimensions
-- Keyway Cutting on the Flange
-- Keyway Cutting on the Shaft
-- Key Shaping
-- Test Fitting and Assembly
+- [Turning to Dimension with Center to Center](../lab_keyed-mandrel-assembly/lab-mandrel-4.1-turning-to-dimension-with-center-to-center)
+- [External Thread Cutting](../lab_keyed-mandrel-assembly/lab-mandrel-5.1-external-thread-cutting)
+- [Testing of Thread with Three-Wire Method](../lab_keyed-mandrel-assembly/lab-mandrel-6.1-testing-of-thread-with-the-three-wire-method)
+- [Drilling, Boring, and Facing of the Flange](../lab_keyed-mandrel-assembly/lab-mandrel-7.1-drilling-boring-and-facing-of-the-flange)
+- [Turning and Chamfering of the Flange to Dimensions](../lab_keyed-mandrel-assembly/lab-mandrel-8.1-turning-and-chamfering-of-the-flange-to-final-dimensions)
+- [Keyway Cutting on the Flange](../lab_keyed-mandrel-assembly/lab-mandrel-9.1-keyway-cutting-on-the-flange)
+- [Keyway Cutting on the Shaft](../lab_keyed-mandrel-assembly/lab-mandrel-10.1-keyway-cutting-on-the-shaft)
+- [Key Shaping](../lab_keyed-mandrel-assembly/lab-mandrel-11.1-key-shaping)
+- [Test Fitting and Assembly](../lab_keyed-mandrel-assembly/lab-mandrel-12.1-test-fitting-and-assembly)
+
+
+
+
+
+lab-mandrel-4.1-turning-to-dimension-with-center-to-center
+lab-mandrel-5.1-external-thread-cutting
+lab-mandrel-6.1-testing-of-thread-with-the-three-wire-method
+lab-mandrel-7.1-drilling-boring-and-facing-of-the-flange
+lab-mandrel-8.1-turning-and-chamfering-of-the-flange-to-final-dimensions
+lab-mandrel-9.1-keyway-cutting-on-the-flange
+lab-mandrel-10.1-keyway-cutting-on-the-shaft
+lab-mandrel-11.1-key-shaping
+lab-mandrel-12.1-test-fitting-and-assembly
