@@ -28,7 +28,6 @@ The following materials and tools are essential for successfully completing this
 <ol>
 	<li>Choose <strong>two available lathe machines</strong> in the shop.</li>
 	<li>Start by focusing on <strong>one machine</strong> before proceeding to the second.</li>
-
 	<li>Locate the three primary dials:
 		<ol style="list-style-type: lower-alpha;">
 			<li><strong>Compound rest dial</strong></li>
@@ -36,7 +35,6 @@ The following materials and tools are essential for successfully completing this
 			<li><strong>Carriage handwheel dial</strong></li>
 		</ol>
 	</li>
-
 	<li>Ensure the machine is clean and that all dials are easily readable.</li>
 	<li>Identify the portion of each dial with <strong>metric graduations</strong>.</li>
 	<li>Determine the <strong>total number of graduations per full revolution</strong> for each dial and record the values in Table 2.1 (in the Laboratory Worksheet).</li>
@@ -57,12 +55,13 @@ The following materials and tools are essential for successfully completing this
 ## Exploring Dial Movements
 <ol start="12">
 	<li>Zero all lathe dials and set up a <strong>fixed reference point</strong> to measure the linear displacement accurately using a vernier caliper.</li>
-	<li>Begin with the <strong>compound rest dial</strong>:</li>
+	<li>Begin with the <strong>compound rest dial</strong>:
 		<ol style="list-style-type: lower-alpha;">
 			<li>Rotate the dial <strong>one full revolution</strong> and measure the displacement using the vernier caliper.</li>
 			<li>Repeat for <strong>2 and 5 revolutions</strong>, recording the total displacement.</li>
 			<li>Compare the measured movement with the dial readings.</li>
 		</ol>
+	</li>
 	<li>Repeat the same steps for the <strong>cross slide</strong> and <strong>carriage handwheel</strong>.</li>
 	<li>Record all readings in Table 2.1 (in the Laboratory Worksheet).</li>
 	<li>Move to the second lathe machine, repeat the entire process, and record all data in Table 2.2 (in the Laboratory Worksheet).</li>

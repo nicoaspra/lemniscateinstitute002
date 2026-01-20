@@ -28,7 +28,7 @@ The following materials and tools are essential for successfully completing this
 </ol>
 
 ## Creating the Assembly Drawing
-<ol>
+<ol start="3">
     <li>Draw the <strong>border lines</strong> and title block, following the layout shown on Figure 1.2 and Figure 1.3.</li>
     <li>Sketch a rough layout of the assembly, identifying key components and their relationships. Select an <strong>appropriate scale</strong> for clarity and fit.</li>
     <li>Use proper <strong>projection methods</strong> (e.g., orthographic, isometric) to accurately depict the full assembly. Note that an <strong>isometric view</strong> is optional if all necessary details are clearly shown in the <strong>orthographic projection</strong>.</li>
@@ -37,7 +37,7 @@ The following materials and tools are essential for successfully completing this
 </ol>
 
 ## Finalization and Submission
-<ol>
+<ol start="8">
     <li>Double-check all <strong>dimensions, tolerances, and notes</strong> for accuracy and completeness.</li>
     <li>Finalize the drawing using technical pens: 0.8-1.0 mm for border lines, 0.5 mm for visible lines, and 0.1-0.2 mm for hidden lines and centerlines.</li>
     <li><strong>Remove construction lines</strong> to present a clean and professional drawing.</li>
