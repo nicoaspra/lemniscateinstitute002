@@ -96,3 +96,6 @@ The following materials and tools are essential for successfully completing this
 
 
 
+<a href="{{ '/assets/downloads/lab-mandrel/worksheet-07.pdf' | relative_url }}" download>
+  Download Laboratory Worksheet 07
+</a>

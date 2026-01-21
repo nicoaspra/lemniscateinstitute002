@@ -52,3 +52,8 @@ The following materials and tools are essential for successfully completing this
     <li>If necessary, disassemble and lightly polish or deburr any interfering parts.</li>
     <li>Record your observations and note any modifications made during test fitting.</li>
 </ol>
+
+
+<a href="{{ '/assets/downloads/lab-mandrel/worksheet-12.pdf' | relative_url }}" download>
+  Download Laboratory Worksheet 12
+</a>

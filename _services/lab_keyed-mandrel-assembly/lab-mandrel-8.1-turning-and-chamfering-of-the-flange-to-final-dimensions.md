@@ -107,3 +107,9 @@ The following materials and tools are essential for successfully completing this
 	<li>Use a <strong>vernier caliper</strong> to measure and verify the final dimensions of each machined flange.</li>
 	<li>Record your measurements and <strong>compare them with the design specifications</strong> in Table 8.1 (in the Laboratory Worksheet).</li>
 </ol>
+
+
+
+<a href="{{ '/assets/downloads/lab-mandrel/worksheet-08.pdf' | relative_url }}" download>
+  Download Laboratory Worksheet 08
+</a>

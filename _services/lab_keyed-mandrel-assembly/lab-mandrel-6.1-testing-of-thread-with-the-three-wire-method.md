@@ -65,3 +65,7 @@ The following materials and tools are essential for successfully completing this
     size= "400px"
 %}
 
+
+<a href="{{ '/assets/downloads/lab-mandrel/worksheet-06.pdf' | relative_url }}" download>
+  Download Laboratory Worksheet 06
+</a>

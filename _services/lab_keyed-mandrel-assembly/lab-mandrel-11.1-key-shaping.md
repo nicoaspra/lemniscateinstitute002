@@ -58,3 +58,8 @@ The following materials and tools are essential for successfully completing this
     <li>Test the key for fitment in both the shaft and flange keyways.</li>
     <li>Perform final deburring or adjustments if necessary.</li>
 </ol>
+
+
+<a href="{{ '/assets/downloads/lab-mandrel/worksheet-11.pdf' | relative_url }}" download>
+  Download Laboratory Worksheet 11
+</a>

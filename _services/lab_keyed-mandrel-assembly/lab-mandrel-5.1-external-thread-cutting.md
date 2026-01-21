@@ -88,3 +88,8 @@ The following materials and tools are essential for successfully completing this
 	<li>If the fit is tight or uneven, take <strong>light passes to clean</strong> or slightly deepen the thread.</li>
 	<li>Record your <strong>final thread dimensions</strong> and compare them to your <strong>calculated values</strong> and <strong>design specifications</strong>.</li>
 </ol>
+
+
+<a href="{{ '/assets/downloads/lab-mandrel/worksheet-05.pdf' | relative_url }}" download>
+  Download Laboratory Worksheet 05
+</a>

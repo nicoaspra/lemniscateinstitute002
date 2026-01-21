@@ -63,3 +63,8 @@ The following materials and tools are essential for successfully completing this
     <li>Deburr the keyway edges using a fine file or abrasive paper to remove any sharp burrs.</li>
     <li>Perform a final visual inspection and dimensional verification of the keyway against the specification.</li>
 </ol>
+
+
+<a href="{{ '/assets/downloads/lab-mandrel/worksheet-10.pdf' | relative_url }}" download>
+  Download Laboratory Worksheet 10
+</a>

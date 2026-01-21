@@ -103,3 +103,8 @@ The following materials and tools are essential for successfully completing this
 	<li>Use a Vernier caliper to <strong>measure and verify the final dimensions</strong> of the workpiece.</li>
 	<li>Record the final dimensions and <strong>compare them with the project specifications</strong> (see Table 4.2 in the Laboratory Worksheet).</li>
 </ol>
+
+
+<a href="{{ '/assets/downloads/lab-mandrel/worksheet-04.pdf' | relative_url }}" download>
+  Download Laboratory Worksheet 04
+</a>

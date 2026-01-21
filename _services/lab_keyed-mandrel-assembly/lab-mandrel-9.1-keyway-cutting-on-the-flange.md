@@ -51,3 +51,9 @@ The following materials and tools are essential for successfully completing this
     <li>Inspect the keyway for <strong>dimensional accuracy</strong> and <strong>surface finish</strong>.</li>
     <li>Test-fit the intended key into the slot to ensure a proper fit.</li>
 </ol>
+
+
+
+<a href="{{ '/assets/downloads/lab-mandrel/worksheet-09.pdf' | relative_url }}" download>
+  Download Laboratory Worksheet 09
+</a>
