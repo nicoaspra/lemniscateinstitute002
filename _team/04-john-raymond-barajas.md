@@ -3,7 +3,7 @@ title: "Engr. John Raymond B. Barajas"
 date: 2018-11-19T10:47:58+10:00
 draft: false
 image: "images/team/john-raymond-barajas.png"
-jobtitle: "Team Leader"
+jobtitle: "Author"
 # linkedinurl: "https://www.linkedin.com/example2"
 promoted: true
 weight: 6
