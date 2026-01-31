@@ -23,6 +23,7 @@ summary: Many students approach mathematics with uncertainty, often viewing it a
 	- Division of Line Segments
 	- Inclination and Slope
 	- The Straight Line
+	- Parallel and Perpendicular Lines
 - Conic Sections
 	- Introduction
 	- The Circle
