@@ -25,12 +25,11 @@ The function increases if the direction of the graph is going upwards. Hence, ha
     caption = "Figure 2: At the point where the slope is positive, the function increases. And where the slope is negative, the function decreases."
 %}
 
-However, a function can increase in two ways: either increasing at a decreasing rate ($\fref{3a}$) or increasing at an increasing rate ($\fref{3b}$). Similarly, a function can also decrease at a decreasing rate ($\fref{3c}$) or decrease at an increasing rate ($\fref{3d}$). The direction of a function can reveal a great deal about it, particularly when it comes to identifying the graph's behavior, which is very valuable when sketching curves.
-
+However, a function can increase in two ways: either increasing at an increasing rate ($\fref{3a}$) or increasing at a decreasing rate ($\fref{3b}$). Similarly, a function can also decrease at a decreasing rate ($\fref{3c}$) or decrease at an increasing rate ($\fref{3d}$). The direction of a function can reveal a great deal about it, particularly when it comes to identifying the graph's behavior, which is very valuable when sketching curves.
 
 
 {% include images.html 
     url= "DC/DC-5.3.3.png" 
-    size= "300px"
+    size= "320px"
     caption = "Figure 3: Direction of increasing and decreasing functions"
 %}
