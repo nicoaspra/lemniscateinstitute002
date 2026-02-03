@@ -12,18 +12,18 @@ summary: Many students approach mathematics with uncertainty, often viewing it a
 	- Algebraic Simplification
 	- Factoring
 	- Polynomial division
-	- Laws of Exponents and Radicals
+	- [Laws of Exponents and Radicals](../comprehensive-mathematics/1.4-laws-of-exponents-and-radicals)
 	- Simplification of rational expressions
 	- Quadratic Equations
 	- Systems of equations
 - Plane Analytic Geometry
-	- The Cartesian Plane
-	- Distance Between Two Points
-	- Midpoint of a Line
-	- Division of Line Segments
-	- Inclination and Slope
-	- The Straight Line
-	- Parallel and Perpendicular Lines
+	- [The Cartesian Plane](../comprehensive-mathematics/2.1-the-cartesian-plane)
+	- [Distance Between Two Points](../comprehensive-mathematics/2.2-distance-between-two-points)
+	- [Midpoint of a Line](../comprehensive-mathematics/2.3-midpoint-of-a-line)
+	- [Division of Line Segments](../comprehensive-mathematics/2.4-division-of-line-segments)
+	- [Inclination and Slope](../comprehensive-mathematics/2.5-inclination-and-slope)
+	- [The Straight Line](../comprehensive-mathematics/2.6-the-straight-line)
+	- [Parallel and Perpendicular Lines](../comprehensive-mathematics/2.7-parallel-and-perpendicular-lines)
 - Conic Sections
 	- Introduction
 	- The Circle
