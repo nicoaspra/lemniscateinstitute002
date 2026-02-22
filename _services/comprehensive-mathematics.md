@@ -11,11 +11,11 @@ summary: Many students approach mathematics with uncertainty, often viewing it a
 - Algebra Review
 	- Algebraic Simplification
 	- Factoring
-	- Polynomial division
+	- Polynomial Division
 	- [Laws of Exponents and Radicals](../comprehensive-mathematics/1.4-laws-of-exponents-and-radicals)
-	- Simplification of rational expressions
+	- Simplification of Rational Expressions
 	- Quadratic Equations
-	- Systems of equations
+	- Systems of Equations
 - Plane Analytic Geometry
 	- [The Cartesian Plane](../comprehensive-mathematics/2.1-the-cartesian-plane)
 	- [Distance Between Two Points](../comprehensive-mathematics/2.2-distance-between-two-points)
