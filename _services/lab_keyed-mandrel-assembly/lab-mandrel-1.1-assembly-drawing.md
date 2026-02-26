@@ -1,5 +1,5 @@
 ---
-title: "Assembly Drawing"
+title: "Activity 1: Assembly Drawing"
 weight: 2
 layout: content
 prevcontenturl: ../../calculus-for-technologists

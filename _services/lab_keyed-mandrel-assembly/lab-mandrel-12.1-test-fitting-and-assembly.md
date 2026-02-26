@@ -1,5 +1,5 @@
 ---
-title: "Test Fitting and Assembly"
+title: "Activity 12: Test Fitting and Assembly"
 weight: 2
 layout: content
 prevcontenturl: ../lab-mandrel-11.1-key-shaping

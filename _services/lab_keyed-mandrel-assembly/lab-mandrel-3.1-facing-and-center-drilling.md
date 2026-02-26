@@ -1,8 +1,8 @@
 ---
-title: "Facing and Center Drilling"
+title: "Activity 3: Facing and Center Drilling"
 weight: 2
 layout: content
-prevcontenturl: ../../lab_keyed-mandrel-assembly
+prevcontenturl: ../lab-mandrel-2.1-lathe-dial-movements-and-backlash
 nextcontenturl: ../lab-mandrel-4.1-turning-to-dimension-with-center-to-center
 ---
 

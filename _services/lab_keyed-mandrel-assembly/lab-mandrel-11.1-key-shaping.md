@@ -1,5 +1,5 @@
 ---
-title: "Key Shaping"
+title: "Activity 11: Key Shaping"
 weight: 2
 layout: content
 prevcontenturl: ../lab-mandrel-10.1-keyway-cutting-on-the-shaft

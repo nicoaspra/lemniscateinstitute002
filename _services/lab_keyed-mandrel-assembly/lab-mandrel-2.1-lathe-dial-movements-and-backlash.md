@@ -1,5 +1,5 @@
 ---
-title: "Lathe Dial Movements and Backlash"
+title: "Activity 2: Lathe Dial Movements and Backlash"
 weight: 2
 layout: content
 prevcontenturl: ../lab-mandrel-1.1-assembly-drawing

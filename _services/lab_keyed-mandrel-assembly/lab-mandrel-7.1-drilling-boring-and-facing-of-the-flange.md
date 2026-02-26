@@ -1,5 +1,5 @@
 ---
-title: "Drilling, Boring, and Facing of the Flange"
+title: "Activity 7: Drilling, Boring, and Facing of the Flange"
 weight: 2
 layout: content
 prevcontenturl: ../lab-mandrel-6.1-testing-of-thread-with-the-three-wire-method

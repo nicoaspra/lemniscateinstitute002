@@ -1,5 +1,5 @@
 ---
-title: "External Thread Cutting"
+title: "Activity 5: External Thread Cutting"
 weight: 2
 layout: content
 prevcontenturl: ../lab-mandrel-4.1-turning-to-dimension-with-center-to-center

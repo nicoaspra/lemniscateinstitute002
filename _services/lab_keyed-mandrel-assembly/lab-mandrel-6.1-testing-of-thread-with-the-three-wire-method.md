@@ -1,5 +1,5 @@
 ---
-title: "Testing of Thread with the Three-Wire Method"
+title: "Activity 6: Testing of Thread with the Three-Wire Method"
 weight: 2
 layout: content
 prevcontenturl: ../lab-mandrel-5.1-external-thread-cutting

@@ -1,5 +1,5 @@
 ---
-title: "Turning to Dimension with Center to Center"
+title: "Activity 4: Turning to Dimension with Center to Center"
 weight: 2
 layout: content
 prevcontenturl: ../lab-mandrel-3.1-facing-and-center-drilling
