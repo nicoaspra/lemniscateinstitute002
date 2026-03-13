@@ -120,7 +120,266 @@ $$
 
           <!-- <div class="deskContent">Content for desktop</div> -->
         <div class="content">
-          
+          <p>A straight line is one of the simplest and most fundamental geometric objects. On a plane, it represents a path that extends indefinitely in two opposite directions and has a constant direction throughout. Any straight line drawn on the Cartesian plane can be described using an equation that is satisfied by all points lying on the line.</p>
+
+<h2 id="general-form-of-equation-of-a-line">General Form of Equation of a Line</h2>
+<p>One way to determine whether an equation represents a straight line is by examining its algebraic form. The equation shown in Equation \ref{eq:gen form line} is called the general form of the equation of a line, where $A$, $B$, and $C$ are constants. At least one of the coefficients $A$ or $B$ must be nonzero, since both cannot be zero at the same time.</p>
+
+<p align="center" style="background-color:rgba(64, 130, 110, 0.07);
+border: 3px solid rgba(64, 130, 110, 0.9);
+border-radius:7px;
+padding:10px;
+margin:5px;">
+    $$\begin{align}
+        Ax+By+C=0	\label{eq:gen form line}
+    \end{align}$$
+</p>
+
+<hr />
+<p>$\example{1}$
+Express the equation of the line $5-2y=7x$ in the general form.</p>
+
+<details style="text-align:left;">
+    <summary style="text-align:left;">$\solution$
+    </summary>
+    <br />
+    
+<p>Rearrange the equation to match the general form,</p>
+
+\[\begin{align*}
+	5-2y &amp;= 7x \\
+	7x+2y-5 &amp;= 0 \tagans
+\end{align*}\]
+
+
+</details>
+
+<h2 id="standard-forms-of-a-line">Standard Forms of a Line</h2>
+<p>There are several algebraic forms used to describe the equation of a straight line, each depending on the information given about the line. These standard forms include the point-slope form, two-point form, slope-intercept form, and intercept form.</p>
+
+<h3 id="point-slope-form">Point-Slope Form</h3>
+<p>The point-slope form is used when a point on the line and the slope of the line are given. Since a straight line has a constant slope, knowing one point on the line together with its slope is sufficient to determine its equation. Consider Figure 1.</p>
+
+<figure style="text-align: center;">
+  <img src="/images/content/math/math-2.6.1.jpg" alt="my alt text" width="300px" />
+  <figcaption><em><p>Figure 1: Given a point $P_1(x_1,y_1)$ and the slope $m$, the equation of the line can be written in the point-slope form.</p>
+</em></figcaption>
+</figure>
+
+<p>Let $P_1(x_1,y_1)$ be the given point on the line, and let $P(x,y)$ be any other point on the same line. The slope of the line is given by
+\(m = \frac{y - y_1}{x - x_1}.\)</p>
+
+<p>Rearranging the equation gives</p>
+
+<p align="center" style="background-color:rgba(64, 130, 110, 0.07);
+border: 3px solid rgba(64, 130, 110, 0.9);
+border-radius:7px;
+padding:10px;
+margin:5px;">
+    $$\begin{align}
+        y - y_1 = m(x - x_1)
+        \label{eq:pt-slope}
+    \end{align}$$
+</p>
+
+<p>The equation above is called the point-slope form of the equation of a line, where $m$ is the slope and $P_1(x_1,y_1)$ is a known point on the line.</p>
+
+<hr />
+<p>$\example{2}$
+Determine the equation of the line that passes through $(-1,3)$ and has a slope of $2$.</p>
+
+<details style="text-align:left;">
+    <summary style="text-align:left;">$\solution$
+    </summary>
+    <br />
+    
+<p>To determine the equation of the line given a point and a slope, use Equation \ref{eq:pt-slope},</p>
+
+\[\begin{align*}
+	y-y_1 &amp;= m(x-x_1) \\
+	y-3 &amp;= 2[x-(-1)] \\
+	y-3 &amp;= 2x+2 \\
+	2x-y+5 &amp;= 0 \tagans
+\end{align*}\]
+
+
+</details>
+
+<h3 id="two-point-form">Two-Point Form</h3>
+<p>The two-point form is used when two distinct points on a line are given. Consider Figure 2.</p>
+
+<figure style="text-align: center;">
+  <img src="/images/content/math/math-2.6.2.jpg" alt="my alt text" width="300px" />
+  <figcaption><em><p>Figure 2: Given two points $P_1(x_1,y_1)$ and $P_2(x_2,y_2)$, the equation of the line can be written in the two-point form.</p>
+</em></figcaption>
+</figure>
+
+<p>Let $P_1(x_1,y_1)$ and $P_2(x_2,y_2)$ be the two given points on the line.<br />
+Starting from the point-slope form (Equation \ref{eq:pt-slope}),</p>
+
+\[\begin{align*}
+	y - y_1 &amp;= m(x - x_1)
+\end{align*}\]
+
+<p>the slope $m$ can be expressed using the two given points as</p>
+
+\[\begin{align*}
+	m &amp;= \frac{y_2 - y_1}{x_2 - x_1}.
+\end{align*}\]
+
+<p>Substituting this expression for the slope into the point-slope form gives</p>
+
+<p align="center" style="background-color:rgba(64, 130, 110, 0.07);
+border: 3px solid rgba(64, 130, 110, 0.9);
+border-radius:7px;
+padding:10px;
+margin:5px;">
+    $$\begin{align}
+        y - y_1 = \frac{y_2 - y_1}{x_2 - x_1}(x - x_1)
+        \label{eq:2-pt}
+    \end{align}$$
+</p>
+
+<p>The resulting equation is called the two-point form of the equation of a line, where $P_1(x_1,y_1)$ and $P_2(x_2,y_2)$ are the given points on the line.</p>
+
+<hr />
+<p>$\example{3}$
+Determine the equation of the line that passes through $(-6,2)$ and $(3,9)$.</p>
+
+<details style="text-align:left;">
+    <summary style="text-align:left;">$\solution$
+    </summary>
+    <br />
+    
+<p>To determine the equation of the line given two points, use Equation \ref{eq:2-pt},</p>
+
+\[\begin{align*}
+	y-y_1 &amp;= \frac{y_2-y_1}{x_2-x_1}(x-x_1) \\
+	y-2 &amp;= \frac{9-2}{3-(-6)}[x-(-6)] \\
+	y-2 &amp;= \frac{7}{9}(x+6) \\
+	9y-18 &amp;= 7x+42 \\
+	7x-9y+60 &amp;= 0 \tagans
+\end{align*}\]
+
+
+</details>
+
+<hr />
+<h4 id="intercept">Intercept</h4>
+<p>An intercept is a point where the line intersects an axis. The point of intersection on the $x$-axis is called the $x$-intercept, and $y$-intercept on the $y$-axis. The coordinates of $x$ and $y$ intercepts are $(a,0)$ and $(0,b)$ respectively (Figure 3).</p>
+
+<figure style="text-align: center;">
+  <img src="/images/content/math/math-2.6.3.jpg" alt="my alt text" width="300px" />
+  <figcaption><em><p>Figure 3: The points where the line intersects the coordinate axes at $(a,0)$ and $(0,b)$ are called the $x$- and $y$-intercepts, respectively.</p>
+</em></figcaption>
+</figure>
+
+<h3 id="slope-intercept-form">Slope-Intercept Form</h3>
+<p>The Slope-Intercept Form is used when the $y$-intercept of the line and its slope are given. It is similar to the Point-Slope Form, but instead of any point that lies on the line, this form requires that the given point is its $y$-intercept. Consider Figure 4,</p>
+
+<figure style="text-align: center;">
+  <img src="/images/content/math/math-2.6.4.jpg" alt="my alt text" width="300px" />
+  <figcaption><em><p>Figure 4: Given the slope $m$ and the $y$-intercept $b$, the equation of the line can be written in the slope-intercept form.</p>
+</em></figcaption>
+</figure>
+
+<p>From the Point-Slope Form (Equation \ref{eq:pt-slope}),</p>
+
+\[\begin{align*}
+	y-y_1 &amp;= m(x-x_1) \\
+	y-b &amp;= m(x-0)
+\end{align*}\]
+
+<p>Hence,</p>
+
+<p align="center" style="background-color:rgba(64, 130, 110, 0.07);
+border: 3px solid rgba(64, 130, 110, 0.9);
+border-radius:7px;
+padding:10px;
+margin:5px;">
+    $$\begin{align}
+        y=mx+b \label{eq:slope-int}
+    \end{align}$$
+</p>
+
+<p>The derived equation is called the Slope-Intercept Form of Equation of a Line. Where, $m$ is the slope and $b$ is the $y$-intercept.</p>
+
+<hr />
+<p>$\example{4}$
+Determine the equation of the line that has a $y$-intercept of $-4$ and a slope of $3/2$</p>
+
+<details style="text-align:left;">
+    <summary style="text-align:left;">$\solution$
+    </summary>
+    <br />
+    
+<p>To solve for the equation of the line with a given $y$-intercept and a slope, use Equation \ref{eq:slope-int},
+\(\begin{align*}
+	y &amp;= mx+b \\
+	y &amp;= \frac{3}{2}x+(-4) \\
+	2(y+4) &amp;= 3x \\
+	2y+8 &amp;= 3x \\
+	3x-2y-8 &amp;= 0 \tagans
+\end{align*}\)</p>
+
+
+</details>
+
+<h3 id="intercept-form">Intercept Form</h3>
+<p>The Slope-Intercept Form is used when the $x$ and $y$ intercepts of the line are given. This form is also similar to the Two Point Form, but the two given points both lies on the $x$ and $y$ axis.</p>
+
+<figure style="text-align: center;">
+  <img src="/images/content/math/math-2.6.5.jpg" alt="my alt text" width="300px" />
+  <figcaption><em><p>Figure 5: Given the $x$-intercept $a$ and the $y$-intercept $b$, the equation of the line can be written in the intercept form.</p>
+</em></figcaption>
+</figure>
+
+<p>From the Two Point Form (Equation \ref{eq:2-pt}),</p>
+
+\[\begin{align*}
+	y-y_1 &amp;= \frac{y_2-y_1}{x_2-x_1}(x-x_1) \\
+	y-b &amp;= \frac{0-b}{a-0}(x-0) \\
+	y-b &amp;= -\frac{b}{a} x \\
+	\frac{b}{a} x + y &amp;= b \\
+	\frac{1}{b} \br{ \frac{b}{a} x+y } &amp;= (\cancel{b}) \frac{1}{\cancel{b}}
+\end{align*}\]
+
+<p>Hence,</p>
+
+<p align="center" style="background-color:rgba(64, 130, 110, 0.07);
+border: 3px solid rgba(64, 130, 110, 0.9);
+border-radius:7px;
+padding:10px;
+margin:5px;">
+    $$\begin{align}
+        \frac{x}{a}+\frac{y}{b}=1
+        \label{eq:int}
+    \end{align}$$
+</p>
+
+<p>The derived equation is called the Slope-Intercept Form of Equation of a Line. Where, $a$ and $b$ are the $x$ and $y$ intercepts of the line.</p>
+
+<hr />
+<p>$\example{5}$
+Determine the equation of the line that has an $x$ and $y$ intercepts of $-6$ and 4 respectively.</p>
+
+<details style="text-align:left;">
+    <summary style="text-align:left;">$\solution$
+    </summary>
+    <br />
+    
+<p>To solve for the equation of the line with two given intercepts, use Equation \ref{eq:int},</p>
+
+\[\begin{align*}
+	\frac{x}{a}+\frac{y}{b} &amp;=1 \\
+	\frac{x}{-6}+\frac{y}{4} &amp;=1 \\
+	12\br{ \frac{x}{-6}+\frac{y}{4} } &amp;= 12(1) \\
+	-2x+3y &amp;= 12 \\
+	2x-3y+12 &amp;= 0 \tagans
+\end{align*}\]
+
+
+</details>
 
         </div>
       </div>
