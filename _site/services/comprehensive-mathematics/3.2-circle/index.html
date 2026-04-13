@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>Activity 1: Assembly Drawing</title>
+  <title>Circle</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link rel="icon" type="image/png" href="/images/favicon-32x32.svg">
   <link rel="apple-touch-icon" sizes="120x120" href="/images/favicon-32x32.svg">
@@ -101,7 +101,7 @@
   <div class="row justify-content-start">
     <div class="col-12 col-md-8">
       <div class="service service-single">
-        <h1 class="title">Activity 1: Assembly Drawing</h1>
+        <h1 class="title">Circle</h1>
           
             <p style="color:#d02f5d"></pstyle>
               <a href="/team">
@@ -120,61 +120,199 @@ $$
 
           <!-- <div class="deskContent">Content for desktop</div> -->
         <div class="content">
-          <h1 id="objective">Objective</h1>
-<p>This activity aims to develop the student’s ability to create a complete and accurate assembly drawing of the project. Emphasis will be placed on the application of standard technical drawing conventions, including proper dimensioning, tolerancing, sectional views, and annotation. The resulting drawing should serve as a reliable reference for manufacturing and inspection.</p>
+          <p>A <strong>circle</strong> is one of the most familiar curves in geometry. Formally, it is defined as the set of all points on a plane that are equidistant from a fixed point called the <strong>center</strong>. The constant distance from the center to any point on the circle is called the <strong>radius</strong>. These two elements, the center and the radius, completely determine the size and position of a circle on the plane, and as we will see, they are also the key quantities in writing its equation.</p>
 
-<h1 id="materials-and-equipment">Materials and Equipment</h1>
-<p>The following materials and tools are essential for successfully completing this activity. Ensure they are available, complete, and in proper working condition before starting.</p>
-<ul>
-  <li>Drawing Paper (8.5’’ $\times$ 13’’)</li>
-  <li>Pencil (2B) and Eraser</li>
-  <li>Technical Pens (0.5 and 0.2)</li>
-  <li>Ruler and Scale</li>
-  <li>Triangles</li>
-  <li>Vernier Caliper</li>
-</ul>
-
-<h1 id="procedure">Procedure</h1>
-<h2 id="preparation">Preparation</h2>
-<ol>
-    <li>Review the project design specifications, including all required dimensions and tolerances. Seek guidance from your instructor regarding the assigned values. A sample assembly drawing is provided on Figure 1.1.</li>
-    <li>Prepare all necessary drawing tools and ensure your workspace is clean and organized.</li>
-</ol>
-
-<h2 id="creating-the-assembly-drawing">Creating the Assembly Drawing</h2>
-<ol start="3">
-    <li>Draw the <strong>border lines</strong> and title block, following the layout shown on Figure 1.2 and Figure 1.3.</li>
-    <li>Sketch a rough layout of the assembly, identifying key components and their relationships. Select an <strong>appropriate scale</strong> for clarity and fit.</li>
-    <li>Use proper <strong>projection methods</strong> (e.g., orthographic, isometric) to accurately depict the full assembly. Note that an <strong>isometric view</strong> is optional if all necessary details are clearly shown in the <strong>orthographic projection</strong>.</li>
-    <li>Apply standard <strong>dimensioning and tolerancing practices</strong>, including hole sizes, keyway dimensions, and overall part limits. Avoid over-dimensioning.</li>
-    <li>Add <strong>centerlines, labels, and annotations</strong> to highlight critical features.</li>
-</ol>
-
-<h2 id="finalization-and-submission">Finalization and Submission</h2>
-<ol start="8">
-    <li>Double-check all <strong>dimensions, tolerances, and notes</strong> for accuracy and completeness.</li>
-    <li>Finalize the drawing using technical pens: 0.8-1.0 mm for border lines, 0.5 mm for visible lines, and 0.1-0.2 mm for hidden lines and centerlines.</li>
-    <li><strong>Remove construction lines</strong> to present a clean and professional drawing.</li>
-    <li>Submit the completed assembly drawing to your instructor for review.</li>
-</ol>
+<h2 id="standard-form-of-the-equation-of-a-circle">Standard Form of the Equation of a Circle</h2>
 
 <figure style="text-align: center;">
-  <img src="/images/content/lab-mandrel/lab-mandrel-1.1.jpg" alt="my alt text" width="700px" />
-  <figcaption><em><p>Figure 1.1: Sample assembly drawing of the keyed mandrel assembly. Students are required to draw only the necessary views for clarity; an exploded view is not required.</p>
+  <img src="/images/content/math/math-3.2.1.jpg" alt="my alt text" width="250px" />
+  <figcaption><em><p>Figure 1: A Circle with center at $(h, k)$.</p>
 </em></figcaption>
 </figure>
 
-<figure style="text-align: center;">
-  <img src="/images/content/lab-mandrel/lab-mandrel-1.2.jpg" alt="my alt text" width="700px" />
-  <figcaption><em><p>Figure 1.2: Title block layout template showing the required information, including project title, course, date, and student identification.</p>
-</em></figcaption>
-</figure>
+<p>Consider a circle with center $C(h,k)$ and radius $r$, as shown in Figure 1. Let $P(x,y)$ be any point on the circle. Since the distance from the center $C$ to any point $P$ is always equal to $r$, applying the distance formula gives</p>
 
-<figure style="text-align: center;">
-  <img src="/images/content/lab-mandrel/lab-mandrel-1.3.jpg" alt="my alt text" width="700px" />
-  <figcaption><em><p>Figure 1.3: Dimensioned drawing border and title block layout. All dimensions are in millimeters and must be strictly followed.</p>
-</em></figcaption>
-</figure>
+\[r = \sqrt{(x-h)^2+(y-k)^2}\]
+
+<p>Squaring both sides yields</p>
+
+<p align="center" style="background-color:rgba(64, 130, 110, 0.07);
+border: 3px solid rgba(64, 130, 110, 0.9);
+border-radius:7px;
+padding:10px;
+margin:5px;">
+    $$\begin{align}
+        (x-h)^2+(y-k)^2 = r^2 
+        \label{eq:standard circle}
+    \end{align}$$
+</p>
+
+<p>Equation \ref{eq:standard circle} is called the <strong>standard form</strong> of the equation of a circle, where $(h,k)$ is the center and $r$ is the radius. When the center is at the origin, $h = 0$ and $k = 0$, and the equation simplifies to</p>
+
+<p align="center" style="background-color:rgba(64, 130, 110, 0.07);
+border: 3px solid rgba(64, 130, 110, 0.9);
+border-radius:7px;
+padding:10px;
+margin:5px;">
+    $$\begin{align}
+        x^2 + y^2 = r^2 
+        \label{eq:standard circle origin}
+    \end{align}$$
+</p>
+
+<hr />
+<p>$\example{1}$
+Determine the equation of the circle whose center is at the origin and has a radius of 6 units.</p>
+
+<details style="text-align:left;">
+    <summary style="text-align:left;">$\solution$
+    </summary>
+    <br />
+    
+<p>Since the center is at the origin, use Equation \ref{eq:standard circle origin},</p>
+
+\[\begin{align*}
+	x^2 + y^2 &amp;= r^2 \\
+	x^2 + y^2 &amp;= 6^2 \\
+	x^2 + y^2 &amp;= 36 \tagans
+\end{align*}\]
+
+
+</details>
+
+<hr />
+<p>$\example{2}$
+Determine the equation of the circle whose center is at $(2,-4)$ and has a radius of 4 units.</p>
+
+<details style="text-align:left;">
+    <summary style="text-align:left;">$\solution$
+    </summary>
+    <br />
+    
+<p>Using Equation \ref{eq:standard circle}, substitute $h = 2$, $k = -4$, and $r = 4$,</p>
+
+\[\begin{align*}
+	(x-h)^2 + (y-k)^2 &amp;= r^2 \\
+	(x-2)^2 + [y-(-4)]^2 &amp;= 4^2 \\
+	(x-2)^2 + (y+4)^2 &amp;= 16 \tagans
+\end{align*}\]
+
+
+</details>
+
+<hr />
+<p>$\example{3}$
+A circle has its center at $(3, -2)$ and one end of a diameter at $(5, 2)$. Determine the equation of the circle.</p>
+
+<details style="text-align:left;">
+    <summary style="text-align:left;">$\solution$
+    </summary>
+    <br />
+    
+<p>Since the given point is one end of a diameter and the center is known, the radius is simply the distance from the center to that endpoint. Using the distance formula,</p>
+
+\[\begin{align*}
+	r &amp;= \sqrt{(x-h)^2+(y-k)^2} \\
+	  &amp;= \sqrt{(5-3)^2+[2-(-2)]^2} \\
+	  &amp;= \sqrt{4 + 16} \\
+	  &amp;= \sqrt{20}
+\end{align*}\]
+
+<p>Substituting the center $(3, -2)$ and $r = \sqrt{20}$ into Equation \ref{eq:standard circle},</p>
+
+\[\begin{align*}
+	(x-h)^2 + (y-k)^2 &amp;= r^2 \\
+	(x-3)^2 + [y-(-2)]^2 &amp;= \br{\sqrt{20}}^2 \\
+	(x-3)^2 + (y+2)^2 &amp;= 20 \tagans
+\end{align*}\]
+
+
+</details>
+
+<h2 id="general-form-of-the-equation-of-a-circle">General Form of the Equation of a Circle</h2>
+
+<p>The general form of the equation of a circle can be derived by expanding the standard form (Equation \ref{eq:standard circle}),</p>
+
+\[\begin{align*}
+	(x - h)^2 + (y - k)^2 &amp;= r^2 \\
+	x^2 - 2hx + h^2 + y^2 - 2ky + k^2 &amp;= r^2 \\
+	x^2 + y^2 - 2hx - 2ky + (h^2 + k^2 - r^2) &amp;= 0
+\end{align*}\]
+
+<p>Letting $D = -2h$, $E = -2k$, and $F = h^2 + k^2 - r^2$, the equation becomes</p>
+
+<p align="center" style="background-color:rgba(64, 130, 110, 0.07);
+border: 3px solid rgba(64, 130, 110, 0.9);
+border-radius:7px;
+padding:10px;
+margin:5px;">
+    $$\begin{align}
+        x^2 + y^2 + Dx + Ey + F = 0 
+        \label{eq:general circle}
+    \end{align}$$
+</p>
+
+<p>Equation \ref{eq:general circle} is called the <strong>general form</strong> of the equation of a circle, where $D$, $E$, and $F$ are constants. Notice that the coefficients of $x^2$ and $y^2$ are both equal to 1, which is consistent with the classification by inspection discussed earlier — a circle always has $A = C$, and $B = 0$. This is also reflected in its eccentricity: a circle has $e = 0$, meaning it does not deviate from its circular shape at all.</p>
+
+<p>Given an equation in general form, the center and radius can be recovered by rewriting the equation back into standard form through completing the square, as illustrated in the following examples.</p>
+
+<hr />
+<p>$\example{4}$
+Determine the center and the radius of the circle defined by the equation $x^2+y^2-6x-4y-12=0$.</p>
+
+<details style="text-align:left;">
+    <summary style="text-align:left;">$\solution$
+    </summary>
+    <br />
+    
+<p>To find the center and radius, rewrite the equation in standard form by completing the square. Begin by grouping terms with the same variable and moving the constant to the right,</p>
+
+\[\begin{align*}
+	(x^2-6x) + (y^2-4y) &amp;= 12
+\end{align*}\]
+
+<p>Add to each group the square of half the linear coefficient, and add the same values to the right side to keep the equation balanced,</p>
+
+\[\begin{align*}
+	(x^2-6x+9) + (y^2-4y+4) &amp;= 12 + 9 + 4 \\
+	(x-3)^2 + (y-2)^2 &amp;= 25
+\end{align*}\]
+
+<p>Comparing with Equation \ref{eq:standard circle}, the center and radius are</p>
+
+\[\begin{align*}
+	C(3, 2) \quad \text{and} \quad r = 5 \tagans
+\end{align*}\]
+
+
+</details>
+
+<hr />
+<p>$\example{5}$
+Determine the value of $k$ for which the equation $x^2+y^2+4x-2y-k=0$ represents a point circle.</p>
+
+<details style="text-align:left;">
+    <summary style="text-align:left;">$\solution$
+    </summary>
+    <br />
+    
+<p>A point circle is a degenerate case of the circle in which the radius is zero, so the graph reduces to a single point. To find $k$, first rewrite the equation in standard form by completing the square,</p>
+
+\[\begin{align*}
+	(x^2+4x) + (y^2-2y) &amp;= k \\
+	(x^2+4x+4) + (y^2-2y+1) &amp;= k + 5 \\
+	(x+2)^2 + (y-1)^2 &amp;= k+5
+\end{align*}\]
+
+<p>For the equation to represent a point circle, the right side must equal zero,</p>
+
+\[\begin{align*}
+	k + 5 &amp;= 0 \\
+	k &amp;= -5 \tagans
+\end{align*}\]
+
+
+</details>
 
         </div>
       </div>
@@ -326,24 +464,24 @@ $$
 
 <!-- <div class="PageNavigation">
   
-    <a class="prev" href="/services/integral-calculus/">&laquo; Integral Calculus</a>
+    <a class="prev" href="/services/comprehensive-mathematics/3.1-introduction-to-conic-sections/">&laquo; Introduction to Conic Sections</a>
   
   
-    <a class="next" href="/services/lab_keyed-mandrel-assembly/lab-mandrel-10.1-keyway-cutting-on-the-shaft/">Activity 10: Keyway Cutting on the Shaft &raquo;</a>
+    <a class="next" href="/services/comprehensive-mathematics/3.3-parabola/">Parabola &raquo;</a>
   
 </div> -->
 
 
 
 <!-- <div class="PageNavigation">
-    <a class="prev" href="../../calculus-for-technologists">&laquo; </a> <a class="next" href="../lab-mandrel-2.1-lathe-dial-movements-and-backlash"> &raquo;</a>
+    <a class="prev" href="../3.1-introduction-to-conic-sections">&laquo; </a> <a class="next" href="../3.3-parabola"> &raquo;</a>
 </div> -->
 
 
 
 <div class="PageNavigation">
-  <a class="prev" href="../../calculus-for-technologists">&laquo; Previous</a> 
-  <a class="next" href="../lab-mandrel-2.1-lathe-dial-movements-and-backlash">Next &raquo;</a>
+  <a class="prev" href="../3.1-introduction-to-conic-sections">&laquo; Previous</a> 
+  <a class="next" href="../3.3-parabola">Next &raquo;</a>
 </div>
 
 
