@@ -25,7 +25,7 @@ summary: Many students approach mathematics with uncertainty, often viewing it a
 	- [The Straight Line](../comprehensive-mathematics/2.6-the-straight-line)
 	- [Parallel and Perpendicular Lines](../comprehensive-mathematics/2.7-parallel-and-perpendicular-lines)
 - Conic Sections
-	- [Introduction](../comprehensive-mathematics/3.1-introduction-to-conic-sections)
+	- [Introduction to Conic Sections](../comprehensive-mathematics/3.1-introduction-to-conic-sections)
 	- [Circle](../comprehensive-mathematics/3.2-circle)
 	- [Parabola](../comprehensive-mathematics/3.3-parabola)
 	- [Ellipse](../comprehensive-mathematics/3.4-ellipse)

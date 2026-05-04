@@ -120,7 +120,418 @@ $$
 
           <!-- <div class="deskContent">Content for desktop</div> -->
         <div class="content">
-          
+          <p>An <strong>ellipse</strong> is the set of all points on a plane such that the sum of their distances from two fixed points is constant. Each fixed point is called a <strong>focus</strong> of the ellipse (plural: <strong>foci</strong>). Every ellipse has two axes of symmetry that are perpendicular to each other at a point called the <strong>center</strong>. The longer axis is called the <strong>major axis</strong> and the shorter axis is called the <strong>minor axis</strong>. The endpoints of the major axis are called the <strong>vertices</strong> of the ellipse, and the endpoints of the minor axis are called the <strong>co-vertices</strong>. The foci always lie on the major axis, as illustrated in Figure 1a.</p>
+
+<figure style="text-align: center;">
+  <img src="/images/content/math/math-3.4.1.jpg" alt="my alt text" width="700px" />
+  <figcaption><em><p>Figure 1: Basic parts and dimensions of an ellipse</p>
+</em></figcaption>
+</figure>
+
+<p>The half-lengths of the axes are given special names. The <strong>semi-major axis</strong>, denoted by $a$, is half the length of the major axis, and the <strong>semi-minor axis</strong>, denoted by $b$, is half the length of the minor axis, as shown in Figure 1b. These two quantities, together with the distance from the center to each focus $c$, are related by</p>
+
+<p align="center" style="background-color:rgba(64, 130, 110, 0.07);
+border: 3px solid rgba(64, 130, 110, 0.9);
+border-radius:7px;
+padding:10px;
+margin:5px;">
+    $$\begin{align}
+	a^2 = b^2 + c^2 \label{eq:ellipse relation}
+    \end{align}$$
+</p>
+
+<p>This relationship can be understood geometrically: when a point on the ellipse is taken at the end of the minor axis, its distances to the two foci are both equal to $a$, forming a right triangle with legs $b$ and $c$ and hypotenuse $a$.</p>
+
+<p>In this lesson, we will only consider ellipses whose axes are horizontal or vertical. An ellipse with a horizontal major axis is said to be <strong>wider than tall</strong>, while one with a vertical major axis is <strong>taller than wide</strong>. In both cases, the standard form of the equation and the positions of the foci and vertices follow directly from the orientation of the major axis, as discussed in the next subsection.</p>
+
+<h2 id="standard-form-of-the-equation-of-an-ellipse">Standard Form of the Equation of an Ellipse</h2>
+
+<p>To derive the standard form, consider the ellipse shown in Figure 2, with center at the origin and major axis along the $x$-axis. The key parameters are:</p>
+
+<ul>
+  <li>$c$ — distance from the center to each focus, giving foci at $F’(-c, 0)$ and $F(c, 0)$</li>
+  <li>$a$ — distance from the center to each vertex, giving vertices at $P(a, 0)$ and $P’(-a, 0)$</li>
+  <li>$b$ — distance from the center to each co-vertex, giving co-vertices at $Q(0, b)$ and $Q’(0, -b)$</li>
+</ul>
+
+<figure style="text-align: center;">
+  <img src="/images/content/math/math-3.4.2.jpg" alt="my alt text" width="300px" />
+  <figcaption><em><p>Figure 2: Ellipse with center at the origin and horizontal major axis.</p>
+</em></figcaption>
+</figure>
+
+<p>By definition, the sum of the distances from any point on the ellipse to the two foci is constant. Taking the vertex $P(a, 0)$ as a reference point, this constant sum is:
+\(d_{PF} + d_{PF'} = (a-c) + (a+c) = 2a\)</p>
+
+<p>So the constant sum equals $2a$, which is also the total length of the major axis. Now consider an arbitrary point $A(x, y)$ on the ellipse. Applying the distance formula, the defining condition becomes:
+\(\sqrt{(x-c)^2+y^2} + \sqrt{(x+c)^2+y^2} = 2a\)</p>
+
+<p>Isolating one radical and squaring both sides,</p>
+
+\[\begin{align*}
+	\sqrt{(x-c)^2+y^2} &amp;= 2a - \sqrt{(x+c)^2+y^2} \\
+	(x-c)^2+y^2 &amp;= 4a^2 - 4a\sqrt{(x+c)^2+y^2} + (x+c)^2 + y^2 \\
+	x^2-2cx+c^2 &amp;= 4a^2 - 4a\sqrt{(x+c)^2+y^2} + x^2+2cx+c^2 \\
+	4a\sqrt{(x+c)^2+y^2} &amp;= 4a^2 + 4cx
+\end{align*}\]
+
+<p>Dividing both sides by $4a$ and squaring again,</p>
+
+\[\begin{align*}
+	(x+c)^2+y^2 &amp;= \br{a + \frac{cx}{a}}^2 \\
+	x^2+2cx+c^2+y^2 &amp;= a^2+2cx+\frac{c^2x^2}{a^2}
+\end{align*}\]
+
+<p>Simplifying,</p>
+
+\[\begin{align*}
+	x^2 - \frac{c^2x^2}{a^2} + y^2 &amp;= a^2 - c^2 \\
+	\br{\frac{a^2-c^2}{a^2}}x^2 + y^2 &amp;= a^2 - c^2
+\end{align*}\]
+
+<p>Dividing both sides by $a^2 - c^2$,</p>
+
+\[\begin{align*}
+	\frac{x^2}{a^2} + \frac{y^2}{a^2-c^2} &amp;= 1
+\end{align*}\]
+
+<p>Referring back to Figure 2, the line segments from $Q(0,b)$ to each focus form a right triangle with hypotenuse $a$ and legs $b$ and $c$. Applying the Pythagorean theorem gives $b^2 = a^2 - c^2$, which is the same relationship introduced in Equation~\ref{eq:ellipse relation}. Substituting,</p>
+
+\[\begin{align*}
+	\frac{x^2}{a^2} + \frac{y^2}{b^2} = 1
+\end{align*}\]
+
+<p>This is the standard form of the equation of an ellipse with center at the origin and a horizontal major axis. Applying the same derivation for a vertical major axis, the standard forms for both orientations are:</p>
+
+<p align="center" style="background-color:rgba(64, 130, 110, 0.07);
+border: 3px solid rgba(64, 130, 110, 0.9);
+border-radius:7px;
+padding:10px;
+margin:5px;">
+    $$\begin{align}
+	&amp; \tcB{\text{Orientation}} &amp;&amp; \tcB{\text{Standard Form}} \nonumber\\
+	\hline \nonumber \\[-15pt]
+	&amp; \text{Horizontal major axis} &amp;&amp; \phantom{a}\frac{x^2}{a^2}+\frac{y^2}{b^2}=1 \label{eqn:ellip 0 1}\\
+	&amp; \text{Vertical major axis} &amp;&amp; \phantom{a}\frac{x^2}{b^2}+\frac{y^2}{a^2}=1 \label{eqn:ellip 0 2}
+    \end{align}$$
+</p>
+
+<p>where $a &gt; b &gt; 0$ in both cases. Note that the larger denominator $a^2$ always corresponds to the axis along which the major axis lies.</p>
+
+<figure style="text-align: center;">
+  <img src="/images/content/math/math-3.4.3.jpg" alt="my alt text" width="700px" />
+  <figcaption><em><p>Figure 3: Standard forms of the ellipse with center at the origin.</p>
+</em></figcaption>
+</figure>
+
+<p>For an ellipse whose center is at $(h, k)$, the standard forms are obtained by translation of axes, as discussed in <a href="../3.3-parabola">Parabola</a>:</p>
+
+<p align="center" style="background-color:rgba(64, 130, 110, 0.07);
+border: 3px solid rgba(64, 130, 110, 0.9);
+border-radius:7px;
+padding:10px;
+margin:5px;">
+    $$\begin{align}
+	&amp; \tcB{\text{Orientation}} &amp;&amp; \tcB{\phantom{aaaa}\text{Standard Form}} \nonumber\\
+	\hline \nonumber \\[-15pt]
+	&amp; \text{Horizontal major axis} &amp;&amp; \frac{(x-h)^2}{a^2}+\frac{(y-k)^2}{b^2}=1 \label{eqn:ellip hk 1}\\
+	&amp; \text{Vertical major axis} &amp;&amp; \frac{(x-h)^2}{b^2}+\frac{(y-k)^2}{a^2}=1 \label{eqn:ellip hk 2}
+    \end{align}$$
+</p>
+
+<figure style="text-align: center;">
+  <img src="/images/content/math/math-3.4.4.jpg" alt="my alt text" width="700px" />
+  <figcaption><em><p>Figure 4: Standard forms of the ellipse with center at $C(h,k)$.</p>
+</em></figcaption>
+</figure>
+
+<hr />
+<p>$\example{1}$
+Determine the standard form of the equation of the ellipse with vertices $(\pm 8, 0)$ and foci $(\pm 5, 0)$.</p>
+
+<details style="text-align:left;">
+    <summary style="text-align:left;">$\solution$
+    </summary>
+    <br />
+    
+<figure style="text-align: center;">
+  <img src="/images/content/math/math-3.4.5.jpg" alt="my alt text" width="350px" />
+  <figcaption><em>
+</em></figcaption>
+</figure>
+
+<p>Since both the vertices and foci are symmetric about the $y$-axis and lie on 
+the $x$-axis, the ellipse has its center at the origin with a horizontal major 
+axis. Using Equation~\ref{eqn:ellip 0 1},
+\(\frac{x^2}{a^2} + \frac{y^2}{b^2} = 1\)</p>
+
+<p>Since the center is at the origin, the semi-major axis is $a = 8$ and the 
+distance from the center to each focus is $c = 5$. Using 
+Equation~\ref{eq:ellipse relation},</p>
+
+\[\begin{align*}
+	b^2 &amp;= a^2 - c^2 \\
+	    &amp;= (8)^2 - (5)^2 \\
+	    &amp;= 39
+\end{align*}\]
+
+<p>Substituting $a^2 = 64$ and $b^2 = 39$ into the standard form,</p>
+
+\[\begin{align*}
+	\frac{x^2}{64} + \frac{y^2}{39} = 1 \tagans
+\end{align*}\]
+
+
+</details>
+
+<hr />
+<p>$\example{2}$
+Determine the standard form of the equation of the ellipse with vertices $(2, -8)$ and $(2, 2)$, and foci $(2, -7)$ and $(2, 1)$.</p>
+
+<details style="text-align:left;">
+    <summary style="text-align:left;">$\solution$
+    </summary>
+    <br />
+    
+<figure style="text-align: center;">
+  <img src="/images/content/math/math-3.4.6.jpg" alt="my alt text" width="260px" />
+  <figcaption><em>
+</em></figcaption>
+</figure>
+
+<p>Since the $x$-coordinates of the given vertices and foci are equal, the major axis is parallel to the $y$-axis (the major axis is vertical). We can also see that the center is not in the origin. Hence, the equation that we will use is:
+\(\frac{(x-h)^2}{b^2}+\frac{(y-k)^2}{a^2}=1\)</p>
+
+<p>The center $(h, k)$ of the ellipse can be obtained by getting the midpoint of the two vertices,</p>
+
+\[\begin{align*}
+	(h,k) &amp;= \br{\frac{x_1+x_2}{2}, \frac{y_1+y_2}{2}} \\
+	&amp;= \br{\frac{2+2}{2}, \frac{(-8)+2}{2}} \\
+	&amp;= (2,-3)
+\end{align*}\]
+
+<p>The semi-major axis $a$ is half the distance between the vertices,</p>
+
+\[\begin{align*}
+	a &amp;= \frac{2-(-8)}{2} = 5
+\end{align*}\]
+
+<p>The foci of a vertical ellipse are at $(h, k \pm c)$. Using the focus $(2, 1)$,</p>
+
+\[\begin{align*}
+	k + c &amp;= 1 \\
+	c &amp;= 1 - k \\
+	&amp; = 1 - (-3) = 4
+\end{align*}\]
+
+<p>Using Equation~\ref{eq:ellipse relation},</p>
+
+\[\begin{align*}
+	b^2 &amp;= a^2 - c^2 \\
+	&amp;= (5)^2 - (4)^2 \\
+	&amp;= 9
+\end{align*}\]
+
+<p>Substituting $a^2 = 25$, $b^2 = 9$, $h = 2$, and $k = -3$ into the standard form,</p>
+
+\[\begin{align*}
+	\frac{(x-2)^2}{9} + \frac{(y+3)^2}{25} = 1 \tagans
+\end{align*}\]
+
+
+</details>
+
+<h2 id="general-form-of-the-equation-of-an-ellipse">General Form of the Equation of an Ellipse</h2>
+
+<p>The general form of the equation of an ellipse can be derived by expanding its standard form. In this form, the values of $h$, $k$, $a$, and $b$ are not immediately recognizable. Since both squared terms are present and their coefficients $A$ and $C$ are both non-zero and share the same sign, the general form of the equation of an ellipse is:</p>
+
+<p align="center" style="background-color:rgba(64, 130, 110, 0.07);
+border: 3px solid rgba(64, 130, 110, 0.9);
+border-radius:7px;
+padding:10px;
+margin:5px;">
+    $$\begin{align}
+	Ax^2+Cy^2+Dx+Ey+F=0
+    \end{align}$$
+</p>
+
+<p>This is also consistent with the eccentricity of an ellipse, $e &lt; 1$, which requires that $A \neq C$ but both are non-zero. When $A &gt; C$, the ellipse has a vertical major axis. When $A &lt; C$, the ellipse has a horizontal major axis. An important condition to remember is that for an ellipse, $A$ and $C$ must always have the same sign, that is, both positive or both negative. To recover the center and axes from the general form, rewrite the equation in standard form by completing the square.</p>
+
+<hr />
+<p>$\example{3}$
+Determine the coordinates of the center of the ellipse $9x^2+16y^2+18x-64y-71=0$.</p>
+
+<details style="text-align:left;">
+    <summary style="text-align:left;">$\solution$
+    </summary>
+    <br />
+    
+<p>Rewriting the equation in standard form by completing the square,</p>
+
+\[\begin{align*}
+	9x^2+16y^2+18x-64y-71 &amp;= 0 \\
+	9x^2+18x+16y^2-64y &amp;= 71 \\
+	9(x^2+2x)+16(y^2-4y) &amp;= 71 \\
+	9(x^2+2x+1)+16(y^2-4y+4) &amp;= 71+9(1)+16(4) \\
+	9(x+1)^2+16(y-2)^2 &amp;= 144 \\
+	\frac{(x+1)^2}{16}+\frac{(y-2)^2}{9} &amp;= 1
+\end{align*}\]
+
+<p>Comparing with Equation~\ref{eqn:ellip hk 1}, the center of the ellipse is</p>
+
+\[\begin{align*}
+	C(-1, 2) \tagans
+\end{align*}\]
+
+
+</details>
+
+<h2 id="latus-rectum-of-an-ellipse">Latus Rectum of an Ellipse</h2>
+
+<p>The <strong>latus rectum</strong> of an ellipse is a chord that passes through a focus and is perpendicular to the major axis. Its endpoints lie on the curve. The derivation of the length and coordinates of the latus rectum will not be presented in this module; the results are:</p>
+
+<p align="center" style="background-color:rgba(64, 130, 110, 0.07);
+border: 3px solid rgba(64, 130, 110, 0.9);
+border-radius:7px;
+padding:10px;
+margin:5px;">
+    $$\begin{align}
+	&amp;\text{Length:} &amp;&amp; \phantom{a} LR = \frac{2b^2}{a} &amp;\\
+	&amp;\text{Endpoints:} &amp;&amp; \phantom{a} \br{c, \pm\frac{b^2}{a}}
+    \end{align}$$
+</p>
+
+<figure style="text-align: center;">
+  <img src="/images/content/math/math-3.4.7.jpg" alt="my alt text" width="300px" />
+  <figcaption><em><p>Figure 5: Latus rectum of an ellipse.</p>
+</em></figcaption>
+</figure>
+
+<hr />
+<p>$\example{4}$
+Find the length of the latus rectum of the ellipse $4x^2+9y^2-24x+36y-72=0$.</p>
+
+<details style="text-align:left;">
+    <summary style="text-align:left;">$\solution$
+    </summary>
+    <br />
+    
+<p>By completing the square, rewrite the equation in standard form,</p>
+
+\[\begin{align*}
+	4x^2+9y^2-24x+36y-72 &amp;= 0 \\
+	4x^2-24x+9y^2+36y &amp;= 72 \\
+	4(x^2-6x)+9(y^2+4y) &amp;= 72 \\
+	4(x^2-6x+9)+9(y^2+4y+4) &amp;= 72+4(9)+9(4) \\
+	4(x-3)^2+9(y+2)^2 &amp;= 144 \\
+	\frac{(x-3)^2}{36}+\frac{(y+2)^2}{16} &amp;= 1
+\end{align*}\]
+
+<p>Comparing with Equation~\ref{eqn:ellip hk 1}, the values of $a^2 = 36$ and $b^2 = 16$, giving $a = 6$ and $b = 4$. Substituting into the latus rectum formula,</p>
+
+\[\begin{align*}
+	LR &amp;= \frac{2b^2}{a} \\
+	   &amp;= \frac{2(16)}{6} \\
+	   &amp;= \frac{16}{3} \tagans
+\end{align*}\]
+
+
+</details>
+
+<h2 id="directrix-of-an-ellipse">Directrix of an Ellipse</h2>
+
+<p>Similar to the parabola, an ellipse also has a <strong>directrix</strong> — a fixed line used in defining the shape through its eccentricity. An ellipse has two directrices, one associated with each focus, and both are perpendicular to the major axis. For a horizontal ellipse with center at the origin, the directrices are located at</p>
+
+<p align="center" style="background-color:rgba(64, 130, 110, 0.07);
+border: 3px solid rgba(64, 130, 110, 0.9);
+border-radius:7px;
+padding:10px;
+margin:5px;">
+    $$\begin{align}
+	x = \pm\frac{a}{e} = \pm\frac{a^2}{c}
+    \end{align}$$
+</p>
+
+<p>and for a vertical ellipse, the directrices are horizontal lines at $y = \pm\frac{a^2}{c}$. The directrix is particularly useful in computing the eccentricity of an ellipse from its equation, as illustrated in the next subsection.</p>
+
+<figure style="text-align: center;">
+  <img src="/images/content/math/math-3.4.8.jpg" alt="my alt text" width="400px" />
+  <figcaption><em><p>Figure 6: The two directrices of an ellipse, each perpendicular to the major axis.</p>
+</em></figcaption>
+</figure>
+
+<h2 id="eccentricity-of-an-ellipse">Eccentricity of an Ellipse</h2>
+
+<p>The eccentricity of an ellipse is defined as the ratio of the distance from the center to a focus, to the distance from the center to the corresponding vertex. Since $c &lt; a$ for any ellipse, the eccentricity is always less than one. Mathematically,</p>
+
+<p align="center" style="background-color:rgba(64, 130, 110, 0.07);
+border: 3px solid rgba(64, 130, 110, 0.9);
+border-radius:7px;
+padding:10px;
+margin:5px;">
+    $$\begin{align}
+	e = \frac{c}{a}
+    \end{align}$$
+</p>
+
+<p>As $e$ approaches zero, the foci move closer to the center and the ellipse becomes more circular. When $e = 0$, the ellipse is a circle. As $e$ approaches one, the ellipse becomes more elongated.</p>
+
+<hr />
+<p>$\example{5}$
+Determine the equation of the ellipse whose focus is at $(-1, 0)$, directrix is $3x+19=0$, and eccentricity is $\frac{3}{5}$.</p>
+
+<details style="text-align:left;">
+    <summary style="text-align:left;">$\solution$
+    </summary>
+    <br />
+    
+<p>Recall from <a href="../3.1-introduction-to-conic-sections">Introduction to Conic Sections</a> that the eccentricity is the ratio of the distance from any point on the conic to its focus, to the distance from that point to the nearest directrix,
+\(e = \frac{d_{PF}}{d_{PD}}\)</p>
+
+<figure style="text-align: center;">
+  <img src="/images/content/math/math-3.4.9.jpg" alt="my alt text" width="400px" />
+  <figcaption><em><p>Figure 1:</p>
+</em></figcaption>
+</figure>
+
+<p>Where $d_{PF}$ is the distance of point $P(x, y)$ to the focus, and $d_{PD}$ is the distance of the same point to the directrix.</p>
+
+<p>Solve for $d_{PF}$, using distance formula:</p>
+
+\[\begin{align*}
+	d_{PF} &amp;= \sqrt{(x_P-x_F)^2+(y_P-y_F )^2} \\
+		&amp;=\sqrt{(x-(-1))^2+(y-0)^2} \\
+		&amp;= \sqrt{(x+1)^2+y^2}
+\end{align*}\]
+
+<p>Solve for $d_{PD}$, using distance of a point to the line:</p>
+
+\[\begin{align*}
+	d_{PD} &amp;= \frac{Ax_1+By_1+C}{\sqrt{A^2+B^2}} \\
+		&amp;= \frac{3x+19}{\sqrt{3^2+0^2}} \\
+		&amp;= \frac{3x+19}{3}
+\end{align*}\]
+
+<p>Substituting the values of $e$, $d_{PF}$ and $d_{PD}$:</p>
+
+\[\begin{align*}
+	e &amp;= \frac{d_{PF}}{d_{PD}} \\ 
+	\frac{3}{5} &amp;= \frac{\sqrt{(x+1)^2+y^2}}{\frac{3x+19}{3}} \\
+	\frac{\cancel{3}}{5} \cdot {\frac{3x+19}{\cancel{3}}} &amp;= \frac{\sqrt{(x+1)^2+y^2}}
+			{ \cancel{\frac{3x+19}{3}} } \cdot \cancel{\frac{3x+19}{3}} 
+\end{align*}\]
+
+<p>Square both sides of the equation, and simplify:</p>
+
+\[\begin{align*}
+	\br{ \frac{3x+19}{5} }^2 &amp;= \br{ \sqrt{(x+1)^2+y^2} }^2 \\
+	\frac{1}{25} (9x^2+114x+361) &amp;= x^2+2x+1+y^2 \\
+	9x^2+114x+361 &amp;= 25x^2+50x+25+25y^2 \\
+	16x^2+25y^2-64x-336 &amp;= 0	\tagans
+\end{align*}\]
+
+
+</details>
 
         </div>
       </div>
