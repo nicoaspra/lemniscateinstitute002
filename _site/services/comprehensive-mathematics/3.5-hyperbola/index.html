@@ -120,7 +120,384 @@ $$
 
           <!-- <div class="deskContent">Content for desktop</div> -->
         <div class="content">
-          
+          <p>A <strong>hyperbola</strong> is the set of all points on a plane where the absolute difference of their distances from two fixed points is constant. Each fixed point is called a <strong>focus</strong> of the hyperbola. Like the ellipse, every hyperbola has two axes of symmetry along which two important segments lie. The <strong>transverse axis</strong> passes through the center and has the $\tcB{\text{vertices}}$ as its endpoints. The <strong>conjugate axis</strong> is perpendicular to the transverse axis and has the $\tcB{\text{co-vertices}}$ as its endpoints. The foci lie on the transverse axis, and the <strong>center</strong> of the hyperbola is the midpoint of both axes, where they intersect, as illustrated in Figure 1b.</p>
+
+<p>A key feature that distinguishes the hyperbola from the ellipse is the presence of <strong>asymptotes</strong>. Every hyperbola has two asymptotes that pass through the center and serve as the diagonals of the <strong>central rectangle</strong> — a rectangle centered at the origin whose sides pass through each vertex and co-vertex. To sketch the asymptotes, simply extend the diagonals of this rectangle, as shown in Figure 1b.</p>
+
+<figure style="text-align: center;">
+  <img src="/images/content/math/math-3.5.1.jpg" alt="my alt text" width="700px" />
+  <figcaption><em><p>Figure 1: Basic parts of a hyperbola.</p>
+</em></figcaption>
+</figure>
+
+<p>In this lesson, we will only consider hyperbolas whose axes of symmetry are horizontal or vertical. A hyperbola with a horizontal transverse axis is called a <strong>horizontal hyperbola</strong>, and one with a vertical transverse axis is called a <strong>vertical hyperbola</strong>.</p>
+
+<h2 id="standard-form-of-the-equation-of-a-hyperbola">Standard Form of the Equation of a Hyperbola</h2>
+
+<p>The derivation of the standard form of the equation of a hyperbola closely parallels that of the ellipse. Consider the hyperbola shown in Figure 2, with center at the origin and transverse axis along the $x$-axis. The parameters are defined as follows:</p>
+<ul>
+  <li>$c$ — distance from the center to each focus, giving foci at $F’(-c, 0)$ and $F(c, 0)$</li>
+  <li>$a$ — distance from the center to each vertex, giving vertices at $P(a, 0)$ and $P’(-a, 0)$</li>
+  <li>$b$ — distance from the center to each co-vertex, giving co-vertices at $Q(0, b)$ and $Q’(0, -b)$</li>
+</ul>
+
+<figure style="text-align: center;">
+  <img src="/images/content/math/math-3.5.2.jpg" alt="my alt text" width="350px" />
+  <figcaption><em><p>Figure 2: Hyperbola with center at the origin.</p>
+</em></figcaption>
+</figure>
+
+<p>The key difference from the ellipse is that the hyperbola is defined by the absolute difference of distances rather than their sum. For any point $P(x,y)$ on the hyperbola, $|d_{PF_1} - d_{PF_2}| = \text{constant}$. Taking $P$ on the right branch and using the right vertex $(a, 0)$ as reference,
+\(d_{PF_1} - d_{PF_2} = (c+a) - (c-a) = 2a\)</p>
+
+<p>So the constant difference equals $2a$, which is also the total length of the transverse axis. For an arbitrary point $P(x, y)$ on the hyperbola,</p>
+
+\[\begin{align*}
+	d_{PF_1} - d_{PF_2} &amp;= 2a \\
+	\sqrt{(x+c)^2+y^2} - \sqrt{(x-c)^2+y^2} &amp;= 2a
+\end{align*}\]
+
+<p>Isolating one radical and squaring both sides,</p>
+
+\[\begin{align*}
+	\sqrt{(x+c)^2+y^2} &amp;= 2a + \sqrt{(x-c)^2+y^2} \\
+	(x+c)^2+y^2 &amp;= 4a^2+4a\sqrt{(x-c)^2+y^2}+(x-c)^2+y^2 \\
+	x^2+2cx+c^2 &amp;= 4a^2+4a\sqrt{(x-c)^2+y^2}+x^2-2cx+c^2 \\
+	4cx - 4a^2 &amp;= 4a\sqrt{(x-c)^2+y^2}
+\end{align*}\]
+
+<p>Dividing both sides by $4a$ and squaring again,</p>
+
+\[\begin{align*}
+	\br{\frac{cx}{a} - a}^2 &amp;= (x-c)^2+y^2 \\
+	\frac{c^2x^2}{a^2} - 2cx + a^2 &amp;= x^2-2cx+c^2+y^2 \\
+	\frac{c^2x^2}{a^2} - x^2 - y^2 &amp;= c^2 - a^2 \\
+	x^2\br{\frac{c^2}{a^2}-1} - y^2 &amp;= c^2-a^2 \\
+	\br{\frac{c^2-a^2}{a^2}}x^2 - y^2 &amp;= c^2-a^2
+\end{align*}\]
+
+<p>Dividing both sides by $c^2 - a^2$,</p>
+
+\[\begin{align*}
+	\frac{x^2}{a^2} - \frac{y^2}{c^2-a^2} &amp;= 1
+\end{align*}\]
+
+<p>Referring back to Figure 2, the central rectangle has sides $2a$ and $2b$, forming a right triangle in each quadrant with hypotenuse $c$ and legs $a$ and $b$. By the Pythagorean theorem,
+\(c^2 = a^2 + b^2 \quad \Rightarrow \quad b^2 = c^2 - a^2\)</p>
+
+<p>Substituting,</p>
+
+\[\begin{align*}
+	\frac{x^2}{a^2} - \frac{y^2}{b^2} = 1
+\end{align*}\]
+
+<p>This is the standard form of the equation of a hyperbola with center at the origin and a horizontal transverse axis. Applying the same process for a vertical transverse axis gives the following summary:</p>
+
+<p align="center" style="background-color:rgba(64, 130, 110, 0.07);
+border: 3px solid rgba(64, 130, 110, 0.9);
+border-radius:7px;
+padding:10px;
+margin:5px;">
+    $$\begin{align}
+	&amp; \tcB{\text{Transverse Axis}} &amp;&amp; \tcB{\text{Standard Form}} \nonumber\\
+	\hline \nonumber \\[-15pt]
+	&amp; \text{Horizontal} &amp;&amp; \phantom{a}\frac{x^2}{a^2}-\frac{y^2}{b^2}=1 \label{eqn:hyperbola 0 1}\\
+	&amp; \text{Vertical} &amp;&amp; \phantom{a}\frac{y^2}{a^2}-\frac{x^2}{b^2}=1 \label{eqn:hyperbola 0 2}
+    \end{align}$$
+</p>
+
+<figure style="text-align: center;">
+  <img src="/images/content/math/math-3.5.3.jpg" alt="my alt text" width="700px" />
+  <figcaption><em><p>Figure 3: Hyperbolas with center at the origin $C(0,0)$.</p>
+</em></figcaption>
+</figure>
+
+<p>For a hyperbola whose center is at $(h, k)$, the standard forms are obtained by translation of axes, as discussed in Section~\ref{sec:parabola}:</p>
+
+<p align="center" style="background-color:rgba(64, 130, 110, 0.07);
+border: 3px solid rgba(64, 130, 110, 0.9);
+border-radius:7px;
+padding:10px;
+margin:5px;">
+    $$\begin{align}
+	&amp; \tcB{\text{Transverse Axis}} &amp;&amp; \tcB{\phantom{aaaa}\text{Standard Form}} \nonumber\\
+	\hline \nonumber \\[-15pt]
+	&amp; \text{Horizontal} &amp;&amp; \frac{(x-h)^2}{a^2}-\frac{(y-k)^2}{b^2}=1 \label{eqn:hyperbola hk 1}\\
+	&amp; \text{Vertical} &amp;&amp; \frac{(y-k)^2}{a^2}-\frac{(x-h)^2}{b^2}=1 \label{eqn:hyperbola hk 2}
+    \end{align}$$
+</p>
+
+<figure style="text-align: center;">
+  <img src="/images/content/math/math-3.5.4.jpg" alt="my alt text" width="700px" />
+  <figcaption><em><p>Figure 4: Hyperbolas with center at $C(h,k)$.</p>
+</em></figcaption>
+</figure>
+
+<hr />
+<p>$\example{1}$
+Determine the standard form of the equation of the hyperbola with center at the origin, vertices at $(0, \pm5)$, and foci at $(0, \pm13)$.</p>
+
+<details style="text-align:left;">
+    <summary style="text-align:left;">$\solution$
+    </summary>
+    <br />
+    
+<p>Since the vertices and foci lie on the $y$-axis and the center is at the origin, the transverse axis is vertical. Using Equation~\ref{eqn:hyperbola 0 2},
+\(\frac{y^2}{a^2} - \frac{x^2}{b^2} = 1\)</p>
+
+<p>The vertices are the endpoints of the transverse axis, so $a = 5$. Since the center is at the origin, the distance from the center to each focus gives $c = 13$. Using the relationship $b^2 = c^2 - a^2$,</p>
+
+\[\begin{align*}
+	b^2 &amp;= (13)^2 - (5)^2 \\
+	    &amp;= 169 - 25 \\
+	    &amp;= 144
+\end{align*}\]
+
+<p>Substituting $a^2 = 25$ and $b^2 = 144$ into the standard form,</p>
+
+\[\begin{align*}
+	\frac{y^2}{25} - \frac{x^2}{144} = 1 \tagans
+\end{align*}\]
+
+
+</details>
+
+<hr />
+<p>$\example{2}$
+Determine the standard form of the equation of the hyperbola with vertices $(-7, 2)$ and $(1, 2)$, and foci $(-8, 2)$ and $(2, 2)$.</p>
+
+<details style="text-align:left;">
+    <summary style="text-align:left;">$\solution$
+    </summary>
+    <br />
+    
+<p>Since the $y$-coordinates of the vertices and foci are all equal, the transverse axis is horizontal. Since the vertices are not symmetric about the $y$-axis, the center is not at the origin. Using Equation~\ref{eqn:hyperbola hk 1},
+\(\frac{(x-h)^2}{a^2} - \frac{(y-k)^2}{b^2} = 1\)</p>
+
+<p>The center $(h, k)$ is the midpoint of the two vertices,</p>
+
+\[\begin{align*}
+	(h,k) &amp;= \br{\frac{-7+1}{2}, \frac{2+2}{2}} \\
+	      &amp;= (-3, 2)
+\end{align*}\]
+
+<p>The semi-transverse axis $a$ is half the distance between the vertices along the $x$-coordinates,</p>
+
+\[\begin{align*}
+	a &amp;= \frac{1-(-7)}{2} = 4
+\end{align*}\]
+
+<p>The foci of a horizontal hyperbola are at $(h\pm c, k)$. Using the focus $(2, 2)$,</p>
+
+\[\begin{align*}
+	h + c &amp;= 2 \\
+	c &amp;= 2 - (-3) = 5
+\end{align*}\]
+
+<p>Using the relationship $b^2 = c^2 - a^2$,</p>
+
+\[\begin{align*}
+	b^2 &amp;= (5)^2 - (4)^2 \\
+	    &amp;= 9
+\end{align*}\]
+
+<p>Substituting $a^2 = 16$, $b^2 = 9$, $h = -3$, and $k = 2$ into the standard form,</p>
+
+\[\begin{align*}
+	\frac{(x+3)^2}{16} - \frac{(y-2)^2}{9} = 1 \tagans
+\end{align*}\]
+
+
+</details>
+
+<h2 id="general-form-of-the-equation-of-a-hyperbola">General Form of the Equation of a Hyperbola</h2>
+
+<p>The general form of the equation of a hyperbola can be derived by expanding its standard form. In this form, the values of $h$, $k$, $a$, and $b$ are not immediately recognizable. Since the two squared terms have opposite signs in any hyperbola, the general form takes one of two possible forms:</p>
+
+<p align="center" style="background-color:rgba(64, 130, 110, 0.07);
+border: 3px solid rgba(64, 130, 110, 0.9);
+border-radius:7px;
+padding:10px;
+margin:5px;">
+    $$\begin{align}
+	Ax^2-Cy^2+Dx+Ey+F=0 \qquad\text{if } A&gt;C \\
+  \text{or} \nonumber \\
+	Cy^2-Ax^2+Dx+Ey+F=0 \qquad\text{if } C&gt;A
+    \end{align}$$
+</p>
+
+<p>This is also consistent with the eccentricity of a hyperbola, $e &gt; 1$, which requires that $A$ and $C$ have opposite signs. When $A &gt; C$, the hyperbola has a horizontal transverse axis. When $C &gt; A$, the hyperbola has a vertical transverse axis. To recover the center and other properties from the general form, rewrite the equation in standard form by completing the square.</p>
+
+<hr />
+<p>$\example{3}$
+Determine the coordinates of the center, vertices, and foci of the hyperbola $9x^2-16y^2+36x+32y-124=0$.</p>
+
+<details style="text-align:left;">
+    <summary style="text-align:left;">$\solution$
+    </summary>
+    <br />
+    
+<p>Rewriting in standard form by completing the square,</p>
+
+\[\begin{align*}
+	9x^2-16y^2+36x+32y-124 &amp;= 0 \\
+	9x^2+36x-16y^2+32y &amp;= 124 \\
+	9(x^2+4x)-16(y^2-2y) &amp;= 124 \\
+	9(x^2+4x+4)-16(y^2-2y+1) &amp;= 124+36-16 \\
+	9(x+2)^2-16(y-1)^2 &amp;= 144 \\
+	\frac{(x+2)^2}{16}-\frac{(y-1)^2}{9} &amp;= 1
+\end{align*}\]
+
+<p>Comparing with Equation~\ref{eqn:hyperbola hk 1}, the center is at $(-2, 1)$, and the values $a^2 = 16$ and $b^2 = 9$ give $a = 4$ and $b = 3$. Using the relationship $c^2 = a^2 + b^2$,</p>
+
+\[\begin{align*}
+	c^2 &amp;= (4)^2 + (3)^2 \\
+	    &amp;= 25 \\
+	c   &amp;= 5
+\end{align*}\]
+
+<p>Since the transverse axis is horizontal, the vertices are at $(h\pm a, k)$ and the foci are at $(h\pm c, k)$. Substituting $h=-2$, $k=1$, $a=4$, and $c=5$,</p>
+
+\[\begin{align*}
+	\text{center:} \quad &amp; C(-2, 1) \tagans \\
+	\text{vertices:} \quad &amp; (2, 1) \text{ and } (-6, 1) \tagans \\
+	\text{foci:} \quad &amp; (3, 1) \text{ and } (-7, 1) \tagans
+\end{align*}\]
+
+
+</details>
+
+<h2 id="asymptotes-of-a-hyperbola">Asymptotes of a Hyperbola</h2>
+
+<p>Every hyperbola has two asymptotes that pass through the center and extend along the diagonals of the central rectangle. To derive the equation of the asymptote for a horizontal hyperbola, consider Figure 5. The asymptote passes through the center $C(h,k)$ and through the corner of the central rectangle at the point $P(x,y)$. The slope of this line is the ratio of the vertical side $b$ to the horizontal side $a$ of the central rectangle,</p>
+
+\[\begin{align*}
+	\frac{y-k}{x-h} &amp;= \frac{b}{a} \\
+	y-k &amp;= \frac{b}{a}(x-h) \\
+	y &amp;= \frac{b}{a}(x-h)+k
+\end{align*}\]
+
+<figure style="text-align: center;">
+  <img src="/images/content/math/math-3.5.5.jpg" alt="my alt text" width="700px" />
+  <figcaption><em><p>Figure 5: Asymptotes of a hyperbola with center at $C(h,k)$.</p>
+</em></figcaption>
+</figure>
+
+<p>The second asymptote has the same magnitude of slope but opposite sign. Therefore the equations of the asymptotes for a <strong>horizontal hyperbola</strong> are:</p>
+<p align="center" style="background-color:rgba(64, 130, 110, 0.07);
+border: 3px solid rgba(64, 130, 110, 0.9);
+border-radius:7px;
+padding:10px;
+margin:5px;">
+    $$\begin{align}
+	y = \pm\frac{b}{a}(x-h)+k
+    \end{align}$$
+</p>
+
+<p>For a <strong>vertical hyperbola</strong> (Figure 5b), the roles of $a$ and $b$ are exchanged, giving:</p>
+<p align="center" style="background-color:rgba(64, 130, 110, 0.07);
+border: 3px solid rgba(64, 130, 110, 0.9);
+border-radius:7px;
+padding:10px;
+margin:5px;">
+    $$\begin{align}
+	y = \pm\frac{a}{b}(x-h)+k
+    \end{align}$$
+</p>
+
+<hr />
+<p>$\example{4}$
+Find the equations of the asymptotes of the hyperbola $3x^2-2y^2+18x+15=0$.</p>
+
+<details style="text-align:left;">
+    <summary style="text-align:left;">$\solution$
+    </summary>
+    <br />
+    
+<p>Rewriting in standard form by completing the square,</p>
+
+\[\begin{align*}
+	3x^2-2y^2+18x+15 &amp;= 0 \\
+	3x^2+18x-2y^2 &amp;= -15 \\
+	3(x^2+6x)-2y^2 &amp;= -15 \\
+	3(x^2+6x+9)-2y^2 &amp;= -15+27 \\
+	3(x+3)^2-2y^2 &amp;= 12 \\
+	\frac{(x+3)^2}{4}-\frac{y^2}{6} &amp;= 1
+\end{align*}\]
+
+<p>Comparing with Equation~\ref{eqn:hyperbola hk 1}, the center is at $(-3, 0)$, $a = 2$, and $b = \sqrt{6}$. Since the transverse axis is horizontal, substituting into the asymptote formula,</p>
+
+\[\begin{align*}
+	y &amp;= \pm\frac{b}{a}(x-h)+k \\
+	  &amp;= \pm\frac{\sqrt{6}}{2}(x+3) \tagans
+\end{align*}\]
+
+
+</details>
+
+<h2 id="eccentricity-of-a-hyperbola">Eccentricity of a Hyperbola</h2>
+
+<p>The eccentricity of a hyperbola is defined by the same formula as the ellipse,</p>
+<p align="center" style="background-color:rgba(64, 130, 110, 0.07);
+border: 3px solid rgba(64, 130, 110, 0.9);
+border-radius:7px;
+padding:10px;
+margin:5px;">
+    $$\begin{align}
+	e = \frac{c}{a}
+    \end{align}$$
+</p>
+
+<p>but for all hyperbolas $e &gt; 1$, since $c &gt; a$. When $e$ is close to one, the branches of the hyperbola are narrow. When $e$ is much greater than one, the branches become increasingly flat.</p>
+
+<hr />
+<p>$\example{5}$
+Find the equation of the hyperbola with vertices at $(-2, 15)$ and $(-2, -1)$, and eccentricity $e = \frac{17}{8}$.</p>
+
+<details style="text-align:left;">
+    <summary style="text-align:left;">$\solution$
+    </summary>
+    <br />
+    
+<p>Since the $x$-coordinates of the vertices are equal, the transverse axis is vertical. Since the vertices are not symmetric about the $x$-axis, the center is not at the origin. Using Equation~\ref{eqn:hyperbola hk 2},
+\(\frac{(y-k)^2}{a^2} - \frac{(x-h)^2}{b^2} = 1\)</p>
+
+<p>The center $(h, k)$ is the midpoint of the two vertices,</p>
+
+\[\begin{align*}
+	(h,k) &amp;= \br{\frac{-2+(-2)}{2}, \frac{15+(-1)}{2}} \\
+	      &amp;= (-2, 7)
+\end{align*}\]
+
+<p>The semi-transverse axis $a$ is half the distance between the vertices,</p>
+
+\[\begin{align*}
+	a &amp;= \frac{15-(-1)}{2} = 8
+\end{align*}\]
+
+<p>Using the eccentricity formula to solve for $c$,</p>
+
+\[\begin{align*}
+	e &amp;= \frac{c}{a} \\
+	\frac{17}{8} &amp;= \frac{c}{8} \\
+	c &amp;= 17
+\end{align*}\]
+
+<p>Using the relationship $b^2 = c^2 - a^2$,</p>
+
+\[\begin{align*}
+	b^2 &amp;= (17)^2 - (8)^2 \\
+	    &amp;= 225
+\end{align*}\]
+
+<p>Substituting $a^2 = 64$, $b^2 = 225$, $h = -2$, and $k = 7$ into the standard form,</p>
+
+\[\begin{align*}
+	\frac{(y-7)^2}{64} - \frac{(x+2)^2}{225} = 1 \tagans
+\end{align*}\]
+
+
+</details>
 
         </div>
       </div>
